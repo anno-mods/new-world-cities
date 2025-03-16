@@ -751,9 +751,11 @@
       Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909' or Building='500911' or position()=last()][1]">
       <Item>
         <Building>1500011232</Building>
+        <CompactFood />
       </Item>
       <Item>
         <Building>1500011238</Building>
+        <CompactFood />
       </Item>
     </ModOp>
     <ModOp Type="add" GUID="25000193"
