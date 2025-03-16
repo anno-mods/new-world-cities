@@ -888,7 +888,7 @@
   </ModOp>
 
   <!-- # Targets -->
-  <ModOp GUID="193957,190762,25677" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <ModOp GUID="193957,190762,25677,1500301950" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
       <GUID>1500011044</GUID>
     </Item>
