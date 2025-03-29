@@ -10,6 +10,8 @@
             <Name>Terraced Obreros</Name>
             <IconFilename>data/ui/jakob/icon_terraced_obrera.png</IconFilename>
             <InfoDescription>163059</InfoDescription>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <BuildingType>Residence</BuildingType>
@@ -297,6 +299,8 @@
             <GUID>1500011381</GUID>
             <Name>Terraced Obrero Harbor</Name>
             <IconFilename>data/ui/jakob/icon_terraced_obrera.png</IconFilename>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <PickingAsset>8856001</PickingAsset>

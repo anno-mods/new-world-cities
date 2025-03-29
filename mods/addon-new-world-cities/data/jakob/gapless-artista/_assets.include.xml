@@ -10,6 +10,8 @@
             <Name>Terraced Artista Houses</Name>
             <IconFilename>data\ui\jakob\nwc\icon_residence.png</IconFilename>
             <InfoDescription>163059</InfoDescription>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <BuildingType>Residence</BuildingType>
@@ -292,6 +294,8 @@
             <GUID>1500011090</GUID>
             <Name>Artista Skyscraper</Name>
             <IconFilename>data\ui\jakob\nwc\icon_residence.png</IconFilename>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <BuildingCategoryName>1500011055</BuildingCategoryName>
@@ -564,6 +568,8 @@
             <GUID>1500011382</GUID>
             <Name>Terraced Artista Harbor</Name>
             <IconFilename>data\ui\jakob\nwc\icon_residence.png</IconFilename>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <TerrainType>Water_Including_Coast</TerrainType>
@@ -675,6 +681,8 @@
             <GUID>1500011383</GUID>
             <Name>Artista Skyscraper Harbor</Name>
             <IconFilename>data\ui\jakob\nwc\icon_residence.png</IconFilename>
+            <NeighborLevel>Jornalero</NeighborLevel>
+            <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
           </Standard>
           <Building>
             <TerrainType>Water_Including_Coast</TerrainType>
