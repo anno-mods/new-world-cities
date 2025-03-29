@@ -28,5 +28,29 @@
       <GUID>1500011557</GUID>
       <Text>Patronos</Text>
     </Text>
+    <Text>
+      <GUID>1500011689</GUID>
+      <Text>New World Residents</Text>
+    </Text>
+    <Text>
+      <GUID>1500011690</GUID>
+      <Text>Angry Patrono</Text>
+    </Text>
+    <Text>
+      <GUID>1500011691</GUID>
+      <Text>Unhappy Patrono</Text>
+    </Text>
+    <Text>
+      <GUID>1500011692</GUID>
+      <Text>Content Patrono</Text>
+    </Text>
+    <Text>
+      <GUID>1500011693</GUID>
+      <Text>Happy Patrono</Text>
+    </Text>
+    <Text>
+      <GUID>1500011694</GUID>
+      <Text>Euphoric Patrono</Text>
+    </Text>
   </ModOp>
 </ModOps>

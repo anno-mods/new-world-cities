@@ -5,11 +5,6 @@
       <Values>
         <Standard>
           <GUID>1500011557</GUID>
-          <!--
-            Use GUID before any vanila population for the following reasons:
-            - GUID is used for island population order, marketplace order
-            - the last population providing a workforce is used for working conditions menu
-          -->
           <Name>Patronos</Name>
           <IconFilename>data\ui\2kimages\main\3dicons\specialists\systemic\icon_travelagent_516.png</IconFilename>
         </Standard>
@@ -83,6 +78,36 @@
               <MoneyValue>90</MoneyValue>
               <Artista>6000</Artista>
             </Item>
+            <Item>
+              <Product>114414</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>1010354</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>114430</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>120016</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>1010355</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>114431</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
             <!-- Lifestyle Needs -->
             <Item>
               <Product>1010197</Product>
@@ -139,7 +164,7 @@
           <DefaultResidence>1500011040</DefaultResidence>
           <PopulationOutputs>
             <Item>
-              <Product>1010128</Product>
+              <Product>1500011558</Product>
               <Amount>100</Amount>
             </Item>
           </PopulationOutputs>
@@ -148,19 +173,19 @@
           <PopulationAtWorkParticipant>Resident_tier05_atWork</PopulationAtWorkParticipant>
           <MoodText>
             <Angry>
-              <Text>1500010810</Text>
+              <Text>1500011690</Text>
             </Angry>
             <Unhappy>
-              <Text>1500010811</Text>
+              <Text>1500011691</Text>
             </Unhappy>
             <Neutral>
-              <Text>1500010812</Text>
+              <Text>1500011692</Text>
             </Neutral>
             <Happy>
-              <Text>1500010813</Text>
+              <Text>1500011693</Text>
             </Happy>
             <Euphoric>
-              <Text>1500010814</Text>
+              <Text>1500011694</Text>
             </Euphoric>
           </MoodText>
         </PopulationLevel7>
@@ -184,63 +209,13 @@
         </PopulationGroup7>
       </Values>
     </Asset> -->
-    <!-- <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010810</GUID>
-          <Name>Satisfaction Artisans None</Name>
-        </Standard>
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010811</GUID>
-          <Name>Satisfaction Artisans Unhappy</Name>
-        </Standard>
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010812</GUID>
-          <Name>Satisfaction Artisans Content</Name>
-        </Standard>
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010813</GUID>
-          <Name>Satisfaction Artisans Happy</Name>
-        </Standard>
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Text</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010814</GUID>
-          <Name>Satisfaction Artisans Perfect</Name>
-        </Standard>
-        <Text />
-      </Values>
-    </Asset> -->
     <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
           <GUID>1500011558</GUID>
           <Name>Patronos Workforce</Name>
-          <IconFilename>data\ui\2kimages\main\icons\workforce\icon_workforce_2.5d_investor.png</IconFilename>
+          <IconFilename>data/ui/jakob/icon_patronos_workforce.png</IconFilename>
         </Standard>
         <Locked>
           <DefaultLockedState>0</DefaultLockedState>
@@ -251,6 +226,60 @@
           <IsWorkforce>1</IsWorkforce>
           <CanUseWorkforceTransfer>0</CanUseWorkforceTransfer>
         </Product>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011689</GUID>
+          <Name>New World Residents</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011690</GUID>
+          <Name>Angry Patrono</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011691</GUID>
+          <Name>Unhappy Patrono</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011692</GUID>
+          <Name>Content Patrono</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011693</GUID>
+          <Name>Happy Patrono</Name>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500011694</GUID>
+          <Name>Euphoric Patrono</Name>
+        </Standard>
       </Values>
     </Asset>
   </ModOp>

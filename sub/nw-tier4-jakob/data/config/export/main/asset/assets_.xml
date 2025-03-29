@@ -15,6 +15,8 @@
           <Name>Patrono Residence</Name>
           <IconFilename>data/ui/jakob/icon_instant_patronos.png</IconFilename>
           <InfoDescription>163059</InfoDescription>
+          <NeighborLevel>Jornalero</NeighborLevel>
+          <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
         </Standard>
         <Blocking>
           <AdditionalBlockRectSize>1</AdditionalBlockRectSize>
@@ -25,23 +27,6 @@
           <SecondPartyRelevant>0</SecondPartyRelevant>
           <BuildingCategoryName>1500011055</BuildingCategoryName>
           <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
-          <InfluencedByNeighbors>
-            <Item>
-              <Building>1500011040</Building>
-            </Item>
-            <Item>
-              <Building>101255</Building>
-            </Item>
-            <Item>
-              <Building>5405</Building>
-            </Item>
-            <Item>
-              <Building>1500011043</Building>
-            </Item>
-            <Item>
-              <Building>1500011044</Building>
-            </Item>
-          </InfluencedByNeighbors>
           <BuildingBlockPool>
             <!--
               Multiple entries of the same variation for different rotations don't work.
@@ -317,19 +302,19 @@
           <DynamicEnvironmentType>ResidenceT5</DynamicEnvironmentType>
           <HappinessDependentMurmur>
             <Angry>
-              <Murmur>OberaUnhappy</Murmur>
+              <Murmur>InvestorUnhappy</Murmur>
             </Angry>
             <Unhappy>
-              <Murmur>OberaContent</Murmur>
+              <Murmur>InvestorContent</Murmur>
             </Unhappy>
             <Neutral>
-              <Murmur>OberaContent</Murmur>
+              <Murmur>InvestorContent</Murmur>
             </Neutral>
             <Happy>
-              <Murmur>OberaHappy</Murmur>
+              <Murmur>InvestorHappy</Murmur>
             </Happy>
             <Euphoric>
-              <Murmur>OberaHappy</Murmur>
+              <Murmur>InvestorHappy</Murmur>
             </Euphoric>
           </HappinessDependentMurmur>
         </AmbientMoodProvider>
@@ -343,7 +328,8 @@
         <Culture />
         <StreetActivation />
         <InfluenceSource>
-          <InfluenceAmount>1</InfluenceAmount>
+          <InfluenceSource>Hacienda</InfluenceSource>
+          <InfluenceAmount>3</InfluenceAmount>
         </InfluenceSource>
       </Values>
     </Asset>
@@ -368,7 +354,7 @@
 
   <!-- # Build Menus -->
   <!-- New World, Obrero -->
-  <ModOp Type="addPrevSibling" GUID="25000194"
+  <ModOp Type="addPrevSibling" GUID="25000194,500092"
     Path="/Values/ConstructionCategory/BuildingList/Item[1]">
     <Item>
       <Building>1500011040</Building>
