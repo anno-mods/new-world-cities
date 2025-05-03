@@ -1,0 +1,174 @@
+ <ModOps>
+  <!-- # Asset -->
+  <Group>
+    <!-- NW Bank -->
+    <ModOp Type="addNextSibling" GUID="1010372">
+      <Asset>
+        <Template>PublicServiceBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040000</GUID>
+            <Name>Member's Club</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_club_house.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+            <AllowChangeVariation>1</AllowChangeVariation>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>50000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>100</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>80</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/jje/nw-members-club/nw_membersclub.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/jje/nw-members-club/nw_membersclub_V2.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <GUIType>PublicService</GUIType>
+          </Selection>
+          <Constructable />
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>200859</Sound>
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildSuccessful>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>PublicServiceBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>214786</Sound>
+                </Item>
+              </BuildSuccessful>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <BuildingRepaired>
+              <Item>
+                <Sound>203866</Sound>
+              </Item>
+            </BuildingRepaired>
+          </SoundEmitter>
+          <FeedbackController>
+            <NightBehavior>HideNone</NightBehavior>
+          </FeedbackController>
+          <Infolayer />
+          <UpgradeList />
+          <LogisticNode>
+            <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
+          </LogisticNode>
+          <PublicService>
+            <FullSatisfactionDistance>35</FullSatisfactionDistance>
+            <NoSatisfactionDistance>70</NoSatisfactionDistance>
+            <PublicServiceOutputs>
+              <Item>
+                <Product>1010355</Product>
+              </Item>
+            </PublicServiceOutputs>
+          </PublicService>
+          <AmbientMoodProvider>
+            <AmbientMood>ResidenceTier1</AmbientMood>
+            <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>350</Amount>
+                <InactiveAmount>175</InactiveAmount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>3500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Fire>
+                <Base>1</Base>
+              </Fire>
+            </Infectable>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+              </Fire>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Culture />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Building Modifiers -->
+  <Group>
+    <!-- Ref 1010364 GUID -->
+
+    <!-- Feedback Effects -->
+    <ModOp Type="add" GUID="142734" Path="/Values/FeedbackBuildingGroup/Buildings">
+      <Item>
+        <Building>1500040000</Building>
+      </Item>
+    </ModOp>
+
+    <!-- add to the building pool -->
+    <ModOp Type="add" GUID="190136,191501,368"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1500040000</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

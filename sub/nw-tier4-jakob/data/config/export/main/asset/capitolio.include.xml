@@ -97,15 +97,6 @@
     </Asset>
   </ModOp>
 
-
-  <!-- Menu Location NW Pop Tier -->
-  <ModOp Type="addNextSibling" GUID="25000194"
-    Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
-    <Item>
-      <Building>605883300</Building>
-    </Item>
-  </ModOp>
-
   <!-- Menu Location NW Building Type -->
   <ModOp Type="addNextSibling" GUID="500946"
     Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">

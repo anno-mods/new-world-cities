@@ -93,14 +93,6 @@
 
   <!-- # Menu -->
   <Group>
-    <!-- Menu Location NW Pop Tier -->
-    <ModOp Type="addNextSibling" GUID="25000194"
-      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">
-      <Item>
-        <Building>601225300</Building>
-      </Item>
-    </ModOp>
-
     <!-- Menu Location NW Building Type -->
     <ModOp Type="addNextSibling" GUID="500138"
       Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">
@@ -159,10 +151,10 @@
           <Object>
             <Variations>
               <Item>
-                <Filename>data/nwtier4/buildings/public/service_03/nw_bank_V1.cfg</Filename>
+                <Filename>data/jje/nw-bank/nw_bank_V1.cfg</Filename>
               </Item>
               <Item>
-                <Filename>data/nwtier4/buildings/public/service_03/nw_bank_V2.cfg</Filename>
+                <Filename>data/jje/nw-bank/nw_bank_V2.cfg</Filename>
               </Item>
             </Variations>
           </Object>
