@@ -1,4 +1,4 @@
-# Jakob's New World Cities
+# New World Cities
 
 New population tiers, products, industries and tons of new visual assets (custom models, skins, ...).
 
@@ -16,7 +16,7 @@ Smaller rebalancing may happen and will be listed in the changelogs for you to a
 
 See full [changelog](./doc/CHANGELOG.md).
 
-## `Jakob's New World Cities`
+## `New World Cities`
 
 ![](./doc/nw-cities.jpg)
 
@@ -50,6 +50,13 @@ Terraced houses, material and need productions and more electricity options for 
 - Diagonal enclosed greenery on plaza and stone pavement
 - Skins with diagonal and other corner variations for fences and park paths
 
+
+## Contribution Guide
+
+- Use GUIDs from range 1.500.040.000 to	1.500.049.999
+- Don't break savegames
+- Use only assets you created your own, or the license allows the usage
+- TBD
 
 ## Build and Modify Yourself
 

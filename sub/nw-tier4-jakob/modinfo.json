@@ -1,5 +1,5 @@
 {
-  "Version": "0.1.0",
+  "Version": "0.2.0",
   "ModID": "nw-tier4-jakob",
   "IncompatibleIds": [],
   "ModDependencies": null,
@@ -15,6 +15,6 @@
       "Dependant": "required"
     }
   ],
-  "CreatorName": "Jakob",
-  "CreatorContact": "https://github.com/jakobharder/anno1800-jakobs-mods"
+  "Creator": "Jakob, jje and others",
+  "CreatorContact": "https://github.com/anno-mods/new-world-cities"
 }

@@ -1,0 +1,5 @@
+variant:
+  source: ./comedyplayhouse.cfg
+  modifications:
+    - xpath: //Config/Models/Config/Materials/Config[Name="theatre_main"]
+      cModelDiffTex: data/jje/nw-playhouse/maps/comedyplayhouse_V2_diff.psd

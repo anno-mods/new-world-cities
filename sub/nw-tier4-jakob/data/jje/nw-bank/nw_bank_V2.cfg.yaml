@@ -1,0 +1,5 @@
+variant:
+  source: ./nw_bank_V1.cfg
+  modifications:
+    - xpath: //Config/Models/Config/Materials/Config[Name="nwbank_main"]
+      cModelDiffTex: data/jje/nw-bank/maps/nw_bank_V2_diff.psd
