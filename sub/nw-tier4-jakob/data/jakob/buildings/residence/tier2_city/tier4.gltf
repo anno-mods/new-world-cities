@@ -1,234 +1,627 @@
 {
-    "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.3.27",
-        "version" : "2.0"
-    },
-    "scene" : 0,
-    "scenes" : [
-        {
-            "name" : "Scene",
-            "nodes" : [
-                0
-            ]
-        }
-    ],
-    "nodes" : [
-        {
-            "mesh" : 0,
-            "name" : "_lod0",
-            "rotation" : [
-                0,
-                -0.9485774636268616,
-                0,
-                0.31654512882232666
-            ],
-            "scale" : [
-                0.9210348725318909,
-                1,
-                0.9210348725318909
-            ],
-            "translation" : [
-                0.6404220461845398,
-                2.741063117980957,
-                0.19584015011787415
-            ]
-        }
-    ],
-    "materials" : [
-        {
-            "name" : "hotel",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                }
-            }
-        },
-        {
-            "name" : "palace-main",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                }
-            }
-        }
-    ],
-    "meshes" : [
-        {
-            "name" : "Mesh_0.347",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                },
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
-                    },
-                    "indices" : 7,
-                    "material" : 1
-                }
-            ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "residence_yellow_diff",
-            "uri" : "residence_yellow_diff.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "palace_main_building_diff_0",
-            "uri" : "palace_main_building_diff_0.png"
-        }
-    ],
-    "accessors" : [
-        {
-            "bufferView" : 0,
-            "componentType" : 5126,
-            "count" : 13845,
-            "max" : [
-                2.3311855792999268,
-                0.6635320782661438,
-                2.5427298545837402
-            ],
-            "min" : [
-                -1.4161714315414429,
-                -3.274243116378784,
-                -1.4073066711425781
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 1,
-            "componentType" : 5126,
-            "count" : 13845,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 2,
-            "componentType" : 5126,
-            "count" : 13845,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 23310,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 4356,
-            "max" : [
-                2.3378264904022217,
-                -0.07120251655578613,
-                2.6306569576263428
-            ],
-            "min" : [
-                -1.4687726497650146,
-                -4.096811294555664,
-                -1.3758537769317627
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 4356,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 4356,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5123,
-            "count" : 11100,
-            "type" : "SCALAR"
-        }
-    ],
-    "bufferViews" : [
-        {
-            "buffer" : 0,
-            "byteLength" : 166140,
-            "byteOffset" : 0,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 166140,
-            "byteOffset" : 166140,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 110760,
-            "byteOffset" : 332280,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 46620,
-            "byteOffset" : 443040,
-            "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 52272,
-            "byteOffset" : 489660,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 52272,
-            "byteOffset" : 541932,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 34848,
-            "byteOffset" : 594204,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 22200,
-            "byteOffset" : 629052,
-            "target" : 34963
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
-        }
-    ],
-    "buffers" : [
-        {
-            "byteLength" : 651252,
-            "uri" : "tier4.bin"
-        }
-    ]
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.2.57",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"nodes":[
+		{
+			"mesh":0,
+			"name":"ground",
+			"scale":[
+				3.6228597164154053,
+				3.6228597164154053,
+				3.6228597164154053
+			]
+		},
+		{
+			"mesh":1,
+			"name":"_c_lod0",
+			"rotation":[
+				0,
+				0.3173046112060547,
+				0,
+				0.948323667049408
+			],
+			"scale":[
+				0.9210348725318909,
+				1,
+				0.9210348725318909
+			],
+			"translation":[
+				0.01401510089635849,
+				2.533673048019409,
+				-0.3293704092502594
+			]
+		},
+		{
+			"mesh":2,
+			"name":"_lod0",
+			"rotation":[
+				0,
+				0.3173046112060547,
+				0,
+				0.948323667049408
+			],
+			"scale":[
+				0.9210348725318909,
+				1,
+				0.9210348725318909
+			],
+			"translation":[
+				0.01401510089635849,
+				2.421668529510498,
+				-0.3293704092502594
+			]
+		}
+	],
+	"materials":[
+		{
+			"name":"hotel",
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":0
+				}
+			}
+		},
+		{
+			"name":"palace-main",
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":1
+				}
+			}
+		},
+		{
+			"name":"palace-hall",
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":2
+				}
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Plane",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1,
+						"TEXCOORD_0":2,
+						"TANGENT":3
+					},
+					"indices":4
+				}
+			]
+		},
+		{
+			"name":"Mesh_0.719",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":5,
+						"NORMAL":6,
+						"TEXCOORD_0":7
+					},
+					"indices":8,
+					"material":0
+				},
+				{
+					"attributes":{
+						"POSITION":9,
+						"NORMAL":10,
+						"TEXCOORD_0":11
+					},
+					"indices":12,
+					"material":1
+				},
+				{
+					"attributes":{
+						"POSITION":13,
+						"NORMAL":14,
+						"TEXCOORD_0":15
+					},
+					"indices":16,
+					"material":2
+				}
+			]
+		},
+		{
+			"name":"Mesh_0.778",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":17,
+						"NORMAL":18,
+						"TEXCOORD_0":19
+					},
+					"indices":20,
+					"material":0
+				},
+				{
+					"attributes":{
+						"POSITION":21,
+						"NORMAL":22,
+						"TEXCOORD_0":23
+					},
+					"indices":24,
+					"material":1
+				},
+				{
+					"attributes":{
+						"POSITION":25,
+						"NORMAL":26,
+						"TEXCOORD_0":27
+					},
+					"indices":16,
+					"material":2
+				}
+			]
+		}
+	],
+	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
+		{
+			"sampler":0,
+			"source":1
+		},
+		{
+			"sampler":0,
+			"source":2
+		}
+	],
+	"images":[
+		{
+			"mimeType":"image/png",
+			"name":"residence_yellow_diff",
+			"uri":"residence_yellow_diff.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"palace_main_building_diff_0",
+			"uri":"palace_main_building_diff_0.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"palace_hall_01_diff_0",
+			"uri":"palace_hall_01_diff_0.png"
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":4,
+			"max":[
+				0.4140375852584839,
+				0,
+				0.4140376150608063
+			],
+			"min":[
+				-0.4140375852584839,
+				0,
+				-0.4140376150608063
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":4,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5126,
+			"count":4,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":3,
+			"componentType":5126,
+			"count":4,
+			"type":"VEC4"
+		},
+		{
+			"bufferView":4,
+			"componentType":5123,
+			"count":6,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":5,
+			"componentType":5126,
+			"count":8922,
+			"max":[
+				1.5028585195541382,
+				0.5057886242866516,
+				1.7773773670196533
+			],
+			"min":[
+				-1.7816656827926636,
+				-2.954848527908325,
+				-1.4460541009902954
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":6,
+			"componentType":5126,
+			"count":8922,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":7,
+			"componentType":5126,
+			"count":8922,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":8,
+			"componentType":5123,
+			"count":15051,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":9,
+			"componentType":5126,
+			"count":6074,
+			"max":[
+				1.5115185976028442,
+				0.04939219355583191,
+				1.7847156524658203
+			],
+			"min":[
+				-1.794960618019104,
+				-3.777416467666626,
+				-1.506193995475769
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":6074,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":11,
+			"componentType":5126,
+			"count":6074,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":12,
+			"componentType":5123,
+			"count":15306,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":13,
+			"componentType":5126,
+			"count":363,
+			"max":[
+				-0.03176677227020264,
+				0.08977746963500977,
+				0.3448137044906616
+			],
+			"min":[
+				-1.0110975503921509,
+				-0.18951940536499023,
+				-0.7516905069351196
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":14,
+			"componentType":5126,
+			"count":363,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":15,
+			"componentType":5126,
+			"count":363,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":16,
+			"componentType":5123,
+			"count":747,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":17,
+			"componentType":5126,
+			"count":9825,
+			"max":[
+				1.4528948068618774,
+				0.5057883858680725,
+				2.0748019218444824
+			],
+			"min":[
+				-1.982854962348938,
+				-2.9548487663269043,
+				-1.4460541009902954
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":18,
+			"componentType":5126,
+			"count":9825,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":19,
+			"componentType":5126,
+			"count":9825,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":20,
+			"componentType":5123,
+			"count":16527,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":21,
+			"componentType":5126,
+			"count":4421,
+			"max":[
+				1.5115185976028442,
+				0.04939195513725281,
+				2.043241500854492
+			],
+			"min":[
+				-1.9897738695144653,
+				-3.777416706085205,
+				-1.506193995475769
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":22,
+			"componentType":5126,
+			"count":4421,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":23,
+			"componentType":5126,
+			"count":4421,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":24,
+			"componentType":5123,
+			"count":10782,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":25,
+			"componentType":5126,
+			"count":363,
+			"max":[
+				-0.1661904752254486,
+				0.08977723121643066,
+				0.5232000350952148
+			],
+			"min":[
+				-1.1455212831497192,
+				-0.18951964378356934,
+				-0.5733041763305664
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":26,
+			"componentType":5126,
+			"count":363,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":27,
+			"componentType":5126,
+			"count":363,
+			"type":"VEC2"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":48,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":48,
+			"byteOffset":48,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":32,
+			"byteOffset":96,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":64,
+			"byteOffset":128,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":12,
+			"byteOffset":192,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":107064,
+			"byteOffset":204,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":107064,
+			"byteOffset":107268,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":71376,
+			"byteOffset":214332,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":30102,
+			"byteOffset":285708,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":72888,
+			"byteOffset":315812,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":72888,
+			"byteOffset":388700,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":48592,
+			"byteOffset":461588,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":30612,
+			"byteOffset":510180,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":4356,
+			"byteOffset":540792,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":4356,
+			"byteOffset":545148,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2904,
+			"byteOffset":549504,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":1494,
+			"byteOffset":552408,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":117900,
+			"byteOffset":553904,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":117900,
+			"byteOffset":671804,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":78600,
+			"byteOffset":789704,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":33054,
+			"byteOffset":868304,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":53052,
+			"byteOffset":901360,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":53052,
+			"byteOffset":954412,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":35368,
+			"byteOffset":1007464,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":21564,
+			"byteOffset":1042832,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":4356,
+			"byteOffset":1064396,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":4356,
+			"byteOffset":1068752,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2904,
+			"byteOffset":1073108,
+			"target":34962
+		}
+	],
+	"samplers":[
+		{
+			"magFilter":9729,
+			"minFilter":9987
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":1076012,
+			"uri":"tier4.bin"
+		}
+	]
 }

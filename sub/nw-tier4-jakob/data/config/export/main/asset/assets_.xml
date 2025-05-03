@@ -34,71 +34,31 @@
             -->
             <Corner>
               <Pool>
-                <Item />
-                <Item>
-                  <Variation>1</Variation>
-                </Item>
                 <Item>
                   <Variation>2</Variation>
-                </Item>
-                <Item>
-                  <Variation>3</Variation>
-                </Item>
-                <Item>
-                  <Variation>4</Variation>
-                </Item>
-                <Item>
-                  <Variation>5</Variation>
-                </Item>
-                <Item>
-                  <Variation>6</Variation>
-                </Item>
-                <Item>
-                  <Variation>10</Variation>
-                </Item>
-                <Item>
-                  <Variation>11</Variation>
-                </Item>
-                <Item>
-                  <Variation>12</Variation>
                 </Item>
               </Pool>
             </Corner>
             <Mid>
               <Pool>
                 <Item>
-                  <Variation>7</Variation>
+                  <Variation>0</Variation>
                 </Item>
                 <Item>
-                  <Variation>8</Variation>
+                  <Variation>1</Variation>
                 </Item>
                 <Item>
-                  <Variation>9</Variation>
-                </Item>
-                <Item>
-                  <Variation>13</Variation>
+                  <Variation>3</Variation>
                 </Item>
               </Pool>
             </Mid>
             <End>
               <Pool>
                 <Item>
-                  <Variation>13</Variation>
+                  <Variation>0</Variation>
                 </Item>
                 <Item>
-                  <Variation>14</Variation>
-                </Item>
-                <Item>
-                  <Variation>15</Variation>
-                </Item>
-                <Item>
-                  <Variation>16</Variation>
-                </Item>
-                <Item>
-                  <Variation>17</Variation>
-                </Item>
-                <Item>
-                  <Variation>18</Variation>
+                  <Variation>1</Variation>
                 </Item>
               </Pool>
             </End>
@@ -202,7 +162,7 @@
         <Mesh />
         <Object>
           <Variations>
-            <Item>
+            <!-- <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner_0.cfg</Filename>
             </Item>
             <Item>
@@ -219,13 +179,7 @@
             </Item>
             <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner2_2.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate05.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate01.cfg</Filename>
-            </Item>
+            </Item> -->
             <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate02.cfg</Filename>
             </Item>
@@ -233,6 +187,12 @@
               <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate03.cfg</Filename>
             </Item>
             <Item>
+              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate05.cfg</Filename>
+            </Item>
+            <!-- <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner3_0.cfg</Filename>
             </Item>
             <Item>
@@ -240,8 +200,8 @@
             </Item>
             <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner3_2.cfg</Filename>
-            </Item>
-            <Item>
+            </Item> -->
+            <!-- <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end_0.cfg</Filename>
             </Item>
             <Item>
@@ -258,7 +218,7 @@
             </Item>
             <Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end3_2.cfg</Filename>
-            </Item>
+            </Item> -->
                         <!--<Item>
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city2_0.cfg</Filename>
             </Item>-->
