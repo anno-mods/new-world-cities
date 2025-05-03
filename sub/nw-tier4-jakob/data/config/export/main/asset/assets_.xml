@@ -3,6 +3,7 @@
   <Include File="../../../../jakob/nw-ministry/assets.include.xml" />
   <Include File="./capitolio.include.xml" />
   <Include File="./bank.include.xml" />
+  <Include File="./membersclub.include.xml" />
   <Include File="./public.include.xml" />
   <Include File="./menu.include.xml" />
   <Include File="./population.include.xml" />
