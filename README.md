@@ -8,7 +8,7 @@ New population tiers, products, industries and tons of new visual assets (custom
 
 You can add the mod to an existing save game without any drawbacks.
 
-- Download: [Mod.io](https://mod.io/g/anno-1800/u/jakobscollection) or [GitHub releases](https://github.com/jakobharder/anno-1800-jakobs-mods/releases)
+- Download: [Mod.io](https://mod.io/g/anno-1800/m/jakob-new-world-cities) or [GitHub releases](https://github.com/anno-mods/new-world-cities/releases)
 - Description: [README](./mods/addon-new-world-cities/README.md)
 - Changelog: [Changelog](./mods/addon-new-world-cities/README.md#changes)
 
