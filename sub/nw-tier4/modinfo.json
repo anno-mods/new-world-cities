@@ -5,7 +5,9 @@
     "nw-tier4-jakob"
   ],
   "IncompatibleIds": [],
-  "ModDependencies": null,
+  "ModDependencies": [
+    "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip"
+  ],
   "Category": {
     "English": "Building"
   },
