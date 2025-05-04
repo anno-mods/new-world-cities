@@ -1,6 +1,9 @@
 {
   "Version": "0.2.1",
   "ModID": "nw-tier4",
+  "DeprecateIds": [
+    "nw-tier4-jakob"
+  ],
   "IncompatibleIds": [],
   "ModDependencies": null,
   "Category": {
