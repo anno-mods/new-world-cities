@@ -10,3 +10,4 @@ download/**
 **/*_0.png
 **/*_0-?.png
 **/*diff-?.png
+.vscode/*
