@@ -6,7 +6,18 @@
   ],
   "IncompatibleIds": [],
   "ModDependencies": [
-    "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip"
+    "shared-pools-and-definitions",
+    "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip",
+    "fedora-Drakkam",
+    "ow-fedora-Drakkam"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "ow-fedora-Drakkam"
+  ],
+  "bundle": [
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V3/Product.Fedora.zip",
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V3/Production.OW.Fedora.Drakkam.zip"
   ],
   "Category": {
     "English": "Component"
