@@ -19,7 +19,8 @@ jobs:
         run: npm install .
       - name: build mods
         run: |
-          npm run build-changed
+          npm run build4
+          npm run build
           npm run package
       # - name: upload mods
       #   uses: actions/upload-artifact@v2

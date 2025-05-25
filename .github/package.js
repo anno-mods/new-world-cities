@@ -33,7 +33,8 @@ function copyFolderSync(source, target) {
 }
 
 const idsToPackage = [
-  "jakob_new_world_cities"
+  "jakob_new_world_cities",
+  "nw-tier4"
 ];
 
 const modsToPackage = glob.sync("./out/*/modinfo.json")

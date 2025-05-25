@@ -1,15 +1,26 @@
 {
-  "Version": "0.2.1",
+  "Version": "0.3.0",
   "ModID": "nw-tier4",
   "DeprecateIds": [
     "nw-tier4-jakob"
   ],
   "IncompatibleIds": [],
   "ModDependencies": [
-    "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip"
+    "shared-pools-and-definitions",
+    "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip",
+    "fedora-Drakkam",
+    "ow-fedora-Drakkam"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "ow-fedora-Drakkam"
+  ],
+  "bundle": [
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V3/Product.Fedora.zip",
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V3/Production.OW.Fedora.Drakkam.zip"
   ],
   "Category": {
-    "English": "Building"
+    "English": "Component"
   },
   "ModName": {
     "English": "NW Tier 4"

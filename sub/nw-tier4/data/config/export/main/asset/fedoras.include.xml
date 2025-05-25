@@ -1,0 +1,131 @@
+ <!-- Shared Production OW Fedoras -->
+<ModOps>
+  <!-- # Unlocks -->
+  <Group>
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>601225301</GUID>
+            <Name>Unhide @ 1 Obrero</Name>
+            <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000006</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnhideAssets>
+                        <Item>
+                          <Asset>601225300</Asset>
+                        </Item>
+                      </UnhideAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+          <Standard>
+            <GUID>601225302</GUID>
+            <Name>@ 2000 Obreros</Name>
+            <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000006</Context>
+                  <CounterAmount>2000</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>601225300</Asset>
+                        </Item>
+                      </UnlockAssets>
+                      <UnhideAssets>
+                      </UnhideAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Menu -->
+  <Group>
+    <!-- Consumables -->
+    <ModOp Type="addNextSibling" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Artista or Patrono &lt;= 1][last()]">
+      <Item>
+        <Building>1500040001</Building>
+        <Patrono>1</Patrono>
+      </Item>
+    </ModOp>
+
+    <!-- OW Tier + Consumables -->
+    <!-- TODO They are currently Merchant tier, which shouldn't be the case for a standalone shared mod. -->
+
+    <ModOp Type="addNextSibling" GUID="500002">
+      <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040001</GUID>
+            <Name>Fedoras NW Chain</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
+            <InfoDescription>1500011055</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>1555000128</TextOverride>
+          </Text>
+          <ProductionChain />
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="replace" GUID="1500040001" Path="/Values/ProductionChain"
+      Content="@1555000128/ProductionChain">
+    </ModOp>
+  </Group>
+</ModOps>
