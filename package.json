@@ -5,7 +5,7 @@
   "scripts": {
     "build-changed": "powershell node node_modules/anno-modding-tools/out/buildmod.js $(node .github/getChanged.js)",
     "build": "node node_modules/anno-modding-tools/out/buildmod.js mods/**/modinfo.json",
-    "package": "node .github/package.js",
-    "create-doc": "node ./doc/create-nexus.js"
+    "build4": "node node_modules/anno-modding-tools/out/buildmod.js sub/nw-tier4/modinfo.json",
+    "package": "node .github/package.js"
   }
 }

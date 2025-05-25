@@ -1,5 +1,5 @@
 {
-  "out": "${annoMods}/[Addon] New World Cities (Jakob)",
+  "out": "${annoMods}/[Addon] New World Cities",
   "Version": "2.2.12",
   "ModID": "jakob_new_world_cities",
   "ModioResourceId": 3229897,
@@ -32,8 +32,8 @@
     "English": "Addon"
   },
   "ModName": {
-    "Chinese": "Jakob 新世界城市",
-    "English": "Jakob's New World Cities"
+    "Chinese": "新世界城市",
+    "English": "New World Cities"
   },
   "DLCDependencies": [
     {
@@ -41,6 +41,6 @@
       "Dependant": "partly"
     }
   ],
-  "CreatorName": "Jakob",
-  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods"
+  "CreatorName": "Jakob, jje and others",
+  "CreatorContact": "https://github.com/anno-mods/new-world-cities"
 }
