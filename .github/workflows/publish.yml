@@ -18,7 +18,7 @@ jobs:
         run: npm install .
       - name: build mods
         run: |
-          npm run build4 |
+          npm run build4
           npm run build
       - name: package
         if: startsWith(github.ref, 'refs/tags/')
