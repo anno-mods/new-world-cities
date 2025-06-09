@@ -113,6 +113,11 @@
               <SupplyWeight>5</SupplyWeight>
               <MoneyValue>30</MoneyValue>
             </Item>
+            <Item>
+              <Product>1500040005</Product>
+              <HappinessValue>2</HappinessValue>
+              <MoneyValue>30</MoneyValue>
+            </Item>
             <!-- Lifestyle Needs -->
             <Item>
               <Product>1010197</Product>
