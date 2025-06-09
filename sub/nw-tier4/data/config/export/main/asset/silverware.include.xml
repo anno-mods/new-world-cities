@@ -1,5 +1,40 @@
 <ModOps>
-  <!-- # Service -->
+  <!-- # Menu -->
+  <Group>
+    <!-- Services [Artista or Patrono &lt;= 1]-->
+    <ModOp Type="addNextSibling" GUID="500138"
+      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+      <Item>
+        <Building>1500040006</Building>
+        <Patrono>1</Patrono>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500002">
+      <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040006</GUID>
+            <Name>Fedoras NW Chain</Name>
+            <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
+            <InfoDescription>1500011055</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>1500040005</TextOverride>
+          </Text>
+          <ProductionChain>
+            <Building>1500040007</Building>
+          </ProductionChain>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Asset -->
   <ModOp Type="addNextSibling" GUID="1010217">
     <Asset>
       <Template>Product</Template>
@@ -7,7 +42,7 @@
         <Standard>
           <GUID>1500040005</GUID>
           <Name>Silverware</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_attack_mode.png</IconFilename>
+          <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
         </Standard>
         <Locked />
         <Product>
@@ -26,7 +61,7 @@
         <Standard>
           <GUID>1500040007</GUID>
           <Name>Silverware Service Building</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_attack_mode.png</IconFilename>
+          <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
           <InfoDescription>11144</InfoDescription>
         </Standard>
         <Text>
@@ -158,41 +193,6 @@
         <Infolayer />
         <UpgradeList />
       </Values>
-      </Asset>
+    </Asset>
   </ModOp>
-
-  <!-- # Menu -->
-  <Group>
-    <!-- Services [Artista or Patrono &lt;= 1]-->
-    <ModOp Type="addNextSibling" GUID="500138"
-      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
-      <Item>
-        <Building>1500040006</Building>
-        <Patrono>1</Patrono>
-      </Item>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="500002">
-      <Asset>
-        <Template>ProductionChain</Template>
-        <Values>
-          <Standard>
-            <GUID>1500040006</GUID>
-            <Name>Fedoras NW Chain</Name>
-            <IconFilename>data\ui\2kimages\main\3dicons\icon_attack_mode.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
-          </Standard>
-          <Text>
-            <TextOverride>1500040005</TextOverride>
-          </Text>
-          <ProductionChain>
-            <Building>1500040007</Building>
-          </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
-        </Values>
-      </Asset>
-    </ModOp>
-  </Group>
 </ModOps>

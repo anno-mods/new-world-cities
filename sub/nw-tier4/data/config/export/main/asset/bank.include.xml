@@ -1,6 +1,4 @@
- <!-- NW Bank -->
 <ModOps>
-
   <!-- # Unlocks -->
   <Group>
     <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
@@ -97,8 +95,52 @@
     <ModOp Type="addNextSibling" GUID="500138"
       Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">
       <Item>
-        <Building>601225300</Building>
+        <Building>1500040008</Building>
       </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1010372">
+      <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040008</GUID>
+            <Name>Bank Service NW Chain</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_bank.png</IconFilename>
+            <InfoDescription>1500011055</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>1500040010</TextOverride>
+          </Text>
+          <ProductionChain>
+            <Building>1500040011</Building>
+            <Tier1>
+              <Item>
+                <Building>1010328</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1010339</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010327</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>1345</Building>
+                      </Item>
+                      <Item>
+                        <Building>101311</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </Tier2>
+              </Item>
+            </Tier1>
+            <InfoTipHeight>550</InfoTipHeight>
+          </ProductionChain>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
@@ -107,50 +149,112 @@
     <!-- NW Bank -->
     <ModOp Type="addNextSibling" GUID="1010372">
       <Asset>
-        <Template>PublicServiceBuilding</Template>
+        <Template>Product</Template>
         <Values>
           <Standard>
-            <GUID>601225300</GUID>
-            <Name>nw_bank</Name>
+            <GUID>1500040010</GUID>
+            <Name>Investment</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_bank.png</IconFilename>
           </Standard>
+          <Locked />
+          <Product>
+            <ProductColor>-11415604</ProductColor>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11709</ProductCategory>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+          </Product>
+          <ExpeditionAttribute />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>BuffFactory</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040011</GUID>
+            <Name>Silverware Service Building</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_bank.png</IconFilename>
+            <InfoDescription>11144</InfoDescription>
+          </Standard>
           <Text>
-            <TextOverride>1010365</TextOverride>
+            <TextOverride>1500040010</TextOverride>
           </Text>
           <Building>
-            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <BuildingCategoryName>1500011055</BuildingCategoryName>
             <AssociatedRegions>Colony01</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
             <AllowChangeVariation>1</AllowChangeVariation>
           </Building>
           <Blocking />
-          <Cost>
-            <Costs>
+          <Mesh />
+          <BuffFactory>
+            <ProductionBuffScope>Local</ProductionBuffScope>
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+              <PublicServices>
+                <Item>
+                  <PublicService>1500040010</PublicService>
+                </Item>
+              </PublicServices>
+              <FullSatisfactionDistance>50</FullSatisfactionDistance>
+              <NoSatisfactionDistance>100</NoSatisfactionDistance>
+            </PublicServiceData>
+          </BuffFactory>
+          <FactoryBase>
+            <FactoryInputs>
               <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>100000</Amount>
+                <Product>1010250</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>180</CycleTime>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>100</ClampedMaxTransporterLogisticCost>
+          </FactoryBase>
+          <FeedbackController>
+            <NightBehavior>HideNone</NightBehavior>
+          </FeedbackController>
+          <Pausable />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+          </Selection>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <HasRuinState>1</HasRuinState>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>1000</Amount>
+                <InactiveAmount>500</InactiveAmount>
               </Item>
               <Item>
-                <Ingredient>1010196</Ingredient>
+                <Product>5406</Product>
                 <Amount>30</Amount>
               </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>50</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>20</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-                <Amount>60</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-                <Amount>30</Amount>
-              </Item>
-            </Costs>
-          </Cost>
+            </Maintenances>
+          </Maintenance>
+          <AmbientMoodProvider>
+            <AmbientMood>ResidenceTier5</AmbientMood>
+            <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <LogisticNode />
+          <Constructable>
+            <DestructionCategory>Production</DestructionCategory>
+          </Constructable>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
           <Object>
             <Variations>
               <Item>
@@ -161,12 +265,6 @@
               </Item>
             </Variations>
           </Object>
-          <Mesh />
-          <Selection>
-            <GUIType>PublicService</GUIType>
-          </Selection>
-          <Constructable />
-          <Locked />
           <SoundEmitter>
             <ActiveSounds>
               <Item>
@@ -205,51 +303,36 @@
           <FeedbackController>
             <NightBehavior>HideAll</NightBehavior>
           </FeedbackController>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>100000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>20</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>60</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+            </Costs>
+          </Cost>
           <Infolayer />
           <UpgradeList />
-          <LogisticNode>
-            <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
-          </LogisticNode>
-          <PublicService>
-            <FullSatisfactionDistance>45</FullSatisfactionDistance>
-            <NoSatisfactionDistance>90</NoSatisfactionDistance>
-            <PublicServiceOutputs>
-              <Item>
-                <Product>1010356</Product>
-              </Item>
-            </PublicServiceOutputs>
-          </PublicService>
-          <AmbientMoodProvider>
-            <AmbientMood>ResidenceTier1</AmbientMood>
-            <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
-          </AmbientMoodProvider>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Attackable>
-            <MaximumHitPoints>8000</MaximumHitPoints>
-            <SelfHealPerHealTick>4</SelfHealPerHealTick>
-          </Attackable>
-          <Pausable />
-          <IncidentInfectable>
-            <Infectable>
-              <Fire>
-                <Base>1</Base>
-              </Fire>
-            </Infectable>
-            <IncidentInfectionChanceFactors>
-              <Fire>
-                <DensityDistance>20</DensityDistance>
-              </Fire>
-            </IncidentInfectionChanceFactors>
-          </IncidentInfectable>
-          <Culture />
         </Values>
       </Asset>
     </ModOp>
@@ -262,7 +345,7 @@
     <!-- Specialist Effects -->
     <ModOp Type="add" GUID="191578" Path="/Values/ItemEffect/EffectTargets">
       <Item>
-        <GUID>601225300</GUID>
+        <GUID>1500040011</GUID>
       </Item>
     </ModOp>
 
@@ -270,21 +353,21 @@
     <ModOp Type="add" GUID="191708,191709,191710,191732,191733,191734,191735,191736,191737"
       Path="/Values/ItemEffect/EffectTargets">
       <Item>
-        <GUID>601225300</GUID>
+        <GUID>1500040011</GUID>
       </Item>
     </ModOp>
 
     <!-- Feedback Effects -->
     <ModOp Type="add" GUID="142734" Path="/Values/FeedbackBuildingGroup/Buildings">
       <Item>
-        <Building>601225300</Building>
+        <Building>1500040011</Building>
       </Item>
     </ModOp>
 
     <!-- add to the asset pool -->
     <ModOp Type="add" GUID="130049" Path="/Values/AssetPool/AssetList">
       <Item>
-        <Asset>601225300</Asset>
+        <Asset>1500040011</Asset>
       </Item>
     </ModOp>
 
@@ -292,7 +375,7 @@
     <ModOp Type="add" GUID="190597,191365,191366,193876,193877,193878"
       Path="/Values/ItemEffect/EffectTargets">
       <Item>
-        <GUID>601225300</GUID>
+        <GUID>1500040011</GUID>
       </Item>
     </ModOp>
 
@@ -300,14 +383,14 @@
     <ModOp Type="add" GUID="190136,191501,368"
       Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
-        <GUID>601225300</GUID>
+        <GUID>1500040011</GUID>
       </Item>
     </ModOp>
 
     <!-- add to the palace pool -->
     <ModOp Type="add" GUID="269464,269455" Path="/Values/ItemEffect/EffectTargets">
       <Item>
-        <GUID>601225300</GUID>
+        <GUID>1500040011</GUID>
       </Item>
     </ModOp>
   </Group>

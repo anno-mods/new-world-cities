@@ -94,17 +94,7 @@
               <MoneyValue>30</MoneyValue>
             </Item>
             <Item>
-              <Product>114430</Product>
-              <SupplyWeight>5</SupplyWeight>
-              <MoneyValue>30</MoneyValue>
-            </Item>
-            <Item>
               <Product>120016</Product>
-              <SupplyWeight>5</SupplyWeight>
-              <MoneyValue>30</MoneyValue>
-            </Item>
-            <Item>
-              <Product>1010355</Product>
               <SupplyWeight>5</SupplyWeight>
               <MoneyValue>30</MoneyValue>
             </Item>
@@ -114,7 +104,22 @@
               <MoneyValue>30</MoneyValue>
             </Item>
             <Item>
+              <Product>1500040010</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
               <Product>1500040005</Product>
+              <HappinessValue>2</HappinessValue>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>1440023</Product>
+              <HappinessValue>2</HappinessValue>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>1500040013</Product>
               <HappinessValue>2</HappinessValue>
               <MoneyValue>30</MoneyValue>
             </Item>

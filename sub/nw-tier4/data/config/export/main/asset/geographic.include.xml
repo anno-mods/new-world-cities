@@ -1,18 +1,95 @@
  <ModOps>
+  <!-- # Menu -->
+  <Group>
+    <!-- Services [Artista or Patrono &lt;= 1]-->
+    <ModOp Type="addNextSibling" GUID="500138"
+      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+      <Item>
+        <Building>1500040012</Building>
+        <Patrono>1</Patrono>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500002">
+      <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040012</GUID>
+            <Name>Geographic Society NW Chain</Name>
+            <IconFilename>data/ui/nwc/icon_geographic_society.png</IconFilename>
+            <InfoDescription>1500011055</InfoDescription>
+          </Standard>
+          <Text>
+            <TextOverride>1500040013</TextOverride>
+          </Text>
+          <ProductionChain>
+            <Building>1500040000</Building>
+            <Tier1>
+              <Item>
+                <Building>118734</Building>
+                <Tier2>
+                  <Item>
+                    <Building>114441</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>114448</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                  <Item>
+                    <Building>1010318</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>1010331</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </Tier2>
+              </Item>
+            </Tier1>
+          </ProductionChain>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
   <!-- # Asset -->
   <Group>
     <!-- NW Bank -->
     <ModOp Type="addNextSibling" GUID="1010372">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040013</GUID>
+            <Name>Geographic Society Serice</Name>
+            <IconFilename>data/ui/nwc/icon_geographic_society.png</IconFilename>
+          </Standard>
+          <Locked />
+          <Product>
+            <ProductColor>-11415604</ProductColor>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11709</ProductCategory>
+            <IsAbstract>1</IsAbstract>
+            <AssociatedRegion>Colony01</AssociatedRegion>
+          </Product>
+          <ExpeditionAttribute />
+        </Values>
+      </Asset>
       <Asset>
         <Template>PublicServiceBuilding</Template>
         <Values>
           <Standard>
             <GUID>1500040000</GUID>
             <Name>Member's Club</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_club_house.png</IconFilename>
+            <IconFilename>data/ui/nwc/icon_geographic_society.png</IconFilename>
           </Standard>
           <Text>
-            <TextOverride>1010364</TextOverride>
+            <TextOverride>1500040013</TextOverride>
           </Text>
           <Building>
             <BuildModeRandomRotation>180</BuildModeRandomRotation>
