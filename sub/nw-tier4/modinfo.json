@@ -10,14 +10,16 @@
     "https://github.com/anno-mods/shared-resources/releases/download/v10.10/ToolTip_OtherResidences.zip",
     "https://github.com/jakobharder/shared-drakkam/releases/download/v4-jakob1/fedora-Drakkam.zip",
     "https://github.com/jakobharder/shared-drakkam/releases/download/v4-jakob1/ow-fedora-Drakkam.zip",
-    "silver-newhorizons"
+    "silver-newhorizons",
+    "cars-newhorizons"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
     "ow-fedora-Drakkam"
   ],
   "bundle": [
-    "../../external/silver-newhorizons"
+    "../../external/silver-newhorizons",
+    "../../external/cars-newhorizons"
   ],
   "Category": {
     "English": "Component"
