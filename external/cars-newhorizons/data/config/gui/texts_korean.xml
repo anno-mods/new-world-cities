@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440023</GUID>
+      <Text>자동차</Text>
+    </Text>
+    <Text>
+      <GUID>1414018151</GUID>
+      <Text>지구 반대편에서 온 제조업의 정점.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

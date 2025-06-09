@@ -1,0 +1,104 @@
+<ModOps>
+    <!-- # Product -->
+    <ModOp Type="addNextSibling" GUID="1010217">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1440023</GUID>
+                    <Name>Imports - American Car</Name>
+                    <IconFilename>data/graphics/ui/icons/goods/icon_car.png</IconFilename>
+                    <InfoDescription>1414018151</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText />
+                    <LineID>5385</LineID>
+                </Text>
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11705</ProductCategory>
+                    <BasePrice>25274</BasePrice>
+                    <CivLevel>5</CivLevel>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Melee</Attribute>
+                            <Amount>40</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <!-- # Docklands -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="131764"
+        Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440023']/IsMainFactory[text()='1']">
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1440242</GUID>
+              <Name>IsMainFactory_Fake: American Car</Name>
+            </Standard>
+            <Building>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+              <SecondPartyRelevant>0</SecondPartyRelevant>
+            </Building>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/graphics/buildings/production/heavy_08/heavy_08.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Locked />
+            <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1010211</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>3</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010224</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>3</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1440023</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>6</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>60</CycleTime>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010117</Product>
+                  <Amount>400</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+            <Industrializable>
+              <MandatoryIndustrialization>1</MandatoryIndustrialization>
+            </Industrializable>
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group>
+  </ModOps>
+  
