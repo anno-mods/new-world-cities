@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>603336111</GUID>
+      <Text>Catedral Colonial</Text>
+    </Text>
+  </ModOp>
+</ModOps>

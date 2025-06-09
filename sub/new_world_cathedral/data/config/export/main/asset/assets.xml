@@ -1,0 +1,343 @@
+ <!-- New World Cathedral -->
+<ModOps>
+
+  <!-- NW Unlock -->
+
+  <ModOp Path="//Assets" Type="add">
+    <Asset>
+      <Template>FeatureUnlock</Template>
+      <Values>
+        <Standard>
+          <GUID>603336112</GUID>
+          <Name>Unhide</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000006</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>603336111</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Path="//Assets" Type="add">
+    <Asset>
+      <Template>FeatureUnlock</Template>
+      <Values>
+        <Standard>
+          <GUID>603336113</GUID>
+          <Name>Unlock</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000006</Context>
+                <CounterAmount>5000</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>603336111</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Menu Location NW Pop Tier -->
+  <ModOp Type="addNextSibling" GUID='25000194' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">
+    <Item>
+      <Building>603336111</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Menu Location NW Building Type -->
+  <ModOp Type="addNextSibling" GUID='500138' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101259']">
+    <Item>
+      <Building>603336111</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Asset -->
+
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+
+    <!-- New World Cathedral -->
+
+    <Asset>
+      <Template>PublicServiceBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>603336111</GUID>
+          <Name>Colonial Cathedral</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_nw_cathedral_0.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>250000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010204</Ingredient>
+              <Amount>75</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010249</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>120044</Ingredient>
+              <Amount>75</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010242</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral_v1a.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral_v2.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral_v2a.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral_v3.cfg</Filename>
+                                </Item>
+                                <Item>
+                                  <Filename>data/moddinggraphics_11/buildings/public/nw_cathedral/nw_cathedral_v3a.cfg</Filename>
+                                </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>PublicService</GUIType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Colonial Cathedral</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>3732</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200869</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214786</Sound>
+              </Item>
+            </BuildSuccessful>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideAll</NightBehavior>
+        </FeedbackController>
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode>
+          <REMOVE_THIS_LATER_FeedbackUnitTier>Level2</REMOVE_THIS_LATER_FeedbackUnitTier>
+        </LogisticNode>
+        <PublicService>
+          <FullSatisfactionDistance>80</FullSatisfactionDistance>
+          <NoSatisfactionDistance>160</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>120050</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+          <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>4750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Base>1</Base>
+            </Fire>
+          </Infectable>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture>
+          <Attractiveness>100</Attractiveness>
+          <CultureSpawnGroup>1</CultureSpawnGroup>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <!-- Building Modifiers -->
+  <!-- Ref 101258 GUID -->
+
+  <!-- Item Effects -->
+  <ModOp Type="add" GUID='191705,191706,191707,191741,191742,191743' Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>603336111</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- Feedback Effects -->
+  <ModOp Type="add" GUID='142680' Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>603336111</Building>
+    </Item>
+  </ModOp>
+
+  <!-- add to the asset pool -->
+  <ModOp Type="add" GUID='130099' Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>603336111</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- add to the influence pool -->
+  <ModOp Type="add" GUID='190597,191365,191366,193876,193877,193878' Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>603336111</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- add to the building pool -->
+  <ModOp Type="add" GUID='191501,190784,368' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>603336111</GUID>
+    </Item>
+  </ModOp>
+
+  <!-- add to the palace pool -->
+  <ModOp Type="add" GUID='269454' Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>603336111</GUID>
+    </Item>
+  </ModOp>
+
+</ModOps>
