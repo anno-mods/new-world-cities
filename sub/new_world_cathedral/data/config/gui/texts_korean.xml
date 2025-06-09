@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>603336111</GUID>
+      <Text>식민지 시대의 대성당</Text>
+    </Text>
+  </ModOp>
+</ModOps>

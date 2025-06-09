@@ -1,0 +1,16 @@
+{
+  "ModID": "new_world_cathedral",
+  "Version": "1.1.1",
+  "Category": {
+    "English": "Building"
+  },
+  "ModName": {
+    "English": "New World Cathedral"
+  },
+  "Description": {
+    "English": "This mod adds a new cathedral to the New World."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}
