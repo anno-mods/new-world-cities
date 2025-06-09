@@ -1,0 +1,12 @@
+{
+    "Version": "1.0",
+    "ModID": "cars-newhorizons",
+    "Category": {
+      "English": "Product"
+    },
+    "ModName": {
+      "English": "Cars (New Horizons)"
+    },
+    "CreatorName": "New Horizons Team",
+    "CreatorContact": "https://github.com/taubenangriff/Anno-1800-New-Horizons"
+  }

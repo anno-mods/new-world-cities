@@ -60,5 +60,17 @@
       <GUID>1500040005</GUID>
       <Text>Silverware</Text>
     </Text>
+    <Text>
+      <GUID>1500040010</GUID>
+      <Text>Investment Bank</Text>
+    </Text>
+    <Text>
+      <GUID>1500040013</GUID>
+      <Text>Geographic Society</Text>
+    </Text>
+    <Text>
+      <GUID>1500040014</GUID>
+      <Text>Drama Theatre</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440023</GUID>
+      <Text>車</Text>
+    </Text>
+    <Text>
+      <GUID>1414018151</GUID>
+      <Text>地球の裏側からの製造の最高峰。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

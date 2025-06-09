@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440023</GUID>
+      <Text>Автомобилей</Text>
+    </Text>
+    <Text>
+      <GUID>1414018151</GUID>
+      <Text>Вершина производства с другой стороны земного шара.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
