@@ -136,9 +136,7 @@
             </Tier1>
             <InfoTipHeight>550</InfoTipHeight>
           </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
         </Values>
       </Asset>
     </ModOp>
