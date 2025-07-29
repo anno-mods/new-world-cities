@@ -45,9 +45,7 @@
             </Tier1>
             <InfoTipHeight>550</InfoTipHeight>
           </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
         </Values>
       </Asset>
     </ModOp>
@@ -160,9 +158,7 @@
           <Constructable>
             <DestructionCategory>Production</DestructionCategory>
           </Constructable>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
           <Object>
             <Variations>
               <Item>
@@ -228,6 +224,28 @@
           </Cost>
           <Infolayer />
           <UpgradeList />
+        </Values>
+      </Asset>       
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040020</GUID>
+            <Name>AssetPool Geographic Society</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1500040014</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040015</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040016</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
         </Values>
       </Asset>
     </ModOp>
