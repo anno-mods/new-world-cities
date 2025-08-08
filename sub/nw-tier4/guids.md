@@ -38,6 +38,11 @@
 | 1500040014 | Drama Theatre Serice
 | 1500040015 | Drama Theatre
 | 1500040016 | Drama Theatre NW Chain
+| 1500040022 | Chain Tiles |
+| 1500040023 | Production Tiles |
+| 1500040025 | Chain Feijoada |
+| 1500040026 | Production Feijoada |
+| 1500040028 | Product Feijoada |
 
 ## Asset Pools
 
@@ -49,6 +54,8 @@
 | 1500040018 | AssetPool Bank | 
 | 1500040019 | AssetPool Geographic Society | 
 | 1500040020 | AssetPool Drama Theatre |
+| 1500040024 | AssetPool Tiles |
+| 1500040027 | AssetPool Feijoada |
 
 ## Unlocks
 
