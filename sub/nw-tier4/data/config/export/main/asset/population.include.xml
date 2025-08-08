@@ -184,8 +184,8 @@
             </Item>
           </PopulationOutputs>
           <CategoryIcon>data/ui/2kimages/main/icons/icon_arrow.png</CategoryIcon>
-          <PopulationParticipant>Third_enemy_01_Grant</PopulationParticipant>
-          <PopulationAtWorkParticipant>Resident_tier05_atWork</PopulationAtWorkParticipant>
+          <PopulationParticipant>Mod6</PopulationParticipant>
+          <PopulationAtWorkParticipant>Mod6</PopulationAtWorkParticipant>
           <MoodText>
             <Angry>
               <Text>1500011690</Text>

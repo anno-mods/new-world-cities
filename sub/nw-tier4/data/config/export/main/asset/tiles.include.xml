@@ -1,0 +1,256 @@
+<ModOps>
+    <!-- # Menu -->
+    <Group>
+        <!-- Services [Artista or Patrono &lt;= 1]-->
+        <ModOp Type="addNextSibling" GUID="500138" Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+            <Item>
+                <Building>1500040022</Building>
+                <Patrono>1</Patrono>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500002">
+            <Asset>
+                <Template>ProductionChain</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500040022</GUID>
+                        <Name>Tiles NW Chain</Name>
+                        <IconFilename>data/ui/kurila/icon_tiles.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <TextOverride>1500301073</TextOverride>
+                    </Text>
+                    <ProductionChain>
+                        <Building>1500040023</Building>
+                        <Tier1>
+                            <Item>
+                                <Building>101267</Building>
+                            </Item>
+                            <Item>
+                                <Building>5462</Building>
+                                <Tier2>
+                                    <Item>
+                                        <Building>1390</Building>
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                            <Item>
+                                <Building>1010319</Building>
+                                <Tier2>
+                                    <Item>
+                                        <Building>1010560</Building>
+                                    </Item>
+                                </Tier2>
+                            </Item>
+                        </Tier1>
+                    </ProductionChain>
+                    <Locked>
+                        <DefaultLockedState>1</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>AssetPool</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500040024</GUID>
+                        <Name>NW Asset Pool Tiles</Name>
+                    </Standard>
+                    <AssetPool>
+                        <AssetList>
+                            <Item>
+                                <Asset>1500040022</Asset>
+                            </Item>
+                            <Item>
+                                <Asset>1500040023</Asset>
+                            </Item>
+                            <Item>
+                                <Asset>1500301073</Asset>
+                            </Item>
+                        </AssetList>
+                    </AssetPool>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>FactoryBuilding7</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500040023</GUID>
+                        <Name>DLC12 Tile Workshop</Name>
+                        <IconFilename>data/ui/kurila/icon_tiles.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>12000</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>10</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                                <Amount>15</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010202</Ingredient>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/dlc12/graphics/buildings/production/sewing_machines/sewing_machines_workshop.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1500040023</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                        <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+                        <Colors>
+                            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                        </Colors>
+                    </Selection>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Sewing Machine Factory</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>60132</LineID>
+                    </Text>
+                    <Constructable />
+                    <Locked />
+                    <SoundEmitter>
+                        <ActiveSounds>
+                            <Item>
+                                <Sound>200802</Sound>
+                            </Item>
+                            <Item>
+                                <Sound>201625</Sound>
+                            </Item>
+                        </ActiveSounds>
+                        <IncidentSounds>
+                            <InfectedFire>
+                                <Item>
+                                    <Sound>214659</Sound>
+                                </Item>
+                            </InfectedFire>
+                        </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>5400</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>4</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010241</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>4</StorageAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010201</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>4</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>1500301073</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>4</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                        <Murmur>Factory</Murmur>
+                        <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>100</Amount>
+                                <InactiveAmount>50</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>1500011558</Product>
+                                <Amount>50</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                        <AttackableType>IslandBuilding</AttackableType>
+                        <MaximumHitPoints>5000</MaximumHitPoints>
+                        <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                        <Infectable>
+                            <Explosion>
+                                <Base>0</Base>
+                                <Escalated>0</Escalated>
+                            </Explosion>
+                        </Infectable>
+                        <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                        </Explosion>
+                        <IncidentInfectionChanceFactors>
+                            <Fire>
+                                <DensityDistance>20</DensityDistance>
+                                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                            </Fire>
+                            <Riot>
+                                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                                <HappinessThreshold>20</HappinessThreshold>
+                            </Riot>
+                        </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                        <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+</ModOps>
