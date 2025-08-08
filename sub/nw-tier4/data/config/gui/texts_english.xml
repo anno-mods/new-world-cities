@@ -76,5 +76,17 @@
       <GUID>1500040023</GUID>
       <Text>Tile Workshop</Text>
     </Text>
+    <Text>
+      <GUID>1500040028</GUID>
+      <Text>Feijoada</Text>
+    </Text>
+    <Text>
+      <GUID>1500040029</GUID>
+      <Text>!Feijoada InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040026</GUID>
+      <Text>Feijoada Kitchen</Text>
+    </Text>
   </ModOp>
 </ModOps>

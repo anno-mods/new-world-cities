@@ -43,6 +43,7 @@
 | 1500040025 | Chain Feijoada |
 | 1500040026 | Production Feijoada |
 | 1500040028 | Product Feijoada |
+| 1500040029 | Product Feijoada Flufftext | 
 
 ## Asset Pools
 

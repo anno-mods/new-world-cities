@@ -331,4 +331,12 @@
       <Level>1500011557</Level>
     </Item>
   </ModOp> -->
+
+  <!-- Add Patronos to Workforce Balancing for Docklands Values -->
+  <ModOp GUID = '142977' Path = "/Values/GoodValueBalancing/WorkforceData/Colony01/Tiers" Type = "add">
+    <Item>
+      <WorkforceValue>5</WorkforceValue>
+      <WorkforceGUID>1500011558</WorkforceGUID>
+    </Item>
+  </ModOp>
 </ModOps>

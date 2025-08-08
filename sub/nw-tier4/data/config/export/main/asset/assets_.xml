@@ -9,6 +9,7 @@
   <Include File="./silverware.include.xml" />
   <Include File="./theater.include.xml" />
   <Include File="./tiles.include.xml" />
+  <Include File="./feijoada.include.xml" />
   <Include File="./menu.include.xml" />
   <Include File="./population.include.xml" />
   <Include File="./unlocks.include.xml" />
