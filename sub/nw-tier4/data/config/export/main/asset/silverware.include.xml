@@ -26,9 +26,7 @@
           <ProductionChain>
             <Building>1500040007</Building>
           </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
         </Values>
       </Asset>
     </ModOp>
@@ -139,9 +137,7 @@
         <Constructable>
           <DestructionCategory>Production</DestructionCategory>
         </Constructable>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
+        <Locked />
         <Object>
           <Variations>
             <Item>
@@ -194,5 +190,27 @@
         <UpgradeList />
       </Values>
     </Asset>
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040017</GUID>
+            <Name>NW Silverware Pool</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1500040005</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040006</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040007</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
+        </Values>
+      </Asset>
   </ModOp>
 </ModOps>

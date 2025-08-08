@@ -137,6 +137,63 @@
           <UsedBySecondParties>0</UsedBySecondParties>
         </TriggerSetup>
       </Values>
+    </Asset>    
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040021</GUID>
+          <Name>Unhide @ 1 Patrono | Intermediate NW 4.0</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>1500011557</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1500040024</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040004</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040017</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040019</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040020</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
     </Asset>
   </ModOp>
 </ModOps>

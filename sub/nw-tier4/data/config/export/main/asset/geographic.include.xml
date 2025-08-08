@@ -49,9 +49,7 @@
               </Item>
             </Tier1>
           </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
         </Values>
       </Asset>
     </ModOp>
@@ -140,9 +138,7 @@
             <GUIType>PublicService</GUIType>
           </Selection>
           <Constructable />
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
           <SoundEmitter>
             <ActiveSounds>
               <Item>
@@ -227,6 +223,28 @@
             </IncidentInfectionChanceFactors>
           </IncidentInfectable>
           <Culture />
+        </Values>
+      </Asset>          
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040019</GUID>
+            <Name>AssetPool Geographic Society</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1500040000</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040012</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040013</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
         </Values>
       </Asset>
     </ModOp>

@@ -136,9 +136,7 @@
             </Tier1>
             <InfoTipHeight>550</InfoTipHeight>
           </ProductionChain>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
         </Values>
       </Asset>
     </ModOp>
@@ -252,9 +250,7 @@
           <Constructable>
             <DestructionCategory>Production</DestructionCategory>
           </Constructable>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
+          <Locked />
           <Object>
             <Variations>
               <Item>
@@ -334,6 +330,25 @@
           <Infolayer />
           <UpgradeList />
         </Values>
+      </Asset>      
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040018</GUID>
+            <Name>NW Investment Bank Pool</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1500040008</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040011</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
+        </Values>
       </Asset>
     </ModOp>
   </Group>
@@ -361,13 +376,6 @@
     <ModOp Type="add" GUID="142734" Path="/Values/FeedbackBuildingGroup/Buildings">
       <Item>
         <Building>1500040011</Building>
-      </Item>
-    </ModOp>
-
-    <!-- add to the asset pool -->
-    <ModOp Type="add" GUID="130049" Path="/Values/AssetPool/AssetList">
-      <Item>
-        <Asset>1500040011</Asset>
       </Item>
     </ModOp>
 
