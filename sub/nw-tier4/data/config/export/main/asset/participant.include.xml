@@ -1,0 +1,73 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="1000129">
+    <Asset>
+      <Template>Portrait</Template>
+      <Values>
+        <Portrait>
+          <PortraitName>7</PortraitName>
+          <PortraitColor>-14447421</PortraitColor>
+          <VideoPresentation>
+            <Right>
+              <CamFile>data/config/portraitcam/hannah.portraitcamright</CamFile>
+            </Right>
+          </VideoPresentation>
+          <PortraitCameraAmbientConfig>
+            <VideoLeft>
+              <CamFile>data/config/portraitcam/hannah.portraitcamleft</CamFile>
+            </VideoLeft>
+            <VideoRight>
+              <CamFile>data/config/portraitcam/hannah.portraitcamright</CamFile>
+            </VideoRight>
+          </PortraitCameraAmbientConfig>
+          <IsFemale>1</IsFemale>
+        </Portrait>
+        <Standard>
+          <GUID>1500040030</GUID>
+          <Name>NW_Tier4</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/advisor_01.png</IconFilename>
+        </Standard>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/taub/graphics/portraits/nw_tier4/nw_tier4.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+          <VisibleWhenLocked>1</VisibleWhenLocked>
+        </Locked>
+      </Values>
+    </Asset>    
+		<Asset>
+			<Template>Profile_Virtual_NeverOwnsObjects</Template>
+			<Values>
+				<Standard>
+					<GUID>1500040031</GUID>
+					<Name>Gongren Profile</Name>
+					<IconFilename>data/graphics/ui/icons/residence/icon_gongren.png</IconFilename>
+				</Standard>
+				<Text />
+				<Profile>
+					<ProfilePicture>data/graphics/profiles/gongren.png</ProfilePicture>
+					<Portrait>1500040030</Portrait>
+					<DefaultColor>Color11</DefaultColor>
+					<InfoCornerInfoTip>25000162</InfoCornerInfoTip>
+					<InfoCornerDescription>4083</InfoCornerDescription>
+					<ParticipantID>Mod6</ParticipantID>
+					<NotificationBackground>data/ui/2kimages/main/assets/character_bg/bgr_character_01.png</NotificationBackground>
+				</Profile>
+				<ParticipantMessages />
+				<Object>
+					<DefaultParticipant>Mod6</DefaultParticipant>
+				</Object>
+				<ParticipantMessageObject>
+					<ParticipantMessages>0</ParticipantMessages>
+				</ParticipantMessageObject>
+				<Interaction />
+				<Locked />
+			</Values>
+		</Asset>
+  </ModOp>
+</ModOps>
