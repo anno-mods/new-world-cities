@@ -19,6 +19,9 @@
 | 1500011693 | Happy Patrono            
 | 1500011694 | Euphoric Patrono         
 
+| 1500040030 | Portrait |
+| 1500040031 | Profile | 
+
 ## Needs  
 
 | GUID       | Name                     

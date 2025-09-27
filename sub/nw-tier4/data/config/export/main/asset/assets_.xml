@@ -12,6 +12,7 @@
   <Include File="./feijoada.include.xml" />
   <Include File="./menu.include.xml" />
   <Include File="./population.include.xml" />
+  <Include File="./participant.include.xml" />
   <Include File="./unlocks.include.xml" />
 
   <!-- # Residences -->
@@ -232,10 +233,10 @@
               <Filename>data/jakob/buildings/residence/tier2_city/tier2_city2_0.cfg</Filename>
             </Item>-->
           </Variations>
-          <DefaultParticipant>SA_Resident_tier02</DefaultParticipant>
+          <DefaultParticipant>Mod6</DefaultParticipant>
         </Object>
         <Selection>
-          <ParticipantMessageArcheType>Resident_tier05_atWork</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
         </Selection>
         <Constructable />
         <Locked>
