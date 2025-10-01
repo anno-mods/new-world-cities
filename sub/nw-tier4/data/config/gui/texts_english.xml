@@ -88,5 +88,17 @@
       <GUID>1500040026</GUID>
       <Text>Feijoada Kitchen</Text>
     </Text>
+    <Text>
+      <GUID>1500040032</GUID>
+      <Text>Parasols</Text>
+    </Text>
+    <Text>
+      <GUID>1500040033</GUID>
+      <Text>!Parasols InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040035</GUID>
+      <Text>Parasolerie</Text>
+    </Text>
   </ModOp>
 </ModOps>

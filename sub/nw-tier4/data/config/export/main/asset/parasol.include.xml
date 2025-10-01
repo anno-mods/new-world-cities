@@ -1,0 +1,286 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="500002">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040032</GUID>
+                    <Name>Parasol</Name>
+                    <IconFilename>oarasol_icon</IconFilename>
+                    <InfoDescription>1500040033</InfoDescription>
+                </Standard>
+                <Text />
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>25</BasePrice>
+                    <CivLevel>4</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040034</GUID>
+                    <Name>NW Parasol Asset Pool</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1500040036</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040032</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040035</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>114391</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1440209</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040036</GUID>
+                    <Name>Parasol NW Chain</Name>
+                    <IconFilename>parasol_icon</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1500040032</TextOverride>
+                </Text>
+                <ProductionChain>
+                    <Building>1500040035</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010316</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010269</Building>
+                                    <ForceIcon>1440209</ForceIcon>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1500010126</Building>
+                            <Tier2>                                
+                                <Item>
+                                    <Building>1500010124</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1999005407</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040035</GUID>
+                    <Name>Parasol Maker</Name>
+                    <IconFilename>parasol_icon</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>12000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc12/graphics/buildings/production/sewing_machines/sewing_machines_workshop.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040035</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sewing Machine Factory</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60132</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200809</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200670</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>838</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114391</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1440209</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1500040032</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>150</Amount>
+                            <InactiveAmount>75</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1500011558</Product>
+                            <Amount>120</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- # Storage Lists -->
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040032']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1500040032</Product>
+        </Item>
+    </ModOp>
+
+    <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500040028']">
+        <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131824']/Trades">
+            <Item>
+                <Level>Epic</Level>
+                <Good>1500040032</Good>
+            </Item>
+        </ModOp>
+    </Group>
+
+</ModOps>

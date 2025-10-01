@@ -5,6 +5,7 @@
   <Include File="./bank.include.xml" />
   <Include File="./geographic.include.xml" />
   <Include File="./public.include.xml" />
+  <Include File="./parasol.include.xml" />
   <Include File="./fedoras.include.xml" />
   <Include File="./silverware.include.xml" />
   <Include File="./theater.include.xml" />

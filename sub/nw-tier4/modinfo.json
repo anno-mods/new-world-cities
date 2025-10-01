@@ -15,11 +15,19 @@
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-vegetables-jakob.zip",
     "silver-newhorizons",
     "cars-newhorizons",
-    "new_world_cathedral"
+    "new_world_cathedral",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/import_storagelist_silkfabric_taludas.zip",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_shared_importdock_silk.zip",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_sharedproduct_silkfabric.zip",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_shared_tradingcompany.zip",
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/hemp-jakob.zip",
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-hemp-jakob.zip",
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-linen-jakob.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
-    "ow-fedora-Drakkam"
+    "ow-fedora-Drakkam",
+    "Taludas_shared_tradingcompany"
   ],
   "bundle": [
     "../../external/silver-newhorizons",

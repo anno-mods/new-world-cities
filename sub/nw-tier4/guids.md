@@ -18,7 +18,6 @@
 | 1500011692 | Content Patrono          
 | 1500011693 | Happy Patrono            
 | 1500011694 | Euphoric Patrono         
-
 | 1500040030 | Portrait |
 | 1500040031 | Profile | 
 
@@ -47,6 +46,10 @@
 | 1500040026 | Production Feijoada |
 | 1500040028 | Product Feijoada |
 | 1500040029 | Product Feijoada Flufftext | 
+| 1500040032 | Product Parasols | 
+| 1500040033 | Product Parasols Flufftext | 
+| 1500040035 | Production Parasols | 
+| 1500040036 | Chain Parasols | 
 
 ## Asset Pools
 
@@ -60,6 +63,7 @@
 | 1500040020 | AssetPool Drama Theatre |
 | 1500040024 | AssetPool Tiles |
 | 1500040027 | AssetPool Feijoada |
+| 1500040034 | AssetPool Parasols |
 
 ## Unlocks
 
