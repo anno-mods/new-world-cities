@@ -23,7 +23,8 @@
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/hemp-jakob.zip",
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-hemp-jakob.zip",
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-linen-jakob.zip",
-    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/decals-city-jakob.zip"
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/decals-city-jakob.zip",
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/decals-industry-jakob.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
