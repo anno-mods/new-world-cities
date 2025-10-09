@@ -100,5 +100,41 @@
       <GUID>1500040035</GUID>
       <Text>Parasolerie</Text>
     </Text>
+    <Text>
+      <GUID>1500040037</GUID>
+      <Text>Concert Hall</Text>
+    </Text>
+    <Text>
+      <GUID>1500040038</GUID>
+      <Text>Art Gallery</Text>
+    </Text>
+    <Text>
+      <GUID>1500040039</GUID>
+      <Text>Grand Library</Text>
+    </Text>
+    <Text>
+      <GUID>1500040040</GUID>
+      <Text>!Concert Hall InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040041</GUID>
+      <Text>!Art Gallery InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040042</GUID>
+      <Text>!Grand Library InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040046</GUID>
+      <Text>Fine Arts</Text>
+    </Text>
+    <Text>
+      <GUID>1500040047</GUID>
+      <Text>Fine Arts</Text>
+    </Text>
+    <Text>
+      <GUID>1500040048</GUID>
+      <Text>Fine Arts</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -20,6 +20,8 @@
 | 1500011694 | Euphoric Patrono         
 | 1500040030 | Portrait |
 | 1500040031 | Profile | 
+| 1500040047 | Fine Arts Menu NW |
+| 1500040048 | Fine Arts Menu OW |
 
 ## Needs  
 
@@ -64,6 +66,19 @@
 | 1500040024 | AssetPool Tiles |
 | 1500040027 | AssetPool Feijoada |
 | 1500040034 | AssetPool Parasols |
+
+## Fine Arts Buildings 
+
+| 1500040037 | Concert Hall NW |
+| 1500040038 | Art Gallery NW |
+| 1500040039 | Grand Library NW |
+| 1500040040 | Concert Hall InfoDescription |
+| 1500040041 | Art Gallery InfoDescription |
+| 1500040042 | Grand Library InfoDescription |
+| 1500040043 | Concert Hall OW |
+| 1500040044 | Art Gallery OW |
+| 1500040045 | Grand Library OW |
+| 1500040046 | Text Fine Arts Building |
 
 ## Unlocks
 

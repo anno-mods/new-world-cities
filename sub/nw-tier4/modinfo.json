@@ -22,7 +22,8 @@
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_shared_tradingcompany.zip",
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/hemp-jakob.zip",
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-hemp-jakob.zip",
-    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-linen-jakob.zip"
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/ow-linen-jakob.zip",
+    "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/decals-city-jakob.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",

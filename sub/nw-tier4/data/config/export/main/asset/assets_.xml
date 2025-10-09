@@ -15,6 +15,7 @@
   <Include File="./population.include.xml" />
   <Include File="./participant.include.xml" />
   <Include File="./unlocks.include.xml" />
+  <Include File="./finearts.include.xml" />
 
   <!-- # Residences -->
   <ModOp Type="addNextSibling" GUID="101255">

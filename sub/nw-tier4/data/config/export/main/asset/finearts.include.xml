@@ -1,0 +1,669 @@
+<ModOps>
+  <ModOp Type = "addNextSibling" GUID = "1010516">
+    <Asset>
+      <Template>Guildhouse</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040037</GUID>
+          <Name>Concert Hall NW</Name>
+          <IconFilename>icon_concerthall</IconFilename>
+          <InfoDescription>1500040040</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>1500040046</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-opera/fa_opera_01nw.cfg</Filename>
+            </Item>
+          </Variations>          
+          <Skins>
+            <DefaultSkinName>1500040037</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+          <AssignDefaultParticipant>1</AssignDefaultParticipant>
+          <DefaultParticipant>Mod6</DefaultParticipant>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Trade Union</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>8503</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer>
+          <SocketScopeRadius>35</SocketScopeRadius>
+          <UnsocketSound>247106</UnsocketSound>
+          <SocketScope>StreetDistance</SocketScope>
+          <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+        </ItemContainer>
+        <UpgradeList />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>1</ExplosionEffectsMax>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource>
+          <InfluenceSource>Culture</InfluenceSource>
+        </InfluenceSource>
+        <BuildingUnique />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Guildhouse</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040038</GUID>
+          <Name>Art Gallery NW</Name>
+          <IconFilename>icon_artgallery</IconFilename>
+          <InfoDescription>1500040041</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>1500040046</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-artgallery/fa_artgallery.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040038</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+          <AssignDefaultParticipant>1</AssignDefaultParticipant>
+          <DefaultParticipant>Mod6</DefaultParticipant>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Trade Union</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>8503</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer>
+          <SocketScopeRadius>35</SocketScopeRadius>
+          <UnsocketSound>247106</UnsocketSound>
+          <SocketScope>StreetDistance</SocketScope>
+          <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+        </ItemContainer>
+        <UpgradeList />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>1</ExplosionEffectsMax>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource>
+          <InfluenceSource>Culture</InfluenceSource>
+        </InfluenceSource>
+        <BuildingUnique />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Guildhouse</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040039</GUID>
+          <Name>Grand Library NW</Name>
+          <IconFilename>icon_library</IconFilename>
+          <InfoDescription>1500040042</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingCategoryName>1500040046</BuildingCategoryName>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-library/fa_library_nw.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040039</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+          <AssignDefaultParticipant>1</AssignDefaultParticipant>
+          <DefaultParticipant>Mod6</DefaultParticipant>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Trade Union</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>8503</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer>
+          <SocketScopeRadius>35</SocketScopeRadius>
+          <UnsocketSound>247106</UnsocketSound>          
+          <SocketScope>StreetDistance</SocketScope>
+          <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+        </ItemContainer>
+        <UpgradeList />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>1</ExplosionEffectsMax>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1000</Amount>
+              <InactiveAmount>500</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource>
+          <InfluenceSource>Culture</InfluenceSource>
+        </InfluenceSource>
+        <BuildingUnique />
+      </Values>
+    </Asset>
+    <Asset>
+      <BaseAssetGUID>1500040037</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040043</GUID>
+          <Name>Concert Hall OW</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost />
+        <Object>
+          <Variations>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Guildhouse</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/jje/fa-opera/fa_opera_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <TextOverride>1500040037</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer />
+        <UpgradeList />
+        <Attackable />
+        <Pausable />
+        <Maintenance />
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource />
+        <BuildingUnique />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <BaseAssetGUID>1500040038</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040044</GUID>
+          <Name>Art Gallery OW</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost />
+        <Object>
+          <Variations>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Guildhouse</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/jje/fa-artgallery/fa_artgallery.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <TextOverride>1500040038</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer />
+        <UpgradeList />
+        <Attackable />
+        <Pausable />
+        <Maintenance />
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource />
+        <BuildingUnique />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <BaseAssetGUID>1500040039</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040045</GUID>
+          <Name>Grand Library OW</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost />
+        <Object>
+          <Variations>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Guildhouse</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/jje/fa-library/fa_library.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <TextOverride>1500040039</TextOverride>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <ItemContainer />
+        <UpgradeList />
+        <Attackable />
+        <Pausable />
+        <Maintenance />
+        <IncidentInfluencer />
+        <Culture />
+        <StorageBase />
+        <Warehouse />
+        <LogisticNode />
+        <Distribution />
+        <InfluenceSource />
+        <BuildingUnique />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040047</GUID>
+          <Name>Fine Arts Menu NW</Name>
+          <IconFilename>icon_finearts_menu</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>1500040037</Building>
+            </Item>
+            <Item>
+              <Building>1500040038</Building>
+            </Item>
+            <Item>
+              <Building>1500040039</Building>
+            </Item>
+          </BuildingList>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Farmers</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>14913</LineID>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040048</GUID>
+          <Name>Fine Arts Menu OW</Name>
+          <IconFilename>icon_finearts_menu</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>1500040043</Building>
+            </Item>
+            <Item>
+              <Building>1500040044</Building>
+            </Item>
+            <Item>
+              <Building>1500040045</Building>
+            </Item>
+          </BuildingList>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Farmers</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>14913</LineID>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Path = "@6000017/ItemConfig/AllocationText" Type = "add">
+    <Mod12>
+      <Text>1500040037</Text>
+    </Mod12>
+    <Mod13>
+      <Text>1500040038</Text>
+    </Mod13>
+    <Mod14>
+      <Text>1500040039</Text>
+    </Mod14>
+  </ModOp>
+</ModOps>
