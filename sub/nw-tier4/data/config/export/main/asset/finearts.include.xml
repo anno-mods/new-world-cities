@@ -39,6 +39,8 @@
               <Ingredient>1010202</Ingredient>
             </Item>
           </Costs>
+          <InfluenceCostType>None</InfluenceCostType>
+          <InfluenceCostPoints>0</InfluenceCostPoints>
         </Cost>
         <Object>
           <Variations>
@@ -174,6 +176,8 @@
               <Ingredient>1010202</Ingredient>
             </Item>
           </Costs>
+          <InfluenceCostType>None</InfluenceCostType>
+          <InfluenceCostPoints>0</InfluenceCostPoints>
         </Cost>
         <Object>
           <Variations>
@@ -309,6 +313,8 @@
               <Ingredient>1010202</Ingredient>
             </Item>
           </Costs>
+          <InfluenceCostType>None</InfluenceCostType>
+          <InfluenceCostPoints>0</InfluenceCostPoints>
         </Cost>
         <Object>
           <Variations>
