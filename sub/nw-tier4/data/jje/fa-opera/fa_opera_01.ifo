@@ -189,12 +189,6 @@
 			<zf>4.585853</zf>
 		</Extents>
 	</MeshBoundingBox>
-	<Sequence>
-		<Id>0</Id>
-		<Duration>49999</Duration>
-		<Looped>1</Looped>
-		<Speed>0.600000</Speed>
-	</Sequence>
 	<UnevenBlocker>
 		<Position>
 			<xf>1.051757</xf>
