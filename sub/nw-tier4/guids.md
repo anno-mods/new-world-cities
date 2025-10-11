@@ -79,6 +79,93 @@
 | 1500040044 | Art Gallery OW |
 | 1500040045 | Grand Library OW |
 | 1500040046 | Text Fine Arts Building |
+| 1500040050 | Public Pavilion |
+| 1500040051 | Public Pavilion InfoDescription |
+
+## Fine Arts Events 
+
+| 1500040052 | Event Category Music |
+| 1500040053 | Event Category Art |
+| 1500040054 | Event Category Literature |
+| 1500040055 | Music EventReward | 
+| 1500040056 | Music DescriptionFluff | 
+| 1500040057 | Art EventReward | 
+| 1500040058 | Art DescriptionFluff | 
+| 1500040059 | Literature EventReward | 
+| 1500040060 | Literature DescriptionFluff | 
+
+| 1500040061 | Event Art |
+| 1500040062 | Event Music |
+| 1500040063 | Event Literature |
+
+| 1500040064 | Event Art DescriptionFluff | 
+| 1500040065 | Event Art SelectionText |
+| 1500040066 | Event Art RunningText |
+| 1500040067 | Event Art RewardText |
+| 1500040068 | Event Art PotentialEventReward |
+| 1500040069 | Event Art ShortSizeName |
+| 1500040070 | RequestPool Slot 1 Art |
+| 1500040071 | RequestPool Slot 2 Art |
+| 1500040072 | RequestPool Slot 3 Art |
+| 1500040073 | RequestPool Slot 1 Art InfoDescription |
+| 1500040074 | RequestPool Slot 2 Art InfoDescription |
+| 1500040075 | RequestPool Slot 3 Art InfoDescription |
+| 1500040076 | RewardPool Arts 1 |
+| 1500040077 | RewardPool Arts 2 |
+| 1500040078 | RewardPool Arts 3 |
+| 1500040079 | RewardPool Arts 4 |
+| 1500040080 | RewardPool Arts 5 |
+| 1500040081 | RewardPool Arts InfoDescription |
+
+| 1500040082 | Public Pavilion ShutdownText |
+| 1500040083 | Public Pavilion AccessEventText |
+| 1500040084 | Public Pavilion MissingElectricityDescription |
+| 1500040085 | Public Pavilion SelectEventTheme |
+| 1500040086 | Public Pavilion SelectEventSize |
+| 1500040087 | Public Pavilion PreparationAttractivenessHeader |
+| 1500040088 | Public Pavilion RewardHeader |
+| 1500040089 | Public Pavilion CooldownText |
+| 1500040090 | Public Pavilion EventConclusionText |
+| 1500040091 | Public Pavilion InvestmentContribution |
+
+| 1500040092 | Event Music DescriptionFluff | 
+| 1500040093 | Event Music SelectionText |
+| 1500040094 | Event Music RunningText |
+| 1500040095 | Event Music RewardText |
+| 1500040096 | Event Music PotentialEventReward |
+| 1500040097 | Event Music ShortSizeName |
+| 1500040098 | RequestPool Slot 1 Music |
+| 1500040099 | RequestPool Slot 2 Music |
+| 1500040100 | RequestPool Slot 3 Music |
+| 1500040101 | RequestPool Slot 1 Music InfoDescription |
+| 1500040102 | RequestPool Slot 2 Music InfoDescription |
+| 1500040103 | RequestPool Slot 3 Music InfoDescription |
+| 1500040104 | RewardPool Music 1 |
+| 1500040105 | RewardPool Music 2 |
+| 1500040106 | RewardPool Music 3 |
+| 1500040107 | RewardPool Music 4 |
+| 1500040108 | RewardPool Music 5 |
+| 1500040109 | RewardPool Music InfoDescription |
+
+| 1500040110 | Event Literature DescriptionFluff | 
+| 1500040111 | Event Literature SelectionText |
+| 1500040112 | Event Literature RunningText |
+| 1500040113 | Event Literature RewardText |
+| 1500040114 | Event Literature PotentialEventReward |
+| 1500040115 | Event Literature ShortSizeName |
+| 1500040116 | RequestPool Slot 1 Literature |
+| 1500040117 | RequestPool Slot 2 Literature |
+| 1500040118 | RequestPool Slot 3 Literature |
+| 1500040119 | RequestPool Slot 1 Literature InfoDescription |
+| 1500040120 | RequestPool Slot 2 Literature InfoDescription |
+| 1500040121 | RequestPool Slot 3 Literature InfoDescription |
+| 1500040122 | RewardPool Literature 1 |
+| 1500040123 | RewardPool Literature 2 |
+| 1500040124 | RewardPool Literature 3 |
+| 1500040125 | RewardPool Literature 4 |
+| 1500040126 | RewardPool Literature 5 |
+| 1500040127 | RewardPool Literature InfoDescription |
+
 
 ## Unlocks
 

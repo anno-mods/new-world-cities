@@ -136,5 +136,318 @@
       <GUID>1500040048</GUID>
       <Text>Fine Arts</Text>
     </Text>
+    <Text>
+      <GUID>1500040050</GUID>
+      <Text>Public Pavilion</Text>
+    </Text>
+    <Text>
+      <GUID>1500040051</GUID>
+      <Text>!Public Pavilion InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040052</GUID>
+      <Text>Music Premiere</Text>
+    </Text>
+    <Text>
+      <GUID>1500040053</GUID>
+      <Text>Art Vernissage</Text>
+    </Text>
+    <Text>
+      <GUID>1500040054</GUID>
+      <Text>Literature Congress</Text>
+    </Text>
+    <Text>
+      <GUID>1500040055</GUID>
+      <Text>!EventReward Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040056</GUID>
+      <Text>!EventReward Music Fluff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040057</GUID>
+      <Text>!EventReward Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040058</GUID>
+      <Text>!EventReward Art Fluff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040059</GUID>
+      <Text>!EventReward Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040060</GUID>
+      <Text>!EventReward Literature Fluff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040061</GUID>
+      <Text>!Event Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040062</GUID>
+      <Text>!Event Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040063</GUID>
+      <Text>!Event Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040064</GUID>
+      <Text>!Event Art FluffText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040065</GUID>
+      <Text>!Event Art SelectText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040066</GUID>
+      <Text>!Event Art RunningText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040067</GUID>
+      <Text>!Event Art RewardText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040068</GUID>
+      <Text>!Event Art PotentialEventReward</Text>
+    </Text>
+    <Text>
+      <GUID>1500040069</GUID>
+      <Text>!Event Art ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040070</GUID>
+      <Text>!RequestPool Slot 1 Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040071</GUID>
+      <Text>!RequestPool Slot 2 Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040072</GUID>
+      <Text>!RequestPool Slot 3 Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040073</GUID>
+      <Text>!RequestPool Slot 1 Art InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040074</GUID>
+      <Text>!RequestPool Slot 2 Art InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040075</GUID>
+      <Text>!RequestPool Slot 3 Art InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040076</GUID>
+      <Text>!Reward Art 1</Text>
+    </Text>
+    <Text>
+      <GUID>1500040077</GUID>
+      <Text>!Reward Art 2</Text>
+    </Text>
+    <Text>
+      <GUID>1500040078</GUID>
+      <Text>!Reward Art 3</Text>
+    </Text>
+    <Text>
+      <GUID>1500040079</GUID>
+      <Text>!Reward Art 4</Text>
+    </Text>
+    <Text>
+      <GUID>1500040080</GUID>
+      <Text>!Reward Art 5</Text>
+    </Text>
+    <Text>
+      <GUID>1500040081</GUID>
+      <Text>!Reward Art InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040082</GUID>
+      <Text>!Public Pavilion ShutdownText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040083</GUID>
+      <Text>!Public Pavilion AccessEventText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040084</GUID>
+      <Text>!Public Pavilion MissingElectricityDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040085</GUID>
+      <Text>!Public Pavilion SelectEventTheme</Text>
+    </Text>
+    <Text>
+      <GUID>1500040086</GUID>
+      <Text>!Public Pavilion SelectEventSize</Text>
+    </Text>
+    <Text>
+      <GUID>1500040087</GUID>
+      <Text>!Public Pavilion PreparationAttractivenessHeader</Text>
+    </Text>
+    <Text>
+      <GUID>1500040088</GUID>
+      <Text>!Public Pavilion RewardHeader</Text>
+    </Text>
+    <Text>
+      <GUID>1500040089</GUID>
+      <Text>!Public Pavilion CooldownText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040090</GUID>
+      <Text>!Public Pavilion EventConclusionText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040091</GUID>
+      <Text>!Public Pavilion InvestmentContribution</Text>
+    </Text>    
+    <Text>
+      <GUID>1500040092</GUID>
+      <Text>!Event Music FluffText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040093</GUID>
+      <Text>!Event Music SelectText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040094</GUID>
+      <Text>!Event Music RunningText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040095</GUID>
+      <Text>!Event Music RewardText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040096</GUID>
+      <Text>!Event Music PotentialEventReward</Text>
+    </Text>
+    <Text>
+      <GUID>1500040097</GUID>
+      <Text>!Event Music ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040098</GUID>
+      <Text>!RequestPool Slot 1 Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040099</GUID>
+      <Text>!RequestPool Slot 2 Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040100</GUID>
+      <Text>!RequestPool Slot 3 Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040101</GUID>
+      <Text>!RequestPool Slot 1 Music InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040102</GUID>
+      <Text>!RequestPool Slot 2 Music InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040103</GUID>
+      <Text>!RequestPool Slot 3 Music InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040104</GUID>
+      <Text>!Reward Music 1</Text>
+    </Text>
+    <Text>
+      <GUID>1500040105</GUID>
+      <Text>!Reward Music 2</Text>
+    </Text>
+    <Text>
+      <GUID>1500040106</GUID>
+      <Text>!Reward Music 3</Text>
+    </Text>
+    <Text>
+      <GUID>1500040107</GUID>
+      <Text>!Reward Music 4</Text>
+    </Text>
+    <Text>
+      <GUID>1500040108</GUID>
+      <Text>!Reward Music 5</Text>
+    </Text>
+    <Text>
+      <GUID>1500040109</GUID>
+      <Text>!Reward Music InfoDescription</Text>
+    </Text>   
+    
+    <Text>
+      <GUID>1500040110</GUID>
+      <Text>!Event Literature FluffText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040111</GUID>
+      <Text>!Event Literature SelectText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040112</GUID>
+      <Text>!Event Literature RunningText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040113</GUID>
+      <Text>!Event Literature RewardText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040114</GUID>
+      <Text>!Event Literature PotentialEventReward</Text>
+    </Text>
+    <Text>
+      <GUID>1500040115</GUID>
+      <Text>!Event Literature ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040116</GUID>
+      <Text>!RequestPool Slot 1 Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040117</GUID>
+      <Text>!RequestPool Slot 2 Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040118</GUID>
+      <Text>!RequestPool Slot 3 Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040119</GUID>
+      <Text>!RequestPool Slot 1 Literature InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040120</GUID>
+      <Text>!RequestPool Slot 2 Literature InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040121</GUID>
+      <Text>!RequestPool Slot 3 Literature InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040122</GUID>
+      <Text>!Reward Literature 1</Text>
+    </Text>
+    <Text>
+      <GUID>1500040123</GUID>
+      <Text>!Reward Literature 2</Text>
+    </Text>
+    <Text>
+      <GUID>1500040124</GUID>
+      <Text>!Reward Literature 3</Text>
+    </Text>
+    <Text>
+      <GUID>1500040125</GUID>
+      <Text>!Reward Literature 4</Text>
+    </Text>
+    <Text>
+      <GUID>1500040126</GUID>
+      <Text>!Reward Literature 5</Text>
+    </Text>
+    <Text>
+      <GUID>1500040127</GUID>
+      <Text>!Reward Literature InfoDescription</Text>
+    </Text>
   </ModOp>
 </ModOps>
