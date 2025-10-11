@@ -449,5 +449,69 @@
       <GUID>1500040127</GUID>
       <Text>!Reward Literature InfoDescription</Text>
     </Text>
+    <Text>
+      <GUID>1500040128</GUID>
+      <Text>Conservatory: Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040129</GUID>
+      <Text>Conservatory: Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040130</GUID>
+      <Text>Conservatory: Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040131</GUID>
+      <Text>Sheet Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040132</GUID>
+      <Text>!Sheet Music InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040149</GUID>
+      <Text>Manuscript</Text>
+    </Text>
+    <Text>
+      <GUID>1500040150</GUID>
+      <Text>!Manuscript InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040134</GUID>
+      <Text>Conservatory</Text>
+    </Text>
+    <Text>
+      <GUID>1500040136</GUID>
+      <Text>Art</Text>
+    </Text>
+    <Text>
+      <GUID>1500040137</GUID>
+      <Text>Music</Text>
+    </Text>
+    <Text>
+      <GUID>1500040138</GUID>
+      <Text>Literature</Text>
+    </Text>
+    <Text>
+      <GUID>1500040139</GUID>
+      <Text>!Conservatory InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040140</GUID>
+      <Text>!RecipeList Conservatory InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040141</GUID>
+      <Text>!Recipe Art Description</Text>
+    </Text>
+    <Text>
+      <GUID>1500040142</GUID>
+      <Text>!Recipe Music Description</Text>
+    </Text>
+    <Text>
+      <GUID>1500040143</GUID>
+      <Text>!Recipe Literature Description</Text>
+    </Text>
   </ModOp>
 </ModOps>

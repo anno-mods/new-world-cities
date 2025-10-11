@@ -66,6 +66,9 @@
 | 1500040024 | AssetPool Tiles |
 | 1500040027 | AssetPool Feijoada |
 | 1500040034 | AssetPool Parasols |
+| 1500040144 | AssetPool MusicScores |
+| 1500040145 | AssetPool Artwork |
+| 1500040146 | AssetPool Manuscripts |
 
 ## Fine Arts Buildings 
 
@@ -81,6 +84,30 @@
 | 1500040046 | Text Fine Arts Building |
 | 1500040050 | Public Pavilion |
 | 1500040051 | Public Pavilion InfoDescription |
+
+| 1500040128 | Academy: Art |
+| 1500040129 | Academy: Music |
+| 1500040130 | Academy: Literature |
+| 1500040131 | Music Scores Product |
+| 1500040132 | Music Scores InfoDescription |
+| 1500040149 | Manuscript Product |
+| 1500040150 | Manuscript InfoDescription |
+| 1500040133 | Music Scores ProductionChain |
+| 1500040147 | Artwork ProductionChain |
+| 1500040148 | Literature ProductionChain |
+| 1500040134 | Academy: Blank |
+| 1500040135 | RecipeList Academy |
+| 1500040136 | Recipe Art |
+| 1500040137 | Recipe Music |
+| 1500040138 | Recipe Literature |
+| 1500040139 | ArtAcademy InfoDescription |
+| 1500040140 | RecipeList Academy Description |
+| 1500040141 | Recipe Art Description |
+| 1500040142 | Recipe Music Description |
+| 1500040143 | Recipe Literature Description |
+
+
+
 
 ## Fine Arts Events 
 

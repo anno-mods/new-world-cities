@@ -1,0 +1,912 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="500002">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040131</GUID>
+                    <Name>Sheet Music</Name>
+                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <InfoDescription>1500040132</InfoDescription>
+                </Standard>
+                <Text />
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>25</BasePrice>
+                    <CivLevel>4</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040149</GUID>
+                    <Name>Manuscript</Name>
+                    <IconFilename>manuscript_icon</IconFilename>
+                    <InfoDescription>1500040150</InfoDescription>
+                </Standard>
+                <Text />
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>25</BasePrice>
+                    <CivLevel>4</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040144</GUID>
+                    <Name>NW MusicSheet AssetPool</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1500040133</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040131</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040129</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040134</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040137</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>        
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040145</GUID>
+                    <Name>NW Artwork AssetPool</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1500040147</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1999005069</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040128</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040134</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040136</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040146</GUID>
+                    <Name>NW Literature AssetPool</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1500040148</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040149</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040130</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040134</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040138</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040133</GUID>
+                    <Name>Sheet Music NW Chain</Name>
+                    <IconFilename>sheetmusic_icon</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1500040131</TextOverride>
+                </Text>
+                <ProductionChain>
+                    <Building>1500040129</Building>
+                </ProductionChain>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040147</GUID>
+                    <Name>Artwork NW Chain</Name>
+                    <IconFilename>data/modgraphics/ui/icon_paintings.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1999005069</TextOverride>
+                </Text>
+                <ProductionChain>
+                    <Building>1500040128</Building>
+                </ProductionChain>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040148</GUID>
+                    <Name>Manuscript NW Chain</Name>
+                    <IconFilename>manuscript_icon</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1500040149</TextOverride>
+                </Text>
+                <ProductionChain>
+                    <Building>1500040130</Building>
+                </ProductionChain>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040134</GUID>
+                    <Name>Academy Blank</Name>
+                    <IconFilename>academy_icon</IconFilename>
+                    <InfoDescription>1500040139</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/jje/fa-artacademy/fa_artacademy_nw.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040134</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1500301073</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chemical Plant: Chewing Gum</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52163</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase />
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>5406</Product>
+                            <Amount>125</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable />
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Tourist_ChemicalPlantOldWorld</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>1500040135</RecipeList>
+                    <IsBlank>1</IsBlank>
+                </RecipeBuilding>
+                <Culture />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040128</GUID>
+                    <Name>Art_Academy</Name>
+                    <IconFilename>data/modgraphics/ui/icon_paintings.png</IconFilename>
+                    <InfoDescription>1500040139</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/jje/fa-artacademy/fa_artacademy_nw.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040128</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1500301073</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chemical Plant: Chewing Gum</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52163</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>117702</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1999005069</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>10</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>5406</Product>
+                            <Amount>125</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable />
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Tourist_ChemicalPlantOldWorld</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>1500040135</RecipeList>
+                </RecipeBuilding>
+                <Culture />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040129</GUID>
+                    <Name>Music_Academy</Name>
+                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <InfoDescription>1500040139</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/jje/fa-artacademy/fa_musicconservatory_nw.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040129</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1500301073</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chemical Plant: Chewing Gum</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52163</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>117702</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1500040131</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>10</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>5406</Product>
+                            <Amount>125</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable />
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Tourist_ChemicalPlantOldWorld</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>1500040135</RecipeList>
+                </RecipeBuilding>
+                <Culture />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040130</GUID>
+                    <Name>Writers Society</Name>
+                    <IconFilename>manuscript_icon</IconFilename>
+                    <InfoDescription>1500040139</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/jje/fa-artacademy/fa_societywriters_nw.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040130</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1500301073</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chemical Plant: Chewing Gum</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52163</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>117702</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1500040149</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>10</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>500</Amount>
+                            <InactiveAmount>250</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>5406</Product>
+                            <Amount>125</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable />
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Tourist_ChemicalPlantOldWorld</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>1500040135</RecipeList>
+                </RecipeBuilding>
+                <Culture />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>1500040136</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1500040137</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1500040138</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>Diner</RecipeListType>
+                    <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_restaurant.png</RecipeListMoodImage>
+                    <RecipeListDescription>1500040140</RecipeListDescription>
+                </RecipeList>
+                <Standard>
+                    <GUID>1500040135</GUID>
+                    <Name>RecipeListAcademy</Name>
+                    <IconFilename>academy_icon</IconFilename>
+                </Standard>
+                <Text />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040136</GUID>
+                    <Name>Recipe Art Academy Art</Name>
+                    <IconFilename>data/modgraphics/ui/icon_paintings.png</IconFilename>
+                </Standard>
+                <Text />
+                <Recipe>
+                    <RecipeBuilding>1500040128</RecipeBuilding>
+                    <RecipeDescriptionText>1500040141</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/cafe/recipebook_cafe_doughnut.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosY>20</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>370</PosX>
+                            <PosY>20</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040137</GUID>
+                    <Name>Recipe Art Academy Music</Name>
+                    <IconFilename>sheetmusic_icon</IconFilename>
+                </Standard>
+                <Text />
+                <Recipe>
+                    <RecipeBuilding>1500040129</RecipeBuilding>
+                    <RecipeDescriptionText>1500040142</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/cafe/recipebook_cafe_doughnut.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosY>20</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>370</PosX>
+                            <PosY>20</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040138</GUID>
+                    <Name>Recipe Art Academy Literature</Name>
+                    <IconFilename>manuscript_icon</IconFilename>
+                </Standard>
+                <Text />
+                <Recipe>
+                    <RecipeBuilding>1500040130</RecipeBuilding>
+                    <RecipeDescriptionText>1500040143</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/cafe/recipebook_cafe_doughnut.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosY>20</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>370</PosX>
+                            <PosY>20</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- # Storage Lists -->
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040131']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1500040131</Product>
+        </Item>
+    </ModOp>
+</ModOps>

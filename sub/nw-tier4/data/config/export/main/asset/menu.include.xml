@@ -69,6 +69,18 @@
               <Building>1500040050</Building>
               <Patrono>1</Patrono>
             </Item>
+            <Item>
+              <Building>1500040147</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040148</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040133</Building>
+              <Patrono>1</Patrono>
+            </Item>
           </BuildingList>
           <CategoryDescription>13108</CategoryDescription>
         </ConstructionCategory>
