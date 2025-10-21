@@ -53,6 +53,12 @@
 | 1500040035 | Production Parasols | 
 | 1500040036 | Chain Parasols | 
 
+## Items 
+
+| 15000404xx | Culture Items Music | 
+| 15000405xx | Culture Items Art | 
+| 15000406xx | Culture Items Literature | 
+
 ## Asset Pools
 
 | GUID       | Name                     

@@ -86,5 +86,97 @@
         <BusActivation />
       </Properties>
     </Template>
+
+    
+      <Template>
+        <Name>ConcertHallItem</Name>
+        <Properties>
+          <Standard />
+          <Text />
+          <Item>
+            <Allocation>Mod12</Allocation>
+          </Item>
+          <ItemEffect />
+          <BuildingUpgrade />
+          <PopulationUpgrade />
+          <ItemAction>
+            <ActionScope>SelfRadius</ActionScope>
+            <CanEndItemAction>0</CanEndItemAction>
+          </ItemAction>
+          <ExpeditionAttribute>
+            <BaseMorale>5</BaseMorale>
+          </ExpeditionAttribute>
+          <ResidenceUpgrade />
+          <VisitorHarborUpgrade />
+          <CultureUpgrade />
+          <IncidentInfectableUpgrade />
+          <IncidentInfluencerUpgrade />
+          <Locked />
+          <Buff />
+          <CraftableItem />
+          <VisualEffectWhenActive />
+          <FactoryUpgrade />
+        </Properties>
+      </Template>
+      <Template>
+        <Name>ArtGalleryItem</Name>
+        <Properties>
+          <Standard />
+          <Text />
+          <Item>
+            <Allocation>Mod13</Allocation>
+          </Item>
+          <ItemEffect />
+          <BuildingUpgrade />
+          <PopulationUpgrade />
+          <ItemAction>
+            <ActionScope>SelfRadius</ActionScope>
+            <CanEndItemAction>0</CanEndItemAction>
+          </ItemAction>
+          <ExpeditionAttribute>
+            <BaseMorale>5</BaseMorale>
+          </ExpeditionAttribute>
+          <ResidenceUpgrade />
+          <VisitorHarborUpgrade />
+          <CultureUpgrade />
+          <IncidentInfectableUpgrade />
+          <IncidentInfluencerUpgrade />
+          <Locked />
+          <Buff />
+          <CraftableItem />
+          <VisualEffectWhenActive />
+          <FactoryUpgrade />
+        </Properties>
+      </Template>      
+      <Template>
+        <Name>LibraryItem</Name>
+        <Properties>
+          <Standard />
+          <Text />
+          <Item>
+            <Allocation>Mod14</Allocation>
+          </Item>
+          <ItemEffect />
+          <BuildingUpgrade />
+          <PopulationUpgrade />
+          <ItemAction>
+            <ActionScope>SelfRadius</ActionScope>
+            <CanEndItemAction>0</CanEndItemAction>
+          </ItemAction>
+          <ExpeditionAttribute>
+            <BaseMorale>5</BaseMorale>
+          </ExpeditionAttribute>
+          <ResidenceUpgrade />
+          <VisitorHarborUpgrade />
+          <CultureUpgrade />
+          <IncidentInfectableUpgrade />
+          <IncidentInfluencerUpgrade />
+          <Locked />
+          <Buff />
+          <CraftableItem />
+          <VisualEffectWhenActive />
+          <FactoryUpgrade />
+        </Properties>
+      </Template>
   </ModOp>
 </ModOps>

@@ -20,7 +20,7 @@
         <ExpeditionAttribute />
       </Values>
     </Asset>
-        <Asset>
+    <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
@@ -39,7 +39,8 @@
         </Product>
         <ExpeditionAttribute />
       </Values>
-    </Asset>    <Asset>
+    </Asset>
+    <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
@@ -161,6 +162,7 @@
         <FeedbackController />
         <Infolayer />
         <ItemContainer>
+          <SocketAllocation>RadiusBuilding;Mod12</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
           <SocketScope>StreetDistance</SocketScope>
@@ -307,6 +309,7 @@
         <FeedbackController />
         <Infolayer />
         <ItemContainer>
+          <SocketAllocation>RadiusBuilding;Mod13</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
           <SocketScope>StreetDistance</SocketScope>
@@ -453,6 +456,7 @@
         <FeedbackController />
         <Infolayer />
         <ItemContainer>
+          <SocketAllocation>RadiusBuilding;Mod14</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
           <SocketScope>StreetDistance</SocketScope>
