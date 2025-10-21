@@ -87,7 +87,7 @@
         <DistributionUpgrade />
         <ItemContainerUpgrade>
           <SocketCountUpgrade>
-            <Value>1</Value>
+            <Value>-2</Value>
           </SocketCountUpgrade>
         </ItemContainerUpgrade>
         <FactoryUpgrade />
@@ -120,7 +120,7 @@
         <DistributionUpgrade />
         <ItemContainerUpgrade>
           <SocketCountUpgrade>
-            <Value>2</Value>
+            <Value>-1</Value>
           </SocketCountUpgrade>
         </ItemContainerUpgrade>
         <FactoryUpgrade />
@@ -153,7 +153,7 @@
         <DistributionUpgrade />
         <ItemContainerUpgrade>
           <SocketCountUpgrade>
-            <Value>3</Value>
+            <Value>0</Value>
           </SocketCountUpgrade>
         </ItemContainerUpgrade>
         <FactoryUpgrade />
@@ -263,8 +263,9 @@
         <FeedbackController />
         <Infolayer />
         <ItemContainer>
-          <SocketAllocation>RadiusBuilding;Mod12</SocketAllocation>
+          <SocketAllocation>RadiusBuilding;GuildHouse</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
+          <SocketCount>3</SocketCount>
           <UnsocketSound>247106</UnsocketSound>
           <SocketScope>StreetDistance</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
