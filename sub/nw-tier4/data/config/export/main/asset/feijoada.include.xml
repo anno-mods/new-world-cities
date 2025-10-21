@@ -6,7 +6,7 @@
                 <Standard>
                     <GUID>1500040028</GUID>
                     <Name>Feijoada</Name>
-                    <IconFilename>feijoada_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_feijoada.png</IconFilename>
                     <InfoDescription>7211</InfoDescription>
                 </Standard>
                 <Text />
@@ -56,7 +56,7 @@
                 <Standard>
                     <GUID>1500040025</GUID>
                     <Name>Feijoada NW Chain</Name>
-                    <IconFilename>feijoada_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_feijoada.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1500040028</TextOverride>
@@ -91,7 +91,7 @@
                 <Standard>
                     <GUID>1500040026</GUID>
                     <Name>Feijoada_Kitchen</Name>
-                    <IconFilename>feijoada_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_feijoada.png</IconFilename>
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>

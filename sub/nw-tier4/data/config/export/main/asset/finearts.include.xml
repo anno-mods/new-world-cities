@@ -1,12 +1,71 @@
 <ModOps>
   <ModOp Type = "addNextSibling" GUID = "1010516">
     <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040151</GUID>
+          <Name>Opera House</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Colony01</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+        <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040152</GUID>
+          <Name>Gallery</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_museum.png</IconFilename>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Colony01</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040153</GUID>
+          <Name>Library</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_library.png</IconFilename>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11708</ProductCategory>
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Colony01</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+    <Asset>
       <Template>Guildhouse</Template>
       <Values>
         <Standard>
           <GUID>1500040037</GUID>
           <Name>Concert Hall NW</Name>
-          <IconFilename>icon_concerthall</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
           <InfoDescription>1500040040</InfoDescription>
         </Standard>
         <Building>
@@ -135,6 +194,15 @@
           <InfluenceSource>Culture</InfluenceSource>
         </InfluenceSource>
         <BuildingUnique />
+        <PublicService>
+          <FullSatisfactionDistance>35</FullSatisfactionDistance>
+          <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1500040151</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
       </Values>
     </Asset>
     <Asset>
@@ -143,7 +211,7 @@
         <Standard>
           <GUID>1500040038</GUID>
           <Name>Art Gallery NW</Name>
-          <IconFilename>icon_artgallery</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_museum.png</IconFilename>
           <InfoDescription>1500040041</InfoDescription>
         </Standard>
         <Building>
@@ -272,6 +340,15 @@
           <InfluenceSource>Culture</InfluenceSource>
         </InfluenceSource>
         <BuildingUnique />
+        <PublicService>
+          <FullSatisfactionDistance>35</FullSatisfactionDistance>
+          <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1500040152</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
       </Values>
     </Asset>
     <Asset>
@@ -280,7 +357,7 @@
         <Standard>
           <GUID>1500040039</GUID>
           <Name>Grand Library NW</Name>
-          <IconFilename>icon_library</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_library.png</IconFilename>
           <InfoDescription>1500040042</InfoDescription>
         </Standard>
         <Building>
@@ -409,6 +486,15 @@
           <InfluenceSource>Culture</InfluenceSource>
         </InfluenceSource>
         <BuildingUnique />
+        <PublicService>
+          <FullSatisfactionDistance>35</FullSatisfactionDistance>
+          <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1500040153</Product>
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
       </Values>
     </Asset>
     <Asset>
@@ -666,7 +752,7 @@
         <Standard>
           <GUID>1500040050</GUID>
           <Name>Public Pavilion</Name>
-          <IconFilename>icon_public_pavilion</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_festival_hall.png</IconFilename>
           <InfoDescription>1500040051</InfoDescription>
         </Standard>
         <Building>
@@ -792,7 +878,7 @@
           <MonumentHeadline>1500040050</MonumentHeadline>
           <BackgroundImage>
             <Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_04_coloured.png</Blueprint>
-            <EventSelection>data/ui/2kimages/main/assets/monument_event/bg_monument_stadium.png</EventSelection>
+            <EventSelection>data/ui/jje/assets/monument_event/bg_monument_stadium.png</EventSelection>
           </BackgroundImage>
           <AccessEventText>1500040083</AccessEventText>
           <EventUITexts>
@@ -839,7 +925,7 @@
         <Standard>
           <GUID>1500040052</GUID>
           <Name>Music Premiere</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
         </Standard>
         <Text />
         <Locked />
@@ -851,8 +937,8 @@
           </Events>
           <PotentialCategoryReward>1500040055</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040056</CategoryDescriptionFluff>
-          <CategoryBackground>data/ui/2kimages/main/assets/monument_event/bg_monument_event_football.png</CategoryBackground>
-          <SizeSelectionBackground>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</SizeSelectionBackground>
+          <CategoryBackground>data/ui/jje/assets/monument_event/icon_monument_event_music.png</CategoryBackground>
+          <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
           <EventAudioState>InExhibitionEventArcheology</EventAudioState>
         </MonumentEventCategory>
       </Values>
@@ -863,7 +949,7 @@
         <Standard>
           <GUID>1500040053</GUID>
           <Name>Art Exhibition</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
         </Standard>
         <Text />
         <Locked />
@@ -875,9 +961,8 @@
           </Events>
           <PotentialCategoryReward>1500040057</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040058</CategoryDescriptionFluff>
-          <CategoryBackground>data/ui/2kimages/main/assets/monument_event/bg_monument_event_football.png</CategoryBackground>
-          <SizeSelectionBackground>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</SizeSelectionBackground>
-          <EventAudioState>InExhibitionEventArcheology</EventAudioState>
+          <CategoryBackground>data/ui/jje/assets/monument_event/icon_monument_event_art.png</CategoryBackground>
+          <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
         </MonumentEventCategory>
       </Values>
     </Asset>
@@ -886,8 +971,8 @@
       <Values>
         <Standard>
           <GUID>1500040054</GUID>
-          <Name>Art Exhibition</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <Name>Literature Exhibition</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
         </Standard>
         <Text />
         <Locked />
@@ -899,8 +984,8 @@
           </Events>
           <PotentialCategoryReward>1500040059</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040060</CategoryDescriptionFluff>
-          <CategoryBackground>data/ui/2kimages/main/assets/monument_event/bg_monument_event_football.png</CategoryBackground>
-          <SizeSelectionBackground>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</SizeSelectionBackground>
+          <CategoryBackground>data/ui/jje/assets/monument_event/icon_monument_event_literature.png</CategoryBackground>
+          <SizeSelectionBackground>data/graphics/ui/assets/monument_event/monument_event_architecture.png</SizeSelectionBackground>
           <EventAudioState>InExhibitionEventArcheology</EventAudioState>
         </MonumentEventCategory>
       </Values>
@@ -911,7 +996,7 @@
         <Standard>
           <GUID>1500040061</GUID>
           <Name>Event Art</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>
@@ -930,9 +1015,9 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
-          <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation_stadium.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundRunning>
-          <BackgroundReward>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundReward>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
           <SelectionText>1500040065</SelectionText>
           <RunningText>1500040066</RunningText>
           <RewardText>1500040067</RewardText>
@@ -1020,14 +1105,14 @@
         </Cost>
       </Values>
     </Asset>
-    
+
     <Asset>
       <Template>MonumentEvent</Template>
       <Values>
         <Standard>
           <GUID>1500040062</GUID>
           <Name>Event Music</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>
@@ -1046,9 +1131,9 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
-          <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation_stadium.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundRunning>
-          <BackgroundReward>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundReward>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
           <SelectionText>1500040093</SelectionText>
           <RunningText>1500040094</RunningText>
           <RewardText>1500040095</RewardText>
@@ -1142,7 +1227,7 @@
         <Standard>
           <GUID>1500040063</GUID>
           <Name>Event Literature</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\icon_world_championship.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>
@@ -1161,9 +1246,9 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
-          <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation_stadium.png</BackgroundPreparation>
-          <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundRunning>
-          <BackgroundReward>data/ui/2kimages/main/assets/monument_event/monument_event_stadium_championship.png</BackgroundReward>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
           <SelectionText>1500040111</SelectionText>
           <RunningText>1500040112</RunningText>
           <RewardText>1500040113</RewardText>
@@ -1252,7 +1337,7 @@
       </Values>
     </Asset>
 
-  <!-- # Art Pools -->
+    <!-- # Art Pools -->
     <Asset>
       <Template>RewardPool</Template>
       <Values>
@@ -1656,7 +1741,7 @@
       </Values>
     </Asset>
 
-      <!-- # Literature Pools -->
+    <!-- # Literature Pools -->
     <Asset>
       <Template>RewardPool</Template>
       <Values>

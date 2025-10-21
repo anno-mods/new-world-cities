@@ -17,7 +17,7 @@
           <Standard>
             <GUID>1500040006</GUID>
             <Name>Silverware NW Chain</Name>
-            <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
+            <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
             <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
@@ -40,7 +40,7 @@
         <Standard>
           <GUID>1500040005</GUID>
           <Name>Silverware</Name>
-          <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
         </Standard>
         <Locked />
         <Product>
@@ -59,7 +59,7 @@
         <Standard>
           <GUID>1500040007</GUID>
           <Name>Silverware Service Building</Name>
-          <IconFilename>data/ui/nwc/icon_silverware.png</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
           <InfoDescription>11144</InfoDescription>
         </Standard>
         <Text>

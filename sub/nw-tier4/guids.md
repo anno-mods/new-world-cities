@@ -84,6 +84,9 @@
 | 1500040046 | Text Fine Arts Building |
 | 1500040050 | Public Pavilion |
 | 1500040051 | Public Pavilion InfoDescription |
+| 1500040151 | Concert Hall Public Service |
+| 1500040152 | Art Gallery Public Service |
+| 1500040153 | Grand Library Public Service |
 
 | 1500040128 | Academy: Art |
 | 1500040129 | Academy: Music |

@@ -6,7 +6,7 @@
                 <Standard>
                     <GUID>1500040131</GUID>
                     <Name>Sheet Music</Name>
-                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_musicalscore.png</IconFilename>
                     <InfoDescription>1500040132</InfoDescription>
                 </Standard>
                 <Text />
@@ -34,7 +34,7 @@
                 <Standard>
                     <GUID>1500040149</GUID>
                     <Name>Manuscript</Name>
-                    <IconFilename>manuscript_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
                     <InfoDescription>1500040150</InfoDescription>
                 </Standard>
                 <Text />
@@ -146,7 +146,7 @@
                 <Standard>
                     <GUID>1500040133</GUID>
                     <Name>Sheet Music NW Chain</Name>
-                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_musicalscore.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1500040131</TextOverride>
@@ -184,7 +184,7 @@
                 <Standard>
                     <GUID>1500040148</GUID>
                     <Name>Manuscript NW Chain</Name>
-                    <IconFilename>manuscript_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1500040149</TextOverride>
@@ -492,7 +492,7 @@
                 <Standard>
                     <GUID>1500040129</GUID>
                     <Name>Music_Academy</Name>
-                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_musicalscore.png</IconFilename>
                     <InfoDescription>1500040139</InfoDescription>
                 </Standard>
                 <Building>
@@ -644,7 +644,7 @@
                 <Standard>
                     <GUID>1500040130</GUID>
                     <Name>Writers Society</Name>
-                    <IconFilename>manuscript_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
                     <InfoDescription>1500040139</InfoDescription>
                 </Standard>
                 <Building>
@@ -851,7 +851,7 @@
                 <Standard>
                     <GUID>1500040137</GUID>
                     <Name>Recipe Art Academy Music</Name>
-                    <IconFilename>sheetmusic_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_musicalscore.png</IconFilename>
                 </Standard>
                 <Text />
                 <Recipe>
@@ -879,7 +879,7 @@
                 <Standard>
                     <GUID>1500040138</GUID>
                     <Name>Recipe Art Academy Literature</Name>
-                    <IconFilename>manuscript_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
                 </Standard>
                 <Text />
                 <Recipe>

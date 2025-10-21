@@ -6,7 +6,7 @@
                 <Standard>
                     <GUID>1500040032</GUID>
                     <Name>Parasol</Name>
-                    <IconFilename>parasol_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_parasol.png</IconFilename>
                     <InfoDescription>1500040033</InfoDescription>
                 </Standard>
                 <Text />
@@ -62,7 +62,7 @@
                 <Standard>
                     <GUID>1500040036</GUID>
                     <Name>Parasol NW Chain</Name>
-                    <IconFilename>parasol_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_parasol.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1500040032</TextOverride>
@@ -103,7 +103,7 @@
                 <Standard>
                     <GUID>1500040035</GUID>
                     <Name>Parasol Maker</Name>
-                    <IconFilename>parasol_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_parasol.png</IconFilename>
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
