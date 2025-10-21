@@ -178,5 +178,118 @@
           <FactoryUpgrade />
         </Properties>
       </Template>
+      
+      <Template>
+        <Name>SlotSupporter</Name>
+        <Properties>
+          <Standard />
+          <Building>
+            <BuildingType>Factory</BuildingType>
+            <BuildingCategoryName>100001</BuildingCategoryName>
+          </Building>
+          <Blocking />
+          <Cost>
+            <InfluenceCostType>GuildHouse</InfluenceCostType>
+          </Cost>
+          <Object>
+            <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+          </Object>
+          <Mesh />
+          <Selection>
+            <SecondGUIType>Guildhouse</SecondGUIType>
+            <GUIType>Production</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+          </Selection>
+          <Text />
+          <Constructable>
+            <DestructionCategory>Production</DestructionCategory>
+          </Constructable>
+          <Locked />
+          <SoundEmitter>
+            <DestroySounds>
+              <Item>
+                <Sound>9818756</Sound>
+              </Item>
+            </DestroySounds>
+            <ConstructionSounds>
+              <BuildFailed>
+                <Item>
+                  <Sound>9818387</Sound>
+                </Item>
+              </BuildFailed>
+              <BuildMoveStart>
+                <Item>
+                  <Sound>9818755</Sound>
+                </Item>
+              </BuildMoveStart>
+              <BuildMoveSuccess>
+                <Item>
+                  <Sound>203995</Sound>
+                </Item>
+              </BuildMoveSuccess>
+              <BuildMoveEnd>
+                <Item>
+                  <Sound>200141</Sound>
+                </Item>
+              </BuildMoveEnd>
+            </ConstructionSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <ItemContainer>
+            <SocketCount>0</SocketCount>
+            <SocketScope>StreetDistance</SocketScope>
+            <SocketScopeRadius>35</SocketScopeRadius>
+          </ItemContainer>
+          <UpgradeList />
+          <Attackable>
+            <HasRuinState>1</HasRuinState>
+            <ExplosionEffects>
+              <Item />
+            </ExplosionEffects>
+          </Attackable>
+          <Pausable>            
+            <CanPauseManually>1</CanPauseManually>
+          </Pausable>
+          <Maintenance>
+            <IncomeCategory>AdministrationBuildings</IncomeCategory>
+          </Maintenance>
+          <IncidentInfluencer>
+            <Influence>
+              <Fire>
+                <Distance>15</Distance>
+              </Fire>
+              <Riot>
+                <Distance>15</Distance>
+              </Riot>
+              <Illness>
+                <Distance>15</Distance>
+              </Illness>
+              <Explosion>
+                <Distance>15</Distance>
+              </Explosion>
+            </Influence>
+          </IncidentInfluencer>
+          <Culture />
+          <StorageBase>
+            <ProductStorageList>120055</ProductStorageList>
+          </StorageBase>
+          <Warehouse>
+            <StorageType>Depot</StorageType>
+          </Warehouse>
+          <LogisticNode />
+          <Distribution />
+          <InfluenceSource />
+          <BuildingUnique />          
+          <BuffFactory />
+          <FactoryBase />
+        </Properties>
+      </Template>
   </ModOp>
 </ModOps>

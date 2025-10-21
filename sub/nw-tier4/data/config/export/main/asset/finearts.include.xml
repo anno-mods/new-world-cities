@@ -61,7 +61,106 @@
       </Values>
     </Asset>
     <Asset>
-      <Template>Guildhouse</Template>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040154</GUID>
+          <Name>Concert Hall - 3 Slots</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_town_hall_extension.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500040037</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text />
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade>
+          <SocketCountUpgrade>
+            <Value>1</Value>
+          </SocketCountUpgrade>
+        </ItemContainerUpgrade>
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040155</GUID>
+          <Name>Concert Hall - 2 Slots</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_town_hall_extension.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500040037</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text />
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade>
+          <SocketCountUpgrade>
+            <Value>2</Value>
+          </SocketCountUpgrade>
+        </ItemContainerUpgrade>
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040156</GUID>
+          <Name>Concert Hall - 3 Slots</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_town_hall_extension.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500040037</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <Text />
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade>
+          <SocketCountUpgrade>
+            <Value>3</Value>
+          </SocketCountUpgrade>
+        </ItemContainerUpgrade>
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>SlotSupporter</Template>
       <Values>
         <Standard>
           <GUID>1500040037</GUID>
@@ -118,6 +217,8 @@
         </Object>
         <Mesh />
         <Selection>
+          <SecondGUIType>Production</SecondGUIType>
+          <GUIType>Guildhouse</GUIType>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
             <Values>
@@ -184,6 +285,11 @@
               <Amount>1000</Amount>
               <InactiveAmount>500</InactiveAmount>
             </Item>
+            <Item>
+              <Product>1500011558</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
           </Maintenances>
         </Maintenance>
         <IncidentInfluencer />
@@ -196,15 +302,39 @@
           <InfluenceSource>Culture</InfluenceSource>
         </InfluenceSource>
         <BuildingUnique />
-        <PublicService>
-          <FullSatisfactionDistance>35</FullSatisfactionDistance>
-          <NoSatisfactionDistance>35</NoSatisfactionDistance>
-          <PublicServiceOutputs>
+        <FactoryBase>
+          <CycleTime>5</CycleTime>
+        </FactoryBase>
+        <BuffFactory>
+          <ProductionBuffs>
             <Item>
-              <Product>1500040151</Product>
+              <ProductivityBuff>1500040154</ProductivityBuff>
+              <ProductivityThresholdUp>0.1</ProductivityThresholdUp>
+              <ProductivityThresholdDown>0.05</ProductivityThresholdDown>
             </Item>
-          </PublicServiceOutputs>
-        </PublicService>
+            <Item>
+              <ProductivityBuff>1500040155</ProductivityBuff>
+              <ProductivityThresholdUp>0.7</ProductivityThresholdUp>
+              <ProductivityThresholdDown>0.6</ProductivityThresholdDown>
+            </Item>
+            <Item>
+              <ProductivityBuff>1500040156</ProductivityBuff>
+              <ProductivityThresholdUp>0.95</ProductivityThresholdUp>
+              <ProductivityThresholdDown>0.85</ProductivityThresholdDown>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Local</ProductionBuffScope>
+          <ProductionBuffDistance>35</ProductionBuffDistance>
+          <PublicServiceData>
+            <PublicServices>
+              <Item>
+                <PublicService>1500040151</PublicService>
+              </Item>
+            </PublicServices>
+            <FullSatisfactionDistance>35</FullSatisfactionDistance>
+            <NoSatisfactionDistance>35</NoSatisfactionDistance>
+          </PublicServiceData>
+        </BuffFactory>
       </Values>
     </Asset>
     <Asset>

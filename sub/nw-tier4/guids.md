@@ -93,6 +93,9 @@
 | 1500040151 | Concert Hall Public Service |
 | 1500040152 | Art Gallery Public Service |
 | 1500040153 | Grand Library Public Service |
+| 1500040154 | Concert Hall 1 Slot |
+| 1500040155 | Concert Hall 2 Slot | 
+| 1500040156 | Concert Hall 3 Slot | 
 
 | 1500040128 | Academy: Art |
 | 1500040129 | Academy: Music |
