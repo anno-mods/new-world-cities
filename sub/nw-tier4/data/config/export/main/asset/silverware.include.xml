@@ -2,8 +2,7 @@
   <!-- # Menu -->
   <Group>
     <!-- Services [Artista or Patrono &lt;= 1]-->
-    <ModOp Type="addNextSibling" GUID="500138"
-      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+    <ModOp Type="addNextSibling" GUID="500138" Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
       <Item>
         <Building>1500040006</Building>
         <Patrono>1</Patrono>
@@ -25,6 +24,22 @@
           </Text>
           <ProductionChain>
             <Building>1500040007</Building>
+            <Tier1>
+              <Item>
+                <Building>1010327</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1010304</Building>
+                  </Item>
+                  <Item>
+                    <Building>101311</Building>
+                  </Item>
+                </Tier2>
+              </Item>
+              <Item>
+                <Building>1010308</Building>
+              </Item>
+            </Tier1>
           </ProductionChain>
           <Locked />
         </Values>
@@ -44,17 +59,22 @@
         </Standard>
         <Locked />
         <Product>
-          <ProductColor>-11415604</ProductColor>
           <StorageLevel>Building</StorageLevel>
-          <ProductCategory>11709</ProductCategory>
-          <IsAbstract>1</IsAbstract>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>1200</BasePrice>
+          <CivLevel>4</CivLevel>
           <AssociatedRegion>Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>
+          </ProductionRegions>
         </Product>
         <ExpeditionAttribute />
       </Values>
     </Asset>
     <Asset>
-      <Template>BuffFactory</Template>
+      <Template>FactoryBuilding7</Template>
       <Values>
         <Standard>
           <GUID>1500040007</GUID>
@@ -62,45 +82,44 @@
           <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
           <InfoDescription>11144</InfoDescription>
         </Standard>
-        <Text>
-          <TextOverride>1500040005</TextOverride>
-          </Text>
         <Building>
-          <BuildingCategoryName>1500011055</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
-          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Blocking />
-        <Mesh />
-        <BuffFactory>
-          <ProductionBuffScope>Local</ProductionBuffScope>
-          <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
-          <PublicServiceData>
-            <PublicServices>
-              <Item>
-                <PublicService>1500040005</PublicService>
-              </Item>
-            </PublicServices>
-            <FullSatisfactionDistance>50</FullSatisfactionDistance>
-            <NoSatisfactionDistance>100</NoSatisfactionDistance>
-          </PublicServiceData>
-        </BuffFactory>
-        <FactoryBase>
-          <FactoryInputs>
+        <Cost>
+          <Costs>
             <Item>
-              <Product>1957006151</Product>
-              <Amount>1</Amount>
-              <StorageAmount>6</StorageAmount>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
             </Item>
-          </FactoryInputs>
-          <CycleTime>180</CycleTime>
-          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
-          <ClampedMaxTransporterLogisticCost>100</ClampedMaxTransporterLogisticCost>
-        </FactoryBase>
-        <FeedbackController>
-          <NightBehavior>HideNone</NightBehavior>
-        </FeedbackController>
-        <Pausable />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/production/workshop_07/workshop_07.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
         <Selection>
           <OnSelection>
             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -109,108 +128,129 @@
             </Values>
           </OnSelection>
           <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
         </Selection>
-        <Attackable>
-          <AttackableType>IslandBuilding</AttackableType>
-          <MaximumHitPoints>1500</MaximumHitPoints>
-          <HasRuinState>1</HasRuinState>
-          <SelfHealPerHealTick>4</SelfHealPerHealTick>
-        </Attackable>
+        <Text />
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200802</Sound>
+            </Item>
+            <Item>
+              <Sound>239340</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1957006151</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010230</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010249</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1500040005</Product>
+              <Amount>1</Amount>
+              <StorageAmount>2</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>120</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
         <Maintenance>
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>1000</Amount>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
             </Item>
             <Item>
               <Product>5406</Product>
-              <Amount>30</Amount>
+              <Amount>100</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
-        <AmbientMoodProvider>
-          <AmbientMood>ResidenceTier1</AmbientMood>
-          <Murmur>DLC12_Cinema</Murmur>
-          <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
-        </AmbientMoodProvider>
-        <LogisticNode />
-        <Constructable>
-          <DestructionCategory>Production</DestructionCategory>
-        </Constructable>
-        <Locked />
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/nwc/silverware/silverware.cfg</Filename>
-            </Item>
-          </Variations>
-          <Skins>
-            <DefaultSkinName>6018</DefaultSkinName>
-            <DefaultSkinDescription>23853</DefaultSkinDescription>
-            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
-          </Skins>
-          <DefaultParticipant>SA_Resident_tier03_atWork</DefaultParticipant>
-        </Object>
-        <SoundEmitter>
-          <ActiveSounds>
-            <Item>
-              <Sound>201669</Sound>
-            </Item>
-          </ActiveSounds>
-        </SoundEmitter>
-        <Cost>
-          <Costs>
-            <Item>
-              <Ingredient>1010017</Ingredient>
-              <Amount>10000</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010196</Ingredient>
-              <Amount>25</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>20</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010218</Ingredient>
-              <Amount>5</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-              <Amount>5</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
-              <Amount>15</Amount>
-            </Item>
-          </Costs>
-        </Cost>
-        <Infolayer />
-        <UpgradeList />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
       </Values>
     </Asset>
-      <Asset>
-        <Template>AssetPool</Template>
-        <Values>
-          <Standard>
-            <GUID>1500040017</GUID>
-            <Name>NW Silverware Pool</Name>
-          </Standard>
-          <AssetPool>
-            <AssetList>
-              <Item>
-                <Asset>1500040005</Asset>
-              </Item>
-              <Item>
-                <Asset>1500040006</Asset>
-              </Item>
-              <Item>
-                <Asset>1500040007</Asset>
-              </Item>
-            </AssetList>
-          </AssetPool>
-        </Values>
-      </Asset>
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040017</GUID>
+          <Name>NW Silverware Pool</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>1500040005</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040006</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040007</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
   </ModOp>
 </ModOps>
