@@ -206,3 +206,9 @@
 ## Unlocks
 
 | 1500040021 | Intermediate NW 4.0 @ 1 Patrono |
+| 1500040154 | Intermediate NW 4.1 @ 500 Patrono | 
+| 1500040155 | Intermediate NW 4.2 @ 1000 Patrono | 
+| 1500040156 | Intermediate NW 4.3 @ 2000 Patrono | 
+| 1500040157 | Intermediate NW 4.4 @ 3000 Patrono | 
+| 1500040158 | Intermediate NW 4.5 @ 4000 Patrono | 
+| 1500040159 | Intermediate NW 4.6 @ 5000 Patrono | 
