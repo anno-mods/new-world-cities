@@ -48,7 +48,13 @@
             <Corner>
               <Pool>
                 <Item>
-                  <Variation>2</Variation>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <Variation>6</Variation>
                 </Item>
               </Pool>
             </Corner>
@@ -59,6 +65,9 @@
                 </Item>
                 <Item>
                   <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <Variation>2</Variation>
                 </Item>
                 <Item>
                   <Variation>3</Variation>
@@ -72,6 +81,12 @@
                 </Item>
                 <Item>
                   <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <Variation>2</Variation>
+                </Item>
+                <Item>
+                  <Variation>3</Variation>
                 </Item>
               </Pool>
             </End>
@@ -174,67 +189,28 @@
         </Cost>
         <Mesh />
         <Object>
-          <Variations>
-            <!-- <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner_0.cfg</Filename>
+          <Variations>            
+            <Item>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_01.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner_1.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_02.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner_2.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_03.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner2_0.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_04.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner2_1.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_05.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner2_2.cfg</Filename>
-            </Item> -->
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate02.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_06.cfg</Filename>
             </Item>
             <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate03.cfg</Filename>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_07.cfg</Filename>
             </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate04.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/residence_colony01_tier02_estate05.cfg</Filename>
-            </Item>
-            <!-- <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner3_0.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner3_1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_corner3_2.cfg</Filename>
-            </Item> -->
-            <!-- <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end_0.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end2_0.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end2_1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end3_0.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end3_1.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city_end3_2.cfg</Filename>
-            </Item> -->
-                        <!--<Item>
-              <Filename>data/jakob/buildings/residence/tier2_city/tier2_city2_0.cfg</Filename>
-            </Item>-->
           </Variations>
           <DefaultParticipant>Mod6</DefaultParticipant>
         </Object>
