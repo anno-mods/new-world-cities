@@ -53,6 +53,8 @@
 | 1500040035 | Production Parasols | 
 | 1500040036 | Chain Parasols | 
 | 1500040169 | Production Silver Bars | 
+| 1500040170 | Production Silver Ore | 
+| 1500040171 | Production Silver Ore WorkArea | 
 
 ## Items 
 

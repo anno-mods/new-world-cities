@@ -456,6 +456,213 @@
     </Asset>
   </ModOp>
 
+  <ModOp GUID = '101311' Type = "addNextSibling">
+    <Asset>
+      <BaseAssetGUID>1010311</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040170</GUID>
+          <Name>mining_colony01_01 (Silver Ore Mine)</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>15000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>SlotFactoryBuilding7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>SlotFactoryBuilding7</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>SlotFactoryBuilding7</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LineID>11033</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>202274</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>6360</Product>
+              <Amount>1</Amount>
+              <StorageAmount>1</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <FactoryInputs>
+            <Item>
+              <Product>1591</Product>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>90</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <Slot>
+          <WorkArea>1500040171</WorkArea>
+        </Slot>
+        <AmbientMoodProvider />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>SlotFactoryBuilding7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>SlotFactoryBuilding7</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Product>1010367</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable />
+        <IncidentInfectable />
+        <Culture />
+        <Industrializable />
+        <Electrifiable>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+        </Electrifiable>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>WorkArea</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040171</GUID>
+          <Name>mining_08_workarea (Gold Ore)</Name>
+          <Comment>Mountaintop for the Silver Ore Mine</Comment>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_gold.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/mining_colony01_slot_01/mining_colony01_slot_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040171</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh />
+        <Slot>
+          <SnapsToSlot>1</SnapsToSlot>
+        </Slot>
+        <SoundEmitter />
+        <FeedbackController />
+        <WorkAreaPath>
+          <AreaPathConfig>data/graphics/buildings/production/mining_01/mining_rail_01.cfg</AreaPathConfig>
+        </WorkAreaPath>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Blocking />
+      </Values>
+    </Asset>
+  </ModOp>
+
   <ModOp GUID = '//ItemEffectTargetPool/EffectTargetGUIDS[Item/GUID = 25764]' Type = "add">
     <Item>
       <GUID>1500040169</GUID>
