@@ -344,7 +344,7 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
-                    <UnlockAssets>                      
+                    <UnlockAssets>
                       <Item>
                         <Asset>1500040019</Asset>
                       </Item>
@@ -425,7 +425,7 @@
                 <Values>
                   <Action />
                   <ActionUnlockAsset>
-                    <UnlockAssets>                      
+                    <UnlockAssets>
                       <Item>
                         <Asset>1500040144</Asset>
                       </Item>
@@ -434,7 +434,7 @@
                       </Item>
                       <Item>
                         <Asset>1500040146</Asset>
-                      </Item>                      
+                      </Item>
                       <Item>
                         <Asset>1500040037</Asset>
                       </Item>
@@ -455,11 +455,211 @@
                 </Values>
               </TriggerAction>
             </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionStartQuest</Template>
+                <Values>
+                  <Action />
+                  <ActionStartQuest>
+                    <Quest>1500040167</Quest>
+                    <QuestSession>180025</QuestSession>
+                  </ActionStartQuest>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionAddResource</Template>
+                <Values>
+                  <Action />
+                  <ActionAddResource>
+                    <Resource>1500040168</Resource>
+                    <ResourceAmount>1</ResourceAmount>
+                  </ActionAddResource>
+                </Values>
+              </TriggerAction>
+            </Item>
           </TriggerActions>
         </Trigger>
         <TriggerSetup>
           <UsedBySecondParties>0</UsedBySecondParties>
         </TriggerSetup>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>A7_QuestStatusQuo</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040167</GUID>
+          <Name>Event3_Option2_FollowUpQuest</Name>
+        </Standard>
+        <Quest>
+          <StarterMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </StarterMessage>
+          <SuccessMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </SuccessMessage>
+          <FailureMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </FailureMessage>
+          <SelectionReminderMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </SelectionReminderMessage>
+          <AbortedManuallyMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </AbortedManuallyMessage>
+          <AbortedAutomaticallyMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </AbortedAutomaticallyMessage>
+          <InvitationMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </InvitationMessage>
+          <EscortShipSelectedMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </EscortShipSelectedMessage>
+          <ReminderMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </ReminderMessage>
+          <ResolveConfirmationMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </ResolveConfirmationMessage>
+          <InvitationSmugglerQuestMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </InvitationSmugglerQuestMessage>
+          <SmugglerQuestTradingStationReached>
+            <SuppressMessage>1</SuppressMessage>
+          </SmugglerQuestTradingStationReached>
+          <StartInvitationGiveItemMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </StartInvitationGiveItemMessage>
+          <StartFollowShipMessage>
+            <SuppressMessage>1</SuppressMessage>
+          </StartFollowShipMessage>
+          <OnQuestSucceeded>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList>
+                <Actions>
+                  <Item>
+                    <Action>
+                      <Template>ActionAddResource</Template>
+                      <Values>
+                        <Action />
+                        <ActionAddResource>
+                          <Resource>1500040168</Resource>
+                          <ResourceAmount>1</ResourceAmount>
+                        </ActionAddResource>
+                      </Values>
+                    </Action>
+                  </Item>
+                  <Item>
+                    <Action>
+                      <Template>ActionStartQuest</Template>
+                      <Values>
+                        <Action />
+                        <ActionStartQuest>
+                          <Quest>1500040167</Quest>
+                          <InheritQuestArea>1</InheritQuestArea>
+                          <InheritQuestObjects>1</InheritQuestObjects>
+                        </ActionStartQuest>
+                      </Values>
+                    </Action>
+                  </Item>
+                </Actions>
+              </ActionList>
+            </Values>
+          </OnQuestSucceeded>
+          <QuestGiver>45</QuestGiver>
+          <StoryText>0</StoryText>
+          <QuestTimeLimit>0</QuestTimeLimit>
+          <QuestActivation>QuestStart</QuestActivation>
+          <ConfirmOnReachedCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ConditionQuestResolveConfirmation />
+              <Condition />
+              <ConditionQuestObjective />
+            </Values>
+          </ConfirmOnReachedCondition>
+          <HasExclusiveQuestGiver>0</HasExclusiveQuestGiver>
+          <QuestBookBackground>data/ui/2kimages/main/assets16/scenario/bg_scenariobook_ggj.png</QuestBookBackground>
+          <ReputationQuestFail>
+            <ReputationFailList />
+          </ReputationQuestFail>
+          <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+          <StarterSpeechBubble>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionTutorialInteraction />
+            </Values>
+          </StarterSpeechBubble>
+          <SuccessSpeechBubble>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionTutorialInteraction />
+            </Values>
+          </SuccessSpeechBubble>
+        </Quest>
+        <PreConditionList>
+          <Condition>
+            <Template>ConditionMutualAreaInSubconditions</Template>
+            <Values>
+              <Condition />
+              <ConditionMutualAreaInSubconditions />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Construct New Water Purifiers</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>53811</LineID>
+        </Text>
+        <Reward>
+          <RewardAssets />
+          <RewardReputation />
+        </Reward>
+        <Objectives>
+          <WinConditions>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>A7_QuestStatusQuo</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Objective>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ConditionQuestObjective>
+                    <TextCombinedContextValue>12714</TextCombinedContextValue>
+                  </ConditionQuestObjective>
+                  <ConditionPlayerCounter>
+                    <Context>24304</Context>
+                    <CounterAmount>250</CounterAmount>
+                    <RelativeToQuestStart>1</RelativeToQuestStart>
+                  </ConditionPlayerCounter>
+                  <ConditionQuestStatusQuo />
+                  <ConditionPropsExecutionPlaceSettings>
+                    <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                  </ConditionPropsExecutionPlaceSettings>
+                </Values>
+              </Objective>
+            </Item>
+          </WinConditions>
+        </Objectives>
+        <QuestOptional>
+          <HasStarterObject>None</HasStarterObject>
+        </QuestOptional>
       </Values>
     </Asset>
   </ModOp>
