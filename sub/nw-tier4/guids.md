@@ -115,6 +115,7 @@
 | 1500040141 | Recipe Art Description |
 | 1500040142 | Recipe Music Description |
 | 1500040143 | Recipe Literature Description |
+| 1500040168 | Fine Arts Permit 
 
 
 
@@ -213,6 +214,7 @@
 | 1500040157 | Intermediate NW 4.4 @ 3000 Patrono | 
 | 1500040158 | Intermediate NW 4.5 @ 4000 Patrono | 
 | 1500040159 | Intermediate NW 4.6 @ 5000 Patrono | 
+| 1500040167 | Unlock Art Academy Permit quest | 
 
 ## Vehicles 
 

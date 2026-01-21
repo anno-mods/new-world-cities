@@ -1,37 +1,6 @@
 <ModOps>
   <ModOp Type = "addNextSibling" GUID = "1010516">
-
-    <Asset>
-      <Template>BuildPermitGroup</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040168</GUID>
-          <Name>Fine Arts Permit</Name>
-        </Standard>
-        <BuildPermitGroup>
-          <Group>
-            <Item>
-              <BuildPermit>1500040037</BuildPermit>
-            </Item>
-            <Item>
-              <BuildPermit>1500040038</BuildPermit>
-            </Item>
-            <Item>
-              <BuildPermit>1500040039</BuildPermit>
-            </Item>
-            <Item>
-              <BuildPermit>1500040043</BuildPermit>
-            </Item>
-            <Item>
-              <BuildPermit>1500040044</BuildPermit>
-            </Item>
-            <Item>
-              <BuildPermit>1500040045</BuildPermit>
-            </Item>
-          </Group>
-        </BuildPermitGroup>
-      </Values>
-    </Asset>
+    
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -237,10 +206,6 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
-        <BuildPermit>
-          <VisibleWithoutPermits>1</VisibleWithoutPermits>
-          <PermitSource>125310</PermitSource>
-        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -388,10 +353,6 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
-        <BuildPermit>
-          <VisibleWithoutPermits>1</VisibleWithoutPermits>
-          <PermitSource>125310</PermitSource>
-        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -539,10 +500,6 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
-        <BuildPermit>
-          <VisibleWithoutPermits>1</VisibleWithoutPermits>
-          <PermitSource>125310</PermitSource>
-        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -603,7 +560,6 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
-        <BuildPermit />
       </Values>
     </Asset>
 
@@ -665,7 +621,6 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
-        <BuildPermit />
       </Values>
     </Asset>
 
@@ -727,7 +682,6 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
-        <BuildPermit />
       </Values>
     </Asset>
     <Asset>

@@ -83,7 +83,7 @@
                     </AssetList>
                 </AssetPool>
             </Values>
-        </Asset>        
+        </Asset>
         <Asset>
             <Template>AssetPool</Template>
             <Values>
@@ -332,6 +332,10 @@
                     <IsBlank>1</IsBlank>
                 </RecipeBuilding>
                 <Culture />
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>125310</PermitSource>
+                </BuildPermit>
             </Values>
         </Asset>
         <Asset>
@@ -484,6 +488,10 @@
                     <RecipeList>1500040135</RecipeList>
                 </RecipeBuilding>
                 <Culture />
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>125310</PermitSource>
+                </BuildPermit>
             </Values>
         </Asset>
         <Asset>
@@ -636,6 +644,10 @@
                     <RecipeList>1500040135</RecipeList>
                 </RecipeBuilding>
                 <Culture />
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>125310</PermitSource>
+                </BuildPermit>
             </Values>
         </Asset>
         <Asset>
@@ -788,6 +800,10 @@
                     <RecipeList>1500040135</RecipeList>
                 </RecipeBuilding>
                 <Culture />
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>125310</PermitSource>
+                </BuildPermit>
             </Values>
         </Asset>
         <Asset>
@@ -899,6 +915,31 @@
                     </RecipeIngredientUIData>
                 </Recipe>
                 <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040168</GUID>
+                    <Name>Fine Arts Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040128</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040129</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040130</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040134</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
             </Values>
         </Asset>
     </ModOp>
