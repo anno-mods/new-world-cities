@@ -55,6 +55,7 @@
 | 1500040169 | Production Silver Bars | 
 | 1500040170 | Production Silver Ore | 
 | 1500040171 | Production Silver Ore WorkArea | 
+| 1500040172 | Production Silvercoin | 
 
 ## Items 
 

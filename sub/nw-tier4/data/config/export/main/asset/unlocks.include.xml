@@ -387,6 +387,9 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnlockAssets>
+                      <Item>
+                        <Asset>1500040173</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>

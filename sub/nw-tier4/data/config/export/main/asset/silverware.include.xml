@@ -406,6 +406,168 @@
       </Values>
     </Asset>
     <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040172</GUID>
+          <Name>SilverMint</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_silver_coin_good.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>2500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>35</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc10/graphics/buildings/production/workshop_07/workshop_07.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <StaticHelpEntryPoint>SeasonsOfSilver_Silver</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <TextOverride>24857</TextOverride>
+          <LocaText>
+            <English>
+              <Text>Royal Mint</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>54956</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200802</Sound>
+            </Item>
+            <Item>
+              <Sound>239340</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1957006151</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010255</Product>
+              <Amount>1</Amount>
+              <StorageAmount>3</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>24851</Product>
+              <Amount>1</Amount>
+              <StorageAmount>2</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>120</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010367</Product>
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+    <Asset>
       <Template>AssetPool</Template>
       <Values>
         <Standard>
@@ -449,6 +611,56 @@
             </Item>
             <Item>
               <Asset>1500040169</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040170</Asset>
+            </Item>
+          </AssetList>
+        </AssetPool>
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>AssetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040173</GUID>
+          <Name>NW Silvercoin Pool</Name>
+        </Standard>
+        <AssetPool>
+          <AssetList>
+            <Item>
+              <Asset>1500040172</Asset>
+            </Item>
+            <Item>
+              <Asset>24844</Asset>
+            </Item>
+            <Item>
+              <Asset>24845</Asset>
+            </Item>
+            <Item>
+              <Asset>24861</Asset>
+            </Item>
+            <Item>
+              <Asset>101303</Asset>
+            </Item>
+            <Item>
+              <Asset>24846</Asset>
+            </Item>
+            <Item>
+              <Asset>1010232</Asset>
+            </Item>
+            <Item>
+              <Asset>24852</Asset>
+            </Item>
+            <Item>
+              <Asset>24879</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040169</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040170</Asset>
             </Item>
           </AssetList>
         </AssetPool>
@@ -666,6 +878,11 @@
   <ModOp GUID = '//ItemEffectTargetPool/EffectTargetGUIDS[Item/GUID = 25764]' Type = "add">
     <Item>
       <GUID>1500040169</GUID>
+    </Item>
+  </ModOp>
+    <ModOp GUID = '//ItemEffectTargetPool/EffectTargetGUIDS[Item/GUID = 24857]' Type = "add">
+    <Item>
+      <GUID>1500040172</GUID>
     </Item>
   </ModOp>
 </ModOps>
