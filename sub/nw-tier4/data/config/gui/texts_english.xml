@@ -533,5 +533,9 @@
       <GUID>1500040165</GUID>
       <Text>!Taubenburg Permit</Text>
     </Text>
+    <Text>
+      <GUID>1500040160</GUID>
+      <Text>!Tramp Steamer InfoDescription</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -75,7 +75,7 @@
 | 1500040144 | AssetPool MusicScores |
 | 1500040145 | AssetPool Artwork |
 | 1500040146 | AssetPool Manuscripts |
-| 1500040165 | AssetPool Hindenburg Airship | 
+| 1500040166 | AssetPool Hindenburg Airship | 
 
 ## Fine Arts Buildings 
 
@@ -222,3 +222,4 @@
 | 1500040162 | Tramp Steamer InfDescription |
 | 1500040163 | Hindenburg InfoDescription |
 | 1500040164 | Hindenburg ArcticGas Clone |
+| 1500040165 | Hindenburg Permit | 

@@ -1,5 +1,213 @@
 <ModOps>
     <ModOp GUID = '1060' Type = "addNextSibling">
+
+        <Asset>
+            <Template>TradeShip</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040160</GUID>
+                    <Name>Tramp Steamer</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_collier.png</IconFilename>
+                    <InfoDescription>1500040162</InfoDescription>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/vehicle/collier/collier.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040160</DefaultSkinName>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh>
+                    <MeshPlacement>OnWaterSlope</MeshPlacement>
+                </Mesh>
+                <Selection>
+                    <MultiSelectable>1</MultiSelectable>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Walking>
+                    <ShortenSailsAfter>0</ShortenSailsAfter>
+                    <ReservationLength>16</ReservationLength>
+                    <ReservationWidth>6</ReservationWidth>
+                    <PathPlannerLayer>Water</PathPlannerLayer>
+                    <ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+                    <TurnAroundRadius>8</TurnAroundRadius>
+                    <Acceleration>1.5</Acceleration>
+                    <Deceleration>2</Deceleration>
+                    <TurnRadius>8</TurnRadius>
+                    <TurnSpeedInPlace>20</TurnSpeedInPlace>
+                    <TurnDeceleration>0</TurnDeceleration>
+                    <TurnMovement>0</TurnMovement>
+                    <LeaningMaxAngle>-10</LeaningMaxAngle>
+                    <ForwardSpeed>6.0</ForwardSpeed>
+                    <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+                    <WindMaxSpeedupFactor>1</WindMaxSpeedupFactor>
+                    <CargoFullFactor>0.8</CargoFullFactor>
+                    <MinSlowdownFactor>0.5</MinSlowdownFactor>
+                    <CurveSegmentDensity>High</CurveSegmentDensity>
+                </Walking>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cargo Ship</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14859</LineID>
+                </Text>
+                <CommandQueue>
+                    <FormationPriority>1</FormationPriority>
+                    <TradeShipPoints>4</TradeShipPoints>
+                    <PriorityShipList>2</PriorityShipList>
+                </CommandQueue>
+                <Drifting>
+                    <OverrideAssetWidthAndLength>0</OverrideAssetWidthAndLength>
+                    <Length>7</Length>
+                    <Width>1.5</Width>
+                    <FactorMovement>0.7</FactorMovement>
+                    <FactorRotation>0.65</FactorRotation>
+                </Drifting>
+                <Collector />
+                <Attackable>
+                    <MaximumHitPoints>4000</MaximumHitPoints>
+                    <AlertRange>150</AlertRange>
+                    <HPBarOffset>4</HPBarOffset>
+                    <SelfHealPerHealTick>1.667</SelfHealPerHealTick>
+                    <SelfHealPausedTimeIfAttacked>60000</SelfHealPausedTimeIfAttacked>
+                </Attackable>
+                <MinimapToken>
+                    <TokenAsset>2001947</TokenAsset>
+                    <StrategicMapAsset>501018</StrategicMapAsset>
+                </MinimapToken>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>201827</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>238314</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <UpgradeList />
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer>
+                    <SocketCount>2</SocketCount>
+                    <SocketAllocation>Ship;SteamShip;Tradeship</SocketAllocation>
+                    <SlotCount>6</SlotCount>
+                </ItemContainer>
+                <FeedbackController />
+                <Draggable>
+                    <DraggableOnDrag>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrag>
+                    <DraggableOnDrop>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrop>
+                </Draggable>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010224</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>TradeShip</InfluenceCostType>
+                    <InfluenceCostPoints>3</InfluenceCostPoints>
+                </Cost>
+                <Craftable>
+                    <CraftingTime>540000</CraftingTime>
+                </Craftable>
+                <TradeRouteVehicle />
+                <Locked />
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute>
+                    <BaseMorale>70</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Might</Attribute>
+                        </Item>
+                        <Item>
+                            <Attribute>Navigation</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkTradeShip</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkSteamShip</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                </ExpeditionAttribute>
+                <ShipMaintenance>
+                    <Maintenance>500</Maintenance>
+                </ShipMaintenance>
+                <Sellable>
+                    <Baseprice>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>TradeShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>250000</Amount>
+                        </Item>
+                    </Baseprice>
+                </Sellable>
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks>
+                    <BarkMapping>
+                        <Selection>
+                            <AudioPool>700094</AudioPool>
+                        </Selection>
+                        <SelectionDamaged>
+                            <AudioPool>700125</AudioPool>
+                        </SelectionDamaged>
+                        <MoveCommand>
+                            <AudioPool>700095</AudioPool>
+                        </MoveCommand>
+                        <EscortCommand>
+                            <AudioPool>700127</AudioPool>
+                        </EscortCommand>
+                        <PatrolCommand>
+                            <AudioPool>700126</AudioPool>
+                        </PatrolCommand>
+                    </BarkMapping>
+                </SoundEmitterCommandBarks>
+            </Values>
+        </Asset>
         <Asset>
             <Template>AirShip</Template>
             <Values>
@@ -323,6 +531,12 @@
         </Item>
         <Item>
             <Vehicle>1500040164</Vehicle>
+        </Item>
+    </ModOp>
+
+    <ModOp GUID = '1010521' Path ="/Values/Shipyard/AssemblyOptions" Type = "add">
+        <Item>
+            <Vehicle>1500040160</Vehicle>
         </Item>
     </ModOp>
 </ModOps>
