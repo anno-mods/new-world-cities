@@ -52,6 +52,7 @@
 | 1500040033 | Product Parasols Flufftext | 
 | 1500040035 | Production Parasols | 
 | 1500040036 | Chain Parasols | 
+| 1500040169 | Production Silver Bars | 
 
 ## Items 
 
@@ -115,7 +116,7 @@
 | 1500040141 | Recipe Art Description |
 | 1500040142 | Recipe Music Description |
 | 1500040143 | Recipe Literature Description |
-| 1500040168 | Fine Arts Permit 
+| 1500040168 | Fine Arts Permit |
 
 
 
