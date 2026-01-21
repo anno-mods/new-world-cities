@@ -1,0 +1,328 @@
+<ModOps>
+    <ModOp GUID = '1060' Type = "addNextSibling">
+        <Asset>
+            <Template>AirShip</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040161</GUID>
+                    <Name>Reward Airship</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_airship_cargo_large_a.png</IconFilename>
+                    <InfoDescription>1500040163</InfoDescription>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>TradeShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/dlc11/graphics/vehicle/airships/airship_transport_big/airship_transport_big.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <SkinList />
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Walking>
+                    <TurnAroundRadius>15</TurnAroundRadius>
+                    <Acceleration>0.3</Acceleration>
+                    <Deceleration>0.5</Deceleration>
+                    <TurnRadius>10</TurnRadius>
+                    <TurnSpeed>100</TurnSpeed>
+                    <TurnSpeedInPlace>80</TurnSpeedInPlace>
+                    <LeaningMaxAngle>0</LeaningMaxAngle>
+                    <ForwardSpeed>12.5</ForwardSpeed>
+                    <WindMinSlowdownFactor>1</WindMinSlowdownFactor>
+                    <WindSlowdownEffectOnTurningSpeed>0.75</WindSlowdownEffectOnTurningSpeed>
+                    <WindMaxSpeedupFactor>1.2</WindMaxSpeedupFactor>
+                    <CargoFullFactor>0.9</CargoFullFactor>
+                    <MinSlowdownFactor>0.5</MinSlowdownFactor>
+                    <SessionTransferSpeedFactor>1.7</SessionTransferSpeedFactor>
+                </Walking>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Taubenburg</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>57670</LineID>
+                </Text>
+                <CommandQueue>
+                    <TradeShipPoints>8</TradeShipPoints>
+                    <AirShipPoints>200</AirShipPoints>
+                </CommandQueue>
+                <Drifting>
+                    <Length>7</Length>
+                    <Width>3.5</Width>
+                </Drifting>
+                <Collector />
+                <Attackable>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                </Attackable>
+                <MinimapToken>
+                    <StrategicMapAsset>117300</StrategicMapAsset>
+                </MinimapToken>
+                <SoundEmitter>
+                    <VehicleSounds>
+                        <MovementStart>
+                            <Item>
+                                <Sound>200988</Sound>
+                            </Item>
+                        </MovementStart>
+                    </VehicleSounds>
+                </SoundEmitter>
+                <UpgradeList>
+                    <DefaultBuff>721</DefaultBuff>
+                </UpgradeList>
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer>
+                    <SocketCount>4</SocketCount>
+                    <SlotCount>8</SlotCount>
+                </ItemContainer>
+                <FeedbackController />
+                <Draggable>
+                    <DraggableOnDrag>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrag>
+                    <DraggableOnDrop>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </DraggableOnDrop>
+                </Draggable>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>5390</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>840</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostPoints>12</InfluenceCostPoints>
+                </Cost>
+                <Craftable>
+                    <CraftingTime>5400000</CraftingTime>
+                </Craftable>
+                <TradeRouteVehicle>
+                    <LoadingSpeedFactor>0.9</LoadingSpeedFactor>
+                </TradeRouteVehicle>
+                <Locked>
+                    <DLCDependency>24962</DLCDependency>
+                </Locked>
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance>
+                    <Maintenance>2500</Maintenance>
+                    <DisableEscort>0</DisableEscort>
+                </ShipMaintenance>
+                <Sellable>
+                    <Baseprice>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>AirShip</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>4000000</Amount>
+                        </Item>
+                    </Baseprice>
+                </Sellable>
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident>
+                    <InfectableByIncident>
+                        <Illness>
+                            <Infectable>0</Infectable>
+                        </Illness>
+                    </InfectableByIncident>
+                </ShipIncident>
+                <SoundEmitterCommandBarks>
+                    <BarkMapping>
+                        <Selection>
+                            <AudioPool>4806</AudioPool>
+                        </Selection>
+                        <SelectionDamaged>
+                            <AudioPool>4808</AudioPool>
+                        </SelectionDamaged>
+                        <AttackCommand>
+                            <AudioPool>0</AudioPool>
+                        </AttackCommand>
+                        <MoveCommand>
+                            <AudioPool>4807</AudioPool>
+                        </MoveCommand>
+                        <EscortCommand>
+                            <AudioPool>4811</AudioPool>
+                        </EscortCommand>
+                        <PatrolCommand>
+                            <AudioPool>4807</AudioPool>
+                        </PatrolCommand>
+                        <DropCommand>
+                            <AudioPool>4812</AudioPool>
+                        </DropCommand>
+                    </BarkMapping>
+                </SoundEmitterCommandBarks>
+                <ItemReplacer>
+                    <ItemReplacementPools>193855</ItemReplacementPools>
+                </ItemReplacer>
+                <Bombarder>
+                    <Shafts>5</Shafts>
+                </Bombarder>
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>14182</PermitSource>
+                </BuildPermit>
+            </Values>
+        </Asset>
+        <Asset>
+            <BaseAssetGUID>1500040161</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500040164</GUID>
+                    <Name>Taubenburg ArcticGas</Name>
+                </Standard>
+                <Object />
+                <Mesh />
+                <Selection />
+                <Walking />
+                <Text>
+                    <TextOverride>1500040161</TextOverride>
+                </Text>
+                <CommandQueue />
+                <Drifting />
+                <Collector />
+                <Attackable />
+                <MinimapToken />
+                <SoundEmitter />
+                <UpgradeList>
+                    <DefaultBuff>1751</DefaultBuff>
+                </UpgradeList>
+                <QuestObject />
+                <Infolayer />
+                <ItemContainer />
+                <FeedbackController />
+                <Draggable />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                            </VectorElement>
+                            <Ingredient>112706</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Craftable />
+                <TradeRouteVehicle />
+                <Locked />
+                <Nameable />
+                <MetaPersistent />
+                <ExpeditionAttribute />
+                <ShipMaintenance />
+                <Sellable />
+                <Stance />
+                <Rentable />
+                <WorldMapSound />
+                <Pausable />
+                <ShipIncident />
+                <SoundEmitterCommandBarks />
+                <ItemReplacer />
+                <Bombarder />
+                <BuildPermit>
+                    <VisibleWithoutPermits>1</VisibleWithoutPermits>
+                    <PermitSource>14182</PermitSource>
+                </BuildPermit>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040165</GUID>
+                    <Name>Taubenburg Permit Group</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040164</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040161</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040166</GUID>
+                    <Name>Taubenburg Airship</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1500040164</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040161</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID = '636,635' Path ="/Values/Shipyard/AssemblyOptions" Type = "add">
+        <Item>
+            <Vehicle>1500040161</Vehicle>
+        </Item>
+        <Item>
+            <Vehicle>1500040164</Vehicle>
+        </Item>
+    </ModOp>
+</ModOps>

@@ -303,7 +303,7 @@
     <Text>
       <GUID>1500040091</GUID>
       <Text>!Public Pavilion InvestmentContribution</Text>
-    </Text>    
+    </Text>
     <Text>
       <GUID>1500040092</GUID>
       <Text>!Event Music FluffText</Text>
@@ -375,8 +375,8 @@
     <Text>
       <GUID>1500040109</GUID>
       <Text>!Reward Music InfoDescription</Text>
-    </Text>   
-    
+    </Text>
+
     <Text>
       <GUID>1500040110</GUID>
       <Text>!Event Literature FluffText</Text>
@@ -512,6 +512,26 @@
     <Text>
       <GUID>1500040143</GUID>
       <Text>!Recipe Literature Description</Text>
+    </Text>
+    <Text>
+      <GUID>1500040161</GUID>
+      <Text>!Taubenburg</Text>
+    </Text>
+    <Text>
+      <GUID>1500040163</GUID>
+      <Text>!Taubenburg InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040162</GUID>
+      <Text>!TrampSteamer InfoDescription</Text>
+    </Text>
+    <Text>
+      <GUID>1500040160</GUID>
+      <Text>!TrampSteamer</Text>
+    </Text>
+    <Text>
+      <GUID>1500040165</GUID>
+      <Text>!Taubenburg Permit</Text>
     </Text>
   </ModOp>
 </ModOps>

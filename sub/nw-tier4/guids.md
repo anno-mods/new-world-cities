@@ -75,6 +75,7 @@
 | 1500040144 | AssetPool MusicScores |
 | 1500040145 | AssetPool Artwork |
 | 1500040146 | AssetPool Manuscripts |
+| 1500040165 | AssetPool Hindenburg Airship | 
 
 ## Fine Arts Buildings 
 
@@ -212,3 +213,12 @@
 | 1500040157 | Intermediate NW 4.4 @ 3000 Patrono | 
 | 1500040158 | Intermediate NW 4.5 @ 4000 Patrono | 
 | 1500040159 | Intermediate NW 4.6 @ 5000 Patrono | 
+
+## Vehicles 
+
+
+| 1500040160 | Tramp Steamer | 
+| 1500040161 | Hindenburg | 
+| 1500040162 | Tramp Steamer InfDescription |
+| 1500040163 | Hindenburg InfoDescription |
+| 1500040164 | Hindenburg ArcticGas Clone |
