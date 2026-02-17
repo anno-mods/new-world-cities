@@ -231,6 +231,9 @@
             <Item>
               <Filename>data/jje/residence_colony01_tier04/nw_patrono_07.cfg</Filename>
             </Item>
+            <Item>
+              <Filename>data/jje/residence_colony01_tier04/nw_patrono_08.cfg</Filename>
+            </Item>
           </Variations>
           <DefaultParticipant>Mod6</DefaultParticipant>
         </Object>
