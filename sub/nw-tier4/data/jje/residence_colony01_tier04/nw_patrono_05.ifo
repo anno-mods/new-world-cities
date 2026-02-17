@@ -1,11 +1,11 @@
 <Info>
-	<DisableFeedbackArea>0</DisableFeedbackArea>
+	<DisableFeedbackArea>1</DisableFeedbackArea>
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>-0.000000</xf>
-			<yf>1.621715</yf>
-			<zf>-0.000000</zf>
+			<xf>-0.396464</xf>
+			<yf>2.248009</yf>
+			<zf>-0.088130</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -14,17 +14,17 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>1.500000</xf>
-			<yf>2.164120</yf>
-			<zf>1.500000</zf>
+			<xf>2.533542</xf>
+			<yf>3.121361</yf>
+			<zf>2.641819</zf>
 		</Extents>
 	</BoundingBox>
 	<Dummy>
-		<Name>DamageImpact82788</Name>
+		<Name>DamageImpact86711</Name>
 		<Position>
-			<xf>-1.184044</xf>
-			<yf>2.902524</yf>
-			<zf>-0.702152</zf>
+			<xf>-0.326225</xf>
+			<yf>2.922305</yf>
+			<zf>1.223999</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -39,11 +39,11 @@
 		</Extents>
 	</Dummy>
 	<Dummy>
-		<Name>DamageImpact83756</Name>
+		<Name>DamageImpact90538</Name>
 		<Position>
-			<xf>0.714200</xf>
-			<yf>2.672337</yf>
-			<zf>-0.207467</zf>
+			<xf>-0.723270</xf>
+			<yf>3.113729</yf>
+			<zf>-0.311678</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -58,11 +58,11 @@
 		</Extents>
 	</Dummy>
 	<Dummy>
-		<Name>DamageImpact85045</Name>
+		<Name>DamageImpact99484</Name>
 		<Position>
-			<xf>-0.346238</xf>
-			<yf>2.042933</yf>
-			<zf>1.089648</zf>
+			<xf>0.585579</xf>
+			<yf>3.392046</yf>
+			<zf>-0.673662</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -71,36 +71,17 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>0.700000</xf>
-			<yf>0.700000</yf>
-			<zf>0.700000</zf>
+			<xf>0.500000</xf>
+			<yf>0.500000</yf>
+			<zf>0.500000</zf>
 		</Extents>
 	</Dummy>
 	<Dummy>
 		<Name>infolayer</Name>
 		<Position>
-			<xf>0.000000</xf>
+			<xf>-0.000000</xf>
 			<yf>5.000000</yf>
-			<zf>0.000000</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.100000</xf>
-			<yf>0.100000</yf>
-			<zf>0.100000</zf>
-		</Extents>
-	</Dummy>
-	<Dummy>
-		<Name>nextFloor</Name>
-		<Position>
-			<xf>0.000000</xf>
-			<yf>5.000000</yf>
-			<zf>0.000000</zf>
+			<zf>-0.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -192,24 +173,24 @@
 			<zf>1.500000</zf>
 		</Position>
 		<Position>
-			<xf>-1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
 			<xf>1.500000</xf>
 			<zf>1.500000</zf>
 		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
 	</BuildBlocker>
 	<IntersectBox>
-		<Name>Hitbox51178</Name>
+		<Name>Hitbox1136</Name>
 		<Position>
-			<xf>-0.221960</xf>
-			<yf>1.339217</yf>
-			<zf>-0.207163</zf>
+			<xf>-0.211007</xf>
+			<yf>1.645466</yf>
+			<zf>0.217202</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -218,36 +199,17 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>1.250000</xf>
-			<yf>1.818573</yf>
-			<zf>0.801832</zf>
-		</Extents>
-	</IntersectBox>
-	<IntersectBox>
-		<Name>Hitbox51178</Name>
-		<Position>
-			<xf>0.191133</xf>
-			<yf>1.339217</yf>
-			<zf>1.001288</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.800000</xf>
-			<yf>1.818573</yf>
-			<zf>0.499540</zf>
+			<xf>1.215478</xf>
+			<yf>1.645466</yf>
+			<zf>1.358583</zf>
 		</Extents>
 	</IntersectBox>
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
-			<xf>-0.000000</xf>
-			<yf>1.487245</yf>
-			<zf>-0.000000</zf>
+			<xf>0.038606</xf>
+			<yf>2.041615</yf>
+			<zf>0.028973</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -256,14 +218,14 @@
 			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
-			<xf>1.500000</xf>
-			<yf>2.065349</yf>
-			<zf>1.500000</zf>
+			<xf>1.504141</xf>
+			<yf>2.587891</yf>
+			<zf>1.507239</zf>
 		</Extents>
 	</MeshBoundingBox>
 	<Sequence>
 		<Id>0</Id>
-		<Duration>1000</Duration>
+		<Duration>1399</Duration>
 		<Looped>1</Looped>
 		<Speed>1</Speed>
 	</Sequence>
