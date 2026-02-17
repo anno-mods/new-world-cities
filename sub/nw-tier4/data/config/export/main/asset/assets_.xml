@@ -50,12 +50,15 @@
               <Pool>
                 <Item>
                   <Variation>4</Variation>
+                  <DirectionOffet>2</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>5</Variation>
+                  <DirectionOffet>2</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>6</Variation>
+                  <DirectionOffet>2</DirectionOffet>
                 </Item>
               </Pool>
             </Corner>
@@ -63,15 +66,23 @@
               <Pool>
                 <Item>
                   <Variation>0</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>1</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>3</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+                <Item>
+                  <Variation>7</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
               </Pool>
             </Mid>
@@ -79,15 +90,23 @@
               <Pool>
                 <Item>
                   <Variation>0</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>1</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>2</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>3</Variation>
+                  <DirectionOffet>1</DirectionOffet>
+                </Item>
+                <Item>
+                  <Variation>7</Variation>
+                  <DirectionOffet>1</DirectionOffet>
                 </Item>
               </Pool>
             </End>
