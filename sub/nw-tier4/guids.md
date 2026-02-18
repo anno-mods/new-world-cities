@@ -56,7 +56,6 @@
 | 1500040170 | Production Silver Ore | 
 | 1500040171 | Production Silver Ore WorkArea | 
 | 1500040172 | Production Silvercoin | 
-
 ## Items 
 
 | 15000404xx | Culture Items Music | 
@@ -80,6 +79,8 @@
 | 1500040145 | AssetPool Artwork |
 | 1500040146 | AssetPool Manuscripts |
 | 1500040166 | AssetPool Hindenburg Airship | 
+| 1500040173 | AssetPool Silvercoin | 
+
 
 ## Fine Arts Buildings 
 
