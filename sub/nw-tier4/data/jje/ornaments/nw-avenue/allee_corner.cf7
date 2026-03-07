@@ -1,0 +1,73 @@
+
+	<SplineData />
+	<IdCounter>10</IdCounter>
+	<DummyRoot>
+		<Name />
+		<Groups>
+			<i>
+				<Name>feedback_sit</Name>
+				<Groups />
+				<hasValue>1</hasValue>
+				<Id>4</Id>
+				<Dummies>
+					<i>
+						<Name>feedback_sit_1</Name>
+						<hasValue>1</hasValue>
+						<Id>6</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.885454</w>
+							<x>0.000000</x>
+							<y>-0.464726</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.037473</x>
+							<y>0.004966</y>
+							<z>-0.117187</z>
+						</Position>
+						<RotationY>2.332865</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+					<i>
+						<Name>feedback_sit_2</Name>
+						<hasValue>1</hasValue>
+						<Id>6</Id>
+						<HeightAdaptationMode>1</HeightAdaptationMode>
+						<Orientation>
+							<w>0.885454</w>
+							<x>0.000000</x>
+							<y>-0.464726</y>
+							<z>0.000000</z>
+						</Orientation>
+						<Position>
+							<x>0.123481</x>
+							<y>0.004966</y>
+							<z>-0.031180</z>
+						</Position>
+						<RotationY>2.332865</RotationY>
+						<Extents>
+							<x>0.100000</x>
+							<y>0.100000</y>
+							<z>0.100000</z>
+						</Extents>
+					</i>
+				</Dummies>
+			</i>
+		</Groups>
+		<Dummies />
+		<hasValue>1</hasValue>
+		<Id>0</Id>
+	</DummyRoot>
+	<FeedbackDefinition>
+		<FeedbackConfigs />
+		<ValidSequenceIDs />
+	</FeedbackDefinition>
+	<ActorNames>
+		<i>[Root Object]</i>
+		<hasValue>1</hasValue>
+	</ActorNames>
