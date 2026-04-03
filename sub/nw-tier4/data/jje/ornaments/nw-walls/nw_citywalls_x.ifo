@@ -3,7 +3,7 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>-0.000000</xf>
 			<yf>0.140381</yf>
 			<zf>-0.000000</zf>
 		</Position>
@@ -40,7 +40,7 @@
 	<IntersectBox>
 		<Name>Hitbox1907</Name>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>0.000000</xf>
 			<yf>0.650754</yf>
 			<zf>-0.000000</zf>
 		</Position>
@@ -59,9 +59,9 @@
 	<IntersectBox>
 		<Name>Hitbox1907</Name>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>0.000000</xf>
 			<yf>0.650754</yf>
-			<zf>-0.000000</zf>
+			<zf>0.000000</zf>
 		</Position>
 		<Rotation>
 			<xf>0.000000</xf>
@@ -78,7 +78,7 @@
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>-0.000000</xf>
 			<yf>0.693449</yf>
 			<zf>-0.000000</zf>
 		</Position>

@@ -21,37 +21,37 @@
 	</BoundingBox>
 	<BuildBlocker>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>1.500000</xf>
 			<zf>-1.000000</zf>
 		</Position>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>1.500000</xf>
 			<zf>1.000000</zf>
 		</Position>
 		<Position>
-			<xf>-1.000000</xf>
+			<xf>0.500000</xf>
 			<zf>1.000000</zf>
 		</Position>
 		<Position>
-			<xf>-1.000000</xf>
+			<xf>0.500000</xf>
 			<zf>-1.000000</zf>
 		</Position>
 	</BuildBlocker>
 	<BuildBlocker>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>-0.500000</xf>
 			<zf>-1.000000</zf>
 		</Position>
 		<Position>
-			<xf>1.000000</xf>
+			<xf>-0.500000</xf>
 			<zf>1.000000</zf>
 		</Position>
 		<Position>
-			<xf>-1.000000</xf>
+			<xf>-1.500000</xf>
 			<zf>1.000000</zf>
 		</Position>
 		<Position>
-			<xf>-1.000000</xf>
+			<xf>-1.500000</xf>
 			<zf>-1.000000</zf>
 		</Position>
 	</BuildBlocker>

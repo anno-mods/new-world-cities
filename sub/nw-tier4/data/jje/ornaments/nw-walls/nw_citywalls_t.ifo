@@ -40,7 +40,7 @@
 	<IntersectBox>
 		<Name>Hitbox1907</Name>
 		<Position>
-			<xf>-3.000000</xf>
+			<xf>-0.000000</xf>
 			<yf>0.650754</yf>
 			<zf>-0.000000</zf>
 		</Position>
@@ -59,7 +59,7 @@
 	<IntersectBox>
 		<Name>Hitbox1907</Name>
 		<Position>
-			<xf>-3.000000</xf>
+			<xf>-0.000000</xf>
 			<yf>0.650754</yf>
 			<zf>-0.500000</zf>
 		</Position>
