@@ -4,7 +4,7 @@
 		<Name>BoundingBox</Name>
 		<Position>
 			<xf>-0.000000</xf>
-			<yf>0.904361</yf>
+			<yf>-0.032722</yf>
 			<zf>-0.000000</zf>
 		</Position>
 		<Rotation>
@@ -15,7 +15,7 @@
 		</Rotation>
 		<Extents>
 			<xf>0.543990</xf>
-			<yf>1.087927</yf>
+			<yf>0.259467</yf>
 			<zf>0.543990</zf>
 		</Extents>
 	</BoundingBox>
@@ -119,7 +119,7 @@
 		<Name>MeshBoundingBox</Name>
 		<Position>
 			<xf>-0.000000</xf>
-			<yf>0.934279</yf>
+			<yf>-0.002804</yf>
 			<zf>-0.000000</zf>
 		</Position>
 		<Rotation>
@@ -130,7 +130,7 @@
 		</Rotation>
 		<Extents>
 			<xf>0.550704</xf>
-			<yf>0.921313</yf>
+			<yf>0.219730</yf>
 			<zf>0.559150</zf>
 		</Extents>
 	</MeshBoundingBox>
