@@ -18,6 +18,10 @@
               <Patrono>0</Patrono>
             </Item>
             <Item>
+              <Building>5811</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
               <Building>1500040022</Building>
               <Patrono>1</Patrono>
             </Item>
@@ -92,13 +96,6 @@
     Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
     <Item>
       <Category>1500011556</Category>
-    </Item>
-  </ModOp>
-  <ModOp Type="addNextSibling" GUID="1500011556"
-    Path="/Values/ConstructionCategory/BuildingList/Item[Patrono&lt;=0]">
-    <Item>
-      <Building>1500011040</Building>
-      <Patrono>0</Patrono>
     </Item>
   </ModOp>
 </ModOps>

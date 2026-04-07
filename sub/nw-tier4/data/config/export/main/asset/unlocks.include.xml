@@ -166,6 +166,9 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
+                        <Asset>5818</Asset>
+                      </Item>
+                      <Item>
                         <Asset>1500040024</Asset>
                       </Item>
                       <Item>
