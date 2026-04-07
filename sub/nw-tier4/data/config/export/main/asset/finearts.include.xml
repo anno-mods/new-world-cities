@@ -1035,6 +1035,16 @@
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040070</GoodsOrPool>
             </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
           </PreparationGoods>
           <ShortSizeName>1500040069</ShortSizeName>
           <RewardThresholds>
@@ -1141,6 +1151,16 @@
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040098</GoodsOrPool>
             </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
           </PreparationGoods>
           <ShortSizeName>1500040097</ShortSizeName>
           <RewardThresholds>
@@ -1245,6 +1265,16 @@
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040116</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
             </Item>
           </PreparationGoods>
           <ShortSizeName>1500040115</ShortSizeName>
