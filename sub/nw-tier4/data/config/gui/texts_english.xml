@@ -536,6 +536,18 @@
     <Text>
       <GUID>1500040160</GUID>
       <Text>!Tramp Steamer InfoDescription</Text>
+    </Text>    
+    <Text>
+      <GUID>1500040400</GUID>
+      <Text>Pyotr Tchaikovsky: Symphony No. 6 "Pathetique"</Text>
+    </Text>
+    <Text>
+      <GUID>1500040401</GUID>
+      <Text>Composer Pyotr Tchaikovsky writes of death and transience. This symphony almost sounds like a requiem to himself, especially in the fourth movement. It seems to follow some program, although he did not want to tell anyone about it, stating that it shall remain a mystery to everyone. The subtitle “Pathétique” is linked to a piano sonata by Beethoven with the same name, but was assigned retroactively on idea of his brother Modest. &lt;br /&gt;&lt;br /&gt;A falling-second motif, almost a wailing cry, is woven through to the entire work. The second movement is entirely in 5/4-meter, something unusual for the waltz-like or minuet character this movement evokes, it rather is more prominent in Russian folk music. &lt;br /&gt;&lt;br /&gt;After the third movement, where a march theme is becoming more and more important, people always tend to clap, probably for its finalistic character. It is important not to do so, as a fourth movement is following, which does not end as a triumphant Finale, instead slowly fading into darkness and silence. It becomes apparent that the symphony's hidden program probably includes death, but Tchaikovsky will take that information to his grave.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040402</GUID>
+      <Text>A very long text for the infotip to overextend</Text>
     </Text>
   </ModOp>
 </ModOps>

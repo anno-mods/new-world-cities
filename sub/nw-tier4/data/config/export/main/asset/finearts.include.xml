@@ -1,6 +1,6 @@
 <ModOps>
   <ModOp Type = "addNextSibling" GUID = "1010516">
-    
+
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -166,7 +166,7 @@
           <SocketAllocation>RadiusBuilding;Mod12</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -313,7 +313,7 @@
           <SocketAllocation>RadiusBuilding;Mod13</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -460,7 +460,7 @@
           <SocketAllocation>RadiusBuilding;Mod14</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -792,7 +792,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc12/graphics/buildings/public/stadium/stadium_03.cfg</Filename>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
             </Item>
           </Variations>
           <Skins>
@@ -1960,4 +1960,6 @@
       <Text>1500040039</Text>
     </Mod14>
   </ModOp>
+
+  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14</ModOp>
 </ModOps>
