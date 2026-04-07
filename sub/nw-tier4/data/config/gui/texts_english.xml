@@ -61,6 +61,10 @@
       <Text>Silverware</Text>
     </Text>
     <Text>
+      <GUID>1500040007</GUID>
+      <Text>Silversmith</Text>
+    </Text>
+    <Text>
       <GUID>1500040010</GUID>
       <Text>Investment Bank</Text>
     </Text>
@@ -98,7 +102,7 @@
     </Text>
     <Text>
       <GUID>1500040035</GUID>
-      <Text>Parasolerie</Text>
+      <Text>Parasoleria</Text>
     </Text>
     <Text>
       <GUID>1500040037</GUID>
@@ -138,11 +142,11 @@
     </Text>
     <Text>
       <GUID>1500040050</GUID>
-      <Text>Public Pavilion</Text>
+      <Text>Festival Hall</Text>
     </Text>
     <Text>
       <GUID>1500040051</GUID>
-      <Text>!Public Pavilion InfoDescription</Text>
+      <Text>!Festival Hall InfoDescription</Text>
     </Text>
     <Text>
       <GUID>1500040052</GUID>
@@ -266,43 +270,43 @@
     </Text>
     <Text>
       <GUID>1500040082</GUID>
-      <Text>!Public Pavilion ShutdownText</Text>
+      <Text>!Festival Hall ShutdownText</Text>
     </Text>
     <Text>
       <GUID>1500040083</GUID>
-      <Text>!Public Pavilion AccessEventText</Text>
+      <Text>!Festival Hall AccessEventText</Text>
     </Text>
     <Text>
       <GUID>1500040084</GUID>
-      <Text>!Public Pavilion MissingElectricityDescription</Text>
+      <Text>!Festival Hall MissingElectricityDescription</Text>
     </Text>
     <Text>
       <GUID>1500040085</GUID>
-      <Text>!Public Pavilion SelectEventTheme</Text>
+      <Text>!Festival Hall SelectEventTheme</Text>
     </Text>
     <Text>
       <GUID>1500040086</GUID>
-      <Text>!Public Pavilion SelectEventSize</Text>
+      <Text>!Festival Hall SelectEventSize</Text>
     </Text>
     <Text>
       <GUID>1500040087</GUID>
-      <Text>!Public Pavilion PreparationAttractivenessHeader</Text>
+      <Text>!Festival Hall PreparationAttractivenessHeader</Text>
     </Text>
     <Text>
       <GUID>1500040088</GUID>
-      <Text>!Public Pavilion RewardHeader</Text>
+      <Text>!Festival Hall RewardHeader</Text>
     </Text>
     <Text>
       <GUID>1500040089</GUID>
-      <Text>!Public Pavilion CooldownText</Text>
+      <Text>!Festival Hall CooldownText</Text>
     </Text>
     <Text>
       <GUID>1500040090</GUID>
-      <Text>!Public Pavilion EventConclusionText</Text>
+      <Text>!Festival Hall EventConclusionText</Text>
     </Text>
     <Text>
       <GUID>1500040091</GUID>
-      <Text>!Public Pavilion InvestmentContribution</Text>
+      <Text>!Festival Hall InvestmentContribution</Text>
     </Text>
     <Text>
       <GUID>1500040092</GUID>

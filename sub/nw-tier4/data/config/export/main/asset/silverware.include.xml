@@ -255,7 +255,6 @@
           <GUID>1500040007</GUID>
           <Name>Silverware Service Building</Name>
           <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
-          <InfoDescription>11144</InfoDescription>
         </Standard>
         <Building>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
@@ -394,9 +393,7 @@
             </Fire>
           </IncidentInfectionChanceFactors>
         </IncidentInfectable>
-        <Industrializable>
-          <BoostedByIndustrialization>0</BoostedByIndustrialization>
-        </Industrializable>
+        <Industrializable />
         <Culture>
           <CultureType>Culture</CultureType>
         </Culture>
