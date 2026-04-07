@@ -192,25 +192,52 @@
             <Tier1>
               <Item>
                 <Building>1500040169</Building>
+              </Item>
+            </Tier1>
+          </ProductionChain>
+          <Locked />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040176</GUID>
+            <Name>Silver Bars NW Chain</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_silver_smelter.png</IconFilename>
+          </Standard>
+          <Text>
+            <TextOverride>1957006151</TextOverride>
+          </Text>
+          <ProductionChain>
+            <Building>1500040169</Building>
+            <Tier1>
+              <Item>
+                <Building>24820</Building>
                 <Tier2>
                   <Item>
-                    <Building>24820</Building>
+                    <Building>24860</Building>
+                  </Item>
+                </Tier2>
+              </Item>
+              <Item>
+                <Building>24844</Building>
+                <Tier2>
+                  <Item>
+                    <Building>24861</Building>
                     <Tier3>
                       <Item>
-                        <Building>24860</Building>
+                        <Building>101272</Building>
+                        <ForceIcon>1010232</ForceIcon>
+                      </Item>
+                      <Item>
+                        <Building>24805</Building>
+                        <ForceIcon>24807</ForceIcon>
                       </Item>
                     </Tier3>
                   </Item>
                   <Item>
-                    <Building>24844</Building>
-                    <Tier3>
-                      <Item>
-                        <Building>24861</Building>
-                      </Item>
-                      <Item>
-                        <Building>101311</Building>
-                      </Item>
-                    </Tier3>
+                    <Building>101311</Building>
                   </Item>
                 </Tier2>
               </Item>
@@ -577,6 +604,9 @@
               <Asset>1500040005</Asset>
             </Item>
             <Item>
+              <Asset>1500040176</Asset>
+            </Item>
+            <Item>
               <Asset>1500040006</Asset>
             </Item>
             <Item>
@@ -616,7 +646,7 @@
         </AssetPool>
       </Values>
     </Asset>
-    
+
     <Asset>
       <Template>AssetPool</Template>
       <Values>
@@ -877,7 +907,7 @@
       <GUID>1500040169</GUID>
     </Item>
   </ModOp>
-    <ModOp GUID = '//ItemEffectTargetPool/EffectTargetGUIDS[Item/GUID = 24857]' Type = "add">
+  <ModOp GUID = '//ItemEffectTargetPool/EffectTargetGUIDS[Item/GUID = 24857]' Type = "add">
     <Item>
       <GUID>1500040172</GUID>
     </Item>
