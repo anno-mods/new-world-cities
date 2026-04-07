@@ -73,10 +73,7 @@
                             </Tier2>
                         </Item>
                         <Item>
-                            <Building>1500010830</Building>
-                        </Item>
-                        <Item>
-                            <Building>1441202</Building>
+                            <Building>133031</Building>
                         </Item>
                     </Tier1>
                 </ProductionChain>
@@ -195,7 +192,7 @@
                             <StorageAmount>4</StorageAmount>
                         </Item>
                         <Item>
-                            <Product>1440200</Product>
+                            <Product>133097</Product>
                             <Amount>1</Amount>
                             <StorageAmount>4</StorageAmount>
                         </Item>
