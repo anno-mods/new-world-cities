@@ -38,7 +38,7 @@
         </Blocking>
         <Building>
           <BuildingType>Residence</BuildingType>
-          <!-- <PickingAsset>101254</PickingAsset> -->
+          <PickingAsset>101254</PickingAsset>
           <SecondPartyRelevant>0</SecondPartyRelevant>
           <BuildingCategoryName>1500011055</BuildingCategoryName>
           <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
