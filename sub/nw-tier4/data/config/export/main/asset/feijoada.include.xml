@@ -75,6 +75,10 @@
                         <Item>
                             <Building>133031</Building>
                         </Item>
+                        <Item>
+                            <!-- Vegetable Farm -->
+                            <Building>1500010830</Building>
+                        </Item>
                     </Tier1>
                 </ProductionChain>
                 <Locked>
@@ -255,12 +259,6 @@
     <ModOp GUID = '1500040025' Condition = "@1441202" Type = "add" Path = "/Values/ProductionChain/Tier1">
         <Item>
             <Building>1441202</Building>
-        </Item>
-    </ModOp>
-    <ModOp GUID = '1500040025' Condition = "!@1441202" Type = "add" Path = "/Values/ProductionChain/Tier1">
-        <Item>
-            <Building>0</Building>
-            <ForceIcon>1440200</ForceIcon>
         </Item>
     </ModOp>
 

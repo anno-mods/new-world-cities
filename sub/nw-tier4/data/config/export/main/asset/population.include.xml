@@ -294,15 +294,15 @@
     </Asset>
   </ModOp>
 
-    <!-- global population -->
-    <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='5403']">
-      <Item>
-        <PopulationLevel>1500011557</PopulationLevel>
-      </Item>
-    </ModOp>
-    <!-- <WorkforceOrder> -->
-    <!-- product filters -->
-    <!-- <ModOp Type="add" GUID="501962" Path="/Values/KeywordFilter/Keywords">
+  <!-- global population -->
+  <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='5403']">
+    <Item>
+      <PopulationLevel>1500011557</PopulationLevel>
+    </Item>
+  </ModOp>
+  <!-- <WorkforceOrder> -->
+  <!-- product filters -->
+  <!-- <ModOp Type="add" GUID="501962" Path="/Values/KeywordFilter/Keywords">
       <Item>
         <Keyword>1500011557</Keyword>
         <ProductList>1500010140</ProductList>
@@ -312,16 +312,15 @@
         <ProductList>1500010140</ProductList>
       </Item>
     </ModOp> -->
-    <!-- residence UI: append -->
-    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
-      <Item>
-        <PopulationLevel>1500011557</PopulationLevel>
-        <AssignedConfig>502287</AssignedConfig>
-      </Item>
-    </ModOp>
+  <!-- residence UI: append -->
+  <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
+    <Item>
+      <PopulationLevel>1500011557</PopulationLevel>
+      <AssignedConfig>502287</AssignedConfig>
+    </Item>
+  </ModOp>
 
-  <!-- <ModOp Type="add" GUID="15000083"
-    Path="/Values/PopulationGroup7/PopulationLevels">
+  <!-- <ModOp Type="add" GUID="15000083" Path="/Values/PopulationGroup7/PopulationLevels">
     <Item>
       <Level>1500011557</Level>
     </Item>
@@ -332,6 +331,12 @@
     <Item>
       <WorkforceValue>5</WorkforceValue>
       <WorkforceGUID>1500011558</WorkforceGUID>
+    </Item>
+  </ModOp>
+
+  <ModOp GUID = '52500008701065' Path = "/Values/WorkforceMenu/WorkforceList" Type = "add">
+    <Item>
+      <Asset>1500011558</Asset>
     </Item>
   </ModOp>
 </ModOps>
