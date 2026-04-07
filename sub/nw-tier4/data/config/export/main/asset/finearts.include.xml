@@ -1947,6 +1947,181 @@
         </Reward>
       </Values>
     </Asset>
+    
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040177</GUID>
+          <Name>RequestPool Drink Beer or Hibiscus</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010214</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>114390</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040178</GUID>
+          <Name>RequestPool Drink Rum or Lemonade</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010257</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>133185</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040179</GUID>
+          <Name>RequestPool Drink Champagne or Cognac</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>120016</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>135234</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040180</GUID>
+          <Name>RequestPool Food Goulash or Seafood Stew</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010215</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>114410</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040181</GUID>
+          <Name>RequestPool Food Ice Cream</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>5382</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040182</GUID>
+          <Name>RequestPool Decoration Cotton Fabric or Veneers</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010240</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1010242</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040183</GUID>
+          <Name>RequestPool Decoration Fur or Felt</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010209</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>120044</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040184</GUID>
+          <Name>RequestPool Entertainment Cigar or Gramophones</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>            
+            <Item>
+              <ItemLink>1010259</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1010248</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
   </ModOp>
 
   <ModOp Path = "@6000017/ItemConfig/AllocationText" Type = "add">

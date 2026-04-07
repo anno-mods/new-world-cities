@@ -130,6 +130,7 @@
 
 
 
+
 ## Fine Arts Events 
 
 | 1500040052 | Event Category Music |
@@ -213,6 +214,16 @@
 | 1500040125 | RewardPool Literature 4 |
 | 1500040126 | RewardPool Literature 5 |
 | 1500040127 | RewardPool Literature InfoDescription |
+
+
+| 1500040177 | RequestPool Drink Beer or Hibiscus |
+| 1500040178 | RequestPool Drink Rum or Lemonade |
+| 1500040179 | RequestPool Drink Champagne or Cognac |
+| 1500040180 | RequestPool Food Goulash or Seafood Stew |
+| 1500040181 | RequestPool Food Ice Cream |
+| 1500040182 | RequestPool Decoration Cotton Fabric or Veneers |
+| 1500040183 | RequestPool Decoration Fur or Felt |
+| 1500040184 | RequestPool Entertainment Cigar or Gramophones |
 
 
 ## Unlocks
