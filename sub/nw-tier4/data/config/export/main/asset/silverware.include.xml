@@ -216,7 +216,7 @@
                 <Building>24820</Building>
                 <Tier2>
                   <Item>
-                    <Building>24860</Building>
+                    <Building>1345</Building>
                   </Item>
                 </Tier2>
               </Item>
@@ -613,6 +613,9 @@
               <Asset>1500040007</Asset>
             </Item>
             <Item>
+              <Asset>24820</Asset>
+            </Item>
+            <Item>
               <Asset>24844</Asset>
             </Item>
             <Item>
@@ -658,6 +661,12 @@
           <AssetList>
             <Item>
               <Asset>1500040172</Asset>
+            </Item>
+            <Item>
+              <Asset>1500040176</Asset>
+            </Item>
+            <Item>
+              <Asset>24820</Asset>
             </Item>
             <Item>
               <Asset>24844</Asset>
