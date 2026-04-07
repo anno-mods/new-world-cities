@@ -1000,7 +1000,7 @@
       <Values>
         <Standard>
           <GUID>1500040061</GUID>
-          <Name>Event Art</Name>
+          <Name>Event Art Small</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
         </Standard>
         <Text>
@@ -1034,16 +1034,6 @@
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040070</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>50</MinAmount>
-              <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040071</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>25</MinAmount>
-              <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040072</GoodsOrPool>
             </Item>
           </PreparationGoods>
           <ShortSizeName>1500040069</ShortSizeName>
@@ -1116,7 +1106,7 @@
       <Values>
         <Standard>
           <GUID>1500040062</GUID>
-          <Name>Event Music</Name>
+          <Name>Event Music Small</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
         </Standard>
         <Text>
@@ -1150,16 +1140,6 @@
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040098</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>50</MinAmount>
-              <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040099</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>25</MinAmount>
-              <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040100</GoodsOrPool>
             </Item>
           </PreparationGoods>
           <ShortSizeName>1500040097</ShortSizeName>
@@ -1231,7 +1211,7 @@
       <Values>
         <Standard>
           <GUID>1500040063</GUID>
-          <Name>Event Literature</Name>
+          <Name>Event Literature Small</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
         </Standard>
         <Text>
@@ -1265,16 +1245,6 @@
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
               <GoodsOrPool>1500040116</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>50</MinAmount>
-              <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040117</GoodsOrPool>
-            </Item>
-            <Item>
-              <MinAmount>25</MinAmount>
-              <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040118</GoodsOrPool>
             </Item>
           </PreparationGoods>
           <ShortSizeName>1500040115</ShortSizeName>
@@ -1348,49 +1318,9 @@
       <Values>
         <Standard>
           <GUID>1500040070</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
+          <Name>RequestPool Art</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040073</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1999005069</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040071</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040074</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1999005069</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040072</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040075</InfoDescription>
         </Standard>
         <RewardPool>
           <ItemsPool>
@@ -1550,49 +1480,9 @@
       <Values>
         <Standard>
           <GUID>1500040098</GUID>
-          <Name>RequestPool Slot 1 Music</Name>
+          <Name>RequestPool Music</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040101</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1500040131</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040099</GUID>
-          <Name>RequestPool Slot 2 Music</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040102</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1500040131</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040100</GUID>
-          <Name>RequestPool Slot 3 Music</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040103</InfoDescription>
         </Standard>
         <RewardPool>
           <ItemsPool>
@@ -1752,47 +1642,7 @@
       <Values>
         <Standard>
           <GUID>1500040116</GUID>
-          <Name>RequestPool Slot 1 Literature</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1500040149</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040117</GUID>
-          <Name>RequestPool Slot 2 Literature</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>1500040149</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040118</GUID>
-          <Name>RequestPool Slot 3 Literature</Name>
+          <Name>RequestPool Literature</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040127</InfoDescription>
         </Standard>

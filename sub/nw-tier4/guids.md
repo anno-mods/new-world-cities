@@ -154,11 +154,7 @@
 | 1500040068 | Event Art PotentialEventReward |
 | 1500040069 | Event Art ShortSizeName |
 | 1500040070 | RequestPool Slot 1 Art |
-| 1500040071 | RequestPool Slot 2 Art |
-| 1500040072 | RequestPool Slot 3 Art |
 | 1500040073 | RequestPool Slot 1 Art InfoDescription |
-| 1500040074 | RequestPool Slot 2 Art InfoDescription |
-| 1500040075 | RequestPool Slot 3 Art InfoDescription |
 | 1500040076 | RewardPool Arts 1 |
 | 1500040077 | RewardPool Arts 2 |
 | 1500040078 | RewardPool Arts 3 |
@@ -184,11 +180,7 @@
 | 1500040096 | Event Music PotentialEventReward |
 | 1500040097 | Event Music ShortSizeName |
 | 1500040098 | RequestPool Slot 1 Music |
-| 1500040099 | RequestPool Slot 2 Music |
-| 1500040100 | RequestPool Slot 3 Music |
 | 1500040101 | RequestPool Slot 1 Music InfoDescription |
-| 1500040102 | RequestPool Slot 2 Music InfoDescription |
-| 1500040103 | RequestPool Slot 3 Music InfoDescription |
 | 1500040104 | RewardPool Music 1 |
 | 1500040105 | RewardPool Music 2 |
 | 1500040106 | RewardPool Music 3 |
@@ -203,11 +195,7 @@
 | 1500040114 | Event Literature PotentialEventReward |
 | 1500040115 | Event Literature ShortSizeName |
 | 1500040116 | RequestPool Slot 1 Literature |
-| 1500040117 | RequestPool Slot 2 Literature |
-| 1500040118 | RequestPool Slot 3 Literature |
 | 1500040119 | RequestPool Slot 1 Literature InfoDescription |
-| 1500040120 | RequestPool Slot 2 Literature InfoDescription |
-| 1500040121 | RequestPool Slot 3 Literature InfoDescription |
 | 1500040122 | RewardPool Literature 1 |
 | 1500040123 | RewardPool Literature 2 |
 | 1500040124 | RewardPool Literature 3 |
