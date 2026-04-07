@@ -30,8 +30,8 @@
           <Name>Patrono Residence</Name>
           <IconFilename>data/ui/jakob/icon_instant_patronos.png</IconFilename>
           <InfoDescription>163059</InfoDescription>
-          <NeighborLevel>Jornalero</NeighborLevel>
-          <AdjustToNeighbors>Jornalero</AdjustToNeighbors>
+          <NeighborLevel>Terraced</NeighborLevel>
+          <AdjustToNeighbors>Terraced</AdjustToNeighbors>
         </Standard>
         <Blocking>
           <AdditionalBlockRectSize>1</AdditionalBlockRectSize>
@@ -51,15 +51,12 @@
               <Pool>
                 <Item>
                   <Variation>4</Variation>
-                  <DirectionOffet>2</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>5</Variation>
-                  <DirectionOffet>2</DirectionOffet>
                 </Item>
                 <Item>
                   <Variation>6</Variation>
-                  <DirectionOffet>2</DirectionOffet>
                 </Item>
               </Pool>
             </Corner>
@@ -112,85 +109,6 @@
               </Pool>
             </End>
           </BuildingBlockPool>
-          <InfluencedVariationDirection>
-            <!--
-              Direction rotates counter clock wise.
-              Default facing is X towards NW, Y towards NE.
-            -->
-            <Item>
-              <!-- single -->
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- end, south-west -->
-              <Direction>1</Direction>
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- end, south-east -->
-              <Direction>2</Direction>
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- corner, south -->
-              <Direction>2</Direction>
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- end, north-east -->
-              <Direction>3</Direction>
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- mid, south-west to north-east -->
-              <Direction>1</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, east -->
-              <Direction>3</Direction>
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-east -->
-              <Direction>3</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- end, north-west -->
-              <Type>End</Type>
-            </Item>
-            <Item>
-              <!-- corner, west -->
-              <Direction>1</Direction>
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- mid, north-west to south-east -->
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing south-west  -->
-              <Direction>2</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- corner, north -->
-              <Type>Corner</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-west -->
-              <Direction>1</Direction>
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- T, front facing north-east -->
-              <Type>Mid</Type>
-            </Item>
-            <Item>
-              <!-- cross -->
-            </Item>
-          </InfluencedVariationDirection>
         </Building>
         <Cost>
           <Costs>
@@ -307,14 +225,14 @@
       </Values>
     </Asset>
   </ModOp>
-  <ModOp Type="add" GUID="5405" Path="/Values">
+  <ModOp Type="replace" GUID="5405" Path="/Values/Upgradable">
     <Upgradable>
       <NextGUID>1500011040</NextGUID>
     </Upgradable>
   </ModOp>
   <ModOp Type="merge" GUID="5405" Path="/Values">
     <Residence7>
-      <ResidentsRequiredForUpgrade>30</ResidentsRequiredForUpgrade>
+      <ResidentsRequiredForUpgrade>40</ResidentsRequiredForUpgrade>
     </Residence7>
   </ModOp>
 
@@ -325,138 +243,9 @@
     </Item>
   </ModOp>
 
-  <!-- # Build Menus -->
-  <!-- New World, Obrero -->
-  <ModOp Type="addPrevSibling" GUID="25000194,500092"
-    Path="/Values/ConstructionCategory/BuildingList/Item[1]">
-    <Item>
-      <Building>1500011040</Building>
-    </Item>
-  </ModOp>
-
-  <!-- # Unlock Conditions -->
-  <!-- =================== -->
-  <!-- just rely on unlock of gas power plant construction menu -->
-
-
-  <!--
-
-<PopulationInputs>
-                        <Item>
-                          <Product>120020</Product>
-                          <SupplyWeight>5</SupplyWeight>
-                        </Item>
-                        <Item>
-                          <Product>120033</Product>
-                          <Amount>0.000952381</Amount>
-                          <SupplyWeight>3</SupplyWeight>
-                          <MoneyValue>25</MoneyValue>
-                        </Item>
-                        <Item>
-                          <Product>1010257</Product>
-                          <Amount>0.000476191</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <MoneyValue>25</MoneyValue>
-                        </Item>
-                        <Item>
-                          <Product>120043</Product>
-                          <Amount>0.000833333</Amount>
-                          <SupplyWeight>2</SupplyWeight>
-                          <MoneyValue>25</MoneyValue>
-                        </Item>
-                        <Item>
-                          <Product>120050</Product>
-                          <HappinessValue>7</HappinessValue>
-                        </Item>
-                        <Item>
-                          <Product>120035</Product>
-                          <Amount>0.00047619</Amount>
-                          <SupplyWeight>4</SupplyWeight>
-                          <MoneyValue>10</MoneyValue>
-                          <FullWeightPopulationCount>300</FullWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>120032</Product>
-                          <Amount>0.000196079</Amount>
-                          <SupplyWeight>2</SupplyWeight>
-                          <MoneyValue>10</MoneyValue>
-                          <FullWeightPopulationCount>600</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>299</NoWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>1010348</Product>
-                          <HappinessValue>4</HappinessValue>
-                          <MoneyValue>10</MoneyValue>
-                          <FullWeightPopulationCount>600</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>299</NoWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>120037</Product>
-                          <Amount>0.000444444</Amount>
-                          <SupplyWeight>2</SupplyWeight>
-                          <MoneyValue>10</MoneyValue>
-                          <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>599</NoWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>1010214</Product>
-                          <Amount>0.000444444</Amount>
-                          <HappinessValue>4</HappinessValue>
-                          <MoneyValue>30</MoneyValue>
-                          <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>599</NoWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>1010259</Product>
-                          <Amount>0.000185185</Amount>
-                          <HappinessValue>2</HappinessValue>
-                          <MoneyValue>35</MoneyValue>
-                          <FullWeightPopulationCount>1500</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
-                        </Item>
-                        <Item>
-                          <Product>1010206</Product>
-                          <Amount>0.000416667</Amount>
-                          <SupplyWeight>2</SupplyWeight>
-                          <MoneyValue>25</MoneyValue>
-                          <FullWeightPopulationCount>1500</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
-                        </Item>
-                      </PopulationInputs>
-
-
-                            <Residence7>
-                              <ResidenceStorage>
-                                <InputStorageMax>1</InputStorageMax>
-                              </ResidenceStorage>
-                              <PopulationLevel7>15000004</PopulationLevel7>
-                              <ResidentMax>75</ResidentMax>
-                              <CanHaveGoodViewBuff>1</CanHaveGoodViewBuff>
-                              <GoodViewStartValue>1</GoodViewStartValue>
-                              <GoodViewRadius>4</GoodViewRadius>
-                              <GoodViewBuffs>
-                                <Item>
-                                  <GoodViewBuff>601904</GoodViewBuff>
-                                </Item>
-                                <Item>
-                                  <GoodViewBuff>601903</GoodViewBuff>
-                                </Item>
-                                <Item>
-                                  <GoodViewBuff>601905</GoodViewBuff>
-                                </Item>
-                                <Item>
-                                  <GoodViewBuff>601906</GoodViewBuff>
-                                </Item>
-                                <Item>
-                                  <GoodViewBuff>601902</GoodViewBuff>
-                                </Item>
-                              </GoodViewBuffs>
-                              <GoodViewEmpty>137280</GoodViewEmpty>
-                              <MoveInMs>9000</MoveInMs>
-                              <MoveOutMs>5000</MoveOutMs>
-                              <MoveRandomMs>250</MoveRandomMs>
-                            </Residence7>
-
-
-  -->
+      <ModOp Type="add" GUID="7233" Path="/Values/ResidenceUpgradeFeature/BuildingsExcludedFromDefaultVariationRule">
+        <Item>
+            <Building>1500011040</Building>
+        </Item>
+    </ModOp>
 </ModOps>
