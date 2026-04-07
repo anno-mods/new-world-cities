@@ -56,6 +56,10 @@
 | 1500040170 | Production Silver Ore | 
 | 1500040171 | Production Silver Ore WorkArea | 
 | 1500040172 | Production Silvercoin | 
+
+| 1500040174 | Chain Linen OW |
+| 1500040175 | Chain Ink OW | 
+
 ## Items 
 
 | 15000404xx | Culture Items Music | 
@@ -222,7 +226,6 @@
 | 1500040167 | Unlock Art Academy Permit quest | 
 
 ## Vehicles 
-
 
 | 1500040160 | Tramp Steamer | 
 | 1500040161 | Hindenburg | 

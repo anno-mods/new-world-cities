@@ -107,7 +107,10 @@
                         </Item>
                         <Item>
                             <Asset>1500040136</Asset>
-                        </Item>
+                        </Item>                  
+                        <Item>
+                            <Asset>1500040174</Asset>
+                        </Item> 
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -135,6 +138,33 @@
                         </Item>
                         <Item>
                             <Asset>1500040138</Asset>
+                        </Item>                   
+                        <Item>
+                            <Asset>1500040175</Asset>
+                        </Item>             
+                        <Item>
+                            <!-- Ink Factory-->
+                            <Asset>1555000166</Asset>
+                        </Item>              
+                        <Item>
+                            <!-- Ink -->
+                            <Asset>1555000161</Asset>
+                        </Item>           
+                        <Item>
+                            <!-- Lead Factory -->
+                            <Asset>1742100409</Asset>
+                        </Item>             
+                        <Item>
+                            <!-- Galena Module -->
+                            <Asset>1742100407</Asset>
+                        </Item>             
+                        <Item>
+                            <!-- Lead-->
+                            <Asset>1742100435</Asset>
+                        </Item>  
+                        <Item>
+                            <!-- Galena-->
+                            <Asset>1742100433</Asset>
                         </Item>
                     </AssetList>
                 </AssetPool>
@@ -153,6 +183,10 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040129</Building>
+                    <Item>
+                        <Building>5462</Building>
+                        <ForceIcon>1742110023</ForceIcon>
+                    </Item>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
@@ -172,6 +206,39 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040128</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010320</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010266</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1500010126</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500010124</Building>
+                                </Item>                  
+                                <Item>
+                                    <Building>1500011458</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>5462</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1390</Building>
+                                </Item>
+                                <Item>
+                                    <Building>101272</Building>
+                                    <ForceIcon>1010232</ForceIcon>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
@@ -191,6 +258,41 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040130</Building>
+                    <Tier1>                    
+                        <Item>
+                            <Building>117744</Building>
+                        </Item>
+                        <Item>
+                            <Building>1555000166</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>135134</Building>
+                                    <!--Multifactory_SA_Chemical_Ethanol-->
+                                    <Tier3>
+                                        <Item>
+                                            <Building>101260</Building>
+                                            <!--agriculture_colony01_06 (Timber Yard)-->
+                                        </Item>
+                                        <Item>
+                                            <Building>101270</Building>
+                                            <!--agriculture_colony01_10 (Corn Farm)-->
+                                        </Item>
+                                    </Tier3>
+                                </Item>                                
+                                <Item>
+                                    <Building>1345</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1742100409</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1742100407</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>

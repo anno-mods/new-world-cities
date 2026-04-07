@@ -1,9 +1,8 @@
- <ModOps>
+<ModOps>
   <!-- # Menu -->
   <Group>
     <!-- Services [Artista or Patrono &lt;= 1]-->
-    <ModOp Type="addNextSibling" GUID="500138"
-      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+    <ModOp Type="addNextSibling" GUID="500138" Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
       <Item>
         <Building>1500040012</Building>
         <Patrono>1</Patrono>
@@ -30,10 +29,13 @@
                 <Building>118734</Building>
                 <Tier2>
                   <Item>
-                    <Building>114441</Building>
+                    <Building>1500011500</Building>
                     <Tier3>
                       <Item>
-                        <Building>114448</Building>
+                        <Building>1500010124</Building>
+                      </Item>
+                      <Item>
+                        <Building>1500011458</Building>
                       </Item>
                     </Tier3>
                   </Item>
@@ -224,7 +226,7 @@
           </IncidentInfectable>
           <Culture />
         </Values>
-      </Asset>          
+      </Asset>
       <Asset>
         <Template>AssetPool</Template>
         <Values>
@@ -262,8 +264,7 @@
     </ModOp>
 
     <!-- add to the building pool -->
-    <ModOp Type="add" GUID="190136,191501,368"
-      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="190136,191501,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1500040000</GUID>
       </Item>

@@ -91,11 +91,93 @@
         <Locked />
       </Values>
     </Asset>
+
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040174</GUID>
+          <Name>Linen OW Chain</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_linen_fabric.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>114391</TextOverride>
+        </Text>
+        <ProductionChain>
+          <Building>1500011500</Building>
+          <Tier1>
+            <Item>
+              <Building>1500010124</Building>
+            </Item>
+            <Item>
+              <Building>1500011458</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040175</GUID>
+          <Name>Ink OW Chain</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_ink.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>1555000161</TextOverride>
+        </Text>
+        <ProductionChain>
+          <Building>1555000166</Building>
+          <Tier1>
+            <Item>
+              <Building>135134</Building>
+              <!--Multifactory_SA_Chemical_Ethanol-->
+              <Tier2>
+                <Item>
+                  <Building>1010266</Building>
+                  <!--agriculture_colony01_06 (Timber Yard)-->
+                </Item>
+                <Item>
+                  <Building>101270</Building>
+                  <!--agriculture_colony01_10 (Corn Farm)-->
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>1010298</Building>
+            </Item>
+            <Item>
+              <Building>1742100409</Building>
+              <Tier2>
+                <Item>
+                  <Building>1742100407</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
   </ModOp>
-  <ModOp Type="addNextSibling" GUID="25000035"
-    Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
+  <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
     <Item>
       <Category>1500011556</Category>
+    </Item>
+  </ModOp>
+
+  <ModOp GUID = '25000190' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
+    <Item>
+      <Building>1500040174</Building>
+    </Item>
+    <Item>
+      <Building>1500040175</Building>
     </Item>
   </ModOp>
 </ModOps>

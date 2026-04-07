@@ -262,6 +262,12 @@
         </Item>
     </ModOp>
 
+    <ModOp GUID = '25000189' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
+        <Item>
+            <Building>1500010830</Building>
+        </Item>
+    </ModOp>
+
     <!-- # Expeditions -->
     <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500040028']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
         <Item>
