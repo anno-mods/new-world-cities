@@ -18,7 +18,7 @@
               <Patrono>0</Patrono>
             </Item>
             <Item>
-              <Building>5811</Building>
+              <Building>1500040219</Building>
               <Patrono>1</Patrono>
             </Item>
             <Item>
@@ -170,6 +170,24 @@
       </Values>
     </Asset>
   </ModOp>
+
+  <ModOp GUID = '5811' Type = "addNextSibling">
+    <Asset>
+      <BaseAssetGUID>5811</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040219</GUID>
+          <Name>Patrono Perfume Chain</Name>
+        </Standard>
+        <Text>
+          <TextOverride>5811</TextOverride>
+        </Text>
+        <ProductionChain />
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
   <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
     <Item>
       <Category>1500011556</Category>

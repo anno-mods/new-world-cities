@@ -60,6 +60,7 @@
 | 1500040174 | Chain Linen OW |
 | 1500040175 | Chain Ink OW | 
 | 1500040176 | Chain Silver Part 1 NW | 
+| 1500040219 | Chain Perfume Copypasta | 
 
 ## Items 
 

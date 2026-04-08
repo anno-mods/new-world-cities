@@ -46,6 +46,9 @@
                         <Item>
                             <Asset>1500040025</Asset>
                         </Item>
+                        <Item>
+                            <Asset>1500040218</Asset>
+                        </Item>
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -73,7 +76,12 @@
                             </Tier2>
                         </Item>
                         <Item>
-                            <Building>133031</Building>
+                            <Building>1500040218</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500040200</Building>
+                                </Item>
+                            </Tier2>
                         </Item>
                         <Item>
                             <!-- Vegetable Farm -->

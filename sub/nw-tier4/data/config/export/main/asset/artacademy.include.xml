@@ -183,10 +183,19 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040129</Building>
-                    <Item>
-                        <Building>5462</Building>
-                        <ForceIcon>1742110023</ForceIcon>
-                    </Item>
+                    <Tier1>
+                        <Item>
+                            <Building>117744</Building>
+                        </Item>              
+                        <Item>
+                            <Building>1500040217</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500040200</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
