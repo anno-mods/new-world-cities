@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "**/data/base/config/{engine,export,game,gui}/**/*.xml": "anno-xml"
+  },
+  "xml.fileAssociations": [
+    {
+      "pattern": "data/config/{engine,export,game,gui}/**/*.xml",
+      "systemId": "https://raw.githubusercontent.com/anno-mods/vscode-anno-modding-tools/main/generated/assets.xsd"
+    }
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/modinfo.json"
+      ],
+      "url": "https://raw.githubusercontent.com/anno-mods/vscode-anno-modding-tools/main/languages/modinfo-schema.json"
+    }
+  ]
+}

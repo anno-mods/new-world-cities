@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040215</GUID>
+      <Text>Importdock: Seidenstoff</Text>
+    </Text>
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>Handelsinfrastruktur</Text>
+    </Text>
+  </ModOp>
+</ModOps>

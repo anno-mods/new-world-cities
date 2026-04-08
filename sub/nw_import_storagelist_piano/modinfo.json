@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_import_storagelist_piano",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Piano FTC NW Import Storagelist",
+    "English": "Piano FTC NW Import Storagelist",
+    "French": "Piano FTC NW Import Storagelist",
+    "German": "Piano FTC NW Import Storagelist",
+    "Italian": "Piano FTC NW Import Storagelist",
+    "Japanese": "Piano FTC NW Import Storagelist",
+    "Korean": "Piano FTC NW Import Storagelist",
+    "Polish": "Piano FTC NW Import Storagelist",
+    "Russian": "Piano FTC NW Import Storagelist",
+    "Spanish": "Piano FTC NW Import Storagelist",
+    "Taiwanese": "Piano FTC NW Import Storagelist"
+  },
+  "Description": {
+    "English": "# Submod that regulates appearance of the product 'Piano' in the Import StorageList of the NW Foreign Trading Company.",
+    "German": "# Submod, die das Erscheinen des Produkts 'Klavier' in der Import StorageList der Fernhandelscompagnie der neuen Welt regelt.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

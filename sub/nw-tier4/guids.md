@@ -248,3 +248,14 @@
 | 1500040209 | FTC Depot AR |
 | 1500040210 | FTC Menu AR |
 | 1500040211 | Asset Pool FTC AR | 
+
+| 1500040212 | Storage List NW |
+| 1500040213 | Storage List AF | 
+| 1500040214 | Storage List AR | 
+
+## FTC: Edad de Oro 
+
+| 1500040215 | Import Dock Silk Fabric NW |
+| 1500040216 | Import Dock Automobiles NW |
+| 1500040217 | Import Dock Pianos NW |
+| 1500040218 | Import Dock Rice NW |

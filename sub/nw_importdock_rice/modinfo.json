@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_rice",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Rice FTC NW Importdock",
+    "English": "Rice FTC NW Importdock",
+    "French": "Rice FTC NW Importdock",
+    "German": "Rice FTC NW Importdock",
+    "Italian": "Rice FTC NW Importdock",
+    "Japanese": "Rice FTC NW Importdock",
+    "Korean": "Rice FTC NW Importdock",
+    "Polish": "Rice FTC NW Importdock",
+    "Russian": "Rice FTC NW Importdock",
+    "Spanish": "Rice FTC NW Importdock",
+    "Taiwanese": "Rice FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Rice in the new world Foreign Trading Company",
+    "German": "Importdock Reis für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

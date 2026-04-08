@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040218</GUID>
+      <Text>Molo di importazione: Riso</Text>
+    </Text>
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>Infrastrutture commerciali</Text>
+    </Text>
+  </ModOp>
+</ModOps>

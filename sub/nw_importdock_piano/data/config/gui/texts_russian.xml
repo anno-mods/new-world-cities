@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040217</GUID>
+      <Text>Импортный док: пианино</Text>
+    </Text>
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>Торговая инфраструктура</Text>
+    </Text>
+  </ModOp>
+</ModOps>
