@@ -32,7 +32,8 @@
     "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V5/ow-ink-Drakkam.zip",
     "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V5/ink-Drakkam.zip",
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_lead.zip",
-    "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_galena.zip"
+    "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_galena.zip",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_neutral_airport.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
@@ -46,11 +47,11 @@
     "../nw_importdock_silkfabric",
     "../nw_importdock_rice",
     "../nw_importdock_cars",
-    "../nw_importdock_pianos",
+    "../nw_importdock_piano",
     "../nw_import_storagelist_silkfabric",
     "../nw_import_storagelist_rice",
     "../nw_import_storagelist_cars",
-    "../nw_import_storagelist_pianos"
+    "../nw_import_storagelist_piano"
   ],
   "Category": {
     "English": "Component"

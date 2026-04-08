@@ -235,7 +235,7 @@
   </ModOp>
 
   <!-- Add Import Docks to the module list of the shared main building -->
-  <ModOp Type="add" GUID="1999005385" Path="/Values/ModuleOwner/ConstructionOptions">
+  <ModOp Type="add" GUID="1500040200" Path="/Values/ModuleOwner/ConstructionOptions">
     <Item>
       <ModuleGUID>1500040216</ModuleGUID>
     </Item>
