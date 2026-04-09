@@ -169,6 +169,229 @@
         </Locked>
       </Values>
     </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040220</GUID>
+          <Name>PatronoUnlockGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Colored Tiles -->
+            <Item>
+              <Product>1500301073</Product>
+            </Item>
+            <!-- Perfumes-->
+            <Item>
+              <Product>5386</Product>
+            </Item>
+            <Item>
+              <Product>5388</Product>
+            </Item>
+            <!-- Feijoada -->
+            <Item>
+              <Product>1440200</Product>
+            </Item>
+            <Item>
+              <Product>1500010836</Product>
+            </Item>
+            <Item>
+              <Product>1500040028</Product>
+            </Item>
+            <!-- Silverware -->
+            <Item>
+              <Product>24852</Product>
+            </Item>
+            <Item>
+              <Product>24846</Product>
+            </Item>
+            <Item>
+              <Product>24821</Product>
+            </Item>
+            <Item>
+              <!-- Silver Bars -->
+              <Product>1957006151</Product>
+            </Item>
+            <Item>
+              <Product>1500040005</Product>
+            </Item>
+            <!-- Fedoras -->
+            <Item>
+              <Product>1555000124</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>1440209</Product>
+            </Item>
+            <Item>
+              <Product>1440224</Product>
+            </Item>
+            <Item>
+              <Product>114365</Product>
+            </Item>
+            <Item>
+              <Product>114391</Product>
+            </Item>
+            <Item>
+              <Product>1500040032</Product>
+            </Item>
+            <!-- Automobiles -->
+            <Item>
+              <Product>1440023</Product>
+            </Item>
+            <!-- Investment Bank: Silver Coins -->
+            <Item>
+              <Product>24851</Product>
+            </Item>
+            <!-- Artwork -->
+            <Item>
+              <Product>1999005069</Product>
+            </Item>
+            <!-- Manuscript -->
+            <Item>
+              <!-- Galena -->
+              <Product>1742100433</Product>
+            </Item>
+            <Item>
+              <!-- Lead -->
+              <Product>1742100435</Product>
+            </Item>
+            <Item>
+              <!-- Ink -->
+              <Product>1555000161</Product>
+            </Item>
+            <Item>
+              <!-- Manuscript -->
+              <Product>1500040149</Product>
+            </Item>
+            <!-- Sheet Music -->
+            <Item>
+              <Product>1742110023</Product>
+            </Item>
+            <Item>
+              <Product>1500040131</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040221</GUID>
+          <Name>PatronoConsumerGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Perfumes-->
+            <Item>
+              <Product>5388</Product>
+            </Item>
+            <!-- Feijoada -->
+            <Item>
+              <Product>1500040028</Product>
+            </Item>
+            <!-- Silverware -->
+            <Item>
+              <Product>1500040005</Product>
+            </Item>
+            <!-- Fedoras -->
+            <Item>
+              <Product>1555000124</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>1500040032</Product>
+            </Item>
+            <!-- Automobiles -->
+            <Item>
+              <Product>1440023</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040222</GUID>
+          <Name>PatronoIntermediateGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Feijoada -->
+            <Item>
+              <Product>1440200</Product>
+            </Item>
+            <Item>
+              <Product>1500010836</Product>
+            </Item>
+            <Item>
+              <Product>1500040028</Product>
+            </Item>
+            <!-- Silverware -->
+            <Item>
+              <Product>24852</Product>
+            </Item>
+            <Item>
+              <Product>24846</Product>
+            </Item>
+            <Item>
+              <Product>24821</Product>
+            </Item>
+            <Item>
+              <!-- Silver Bars -->
+              <Product>1957006151</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>114391</Product>
+            </Item>
+            <Item>
+              <Product>1440209</Product>
+            </Item>
+            <!-- Automobiles -->
+            <!-- Investment Bank: Silver Coins -->
+            <!-- Artwork -->
+            <!-- Manuscript -->
+            <Item>
+              <!-- Lead -->
+              <Product>1742100435</Product>
+            </Item>
+            <Item>
+              <!-- Ink -->
+              <Product>1555000161</Product>
+            </Item>
+            <!-- Sheet Music -->
+            <Item>
+              <Product>1742110023</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID = '502081,502035,502031,502034,15504022' Path ="/Values/ProductList/List/Item[Product='7398']" Type = "addNextSibling">
+    <Item>
+      <Product>1500040221</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '502078,502080,502028,502068,502016,502065,502220,502027,502067,15504021,15504020' Path ="/Values/ProductList/List/Item[Product='7397']" Type = "addNextSibling">
+    <Item>
+      <Product>1500040220</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '502044' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1500040222</Product>
+    </Item>
   </ModOp>
 
   <ModOp GUID = '5811' Type = "addNextSibling">

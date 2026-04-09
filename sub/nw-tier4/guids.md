@@ -62,6 +62,11 @@
 | 1500040176 | Chain Silver Part 1 NW | 
 | 1500040219 | Chain Perfume Copypasta | 
 
+
+| 1500040220 | ProductList Patrono Unlock | 
+| 1500040221 | ProductList Patrono Needs | 
+| 1500040222 | ProductList Patrono Intermediate Goods | 
+
 ## Items 
 
 | 15000404xx | Culture Items Music | 

@@ -13,6 +13,10 @@
           <AssetPool>
             <AssetList>
               <Item>
+                <!-- Fedora -->
+                <Asset>1555000124</Asset>
+              </Item>
+              <Item>
                 <Asset>1555000128</Asset>
               </Item>
               <Item>

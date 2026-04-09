@@ -645,6 +645,12 @@
             <Item>
               <Asset>1500040170</Asset>
             </Item>
+            <Item>
+              <Asset>24821</Asset>
+            </Item>
+            <Item>
+              <Asset>1957006151</Asset>
+            </Item>
           </AssetList>
         </AssetPool>
       </Values>
@@ -659,6 +665,9 @@
         </Standard>
         <AssetPool>
           <AssetList>
+            <Item>
+              <Asset>24851</Asset>
+            </Item>
             <Item>
               <Asset>1500040172</Asset>
             </Item>
@@ -697,6 +706,12 @@
             </Item>
             <Item>
               <Asset>1500040170</Asset>
+            </Item>
+            <Item>
+              <Asset>24821</Asset>
+            </Item>
+            <Item>
+              <Asset>1957006151</Asset>
             </Item>
           </AssetList>
         </AssetPool>
