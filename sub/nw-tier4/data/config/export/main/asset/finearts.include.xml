@@ -1101,7 +1101,7 @@
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
           <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
               <VariationIndex>0</VariationIndex>
@@ -1217,7 +1217,7 @@
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
           <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
               <VariationIndex>0</VariationIndex>
@@ -1332,7 +1332,7 @@
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
           <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
               <VariationIndex>0</VariationIndex>
