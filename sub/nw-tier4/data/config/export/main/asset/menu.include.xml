@@ -394,6 +394,22 @@
     </Item>
   </ModOp>
 
+  <!-- Add tiles to construction materials -->
+  <ModOp GUID = '501957,502168,502221' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1500301073</Product>
+    </Item>
+  </ModOp>
+  <!-- Add Silver Ore and Galena to Mining -->
+  <ModOp GUID = '502050' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1742100433</Product>
+    </Item>
+    <Item>
+      <Product>6360</Product>
+    </Item>
+  </ModOp>
+
   <ModOp GUID = '5811' Type = "addNextSibling">
     <Asset>
       <BaseAssetGUID>5811</BaseAssetGUID>
