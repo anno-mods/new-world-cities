@@ -334,7 +334,7 @@
     </Item>
   </ModOp>
 
-  <ModOp GUID = '52500008701065' Path = "/Values/WorkforceMenu/WorkforceList" Type = "add">
+  <ModOp GUID = '25000087' Path = "/Values/WorkforceMenu/WorkforceList" Type = "add">
     <Item>
       <Asset>1500011558</Asset>
     </Item>
