@@ -794,6 +794,15 @@
             <Item>
               <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
             </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_music.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_art.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_literature.cfg</Filename>
+            </Item>
           </Variations>
           <Skins>
             <DefaultSkinName>1500040050</DefaultSkinName>
