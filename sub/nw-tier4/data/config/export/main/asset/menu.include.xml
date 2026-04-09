@@ -18,71 +18,63 @@
               <Patrono>0</Patrono>
             </Item>
             <Item>
-              <Building>1500040219</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
               <Building>1500040022</Building>
               <Patrono>1</Patrono>
             </Item>
             <Item>
+              <Building>1500040219</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
               <Building>1500040025</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040036</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>120289</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>603336111</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040047</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040001</Building>
-              <Patrono>1</Patrono>
-            </Item>
+              <Patrono>500</Patrono>
+            </Item>                             
             <Item>
               <Building>1500040016</Building>
-              <Patrono>1</Patrono>
-            </Item>
+              <Patrono>500</Patrono>
+            </Item> 
             <Item>
-              <Building>1500040176</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040006</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040008</Building>
-              <Patrono>1</Patrono>
-            </Item>
+              <Building>1500040001</Building>
+              <Patrono>1000</Patrono>
+            </Item>      
             <Item>
               <Building>1500040012</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>605883300</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040050</Building>
-              <Patrono>1</Patrono>
+              <Patrono>1000</Patrono>
             </Item>
             <Item>
               <Building>1500040147</Building>
-              <Patrono>1</Patrono>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040050</Building>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040047</Building>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040036</Building>
+              <Patrono>2000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040176</Building>
+              <Patrono>3000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040006</Building>
+              <Patrono>3000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040008</Building>
+              <Patrono>3000</Patrono>
             </Item>
             <Item>
               <Building>1500040148</Building>
+              <Patrono>4000</Patrono>
+            </Item>
+            <Item>
+              <Building>605883300</Building>
               <Patrono>1</Patrono>
             </Item>
             <Item>

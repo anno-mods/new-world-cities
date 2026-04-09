@@ -56,13 +56,10 @@
 | 1500040170 | Production Silver Ore | 
 | 1500040171 | Production Silver Ore WorkArea | 
 | 1500040172 | Production Silvercoin | 
-
 | 1500040174 | Chain Linen OW |
 | 1500040175 | Chain Ink OW | 
 | 1500040176 | Chain Silver Part 1 NW | 
 | 1500040219 | Chain Perfume Copypasta | 
-
-
 | 1500040220 | ProductList Patrono Unlock | 
 | 1500040221 | ProductList Patrono Needs | 
 | 1500040222 | ProductList Patrono Intermediate Goods | 
@@ -146,8 +143,14 @@
 | 1500040060 | Literature DescriptionFluff | 
 
 | 1500040061 | Event Art |
+| 1500040223 | Event Art Medium |
+| 1500040224 | Event Art Huge | 
 | 1500040062 | Event Music |
+| 1500040225 | Event Music Medium |
+| 1500040226 | Event Music Huge | 
 | 1500040063 | Event Literature |
+| 1500040227 | Event Literature Medium |
+| 1500040228 | Event Literature Huge |
 
 | 1500040064 | Event Art DescriptionFluff | 
 | 1500040065 | Event Art SelectionText |

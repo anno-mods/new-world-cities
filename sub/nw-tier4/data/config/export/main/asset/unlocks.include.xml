@@ -5,7 +5,7 @@
       <Values>
         <Standard>
           <GUID>1500011559</GUID>
-          <Name>@ 900 Artisans</Name>
+          <Name>Unlock Patronos </Name>
           <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
         </Standard>
         <Trigger>
@@ -15,8 +15,8 @@
               <Condition />
               <ConditionPlayerCounter>
                 <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>15000002</Context>
-                <CounterAmount>900</CounterAmount>
+                <Context>5403</Context>
+                <CounterAmount>4000</CounterAmount>
               </ConditionPlayerCounter>
             </Values>
           </TriggerCondition>
@@ -28,12 +28,6 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnlockAssets>
-                      <Item>
-                        <Asset>1500011557</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500011556</Asset>
-                      </Item>
                       <Item>
                         <Asset>1500011040</Asset>
                       </Item>
@@ -174,9 +168,6 @@
                       <Item>
                         <Asset>1500040024</Asset>
                       </Item>
-                      <Item>
-                        <Asset>1500040027</Asset>
-                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -194,55 +185,7 @@
       <Values>
         <Standard>
           <GUID>1500040154</GUID>
-          <Name>Unlock @ 500 Patrono | Intermediate NW 4.1</Name>
-        </Standard>
-        <Trigger>
-          <TriggerCondition>
-            <Template>ConditionPlayerCounter</Template>
-            <Values>
-              <Condition />
-              <ConditionPlayerCounter>
-                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                <Context>1500011557</Context>
-                <CounterAmount>500</CounterAmount>
-              </ConditionPlayerCounter>
-            </Values>
-          </TriggerCondition>
-          <TriggerActions>
-            <Item>
-              <TriggerAction>
-                <Template>ActionUnlockAsset</Template>
-                <Values>
-                  <Action />
-                  <ActionUnlockAsset>
-                    <UnlockAssets>
-                      <Item>
-                        <Asset>1500040017</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500040004</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500040020</Asset>
-                      </Item>
-                    </UnlockAssets>
-                  </ActionUnlockAsset>
-                </Values>
-              </TriggerAction>
-            </Item>
-          </TriggerActions>
-        </Trigger>
-        <TriggerSetup>
-          <UsedBySecondParties>0</UsedBySecondParties>
-        </TriggerSetup>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>Trigger</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040155</GUID>
-          <Name>Unlock @ 1000 Patrono | Intermediate NW 4.2</Name>
+          <Name>Unlock @ 1000 Patrono | Intermediate NW 4.1</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -265,16 +208,34 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>1500040034</Asset>
+                        <Asset>1500040027</Asset>
                       </Item>
                       <Item>
-                        <Asset>1500040018</Asset>
+                        <Asset>1500040020</Asset>
                       </Item>
                       <Item>
-                        <Asset>1500040160</Asset>
+                        <Asset>1500040145</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040038</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040050</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionAddResource</Template>
+                <Values>
+                  <Action />
+                  <ActionAddResource>
+                    <Resource>1500040168</Resource>
+                    <ResourceAmount>1</ResourceAmount>
+                  </ActionAddResource>
                 </Values>
               </TriggerAction>
             </Item>
@@ -289,8 +250,8 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1500040156</GUID>
-          <Name>Unlock @ 2000 Patrono | Intermediate NW 4.3</Name>
+          <GUID>1500040155</GUID>
+          <Name>Unlock @ 2000 Patrono | Intermediate NW 4.2</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -312,6 +273,15 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnlockAssets>
+                      <Item>
+                        <Asset>1500040004</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040019</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040160</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -328,8 +298,8 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1500040157</GUID>
-          <Name>Unlock @ 3000 Patrono | Intermediate NW 4.4</Name>
+          <GUID>1500040156</GUID>
+          <Name>Unlock @ 3000 Patrono | Intermediate NW 4.3</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -352,10 +322,28 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>1500040019</Asset>
+                        <Asset>1500040034</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040144</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040037</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionAddResource</Template>
+                <Values>
+                  <Action />
+                  <ActionAddResource>
+                    <Resource>1500040168</Resource>
+                    <ResourceAmount>2</ResourceAmount>
+                  </ActionAddResource>
                 </Values>
               </TriggerAction>
             </Item>
@@ -370,8 +358,8 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1500040158</GUID>
-          <Name>Unlock @ 4000 Patrono | Intermediate NW 4.5</Name>
+          <GUID>1500040157</GUID>
+          <Name>Unlock @ 4000 Patrono | Intermediate NW 4.4</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -394,7 +382,13 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
+                        <Asset>1500040017</Asset>
+                      </Item>
+                      <Item>
                         <Asset>1500040173</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040018</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -412,8 +406,8 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1500040159</GUID>
-          <Name>Unlock @ 5000 Patrono | Intermediate NW 4.6</Name>
+          <GUID>1500040158</GUID>
+          <Name>Unlock @ 5000 Patrono | Intermediate NW 4.5</Name>
         </Standard>
         <Trigger>
           <TriggerCondition>
@@ -436,25 +430,10 @@
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
-                        <Asset>1500040144</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500040145</Asset>
-                      </Item>
-                      <Item>
                         <Asset>1500040146</Asset>
                       </Item>
                       <Item>
-                        <Asset>1500040037</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500040038</Asset>
-                      </Item>
-                      <Item>
                         <Asset>1500040039</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>1500040050</Asset>
                       </Item>
                       <Item>
                         <Asset>1500040166</Asset>
@@ -466,24 +445,12 @@
             </Item>
             <Item>
               <TriggerAction>
-                <Template>ActionStartQuest</Template>
-                <Values>
-                  <Action />
-                  <ActionStartQuest>
-                    <Quest>1500040167</Quest>
-                    <QuestSession>180025</QuestSession>
-                  </ActionStartQuest>
-                </Values>
-              </TriggerAction>
-            </Item>
-            <Item>
-              <TriggerAction>
                 <Template>ActionAddResource</Template>
                 <Values>
                   <Action />
                   <ActionAddResource>
                     <Resource>1500040168</Resource>
-                    <ResourceAmount>1</ResourceAmount>
+                    <ResourceAmount>3</ResourceAmount>
                   </ActionAddResource>
                 </Values>
               </TriggerAction>

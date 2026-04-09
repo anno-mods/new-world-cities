@@ -209,9 +209,7 @@
             </Euphoric>
           </HappinessDependentMurmur>
         </AmbientMoodProvider>
-        <!-- <UpgradeList>
-          <DefaultBuff>1500011041</DefaultBuff>
-        </UpgradeList> -->
+        <UpgradeList />
         <Attackable>
           <MaximumHitPoints>2000</MaximumHitPoints>
         </Attackable>
