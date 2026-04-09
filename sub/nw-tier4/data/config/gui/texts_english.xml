@@ -190,15 +190,39 @@
     </Text>
     <Text>
       <GUID>1500040061</GUID>
-      <Text>!Event Art</Text>
+      <Text>!Event Art Small</Text>
+    </Text>
+    <Text>
+      <GUID>1500040223</GUID>
+      <Text>!Event Art Medium</Text>
+    </Text>
+    <Text>
+      <GUID>1500040224</GUID>
+      <Text>!Event Art Big</Text>
     </Text>
     <Text>
       <GUID>1500040062</GUID>
-      <Text>!Event Music</Text>
+      <Text>!Event Music Small</Text>
+    </Text>
+    <Text>
+      <GUID>1500040225</GUID>
+      <Text>!Event Music Medium</Text>
+    </Text>
+    <Text>
+      <GUID>1500040226</GUID>
+      <Text>!Event Music Big</Text>
     </Text>
     <Text>
       <GUID>1500040063</GUID>
-      <Text>!Event Literature</Text>
+      <Text>!Event Literature Small</Text>
+    </Text>
+    <Text>
+      <GUID>1500040227</GUID>
+      <Text>!Event Literature Medium</Text>
+    </Text>
+    <Text>
+      <GUID>1500040228</GUID>
+      <Text>!Event Literature Big</Text>
     </Text>
     <Text>
       <GUID>1500040064</GUID>
@@ -267,6 +291,14 @@
     <Text>
       <GUID>1500040080</GUID>
       <Text>!Reward Art 5</Text>
+    </Text>
+    <Text>
+      <GUID>1500040229</GUID>
+      <Text>!Reward Art 6</Text>
+    </Text>
+    <Text>
+      <GUID>1500040230</GUID>
+      <Text>!Reward Art 7</Text>
     </Text>
     <Text>
       <GUID>1500040081</GUID>
@@ -381,6 +413,14 @@
       <Text>!Reward Music 5</Text>
     </Text>
     <Text>
+      <GUID>1500040231</GUID>
+      <Text>!Reward Music 6</Text>
+    </Text>
+    <Text>
+      <GUID>1500040232</GUID>
+      <Text>!Reward Music 7</Text>
+    </Text>
+    <Text>
       <GUID>1500040109</GUID>
       <Text>!Reward Music InfoDescription</Text>
     </Text>
@@ -452,6 +492,14 @@
     <Text>
       <GUID>1500040126</GUID>
       <Text>!Reward Literature 5</Text>
+    </Text>
+    <Text>
+      <GUID>1500040233</GUID>
+      <Text>!Reward Literature 6</Text>
+    </Text>
+    <Text>
+      <GUID>1500040234</GUID>
+      <Text>!Reward Literature 7</Text>
     </Text>
     <Text>
       <GUID>1500040127</GUID>
@@ -556,6 +604,38 @@
     <Text>
       <GUID>1500040402</GUID>
       <Text>A very long text for the infotip to overextend</Text>
+    </Text>
+    <Text>
+      <GUID>1500040177</GUID>
+      <Text>Mundane Drinks</Text>
+    </Text>
+    <Text>
+      <GUID>1500040178</GUID>
+      <Text>Exquisite Drinks</Text>
+    </Text>
+    <Text>
+      <GUID>1500040179</GUID>
+      <Text>Luxurious Drinks</Text>
+    </Text>
+    <Text>
+      <GUID>1500040180</GUID>
+      <Text>Hearty Food</Text>
+    </Text>
+    <Text>
+      <GUID>1500040181</GUID>
+      <Text>Refreshing Food</Text>
+    </Text>
+    <Text>
+      <GUID>1500040182</GUID>
+      <Text>Banners and Boxes</Text>
+    </Text>
+    <Text>
+      <GUID>1500040183</GUID>
+      <Text>Furry Decorations</Text>
+    </Text>
+    <Text>
+      <GUID>1500040184</GUID>
+      <Text>Entertainment</Text>
     </Text>
   </ModOp>
 </ModOps>

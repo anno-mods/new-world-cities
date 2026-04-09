@@ -165,6 +165,8 @@
 | 1500040078 | RewardPool Arts 3 |
 | 1500040079 | RewardPool Arts 4 |
 | 1500040080 | RewardPool Arts 5 |
+| 1500040229 | RewardPool Arts 6 |
+| 1500040230 | RewardPool Arts 7 |
 | 1500040081 | RewardPool Arts InfoDescription |
 
 | 1500040082 | Public Pavilion ShutdownText |
@@ -191,6 +193,8 @@
 | 1500040106 | RewardPool Music 3 |
 | 1500040107 | RewardPool Music 4 |
 | 1500040108 | RewardPool Music 5 |
+| 1500040231 | RewardPool Music 6 |
+| 1500040232 | RewardPool Music 7 |
 | 1500040109 | RewardPool Music InfoDescription |
 
 | 1500040110 | Event Literature DescriptionFluff | 
@@ -206,8 +210,9 @@
 | 1500040124 | RewardPool Literature 3 |
 | 1500040125 | RewardPool Literature 4 |
 | 1500040126 | RewardPool Literature 5 |
+| 1500040233 | RewardPool Literature 6 |
+| 1500040234 | RewardPool Literature 7 |
 | 1500040127 | RewardPool Literature InfoDescription |
-
 
 | 1500040177 | RequestPool Drink Beer or Hibiscus |
 | 1500040178 | RequestPool Drink Rum or Lemonade |
