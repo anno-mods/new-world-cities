@@ -948,6 +948,12 @@
             <Item>
               <Event>1500040062</Event>
             </Item>
+            <Item>
+              <Event>1500040225</Event>
+            </Item>
+            <Item>
+              <Event>1500040226</Event>
+            </Item>
           </Events>
           <PotentialCategoryReward>1500040055</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040056</CategoryDescriptionFluff>
@@ -972,6 +978,12 @@
             <Item>
               <Event>1500040061</Event>
             </Item>
+            <Item>
+              <Event>1500040223</Event>
+            </Item>
+            <Item>
+              <Event>1500040224</Event>
+            </Item>
           </Events>
           <PotentialCategoryReward>1500040057</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040058</CategoryDescriptionFluff>
@@ -994,6 +1006,12 @@
           <Events>
             <Item>
               <Event>1500040063</Event>
+            </Item>
+            <Item>
+              <Event>1500040227</Event>
+            </Item>
+            <Item>
+              <Event>1500040228</Event>
             </Item>
           </Events>
           <PotentialCategoryReward>1500040059</PotentialCategoryReward>
@@ -1026,7 +1044,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
@@ -1082,6 +1100,12 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -1113,7 +1137,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>10000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1175,7 +1199,7 @@
               <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040069</ShortSizeName>
+          <ShortSizeName>1500040235</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040076</Reward>
@@ -1205,6 +1229,15 @@
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1237,7 +1270,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1265,7 +1298,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
@@ -1304,7 +1337,7 @@
               <GoodsOrPool>1500040184</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040069</ShortSizeName>
+          <ShortSizeName>1500040236</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040076</Reward>
@@ -1339,6 +1372,18 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -1370,7 +1415,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1399,7 +1444,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
@@ -1455,6 +1500,12 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -1486,7 +1537,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>10000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1548,7 +1599,7 @@
               <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040097</ShortSizeName>
+          <ShortSizeName>1500040237</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040104</Reward>
@@ -1578,6 +1629,15 @@
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1610,7 +1670,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1638,7 +1698,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
@@ -1677,7 +1737,7 @@
               <GoodsOrPool>1500040184</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040097</ShortSizeName>
+          <ShortSizeName>1500040238</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040104</Reward>
@@ -1712,6 +1772,18 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -1743,7 +1815,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1771,7 +1843,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
@@ -1827,6 +1899,12 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -1858,7 +1936,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>10000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1920,7 +1998,7 @@
               <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040115</ShortSizeName>
+          <ShortSizeName>1500040239</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040122</Reward>
@@ -1950,6 +2028,15 @@
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1982,7 +2069,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -2010,7 +2097,7 @@
           <PreparationTime>1200000</PreparationTime>
           <EventDuration>600000</EventDuration>
           <NeededWorkforce>1500011558</NeededWorkforce>
-          <NeededWorkforceAmount>5000</NeededWorkforceAmount>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
           <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
@@ -2049,7 +2136,7 @@
               <GoodsOrPool>1500040184</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040115</ShortSizeName>
+          <ShortSizeName>1500040240</ShortSizeName>
           <RewardThresholds>
             <Item>
               <Reward>1500040122</Reward>
@@ -2084,6 +2171,18 @@
             <Item>
               <Requirement>14724</Requirement>
             </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
           </RequirementText>
           <FeedbackTexts>
             <TextThresholds>
@@ -2115,7 +2214,7 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>

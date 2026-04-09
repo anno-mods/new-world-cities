@@ -249,6 +249,14 @@
       <Text>!Event Art ShortSizeName</Text>
     </Text>
     <Text>
+      <GUID>1500040235</GUID>
+      <Text>!Event Art Medium ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040236</GUID>
+      <Text>!Event Art Big ShortSizeName</Text>
+    </Text>
+    <Text>
       <GUID>1500040070</GUID>
       <Text>!RequestPool Slot 1 Art</Text>
     </Text>
@@ -369,6 +377,14 @@
       <Text>!Event Music ShortSizeName</Text>
     </Text>
     <Text>
+      <GUID>1500040237</GUID>
+      <Text>!Event Music Medium ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040238</GUID>
+      <Text>!Event Music Big ShortSizeName</Text>
+    </Text>
+    <Text>
       <GUID>1500040098</GUID>
       <Text>!RequestPool Slot 1 Music</Text>
     </Text>
@@ -448,6 +464,14 @@
     <Text>
       <GUID>1500040115</GUID>
       <Text>!Event Literature ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040239</GUID>
+      <Text>!Event Literature Medium ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040240</GUID>
+      <Text>!Event Literature Big ShortSizeName</Text>
     </Text>
     <Text>
       <GUID>1500040116</GUID>

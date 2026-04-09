@@ -223,6 +223,12 @@
 | 1500040183 | RequestPool Decoration Fur or Felt |
 | 1500040184 | RequestPool Entertainment Cigar or Gramophones |
 
+| 1500040235 | Event Art Mid ShortSizeName | 
+| 1500040236 | Event Art Big ShortSizeName | 
+| 1500040237 | Event Music Mid ShortSizeName | 
+| 1500040238 | Event Music Big ShortSizeName | 
+| 1500040239 | Event Literature Mid ShortSizeName | 
+| 1500040240 | Event Literature Big ShortSizeName |  
 
 ## Unlocks
 
