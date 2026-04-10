@@ -19,6 +19,7 @@
   <Include File="./artacademy.include.xml" />
   <Include File="./vehicles.include.xml" />
   <Include File="./masterpieces.include.xml" />
+  <Include File="./ornaments.include.xml" />
 
   <!-- # Residences -->
   <ModOp Type="addNextSibling" GUID="101255">

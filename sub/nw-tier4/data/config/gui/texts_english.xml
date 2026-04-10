@@ -661,5 +661,57 @@
       <GUID>1500040184</GUID>
       <Text>Entertainment</Text>
     </Text>
+    <Text>
+      <GUID>1500040241</GUID>
+      <Text>Avenue</Text>
+    </Text>
+    <Text>
+      <GUID>1500040242</GUID>
+      <Text>Avenue Lamp</Text>
+    </Text>
+    <Text>
+      <GUID>1500040243</GUID>
+      <Text>Avenue Palm</Text>
+    </Text>
+    <Text>
+      <GUID>1500040244</GUID>
+      <Text>Avenue Pau Brasil</Text>
+    </Text>
+    <Text>
+      <GUID>1500040245</GUID>
+      <Text>Avenue Jacaranda</Text>
+    </Text>
+    <Text>
+      <GUID>1500040246</GUID>
+      <Text>Wavey Paving</Text>
+    </Text>
+    <Text>
+      <GUID>1500040247</GUID>
+      <Text>Starry Paving</Text>
+    </Text>
+    <Text>
+      <GUID>1500040248</GUID>
+      <Text>Compass Paving</Text>
+    </Text>
+    <Text>
+      <GUID>1500040249</GUID>
+      <Text>Avenida d'Oro with Trees</Text>
+    </Text>
+    <Text>
+      <GUID>1500040250</GUID>
+      <Text>Avenida d'Oro</Text>
+    </Text>
+    <Text>
+      <GUID>1500040251</GUID>
+      <Text>Avenida d'Oro with Pau Brasil</Text>
+    </Text>
+    <Text>
+      <GUID>1500040252</GUID>
+      <Text>Avenida d'Oro with Jacaranda</Text>
+    </Text>
+    <Text>
+      <GUID>1500040253</GUID>
+      <Text>Avenida d'Oro</Text>
+    </Text>
   </ModOp>
 </ModOps>
