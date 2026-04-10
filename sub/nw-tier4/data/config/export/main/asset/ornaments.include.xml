@@ -1765,7 +1765,7 @@
     </Asset>
     </ModOp>
 
-    <ModOp GUID = '500055' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
+    <ModOp GUID = '500055,500079' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
         <Item>
             <Building>1500040253</Building>
         </Item>
