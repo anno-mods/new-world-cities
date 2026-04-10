@@ -234,7 +234,6 @@
           <StorageLevel>Area</StorageLevel>
           <DeltaOnly>1</DeltaOnly>
           <IsWorkforce>1</IsWorkforce>
-          <CanUseWorkforceTransfer>0</CanUseWorkforceTransfer>
         </Product>
       </Values>
     </Asset>
@@ -320,12 +319,6 @@
     </Item>
   </ModOp>
 
-  <!-- <ModOp Type="add" GUID="15000083" Path="/Values/PopulationGroup7/PopulationLevels">
-    <Item>
-      <Level>1500011557</Level>
-    </Item>
-  </ModOp> -->
-
   <!-- Add Patronos to Workforce Balancing for Docklands Values -->
   <ModOp GUID = '142977' Path = "/Values/GoodValueBalancing/WorkforceData/Colony01/Tiers" Type = "add">
     <Item>
@@ -334,9 +327,15 @@
     </Item>
   </ModOp>
 
-  <ModOp GUID = '25000087' Path = "/Values/WorkforceMenu/WorkforceList" Type = "add">
+  <!-- Add Patrono Workforce to Workforce Lists-->
+  <ModOp GUID = '25000087' Path = "/Values/WorkforceMenu/WorkforceList/Item[Asset='5406']" Type = "addNextSibling">
     <Item>
       <Asset>1500011558</Asset>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '25000121' Path = "/Values/IslandBarScene/WorkforceOrder/Item[WorkforceEntry='5406']" Type = "addNextSibling">
+    <Item>
+      <WorkforceEntry>1500011558</WorkforceEntry>
     </Item>
   </ModOp>
 </ModOps>

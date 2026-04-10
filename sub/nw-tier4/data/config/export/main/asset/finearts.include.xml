@@ -1047,7 +1047,7 @@
           <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
           <SelectionText>1500040065</SelectionText>
@@ -1168,7 +1168,7 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
           <SelectionText>1500040065</SelectionText>
@@ -1301,7 +1301,7 @@
           <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
           <SelectionText>1500040065</SelectionText>
@@ -1447,7 +1447,7 @@
           <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
           <SelectionText>1500040093</SelectionText>
@@ -1568,7 +1568,7 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
           <SelectionText>1500040093</SelectionText>
@@ -1701,7 +1701,7 @@
           <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
           <SelectionText>1500040093</SelectionText>
@@ -1846,7 +1846,7 @@
           <NeededWorkforceAmount>2500</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
           <SelectionText>1500040111</SelectionText>
@@ -1967,7 +1967,7 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
           <SelectionText>1500040111</SelectionText>
@@ -2100,7 +2100,7 @@
           <NeededWorkforceAmount>10000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
           <SelectionText>1500040111</SelectionText>
