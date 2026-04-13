@@ -22,6 +22,8 @@
 | 1500040031 | Profile | 
 | 1500040047 | Fine Arts Menu NW |
 | 1500040048 | Fine Arts Menu OW |
+| 1500040255 | Capitolio Foundation |
+| 1500040256 | Capitolio Stage II |  
 
 ## Needs  
 

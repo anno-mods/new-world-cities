@@ -691,6 +691,7 @@
           <GUID>1500040047</GUID>
           <Name>Fine Arts Menu NW</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
+          <InfoDescription>1500040046</InfoDescription>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -724,6 +725,7 @@
           <GUID>1500040048</GUID>
           <Name>Fine Arts Menu OW</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
+          <InfoDescription>1500040046</InfoDescription>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
