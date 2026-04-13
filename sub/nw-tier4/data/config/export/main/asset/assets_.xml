@@ -1,7 +1,6 @@
 <ModOps>
   <!-- # Includes -->
   <Include File="../../../../jakob/nw-ministry/assets.include.xml" />
-  <Include File="./capitolio.include.xml" />
   <Include File="./bank.include.xml" />
   <Include File="./geographic.include.xml" />
   <Include File="./public.include.xml" />

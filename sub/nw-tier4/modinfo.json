@@ -33,16 +33,18 @@
     "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V5/ink-Drakkam.zip",
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_lead.zip",
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_galena.zip",
-    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_neutral_airport.zip"
+    "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_neutral_airport.zip",
+    "nw-tier4_capitolio"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
     "ow-fedora-Drakkam",
-    "Taludas_shared_tradingcompany"
+    "Taludas_shared_tradingcompany",
+    "nw-tier4_capitolio"
   ],
   "bundle": [
     "../new_world_cathedral",
-    "../shared_goods_pianos",    
+    "../shared_goods_pianos",
     "../Taludas_shared_tradingcompany",
     "../nw_importdock_silkfabric",
     "../nw_importdock_rice",
@@ -51,7 +53,8 @@
     "../nw_import_storagelist_silkfabric",
     "../nw_import_storagelist_rice",
     "../nw_import_storagelist_cars",
-    "../nw_import_storagelist_piano"
+    "../nw_import_storagelist_piano",
+    "../capitolio"
   ],
   "Category": {
     "English": "Component"

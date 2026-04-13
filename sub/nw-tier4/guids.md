@@ -88,6 +88,7 @@
 | 1500040146 | AssetPool Manuscripts |
 | 1500040166 | AssetPool Hindenburg Airship | 
 | 1500040173 | AssetPool Silvercoin | 
+| 1500040254 | AssetPool Capitolio |
 
 
 ## Fine Arts Buildings 
