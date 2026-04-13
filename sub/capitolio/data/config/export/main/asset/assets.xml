@@ -60,7 +60,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/jje/nw-capitolio/nw-capitolio.cfg</Filename>
+                            <Filename>data/jje/nw-capitolio/nw_capitolio.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
@@ -75,7 +75,7 @@
                             <ActionList />
                         </Values>
                     </OnSelection>
-                    <ParticipantMessageArcheType>SA_Resident_tier02</ParticipantMessageArcheType>
+                    <ParticipantMessageArcheType>Third_party_01_Queen</ParticipantMessageArcheType>
                 </Selection>
                 <Text />
                 <Constructable />
