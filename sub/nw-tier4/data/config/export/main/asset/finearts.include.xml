@@ -3081,5 +3081,5 @@
     </Mod17>
   </ModOp>
 
-  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14</ModOp>
+  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14;Mod17</ModOp>
 </ModOps>
