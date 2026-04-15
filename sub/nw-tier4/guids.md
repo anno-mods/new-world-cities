@@ -233,6 +233,26 @@
 | 1500040239 | Event Literature Mid ShortSizeName | 
 | 1500040240 | Event Literature Big ShortSizeName |  
 
+## Politics 
+
+| 1500040257 | Event Category Elections | 
+| 1500040258 | Event Category Elections PotentialReward |
+| 1500040259 | Event Category Elections Fluff | 
+| 1500040260 | Event Election | 
+| 1500040261 | Event Election Fluff | 
+| 1500040262 | Event Election SelectionText |
+| 1500040263 | Event Election RunningText |
+| 1500040264 | Event Election RewardText |
+| 1500040265 | Event Election ShortSizeName |
+| 1500040266 | Event Election Reward I |
+| 1500040267 | Event Election Reward II |
+| 1500040268 | Event Election Reward III |
+| 1500040269 | Event Election Reward IV |
+| 1500040270 | Event Election Reward V |
+
+| 1500040271 | Political Office |
+| 1500040272 | Political Office InfoDesc |
+
 ## Unlocks
 
 | 1500040021 | Intermediate NW 4.0 @ 1 Patrono |

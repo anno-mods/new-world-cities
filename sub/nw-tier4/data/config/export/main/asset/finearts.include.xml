@@ -3076,6 +3076,9 @@
     <Mod14>
       <Text>1500040039</Text>
     </Mod14>
+    <Mod17>
+      <Text>1500040271</Text>
+    </Mod17>
   </ModOp>
 
   <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14</ModOp>

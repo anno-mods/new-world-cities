@@ -138,11 +138,11 @@
     </Text>
     <Text>
       <GUID>1500040047</GUID>
-      <Text>Fine Arts</Text>
+      <Text>Fine Arts Exhibitions</Text>
     </Text>
     <Text>
       <GUID>1500040048</GUID>
-      <Text>Fine Arts</Text>
+      <Text>Fine Arts Exhibitions</Text>
     </Text>
     <Text>
       <GUID>1500040050</GUID>
@@ -712,6 +712,70 @@
     <Text>
       <GUID>1500040253</GUID>
       <Text>Avenida d'Oro</Text>
+    </Text>
+    <Text>
+      <GUID>1500040257</GUID>
+      <Text>!EventCategory Election</Text>
+    </Text>
+    <Text>
+      <GUID>1500040258</GUID>
+      <Text>!EventCategory Election PotReward</Text>
+    </Text>
+    <Text>
+      <GUID>1500040259</GUID>
+      <Text>!EventCategory Election Fluff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040260</GUID>
+      <Text>!Event Election</Text>
+    </Text>
+    <Text>
+      <GUID>1500040261</GUID>
+      <Text>!Event Election Fluff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040262</GUID>
+      <Text>!Event Election SelectionText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040263</GUID>
+      <Text>!Event Election RunningText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040264</GUID>
+      <Text>!Event Election RewardText</Text>
+    </Text>
+    <Text>
+      <GUID>1500040265</GUID>
+      <Text>!Event Election ShortSizeName</Text>
+    </Text>
+    <Text>
+      <GUID>1500040266</GUID>
+      <Text>!Reward Election I</Text>
+    </Text>
+    <Text>
+      <GUID>1500040267</GUID>
+      <Text>!Reward Election II</Text>
+    </Text>
+    <Text>
+      <GUID>1500040268</GUID>
+      <Text>!Reward Election III</Text>
+    </Text>
+    <Text>
+      <GUID>1500040269</GUID>
+      <Text>!Reward Election IV</Text>
+    </Text>
+    <Text>
+      <GUID>1500040270</GUID>
+      <Text>!Reward Election V</Text>
+    </Text>
+    <Text>
+      <GUID>1500040271</GUID>
+      <Text>Political Office</Text>
+    </Text>
+    <Text>
+      <GUID>1500040272</GUID>
+      <Text>!Political Office InfoDesc</Text>
     </Text>
   </ModOp>
 </ModOps>
