@@ -941,4 +941,32 @@
       <GUID>1500040172</GUID>
     </Item>
   </ModOp>
+
+  <!-- Product Storage Lists-->
+
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='24852']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>24852</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='6360']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>6360</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='24821']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>24821</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='24846']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>24846</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1957006151']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1957006151</Product>
+    </Item>
+  </ModOp>
 </ModOps>

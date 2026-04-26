@@ -128,7 +128,7 @@
                 <ActionList />
               </Values>
             </OnSelection>
-            <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+            <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
           </Selection>
           <Attackable>
             <AttackableType>IslandBuilding</AttackableType>
@@ -140,12 +140,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
               </Item>
               <Item>
-                <Product>5406</Product>
-                <Amount>30</Amount>
+                <Product>1500011558</Product>
+                <Amount>100</Amount>
               </Item>
             </Maintenances>
           </Maintenance>

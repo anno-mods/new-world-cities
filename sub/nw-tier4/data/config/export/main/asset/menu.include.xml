@@ -322,15 +322,6 @@
         <ProductList>
           <List>
             <!-- Feijoada -->
-            <Item>
-              <Product>1440200</Product>
-            </Item>
-            <Item>
-              <Product>1500010836</Product>
-            </Item>
-            <Item>
-              <Product>1500040028</Product>
-            </Item>
             <!-- Silverware -->
             <Item>
               <Product>24852</Product>
@@ -387,6 +378,15 @@
   <ModOp GUID = '502044' Path ="/Values/ProductList/List" Type = "add">
     <Item>
       <Product>1500040222</Product>
+    </Item>
+  </ModOp>
+  
+  <ModOp GUID = '502038' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1440200</Product>
+    </Item>
+    <Item>
+      <Product>1500010836</Product>
     </Item>
   </ModOp>
 
