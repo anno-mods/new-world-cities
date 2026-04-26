@@ -169,7 +169,7 @@
             <TextOverride>1500040010</TextOverride>
           </Text>
           <Building>
-            <BuildingCategoryName>1500011055</BuildingCategoryName>
+            <BuildingCategoryName>100003</BuildingCategoryName>
             <AssociatedRegions>Colony01</AssociatedRegions>
             <SecondPartyRelevant>0</SecondPartyRelevant>
             <AllowChangeVariation>1</AllowChangeVariation>

@@ -969,4 +969,9 @@
       <Product>1957006151</Product>
     </Item>
   </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='24851']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>24851</Product>
+    </Item>
+  </ModOp>
 </ModOps>
