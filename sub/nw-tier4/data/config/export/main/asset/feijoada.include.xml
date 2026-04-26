@@ -268,7 +268,7 @@
                 <Standard>
                     <GUID>1500040273</GUID>
                     <Name>Samba School Feijoada Buff</Name>
-                    <IconFilename>data/ui/jje/3dicons/goods/icon_feijoada.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/3dicons/public_building/icon_samba_school.png</IconFilename>
                     <InfoDescription>1500040274</InfoDescription>
                 </Standard>
                 <ItemEffect>
@@ -324,6 +324,8 @@
             </ProductionBuffs>
             <ProductionBuffScope>Radius</ProductionBuffScope>
             <ProductionBuffDistance>20</ProductionBuffDistance>
+            <BaseBuffScope>Radius</BaseBuffScope>
+            <BaseBuffDistance>20</BaseBuffDistance>
         </BuffFactory>
     </ModOp>
 
