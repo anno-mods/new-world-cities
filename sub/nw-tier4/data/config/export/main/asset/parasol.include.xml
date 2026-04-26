@@ -83,11 +83,13 @@
                     <Building>1500040035</Building>
                     <Tier1>
                         <Item>
-                            <Building>1010316</Building>
+                            <Building>835</Building>
                             <Tier2>
                                 <Item>
-                                    <Building>1010269</Building>
-                                    <ForceIcon>1440209</ForceIcon>
+                                    <Building>1308</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1345</Building>
                                 </Item>
                             </Tier2>
                         </Item>

@@ -785,5 +785,17 @@
       <GUID>1500040274</GUID>
       <Text>!Feijoada Samba School Buff InfoDesc</Text>
     </Text>
+    <Text>
+      <GUID>1500040170</GUID>
+      <Text>Silver Ore Module</Text>
+    </Text>
+    <Text>
+      <GUID>1500040275</GUID>
+      <Text>Mining for Silver</Text>
+    </Text>
+    <Text>
+      <GUID>1500040276</GUID>
+      <Text>Build next to a Bauxite, Mineral, Iron or Gold Ore Mine to mine for extra Silver Ore.</Text>
+    </Text>
   </ModOp>
 </ModOps>

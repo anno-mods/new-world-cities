@@ -715,168 +715,177 @@
     </Asset>
   </ModOp>
 
+
+
   <ModOp GUID = '101311' Type = "addNextSibling">
+
     <Asset>
-      <BaseAssetGUID>1010311</BaseAssetGUID>
+      <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
           <GUID>1500040170</GUID>
-          <Name>mining_colony01_01 (Silver Ore Mine)</Name>
+          <Name>Silver Ore Module</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_iron_ore.png</IconFilename>
+          <InfoDescription>1500040276</InfoDescription>
         </Standard>
         <Building>
+          <BuildingCategoryName>100000</BuildingCategoryName>
           <AssociatedRegions>Colony01</AssociatedRegions>
         </Building>
         <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/nw-silvermine/nw_silverminemodule.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
         <Cost>
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>15000</Amount>
+              <Amount>1000</Amount>
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>8</Amount>
+              <Amount>12</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>15</Amount>
+              <Amount>8</Amount>
             </Item>
             <Item>
               <Ingredient>838</Ingredient>
-              <Amount>5</Amount>
-            </Item>
-            <Item>
-              <Ingredient>1010207</Ingredient>
-            </Item>
-            <Item>
-              <Ingredient>1010202</Ingredient>
+              <Amount>4</Amount>
             </Item>
           </Costs>
         </Cost>
-        <Object>
-          <Variations>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>SlotFactoryBuilding7</TemplateName>
-                    <Index>0</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>1</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>SlotFactoryBuilding7</TemplateName>
-                    <Index>1</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
-            </Item>
-            <Item>
-              <VectorElement>
-                <InheritedIndex>2</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>SlotFactoryBuilding7</TemplateName>
-                    <Index>2</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
-              <Filename>data/graphics/buildings/production/mining_colony01_01/mining_colony01_01.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
         <Mesh />
         <Selection>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList />
-            </Values>
-          </OnSelection>
+          <GUIType>Production</GUIType>
           <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
-        <Text>
-          <LineID>11033</LineID>
-        </Text>
         <Constructable />
-        <Locked />
         <SoundEmitter>
           <ActiveSounds>
             <Item>
-              <Sound>202274</Sound>
+              <Sound>279511</Sound>
+            </Item>
+            <Item>
+              <Sound>216871</Sound>
             </Item>
           </ActiveSounds>
         </SoundEmitter>
-        <FeedbackController />
-        <Infolayer />
-        <UpgradeList />
-        <Factory7 />
         <FactoryBase>
-          <FactoryOutputs>
-            <Item>
-              <Product>6360</Product>
-              <Amount>1</Amount>
-              <StorageAmount>1</StorageAmount>
-            </Item>
-          </FactoryOutputs>
           <FactoryInputs>
             <Item>
-              <Product>1591</Product>
-              <StorageAmount>6</StorageAmount>
+              <Product>1010196</Product>
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
             </Item>
           </FactoryInputs>
-          <CycleTime>90</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
+          <CycleTime>120</CycleTime>
+          <MissingConnectionInfolayer>500449</MissingConnectionInfolayer>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
         </FactoryBase>
-        <LogisticNode />
-        <Slot>
-          <WorkArea>1500040171</WorkArea>
-        </Slot>
-        <AmbientMoodProvider />
+        <LogisticNode/>
         <Maintenance>
           <Maintenances>
             <Item>
-              <VectorElement>
-                <InheritedIndex>0</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>SlotFactoryBuilding7</TemplateName>
-                    <Index>0</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
+              <Product>1010017</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
             </Item>
             <Item>
-              <VectorElement>
-                <InheritedIndex>1</InheritedIndex>
-                <InheritanceMapV2>
-                  <Entry>
-                    <TemplateName>SlotFactoryBuilding7</TemplateName>
-                    <Index>1</Index>
-                  </Entry>
-                </InheritanceMapV2>
-              </VectorElement>
               <Product>1010367</Product>
-              <Amount>100</Amount>
+              <Amount>10</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
-        <Attackable />
-        <Pausable />
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
         <IncidentInfectable />
-        <Culture />
-        <Industrializable />
         <Electrifiable>
-          <ElectrifiedEffect>0</ElectrifiedEffect>
+          <ElectricityBoost>0</ElectricityBoost>
         </Electrifiable>
+        <AmbientMoodProvider />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <ExplosionEffectsMin>1</ExplosionEffectsMin>
+          <ExplosionEffectsMax>1</ExplosionEffectsMax>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <UpgradeList />
+        <Pausable />
+        <FeedbackController />
+        <Infolayer />
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1500040275</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>8</ProductionBuffDistance>
+        </BuffFactory>
+        <BuildingModule>
+          <ModuleType>AdditionalModule</ModuleType>
+        </BuildingModule>
+        <Culture />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>GuildhouseBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040275</GUID>
+          <Name>Digging deeper for Galena</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_iron_ore.png</IconFilename>
+          <InfoDescription>1500040276</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1308</GUID>
+            </Item>
+            <Item>
+              <GUID>1388</GUID>
+            </Item>
+            <Item>
+              <GUID>1390</GUID>
+            </Item>
+            <Item>
+              <GUID>101311</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Percental>1</Percental>
+            <Value>25</Value>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <Buff />
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>6360</Product>
+              <Amount>1</Amount>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <PopulationUpgrade />
+        <ResidenceUpgrade />
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
       </Values>
     </Asset>
     <Asset>

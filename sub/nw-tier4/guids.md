@@ -25,6 +25,7 @@
 | 1500040255 | Capitolio Foundation |
 | 1500040256 | Capitolio Stage II |  
 | 1500040273 | Samba School Buff | 
+| 1500040275 | Silver Ore Module Buff | 
 
 ## Needs  
 

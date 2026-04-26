@@ -47,17 +47,17 @@
     <!-- TODO is placing at 1000 Artisan the right spot? -->
     <!-- TODO condition for Merchants -->
     <Group>
-      <ModOp Type="addNextSibling" GUID="25000191"
+      <ModOp Type="add" GUID="25000191"
         Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1555000128')]"
-        Path="/Values/ConstructionCategory/BuildingList/Item[Worker or Artisan &lt;= 1000][last()]">
+        Path="/Values/ConstructionCategory/BuildingList">
         <Item>
           <Building>1555000128</Building>
           <Artisan>1000</Artisan>
         </Item>
       </ModOp>
-      <ModOp Type="addNextSibling" GUID="500945"
+      <ModOp Type="add" GUID="500945"
         Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1555000128')]"
-        Path="/Values/ConstructionCategory/BuildingList/Item[Worker or Artisan &lt;= 1000][last()]">
+        Path="/Values/ConstructionCategory/BuildingList">
         <Item>
           <Building>1555000128</Building>
           <Artisan>1000</Artisan>
