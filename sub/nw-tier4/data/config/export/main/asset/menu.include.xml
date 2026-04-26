@@ -34,6 +34,10 @@
               <Patrono>1</Patrono>
             </Item>
             <Item>
+              <Building>1500040200</Building>
+              <Patrono>500</Patrono>
+            </Item>
+            <Item>
               <Building>1500040025</Building>
               <Patrono>500</Patrono>
             </Item>                             
