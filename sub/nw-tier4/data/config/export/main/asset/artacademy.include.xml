@@ -714,6 +714,11 @@
                             <Amount>1</Amount>
                             <StorageAmount>5</StorageAmount>
                         </Item>
+                        <Item>
+                            <Product>1742110023</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
                     </FactoryInputs>
                     <FactoryOutputs>
                         <Item>
