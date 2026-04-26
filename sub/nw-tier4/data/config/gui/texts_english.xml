@@ -777,5 +777,13 @@
       <GUID>1500040272</GUID>
       <Text>!Political Office InfoDesc</Text>
     </Text>
+    <Text>
+      <GUID>1500040273</GUID>
+      <Text>!Feijoada Samba School Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1500040274</GUID>
+      <Text>!Feijoada Samba School Buff InfoDesc</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -262,6 +262,69 @@
                 <EcoSystemProvider />
             </Values>
         </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040273</GUID>
+                    <Name>Samba School Feijoada Buff</Name>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_feijoada.png</IconFilename>
+                    <InfoDescription>1500040274</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1500040026</GUID>
+                            <!--agriculture_10 (Vineyard)-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Amazon Garden</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>33510</LineID>
+                </Text>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1500040028</Product>
+                            <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <BuildingUpgrade/>
+                <Buff />
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID = '5840' Path = "/Values/BuffFactory" Type = "merge">
+        <BuffFactory>
+            <ProductionBuffs>
+                <Item>
+                    <ProductivityBuff>1500040273</ProductivityBuff>
+                    <ProductivityThresholdUp>0.9</ProductivityThresholdUp>
+                    <ProductivityThresholdDown>0.7</ProductivityThresholdDown>
+                </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>20</ProductionBuffDistance>
+        </BuffFactory>
     </ModOp>
 
     <ModOp GUID = '1500040025' Condition = "@1441202" Type = "add" Path = "/Values/ProductionChain/Tier1">
