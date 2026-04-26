@@ -925,7 +925,14 @@
           <SelfHealPerHealTick>6</SelfHealPerHealTick>
         </Attackable>
         <Pausable />
-        <BuildingUnique />
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Mod14</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
         <UpgradeList />
         <Industrializable>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
@@ -2832,7 +2839,7 @@
         </Reward>
       </Values>
     </Asset>
-    
+
     <Asset>
       <Template>MonumentEventReward</Template>
       <Values>
