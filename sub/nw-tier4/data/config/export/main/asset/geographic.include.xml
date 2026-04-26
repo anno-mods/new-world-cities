@@ -17,7 +17,6 @@
             <GUID>1500040012</GUID>
             <Name>Geographic Society NW Chain</Name>
             <IconFilename>data/ui/nwc/icon_geographic_society.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1500040013</TextOverride>
@@ -26,7 +25,7 @@
             <Building>1500040000</Building>
             <Tier1>
               <Item>
-                <Building>118734</Building>
+                <Building>1500040277</Building>
                 <Tier2>
                   <Item>
                     <Building>1500011500</Building>
@@ -81,50 +80,90 @@
         </Values>
       </Asset>
       <Asset>
-        <Template>PublicServiceBuilding</Template>
+        <Template>BuffFactory</Template>
         <Values>
           <Standard>
             <GUID>1500040000</GUID>
             <Name>Member's Club</Name>
             <IconFilename>data/ui/nwc/icon_geographic_society.png</IconFilename>
+            <InfoDescription>11144</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1500040013</TextOverride>
           </Text>
           <Building>
-            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <BuildingCategoryName>100003</BuildingCategoryName>
             <AssociatedRegions>Colony01</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
             <AllowChangeVariation>1</AllowChangeVariation>
           </Building>
           <Blocking />
-          <Cost>
-            <Costs>
+          <Mesh />
+          <BuffFactory>
+            <ProductionBuffScope>Local</ProductionBuffScope>
+            <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+            <PublicServiceData>
+              <PublicServices>
+                <Item>
+                  <PublicService>1500040013</PublicService>
+                </Item>
+              </PublicServices>
+              <FullSatisfactionDistance>35</FullSatisfactionDistance>
+              <NoSatisfactionDistance>70</NoSatisfactionDistance>
+            </PublicServiceData>
+          </BuffFactory>
+          <FactoryBase>
+            <FactoryInputs>
               <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>50000</Amount>
+                <Product>114430</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <CycleTime>180</CycleTime>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>100</ClampedMaxTransporterLogisticCost>
+          </FactoryBase>
+          <FeedbackController>
+            <NightBehavior>HideNone</NightBehavior>
+          </FeedbackController>
+          <Pausable />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+          </Selection>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>3500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
               </Item>
               <Item>
-                <Ingredient>1010196</Ingredient>
-                <Amount>50</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010205</Ingredient>
+                <Product>1500011558</Product>
                 <Amount>100</Amount>
               </Item>
-              <Item>
-                <Ingredient>1010218</Ingredient>
-                <Amount>80</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010207</Ingredient>
-                <Amount>75</Amount>
-              </Item>
-              <Item>
-                <Ingredient>1010202</Ingredient>
-                <Amount>75</Amount>
-              </Item>
-            </Costs>
-          </Cost>
+            </Maintenances>
+          </Maintenance>
+          <AmbientMoodProvider>
+            <AmbientMood>ResidenceTier1</AmbientMood>
+            <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <LogisticNode />
+          <Constructable>
+            <DestructionCategory>Production</DestructionCategory>
+          </Constructable>
+          <Locked />
           <Object>
             <Variations>
               <Item>
@@ -135,12 +174,6 @@
               </Item>
             </Variations>
           </Object>
-          <Mesh />
-          <Selection>
-            <GUIType>PublicService</GUIType>
-          </Selection>
-          <Constructable />
-          <Locked />
           <SoundEmitter>
             <ActiveSounds>
               <Item>
@@ -177,54 +210,38 @@
             </BuildingRepaired>
           </SoundEmitter>
           <FeedbackController>
-            <NightBehavior>HideNone</NightBehavior>
+            <NightBehavior>HideAll</NightBehavior>
           </FeedbackController>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>50000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>50</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>100</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>80</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <Amount>75</Amount>
+              </Item>
+            </Costs>
+          </Cost>
           <Infolayer />
           <UpgradeList />
-          <LogisticNode>
-            <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
-          </LogisticNode>
-          <PublicService>
-            <FullSatisfactionDistance>35</FullSatisfactionDistance>
-            <NoSatisfactionDistance>70</NoSatisfactionDistance>
-            <PublicServiceOutputs>
-              <Item>
-                <Product>1500040013</Product>
-              </Item>
-            </PublicServiceOutputs>
-          </PublicService>
-          <AmbientMoodProvider>
-            <AmbientMood>ResidenceTier1</AmbientMood>
-            <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
-          </AmbientMoodProvider>
-          <Maintenance>
-            <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>350</Amount>
-                <InactiveAmount>175</InactiveAmount>
-              </Item>
-            </Maintenances>
-          </Maintenance>
-          <Attackable>
-            <AttackableType>IslandBuilding</AttackableType>
-            <MaximumHitPoints>3500</MaximumHitPoints>
-            <SelfHealPerHealTick>4</SelfHealPerHealTick>
-          </Attackable>
-          <Pausable />
-          <IncidentInfectable>
-            <Infectable>
-              <Fire>
-                <Base>1</Base>
-              </Fire>
-            </Infectable>
-            <IncidentInfectionChanceFactors>
-              <Fire>
-                <DensityDistance>20</DensityDistance>
-              </Fire>
-            </IncidentInfectionChanceFactors>
-          </IncidentInfectable>
-          <Culture />
         </Values>
       </Asset>
       <Asset>
@@ -246,7 +263,10 @@
                 <Asset>1500040013</Asset>
               </Item>
               <Item>
-                <Asset>1500040173</Asset>
+                <Asset>1500040277</Asset>
+              </Item>
+              <Item>
+                <Asset>114430</Asset>
               </Item>
             </AssetList>
           </AssetPool>
@@ -254,6 +274,174 @@
       </Asset>
     </ModOp>
   </Group>
+
+  <ModOp GUID = '118734' Type = "addNextSibling">
+    <Asset>
+      <BaseAssetGUID>118734</BaseAssetGUID>
+      <!--factory_04 (Brick Factory)-->
+      <Values>
+        <Standard>
+          <GUID>1500040277</GUID>
+          <Name>NW Suit Factory</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LineID>8492</LineID>
+          <TextOverride>118734</TextOverride>
+        </Text>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter />
+        <FeedbackController/>
+        <Infolayer/>
+        <UpgradeList/>
+        <Factory7/>
+        <FactoryBase>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <AmbientMoodProvider/>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FactoryBuilding7</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Product>5406</Product>
+              <!-- colony workforce 3 -->
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable/>
+        <Industrializable/>
+        <Culture/>
+        <QuestObject/>
+        <Electrifiable>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+        </Electrifiable>
+        <EcoSystemProvider/>
+      </Values>
+    </Asset>
+  </ModOp>
 
   <!-- # Building Modifiers -->
   <Group>

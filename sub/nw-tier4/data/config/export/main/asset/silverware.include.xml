@@ -182,7 +182,6 @@
             <GUID>1500040006</GUID>
             <Name>Silverware NW Chain</Name>
             <IconFilename>data/ui/jje/3dicons/goods/icon_silverware.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1500040005</TextOverride>
@@ -192,6 +191,17 @@
             <Tier1>
               <Item>
                 <Building>1500040169</Building>
+              </Item>
+              <Item>
+                <Building>1010282</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1010307</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010308</Building>
+                  </Item>
+                </Tier2>
               </Item>
             </Tier1>
           </ProductionChain>
@@ -324,7 +334,7 @@
               <ActionList />
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
           <Colors>
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
           </Colors>
@@ -361,12 +371,7 @@
               <StorageAmount>3</StorageAmount>
             </Item>
             <Item>
-              <Product>1010230</Product>
-              <Amount>1</Amount>
-              <StorageAmount>3</StorageAmount>
-            </Item>
-            <Item>
-              <Product>1010249</Product>
+              <Product>1010204</Product>
               <Amount>1</Amount>
               <StorageAmount>3</StorageAmount>
             </Item>
@@ -393,8 +398,8 @@
               <InactiveAmount>25</InactiveAmount>
             </Item>
             <Item>
-              <Product>5406</Product>
-              <Amount>100</Amount>
+              <Product>1500011558</Product>
+              <Amount>150</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -972,6 +977,11 @@
   <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='24851']" Path="/Values/ProductStorageList/ProductList">
     <Item>
       <Product>24851</Product>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040005']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1500040005</Product>
     </Item>
   </ModOp>
 </ModOps>

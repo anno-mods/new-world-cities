@@ -73,7 +73,6 @@
             <GUID>1500040001</GUID>
             <Name>Fedoras NW Chain</Name>
             <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1555000128</TextOverride>

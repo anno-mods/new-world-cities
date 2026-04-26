@@ -105,7 +105,6 @@
             <GUID>1500040008</GUID>
             <Name>Bank Service NW Chain</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_bank.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1500040010</TextOverride>
