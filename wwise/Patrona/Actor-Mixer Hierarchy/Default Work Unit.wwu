@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13659360-FFA7-4E01-BD55-F5DAF3B5A421}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{13659360-FFA7-4E01-BD55-F5DAF3B5A421}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX Mixer" ID="{03704E2A-3699-43DF-B784-91263A059893}" ShortID="265613194">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="audio_patrona" ID="{FF12BA39-9783-427B-ADA4-6B44D309965C}" ShortID="379335946">
+							<ChildrenList>
+								<Folder Name="generic" ID="{32C0A75F-2130-4998-96BC-8B2FDDC944C1}" ShortID="816564217">
+									<ChildrenList>
+										<Folder Name="neg_feedback" ID="{28239A6C-E657-4603-98A8-422FEE9A085E}" ShortID="1020607574">
+											<ChildrenList>
+												<Sound Name="1048650772_1_ogg" ID="{C081999E-6F60-4233-88B1-0A5F5C8326EF}" ShortID="208132478">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1048650772_1_ogg" ID="{89A9B11E-12B4-478A-95FE-2AB461E5753B}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\1048650772_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="202231293"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1048650772_1_ogg" ID="{89A9B11E-12B4-478A-95FE-2AB461E5753B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="204233521_1_ogg" ID="{8A9BEB31-8677-474B-AE96-4858954D7316}" ShortID="480311470">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="204233521_1_ogg" ID="{809A4B5D-0A06-4C06-B8D3-FA1ED34468C8}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\204233521_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="815448826"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="204233521_1_ogg" ID="{809A4B5D-0A06-4C06-B8D3-FA1ED34468C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="444987348_1_ogg" ID="{0E3D0B30-43EA-4935-A9C6-C2A269C13531}" ShortID="871647492">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="444987348_1_ogg" ID="{719DB311-3312-4AE3-911F-AAAF69253AC6}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\444987348_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="244060151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="444987348_1_ogg" ID="{719DB311-3312-4AE3-911F-AAAF69253AC6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="689175700_1_ogg" ID="{7F5B85DA-B7DA-4296-92CD-CA95B5169923}" ShortID="1018859092">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="689175700_1_ogg" ID="{5082C294-B057-4396-949C-9D5C3EBFBA75}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\689175700_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="932918570"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="689175700_1_ogg" ID="{5082C294-B057-4396-949C-9D5C3EBFBA75}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="840423292_1_ogg" ID="{312A083B-2CB4-40B9-8D96-FDCF5A33CAA1}" ShortID="450883809">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="840423292_1_ogg" ID="{78883D3E-37FB-4629-A1BE-8B23549DC0F1}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\840423292_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="540423408"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="840423292_1_ogg" ID="{78883D3E-37FB-4629-A1BE-8B23549DC0F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="946407236_1_ogg" ID="{8267998D-5CA5-42EF-8922-FABD8372F6BF}" ShortID="862201413">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="946407236_1_ogg" ID="{88955EEA-64BC-483B-A8B0-C9361704BA59}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\946407236_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="185137647"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="946407236_1_ogg" ID="{88955EEA-64BC-483B-A8B0-C9361704BA59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="974472795_1_ogg" ID="{45DD7F20-B5DE-41BD-8FBD-6FC2E7A53050}" ShortID="166693429">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="974472795_1_ogg" ID="{155247B2-B60C-4D8F-9BDD-477C26694D76}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\neg_feedback\974472795_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="404798316"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="974472795_1_ogg" ID="{155247B2-B60C-4D8F-9BDD-477C26694D76}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="pos_feedback" ID="{1F289B0A-06B7-495D-B00E-0993F28C42D9}" ShortID="915669481">
+											<ChildrenList>
+												<Sound Name="475722734_1_ogg" ID="{FDBB3487-98D7-4D8D-812E-1111A663BBA2}" ShortID="588098979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="475722734_1_ogg" ID="{45603CDA-58F1-4FE3-87CA-63C11414A8BD}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\475722734_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="506740728"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="475722734_1_ogg" ID="{45603CDA-58F1-4FE3-87CA-63C11414A8BD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="634099988_1_ogg" ID="{9E745D25-24AE-4818-8706-220A0921E534}" ShortID="928736620">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="634099988_1_ogg" ID="{9ADED41F-5A47-4D0A-830E-80A749C33061}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\634099988_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="201837942"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="634099988_1_ogg" ID="{9ADED41F-5A47-4D0A-830E-80A749C33061}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="75148527_1_ogg" ID="{FF4B0F2C-B48C-42A8-9A82-C75040207A4F}" ShortID="414003566">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="75148527_1_ogg" ID="{6B108C86-E9CB-4B7E-805C-E0B4A37C8631}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\75148527_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="102709265"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="75148527_1_ogg" ID="{6B108C86-E9CB-4B7E-805C-E0B4A37C8631}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="801566065_1_ogg" ID="{FC54C7AF-8E21-4DA9-8E04-A3C4D4E48B90}" ShortID="844288633">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="801566065_1_ogg" ID="{D555BB5B-7A52-4792-AB00-BDE82101E471}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\801566065_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="862555859"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="801566065_1_ogg" ID="{D555BB5B-7A52-4792-AB00-BDE82101E471}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="817213808_1_ogg" ID="{6208961D-00F6-4B3D-8361-1A9093BCA470}" ShortID="73149902">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="817213808_1_ogg" ID="{BCB750A0-CEB2-45ED-9C0C-903E04D3CFC8}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\817213808_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="94479071"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="817213808_1_ogg" ID="{BCB750A0-CEB2-45ED-9C0C-903E04D3CFC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="896047239_1_ogg" ID="{1E7FC5D4-BB3C-4EE4-A871-2D124CF7D052}" ShortID="521313447">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="896047239_1_ogg" ID="{4DCCB5E7-73C4-48B1-8B49-B799D9BC4232}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\896047239_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="149373313"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="896047239_1_ogg" ID="{4DCCB5E7-73C4-48B1-8B49-B799D9BC4232}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="955164953_1_ogg" ID="{002C0900-5C14-4368-AED4-EA939B36B090}" ShortID="87379246">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="955164953_1_ogg" ID="{7DAB89BF-4CCD-4757-A96E-B245C082DD12}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\generic\pos_feedback\955164953_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="260672401"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="955164953_1_ogg" ID="{7DAB89BF-4CCD-4757-A96E-B245C082DD12}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="residence" ID="{E7B51D74-61DF-4079-A33F-73B97C261DEF}" ShortID="753922464">
+									<ChildrenList>
+										<Folder Name="angry" ID="{80078BB2-0149-47FE-8D27-6696B21CFA62}" ShortID="625889187">
+											<ChildrenList>
+												<Sound Name="102646122_1_ogg" ID="{4701703A-E03B-43A8-AD0E-562404FC3355}" ShortID="979008204">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="102646122_1_ogg" ID="{65544DE7-922D-499B-B8AF-6E9A5C77801F}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\102646122_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="177369112"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="102646122_1_ogg" ID="{65544DE7-922D-499B-B8AF-6E9A5C77801F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="140948976_1_ogg" ID="{8A0A4CEE-BA15-45A1-870A-9CF6C8EF1C78}" ShortID="743003166">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="140948976_1_ogg" ID="{D9C76830-1B1D-45C3-9612-7171B79070AE}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\140948976_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="825362081"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="140948976_1_ogg" ID="{D9C76830-1B1D-45C3-9612-7171B79070AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="364597076_1_ogg" ID="{DA5A45DE-666F-4BA2-BF61-9D1328B09B7E}" ShortID="912848490">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="364597076_1_ogg" ID="{3719E6E6-0B67-4C0E-AC2B-8AFE2F50DA4C}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\364597076_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="90528211"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="364597076_1_ogg" ID="{3719E6E6-0B67-4C0E-AC2B-8AFE2F50DA4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="408407157_1_ogg" ID="{776AFCF3-C18D-4645-8015-B31D5ADB39C9}" ShortID="1033313226">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="408407157_1_ogg" ID="{C7F282B1-61A8-4793-82D0-3EA0B5FCA522}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\408407157_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="126162197"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="408407157_1_ogg" ID="{C7F282B1-61A8-4793-82D0-3EA0B5FCA522}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="504858854_1_ogg" ID="{E1450F77-0805-4E1E-B625-3D62BD8A4AD9}" ShortID="632635910">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="504858854_1_ogg" ID="{4AE6513C-FA7F-4D5D-814B-0F06E986AA85}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\504858854_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="322992471"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="504858854_1_ogg" ID="{4AE6513C-FA7F-4D5D-814B-0F06E986AA85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="766510803_1_ogg" ID="{811EAC5B-2EE1-4627-9755-CCF093777F4D}" ShortID="971032126">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="766510803_1_ogg" ID="{F797DB26-112B-4B27-AFEA-2B60459714EB}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\766510803_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="261859134"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="766510803_1_ogg" ID="{F797DB26-112B-4B27-AFEA-2B60459714EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="880445099_1_ogg" ID="{326975C2-FD1F-4955-AEDA-FD3C46CF50B5}" ShortID="328251046">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="880445099_1_ogg" ID="{C2CEBF5E-EECA-4747-9F29-7F4763CDD87A}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\880445099_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="949534366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="880445099_1_ogg" ID="{C2CEBF5E-EECA-4747-9F29-7F4763CDD87A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="934597615_1_ogg" ID="{48DC6BE1-D17E-434E-885F-B0B6FCDB8E18}" ShortID="849057433">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="934597615_1_ogg" ID="{0FC89F5D-2AF2-4F6E-9237-836328C513E6}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\angry\934597615_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="823108446"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="934597615_1_ogg" ID="{0FC89F5D-2AF2-4F6E-9237-836328C513E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="catastrophy" ID="{3802A3D0-7ABD-455A-8E02-10E59D87A464}" ShortID="756583924"/>
+										<Folder Name="content" ID="{C90E40D5-01A4-41F2-83D6-1F980A5C832F}" ShortID="817632942">
+											<ChildrenList>
+												<Sound Name="1062856013_1_ogg" ID="{99C8898E-8921-4C99-84B4-8AB35E177E5F}" ShortID="1066255649">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1062856013_1_ogg" ID="{F12C8EB2-364E-4241-9157-AA2CDE4CD466}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\1062856013_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="292514300"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1062856013_1_ogg" ID="{F12C8EB2-364E-4241-9157-AA2CDE4CD466}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="300827545_1_ogg" ID="{72A6D7C4-81A4-42E1-9982-6F8EF0879336}" ShortID="861964798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="300827545_1_ogg" ID="{1B0C87E6-6741-4623-A698-907E03611A55}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\300827545_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="455602690"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="300827545_1_ogg" ID="{1B0C87E6-6741-4623-A698-907E03611A55}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="368381857_1_ogg" ID="{9BDC0CF8-95D7-414E-98BE-32612F752A47}" ShortID="305605996">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="368381857_1_ogg" ID="{DE0F5704-7CC3-4693-A534-A882AACDA92F}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\368381857_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456889112"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="368381857_1_ogg" ID="{DE0F5704-7CC3-4693-A534-A882AACDA92F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="752585255_1_ogg" ID="{06CA916C-EDE1-4000-B78A-A6B522AF008E}" ShortID="527365131">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="752585255_1_ogg" ID="{FE896F18-DD47-4513-BE90-127850CD3450}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\752585255_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="500866065"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="752585255_1_ogg" ID="{FE896F18-DD47-4513-BE90-127850CD3450}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="8225976_1_ogg" ID="{C4283112-30FC-4ACF-B912-B1D2725E4447}" ShortID="331183829">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="8225976_1_ogg" ID="{2C7DFC1B-9065-48A1-A8CC-C88FB577F67A}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\8225976_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="914482221"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="8225976_1_ogg" ID="{2C7DFC1B-9065-48A1-A8CC-C88FB577F67A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="945559787_1_ogg" ID="{30DDE0BC-B0BF-4FD2-8D73-0E8832C3DB59}" ShortID="866578490">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="945559787_1_ogg" ID="{8642E166-94E2-48D1-8BCC-0309553A4E0C}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\content\945559787_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="430256910"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="945559787_1_ogg" ID="{8642E166-94E2-48D1-8BCC-0309553A4E0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="euphoric" ID="{56B1421C-85FD-4777-8BEC-74E16F113B01}" ShortID="1042212554">
+											<ChildrenList>
+												<Sound Name="1008282769_1_ogg" ID="{854CEECC-9317-4A25-AFE7-942CDB8D3269}" ShortID="207933656">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1008282769_1_ogg" ID="{A9CEC243-34F8-4184-B7B7-2403BD0565E7}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\euphoric\1008282769_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="496912901"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1008282769_1_ogg" ID="{A9CEC243-34F8-4184-B7B7-2403BD0565E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="355693704_1_ogg" ID="{18B917BB-BDF8-4BA5-95CD-A8F8957B12D8}" ShortID="594804350">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="355693704_1_ogg" ID="{CA470DE7-3471-4427-A34D-3D5079C4C36E}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\euphoric\355693704_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="399655658"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="355693704_1_ogg" ID="{CA470DE7-3471-4427-A34D-3D5079C4C36E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="360396239_1_ogg" ID="{B3461508-BED0-411E-963F-14F99F548E7F}" ShortID="927087331">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="360396239_1_ogg" ID="{366E1BD8-4E73-451B-8F37-1828D27B743E}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\euphoric\360396239_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="630033935"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="360396239_1_ogg" ID="{366E1BD8-4E73-451B-8F37-1828D27B743E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="542055002_1_ogg" ID="{6EA2CEA4-3727-43BF-8E7E-6CAB81086174}" ShortID="701832050">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="542055002_1_ogg" ID="{409298EB-A937-4DE4-A166-DE7D560D5DDD}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\euphoric\542055002_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="865388791"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="542055002_1_ogg" ID="{409298EB-A937-4DE4-A166-DE7D560D5DDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="happy" ID="{C9DF08D4-0C61-4DFB-9CE6-CEEA649761C5}" ShortID="341189683">
+											<ChildrenList>
+												<Sound Name="127962236_1_ogg" ID="{E041EA15-AF6A-4BFA-BC2A-875417445820}" ShortID="745464864">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="127962236_1_ogg" ID="{F3EC362F-0391-420F-885A-5622B89C1290}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\127962236_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="31707282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="127962236_1_ogg" ID="{F3EC362F-0391-420F-885A-5622B89C1290}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="257320707_1_ogg" ID="{C0C86E25-E9C2-4866-B93F-9867BC2A1418}" ShortID="820575991">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="257320707_1_ogg" ID="{52EBFFB2-AE5D-4AD9-8846-AD0CAC29614A}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\257320707_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="348861194"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="257320707_1_ogg" ID="{52EBFFB2-AE5D-4AD9-8846-AD0CAC29614A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="274403426_1_ogg" ID="{7EA65315-CA35-4A5E-BA36-C8B842A1E9D2}" ShortID="370787403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="274403426_1_ogg" ID="{78D266A6-E0CB-41EB-8D2E-E66B05CAF722}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\274403426_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="838102662"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="274403426_1_ogg" ID="{78D266A6-E0CB-41EB-8D2E-E66B05CAF722}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="281108956_1_ogg" ID="{172913A6-E162-4AE3-8B13-28293BBFD3AF}" ShortID="976585507">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="281108956_1_ogg" ID="{AC920EE8-2AE1-44BC-8CBA-1857A4F5DDAD}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\281108956_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="103419259"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="281108956_1_ogg" ID="{AC920EE8-2AE1-44BC-8CBA-1857A4F5DDAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="410700167_1_ogg" ID="{8FFDCE1F-704F-48B8-A31E-89965B698A0A}" ShortID="105919463">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="410700167_1_ogg" ID="{DD93A357-9752-42B4-BAB7-813FE83648F8}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\410700167_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1059780500"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="410700167_1_ogg" ID="{DD93A357-9752-42B4-BAB7-813FE83648F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="429398089_1_ogg" ID="{03B2EAFA-0544-45AB-A069-C4D269B2674C}" ShortID="928886620">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="429398089_1_ogg" ID="{A148B6E4-AB3C-40AC-AF8A-41762BB81171}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\happy\429398089_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="783914784"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="429398089_1_ogg" ID="{A148B6E4-AB3C-40AC-AF8A-41762BB81171}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="unhappy" ID="{0B9DEA6E-D0ED-4BAD-9FC5-F8584EF620D0}" ShortID="605930304">
+											<ChildrenList>
+												<Sound Name="1027418182_1_ogg" ID="{9AA8F31F-4EA3-40D6-B438-A0E60208DCB3}" ShortID="516092965">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1027418182_1_ogg" ID="{080F72A2-A0CC-4187-9506-4E3AFC73D55A}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\unhappy\1027418182_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="395060371"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1027418182_1_ogg" ID="{080F72A2-A0CC-4187-9506-4E3AFC73D55A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="1045970621_1_ogg" ID="{B0BD8099-9D70-4FD0-AF60-160030CAD585}" ShortID="328509423">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1045970621_1_ogg" ID="{8839E28B-7433-4305-BC4E-E2A1E28C8B20}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\unhappy\1045970621_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1024283062"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1045970621_1_ogg" ID="{8839E28B-7433-4305-BC4E-E2A1E28C8B20}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="175460537_1_ogg" ID="{ECD03796-D0A8-4F7A-9EBE-79F5B47B08E6}" ShortID="477671897">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="175460537_1_ogg" ID="{A81B1678-D468-49B0-A6D2-3E96E5A16BD9}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\unhappy\175460537_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="422485696"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="175460537_1_ogg" ID="{A81B1678-D468-49B0-A6D2-3E96E5A16BD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="665026924_1_ogg" ID="{0F915207-37D8-43C0-AFD7-44E512DEE6DD}" ShortID="271677829">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="665026924_1_ogg" ID="{59CDBF50-3396-4DAD-862F-F1188842D7DE}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\residence\unhappy\665026924_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1058015084"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="665026924_1_ogg" ID="{59CDBF50-3396-4DAD-862F-F1188842D7DE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="festivalhall" ID="{42914AF7-D94B-4F57-9DC7-6BF2EE9497A4}" ShortID="630165669">
+									<ChildrenList>
+										<Folder Name="construction" ID="{1A7E1431-E04E-42D2-A423-2E15B41EA428}" ShortID="853374299">
+											<ChildrenList>
+												<Sound Name="1029978548_1_ogg" ID="{6BC1F195-071A-49EB-AED9-3BBC55254D4F}" ShortID="943975909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1029978548_1_ogg" ID="{6BE9DA3E-BEF1-456F-810C-18D59921C277}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\construction\1029978548_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="882059305"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1029978548_1_ogg" ID="{6BE9DA3E-BEF1-456F-810C-18D59921C277}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="1035964795_1_ogg" ID="{9B72B848-5B7A-4C5D-90E7-46CA6B81C1E0}" ShortID="720078601">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1035964795_1_ogg" ID="{C8404674-81E8-42DF-9091-4F942692FB13}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\construction\1035964795_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="476161890"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1035964795_1_ogg" ID="{C8404674-81E8-42DF-9091-4F942692FB13}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="293403497_1_ogg" ID="{F704231D-2149-4DE3-A6E9-146D73D0DADA}" ShortID="513975193">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="293403497_1_ogg" ID="{114C4F32-5288-495B-B22A-886D6CBA8451}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\construction\293403497_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="909713671"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="293403497_1_ogg" ID="{114C4F32-5288-495B-B22A-886D6CBA8451}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="824744717_1_ogg" ID="{6EF3A784-0C2C-43A5-ACCB-00D4E4029A86}" ShortID="359329769">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="824744717_1_ogg" ID="{51033BEA-63B1-45AA-B6F6-BDE4057A2B5D}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\construction\824744717_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367592812"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="824744717_1_ogg" ID="{51033BEA-63B1-45AA-B6F6-BDE4057A2B5D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="event" ID="{6FED2C23-1231-4E0A-A067-B7643C71DC5E}" ShortID="666257219">
+											<ChildrenList>
+												<Sound Name="1043862676_1_ogg" ID="{E9A42A67-D8F3-4DA0-979B-7F93D0F1F898}" ShortID="946808331">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1043862676_1_ogg" ID="{FC8DD767-0507-44F8-8298-C5580A665C4B}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\1043862676_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="736175039"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1043862676_1_ogg" ID="{FC8DD767-0507-44F8-8298-C5580A665C4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="115011458_1_ogg" ID="{AAE00AC7-063C-4544-8C7A-AD2E5E5445B5}" ShortID="1026769289">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="115011458_1_ogg" ID="{33FCADF8-156B-4128-B74E-A89FEC3E78C6}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\115011458_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="655456480"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="115011458_1_ogg" ID="{33FCADF8-156B-4128-B74E-A89FEC3E78C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="230297396_1_ogg" ID="{8F095F6F-4722-4AA3-B151-DDE98D1BA4A8}" ShortID="220292598">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="230297396_1_ogg" ID="{5A3F1327-1264-4717-9B58-02B1F6948A46}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\230297396_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="601450686"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="230297396_1_ogg" ID="{5A3F1327-1264-4717-9B58-02B1F6948A46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="410982463_1_ogg" ID="{882D7C09-D674-451B-94B6-C3B204A964CD}" ShortID="970697619">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="410982463_1_ogg" ID="{05BFDFB8-B4E5-4A98-977A-34A8A569B873}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\410982463_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="342661027"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="410982463_1_ogg" ID="{05BFDFB8-B4E5-4A98-977A-34A8A569B873}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="433863099_1_ogg" ID="{0332F3D1-7FD0-4959-AE64-DB46A66A5BA1}" ShortID="805144503">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="433863099_1_ogg" ID="{D24C276D-8A8F-48B4-8C96-003E39BE1DBE}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\433863099_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="181210087"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="433863099_1_ogg" ID="{D24C276D-8A8F-48B4-8C96-003E39BE1DBE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="505960145_1_ogg" ID="{3F59086B-DFED-4627-86E9-9140D03B174B}" ShortID="656830353">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="505960145_1_ogg" ID="{5FB9794F-ACFE-499E-BF11-564AC8E4848B}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\505960145_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="537080627"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="505960145_1_ogg" ID="{5FB9794F-ACFE-499E-BF11-564AC8E4848B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="798949985_1_ogg" ID="{03DF87BE-43C4-4571-9114-A58CBCBB92DE}" ShortID="417650015">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="798949985_1_ogg" ID="{B787D4C5-821A-4360-9074-AA056F22BD00}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\798949985_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="66740235"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="798949985_1_ogg" ID="{B787D4C5-821A-4360-9074-AA056F22BD00}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="799500683_1_ogg" ID="{0049A7B7-FC55-47D2-BB9C-693BB41E0DF3}" ShortID="466565033">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="799500683_1_ogg" ID="{08C45200-94D4-4FAB-BEFE-07A4EC6B7EFB}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\799500683_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="588082936"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="799500683_1_ogg" ID="{08C45200-94D4-4FAB-BEFE-07A4EC6B7EFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="831067933_1_ogg" ID="{66A37948-65CE-4F6E-B323-DD858B1E5C3F}" ShortID="189164747">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="831067933_1_ogg" ID="{FE28D0CA-F0E0-4E5D-A7D6-8D0388F186DA}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\831067933_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="217171883"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="831067933_1_ogg" ID="{FE28D0CA-F0E0-4E5D-A7D6-8D0388F186DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="912923957_1_ogg" ID="{320E590A-1CF5-4A84-9DAF-F53D6E991DEA}" ShortID="124759259">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC797FA-E95F-486D-AAA5-7E34AD0F1D58}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="912923957_1_ogg" ID="{5F21F8FA-8BD9-4398-BFD1-74DCE322757C}">
+															<Language>SFX</Language>
+															<AudioFile>audio_patrona\eng\festivalhall\event\912923957_1.ogg.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="161638628"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="912923957_1_ogg" ID="{5F21F8FA-8BD9-4398-BFD1-74DCE322757C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
