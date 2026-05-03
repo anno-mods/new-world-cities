@@ -87,11 +87,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113115_ogg" ID="{DD80C341-66F1-4725-A36B-B8B8C231592B}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\construction\113115.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="569805102"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{2483D23D-04F4-4563-A217-F788074C6300}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0385889013139502"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{99F2D557-829D-4D33-969A-EF3C28F565B1}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.31202264467431"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2C2C7A74-6E97-45C3-9B27-344F4B8EB727}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.69791165781381"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{D2E411F1-BB96-4912-9F36-AE9726C12ACF}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.5180215031218"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113115_ogg" ID="{02623CE6-21BF-4A52-9D3B-0D168972F79B}">
 															<Language>de_de</Language>
@@ -120,11 +151,54 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113118_ogg" ID="{CD1B01E6-AF09-459E-8E50-E73523EA1BFA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\construction\113118.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="750522577"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A72B935F-98F7-493B-B326-BEB0A7CE5764}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0410546547386078"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{8117A25D-6331-4161-9261-AA5035DC8B37}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.14953033268102"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{F64A9EC7-5BDD-4993-A27C-CCA40EFDF211}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.54639199515423"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{60387693-9308-48AE-978F-B6C1BA84EB96}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="2.14168448886404"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{03EAEE03-B286-48DF-82F0-C6E4DB8C16AC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.70276477029168"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4F0FE2A0-50F2-47C6-B319-88EF6D5493BC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.86597998788556"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113118_ogg" ID="{E80FD0C4-7F3B-45CF-8D41-146754CB1765}">
 															<Language>de_de</Language>
@@ -153,11 +227,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113200_ogg" ID="{06DC2A7D-76F5-4503-B0B6-3F7C66B0D38E}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\construction\113200.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="335166727"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{634CA4C4-D18C-4BEB-B2B8-ECBF66E4C211}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0161712561737024"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4B5F4D16-9070-495A-BC8D-D8C288ADD9C1}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.06730290746436"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{BD242745-A203-4BD7-BF92-4D2A7B040BB8}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.61712561737024"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{D4059D9C-BBDE-450F-BAD0-7D92BCD9AD1D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.09949076662629"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113200_ogg" ID="{E52779A2-771D-4E61-930C-FAE6FDD399DC}">
 															<Language>de_de</Language>
@@ -186,11 +291,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113201_ogg" ID="{798FF3EB-E740-41EF-8CBC-7BE8AE10F442}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\construction\113201.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="714574365"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{E7E99EBE-B1CD-41CB-B438-0AEEC15B1033}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0423997064579256"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E89E8A4E-E7B5-4332-98BB-A38DE26B43B4}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.13267787251887"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{BD5A0BBD-05A8-483D-800E-405606007965}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.66570275370422"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2AF6518B-EC3C-4B09-8040-B5679753D9FF}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.42226202124686"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113201_ogg" ID="{4E3B0E09-C2F6-43A5-9395-E170A42351CE}">
 															<Language>de_de</Language>
@@ -223,11 +359,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113009_ogg" ID="{C2B9D29F-20E7-493C-8572-371FBC11D5BA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113009.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="309895503"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{C32D08A0-25E6-4A47-89DB-E7DCFE5C08B6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0374452909017488"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{570AC80C-CCEA-4696-8C54-D8FBA0FDC646}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.449343490820986"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{083FC51E-ECB3-4641-85E0-D3AB3D5FFD02}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.11995460969776"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{65ABC751-7EF6-4F40-AE27-223795B20480}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.84503160624981"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113009_ogg" ID="{079374A9-A5DA-4B4D-A759-494B82A947AB}">
 															<Language>de_de</Language>
@@ -256,11 +423,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113013_ogg" ID="{21D83263-4F24-4F71-B2D1-D753A47A5DAB}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113013.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="131198775"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{D94D6862-A12D-49E6-94D7-884F586DDDDC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0230686795266052"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{18C24BA4-C797-4E06-8547-DD980B02904B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.62057473674401"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113013_ogg" ID="{076977A3-B527-4715-9B84-A7947E9859BC}">
 															<Language>de_de</Language>
@@ -289,11 +475,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113015_ogg" ID="{B8ED01FF-DF8A-4E44-ADAE-87B6BF526985}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113015.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="804599971"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{5ABB4AF5-2322-470B-9798-0F5EF1D87A0D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0174520858571739"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{722A97E7-D532-4762-B3DF-A78280AFDB87}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.493021425465163"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{59C6960F-7460-4647-AB6E-0C2D8F4BE35D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.833337099680055"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{A0CB6E11-6D87-42C9-882F-DE4D460C7365}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.49128525611158"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113015_ogg" ID="{BE03144E-14A9-4507-B5E0-8A85911634D6}">
 															<Language>de_de</Language>
@@ -322,11 +539,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113016_ogg" ID="{26FB9323-48FE-40E2-83AA-96A904A0ECAB}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113016.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="979880807"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{DF14477F-E3EF-4F5A-ABC5-81E0FB76822D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0745594927468704"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7731FEEE-A3CA-4D93-842F-C9E669CD0CD8}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.37713206287081"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113016_ogg" ID="{D8009333-CA8F-4CCC-8E74-3F5BF05FDE14}">
 															<Language>de_de</Language>
@@ -355,11 +591,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113017_ogg" ID="{7C288917-88F0-4C08-A969-A218CB5D67C5}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113017.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="544365648"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{CD5EAFD8-DB1D-4D28-80F7-191502748783}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0266095890410959"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{40736D10-939E-4E05-B3E3-F30937E99696}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.90828767123288"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113017_ogg" ID="{D0F89CE5-BFA8-4DD0-BA76-6A64D911E4A7}">
 															<Language>de_de</Language>
@@ -388,11 +643,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113018_ogg" ID="{4C9D8B9F-96CA-4BA0-A9D3-4D2F611CBC37}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113018.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="75965983"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{961CE0ED-68A2-4598-BD37-83D6B255861C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0411529680365297"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{054CA6C3-AEDB-4478-AD71-5BA55E51A1AC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="2.13995433789954"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7EE90F0B-F516-44DD-85CE-13D00A60992B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.51033105022831"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{8D4AC1D0-DF71-43EF-94CB-360403B7B54B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.25696347031963"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113018_ogg" ID="{F86A78BE-DE3C-4ED8-B384-D9838068D2FD}">
 															<Language>de_de</Language>
@@ -421,11 +707,32 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113135_ogg" ID="{20946AE1-3EAC-4D4C-AB05-EB122D8533E4}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0233581446277141"/>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113135.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="168592313"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{E8A0A56A-17FC-4502-A019-62F6C25A513D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.00539034106793402"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{CD2EFFA9-2850-41F6-8C8A-8095E7AB364D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="0.894796617277048"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113135_ogg" ID="{607A79D8-BBC8-4EEE-9FC2-EEB67724E666}">
 															<Language>de_de</Language>
@@ -454,11 +761,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113153_ogg" ID="{8523AF5E-57D5-41AF-A763-D2E8E4BCC66B}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113153.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="820477445"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{B842DCE9-C03E-4E31-81F0-8047016D90CE}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="-0.00436302146429348"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{740C2DB5-6838-4B0E-A6B0-52E15697D09B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.4781961917187"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113153_ogg" ID="{FE6A6926-1616-4E4E-90FC-60C110F53B74}">
 															<Language>de_de</Language>
@@ -487,11 +813,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113154_ogg" ID="{84D7DE52-0D7D-419E-98BE-D7A683698A0E}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113154.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="833175098"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A80866D4-114B-4FF7-8FC1-8A6BB4037E79}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0924869536855838"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7A7ACBDE-35BC-42B1-A89C-23332DDC9E12}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.607771409933837"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{55B5458A-CB2F-42C7-AC13-B6145769528F}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.99533578728295"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{19641666-26B2-4855-83A4-BCF2DBE94D88}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.34300282670146"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113154_ogg" ID="{A3024F13-F101-447E-9D97-2E26BA2FF1AA}">
 															<Language>de_de</Language>
@@ -520,11 +877,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113155_ogg" ID="{9D1296CC-7893-4773-8931-EFF9D6E9AFCF}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\festivalhall\event\113155.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="1057682720"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{5BD81953-E0FB-4B92-87D1-D7A4ABCE8872}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0448954741714037"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{9EA47BA6-5195-4B6E-8620-CE45D951B415}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.47874468052061"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113155_ogg" ID="{9BF0D57F-E6CE-4B84-BE72-5E5AAFBCB3DC}">
 															<Language>de_de</Language>
@@ -561,11 +937,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112992_ogg" ID="{F4259E1C-7148-48B4-95E5-30D87F9FA209}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\112992.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="345553547"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{8229D544-581E-48A3-B96D-2EC658A96D2B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0211641505917435"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2A78B238-5E46-484F-AF47-E2BF08B16ED0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.15767903736837"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112992_ogg" ID="{6F8385A2-D81E-43E8-8C78-46ADEEC8642D}">
 															<Language>de_de</Language>
@@ -594,11 +989,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112993_ogg" ID="{2BE1CB5F-9E0E-4026-8C7B-7F5F70773FE5}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\112993.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="1052657694"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{43D63835-23CD-4BE1-9F3C-763729F025E2}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0046437890224583"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{AD0B1EAD-27B3-4D23-8910-D901440744C9}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.20506325132793"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112993_ogg" ID="{DB2B735C-22FE-4C42-B78F-88FA5CA7CF27}">
 															<Language>de_de</Language>
@@ -627,11 +1041,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112994_ogg" ID="{87F48FAF-A73A-498F-BEBF-C725384FCAF4}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\112994.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="238061347"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{F03DB95D-B014-4F54-8D66-80618CE146DB}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0117395862454571"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E3559A6A-323B-4F84-8C1E-114EF1AFFA9A}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="0.974385658372938"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112994_ogg" ID="{DA11E181-8BE6-4375-9897-E55BA69B07B7}">
 															<Language>de_de</Language>
@@ -660,11 +1093,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112996_ogg" ID="{0E89935A-694F-4C40-A144-58900CC03474}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\112996.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="858964215"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{640803D0-BFD9-4B1D-8F1C-8BB83A2B42B6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0428631224179169"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4B463299-3714-446A-9446-E9DE90CE97C3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.6655384710962"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112996_ogg" ID="{7580A22B-679F-4CEE-98CD-EDDEE129B53F}">
 															<Language>de_de</Language>
@@ -693,11 +1145,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113000_ogg" ID="{F5DDC65E-CB3B-4E96-AC34-56428AA1B455}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\113000.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="550015219"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{402F329E-89EB-4170-BFB5-256F1FD25CF6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0305093498586649"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{F2619967-B022-484D-B30D-9E8A2CE0BE15}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.41023863883453"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113000_ogg" ID="{03A9DDAF-6262-4A39-A44E-4E7359A2FCD6}">
 															<Language>de_de</Language>
@@ -726,11 +1197,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113002_ogg" ID="{AFCE8274-23F9-4B3F-820F-5D951BC3FB10}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\113002.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="965467748"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A8B017C9-C7DB-4230-BEE0-DC7FC68F1509}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0271439055074084"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{D86FB4DA-41AE-4355-88D6-CAC794B358BE}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.60450641443792"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113002_ogg" ID="{38927A9C-D78F-49CE-8356-45CD253FDD1F}">
 															<Language>de_de</Language>
@@ -759,11 +1249,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113005_ogg" ID="{6A64DCA4-8701-44E2-AD76-AD81908AB06C}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\neg_feedback\113005.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="567530901"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{42ACBB87-43E6-451C-A41B-9EA64E3822ED}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0324998835150499"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{AC6EDEDB-903D-4E25-A391-6CF25D8D6D04}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="2.15799226539931"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{93A7162E-A97F-4055-BB18-CFEDA61507C0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.88598965613643"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{344C8007-7E62-49DD-85A3-05015BBF244C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.67248683720063"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113005_ogg" ID="{5E17597E-6AD8-45B3-A3FD-83402616507C}">
 															<Language>de_de</Language>
@@ -796,11 +1317,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112959_ogg" ID="{3D607984-6773-4ED9-A1D2-9ECC5781126C}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112959.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="970362699"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{32BF8030-6328-4C50-90F9-8D03D90C97C6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.031324200913242"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{27299D14-2234-40C2-BF00-11726D0D5B28}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.22401826484018"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112959_ogg" ID="{30D48EBC-5810-4F69-8930-AE6900E1BCC5}">
 															<Language>de_de</Language>
@@ -829,11 +1369,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112961_ogg" ID="{E7467220-7972-42A6-BFE6-99C1EB3510FA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112961.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="578217389"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{AFA3AC74-1844-4EBB-A25B-BE6AF146955A}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.020022598080328"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2B1AF523-383C-48EF-81E7-FE564B47CF32}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.01714798248066"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112961_ogg" ID="{17B8DD6D-5D15-449D-A978-38F80C7B1D9F}">
 															<Language>de_de</Language>
@@ -862,11 +1421,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112962_ogg" ID="{2AB3EA89-8C96-47EE-940D-508E66DE1244}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112962.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="153085544"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{53961C36-A0D5-4966-9FF4-065C425A3AB0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0312442922374429"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{77DE1E38-AFF0-4597-B2CD-B052669C224E}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="0.666997716894977"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112962_ogg" ID="{C34D1190-D7CE-418C-B49E-D144FBB91624}">
 															<Language>de_de</Language>
@@ -895,11 +1473,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112974_ogg" ID="{80FD432D-5EEB-4FB9-8923-9F2E41AF5577}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112974.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="516666215"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A2F337A8-9208-4CB3-B6A4-58C094DD882E}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0758016105985773"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{32296BF7-D3BE-4BD6-97A8-A0C9EB4CF2BB}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.32286036560743"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112974_ogg" ID="{88269AB5-78D9-4A54-98B8-EC9F03F1E087}">
 															<Language>de_de</Language>
@@ -928,11 +1525,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112975_ogg" ID="{E1150341-CADF-4422-9FD0-E2939E8423BA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112975.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="187273750"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{2A7ADE71-DEE6-4514-82A7-1C872AEE8663}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0289155251141552"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{DB84097B-15AD-467E-9563-9FE8F278911F}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="0.90148401826484"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112975_ogg" ID="{44AF0F70-F19B-4442-AFDF-881AF2CE961B}">
 															<Language>de_de</Language>
@@ -961,11 +1577,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112982_ogg" ID="{EA404B69-C9CC-480D-887B-132A53102951}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112982.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="939934544"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{FC320454-248C-4345-869B-781A0C14C8D7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0238608936725375"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2E8C1005-8B47-4015-9B3F-5C9E9D3A6702}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.91909759109123"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112982_ogg" ID="{9D77CDEB-8718-4C65-93F4-005FF0EB2056}">
 															<Language>de_de</Language>
@@ -994,11 +1629,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="112984_ogg" ID="{07558484-6355-4675-A98D-03FB36CFC4C8}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\generic\pos_feedback\112984.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="405607159"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{0E7AC7D8-85E2-45D2-B2BA-5FAD1474C0F0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.00506398906594601"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{BF83FE5D-5DF1-46F8-803C-068982F5F2BA}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.40272497126705"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="112984_ogg" ID="{854CE909-91FD-4A4D-A07E-AD4EFC9EF457}">
 															<Language>de_de</Language>
@@ -1035,11 +1689,44 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113159_ogg" ID="{DF865F10-F183-4179-B650-B35C4EF2CBC6}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113159.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="640028901"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{900AB105-0077-4D72-B7DF-0BA7B896AD2B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0672809694654117"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{DAE06631-198E-4C3C-8BD5-5515DAD865A0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.393062505824248"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4F32BE17-706B-4A2F-9D59-518FFB26258F}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.626775347125151"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7867BB67-B877-4B94-AA62-FDC4FEBDD6E3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.0113468766502"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113159_ogg" ID="{FA9EC0E9-45F5-4624-B5C8-F28E69CFEFCC}">
 															<Language>de_de</Language>
@@ -1068,11 +1755,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113160_ogg" ID="{3279C4C2-DCC0-4180-AC00-511FCEE63D0E}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113160.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="909638422"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{69A74979-CA7A-4353-8641-46D177B48CA5}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0279522722330941"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{C9868307-7725-429D-8ADB-B163E5AC0EB4}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.658874988351505"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{87E90947-2F4F-40B5-B646-7069859CA187}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.08614543534309"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{65B2FA66-A64A-441A-A12E-A124CC0D4766}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.21222268816202"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113160_ogg" ID="{02C82D03-C7E8-45BF-924B-BCB36A09696C}">
 															<Language>de_de</Language>
@@ -1101,11 +1819,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113161_ogg" ID="{54BE356F-CA14-487C-91DF-FAE2071A1D2E}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113161.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="56205020"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{4B751BF3-55A8-410F-8191-12CC885C114A}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0599472323175846"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{52705F1F-68C7-4574-BF83-A1D61C8DB615}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.75481898238748"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{A8CE2368-C4A7-43D7-A90F-78ED01CC568C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.62677872518871"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{399B25CC-6007-41A1-94F8-4B0CDC6C3A88}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.06820834498183"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113161_ogg" ID="{09AEE135-D990-4BA5-80E6-28372DB0626A}">
 															<Language>de_de</Language>
@@ -1134,11 +1883,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113162_ogg" ID="{E6940ED3-6929-4D54-975B-46721F0D56D5}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113162.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="933584494"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{7E0D2463-627D-4698-AFBA-6083ECBEBFAC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0256346100083869"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E8F05816-8A14-4C61-82AD-5384F52216F8}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.08947092535644"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{277A8879-850C-4A97-B34D-31ACC4212F4C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.68547560805144"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{077A6862-49D7-4237-BBBD-A62A228AE659}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.59525405367627"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113162_ogg" ID="{047D9717-8311-48E2-9EAB-65A93024C29D}">
 															<Language>de_de</Language>
@@ -1167,11 +1947,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113163_ogg" ID="{5536BE53-74B3-4539-9CA6-A8C352E9BBBA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113163.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="649465878"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{0D9A6DAF-EDDE-4391-9AF2-C5BBEF910892}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0547602739726027"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{71E438DD-F59F-4776-943D-6F5F289D90E4}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.38417808219178"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113163_ogg" ID="{8C3741A0-A5DA-41F5-9C18-E97117D07371}">
 															<Language>de_de</Language>
@@ -1200,11 +1999,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113166_ogg" ID="{2121B689-BC34-4D86-8A12-5148783AC332}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113166.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="604078773"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{9C0EF991-3E32-45B7-AF21-07E6E8D67F51}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0421576507315255"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{5B74C20D-C736-44FC-B8A3-6377D657C30D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.1635511601901"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4C3D46A8-74BE-46AC-A423-7BF7E62F19E7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.90552581306495"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{D1C1290C-3B7C-4D2B-A780-4E88F014C910}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="4.85656136427174"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113166_ogg" ID="{35B96873-C581-49D8-9085-ED62D03540D7}">
 															<Language>de_de</Language>
@@ -1233,11 +2063,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113167_ogg" ID="{F87899A5-69B3-49BD-9D57-AC54FD3BEBB2}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113167.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="971447968"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{4F595A21-2680-492B-9CDC-C1E1DE7E721C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0326390830304725"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{CFBEC101-D216-4B6A-84C7-738821E63393}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.04037077159631"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{F8183A5B-D310-4FE7-916B-911C195CDB43}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.39124091417389"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2AD005C2-DFD9-4555-81C9-8573F0C8FA8E}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.30105535364831"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113167_ogg" ID="{4BC1B206-9796-460D-A8DA-6C5AC3F8B81B}">
 															<Language>de_de</Language>
@@ -1266,11 +2127,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113168_ogg" ID="{1D52C27E-9874-449A-B3B4-0DDE886B4864}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\angry\113168.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="680105429"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{96ABF7C8-3E9F-491D-BB55-7CCAC276A1A7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0259246963625633"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{C26BAEE2-5B0A-4A2A-A76D-F8AF5D618A12}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.725891498151772"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{0013E44C-C73D-495F-8FB0-71208C0A43B7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.45696793557606"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{FC08921A-B06F-4A1F-9D01-2F38AA5BA4D3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.9087509318796"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113168_ogg" ID="{5843F2D1-2B8D-4BFA-82B9-B1B871F131AC}">
 															<Language>de_de</Language>
@@ -1303,11 +2195,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113169_ogg" ID="{C5823916-D839-475A-9090-CB71C94F495E}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113169.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="513298322"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{29FAC80A-37E6-4DD1-8891-A9355254F1E7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0262878576087969"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{98F62090-433C-4731-8F51-CD71BDE3662C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.46667730562545"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113169_ogg" ID="{B1BD1ED5-9582-44D7-9C24-14BB692CAD74}">
 															<Language>de_de</Language>
@@ -1336,11 +2247,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113173_ogg" ID="{C4C8C282-6449-4C9D-B18E-7994CA217037}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113173.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="418772884"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{D463D438-1C42-4D42-9595-A9C6252F6CDD}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0467811325443419"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7394BB23-3AA5-4690-8DE7-4FFCCEF24ABD}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.449098872425683"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{6F62C742-1829-4482-BC3F-142086247BD4}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.06193170875656"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{A3BE6BCF-A1D4-4E2C-9380-6E79E3A02BD1}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.58699662970211"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113173_ogg" ID="{B822F069-627B-4604-B2E9-0D297E133132}">
 															<Language>de_de</Language>
@@ -1369,11 +2311,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113174_ogg" ID="{FC0C151F-2C8B-4B7B-83DB-E368A03D3B05}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113174.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="811650367"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{BEA2ACF3-82FE-47FD-8A12-24D19E8A0985}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0101166014350946"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{50CB0721-AF67-45B3-B361-F032F296B9FE}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="0.735621447209021"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113174_ogg" ID="{AF18BA5F-6254-4284-98D4-3B1C3A2AC204}">
 															<Language>de_de</Language>
@@ -1402,11 +2363,44 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113175_ogg" ID="{8A6C578E-2EB6-4B44-99E1-D0E38612C492}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113175.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="1046820233"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{E5752923-72A3-4FE3-8E10-B2B9C6D6231B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0382762557077626"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{26131A97-C9AA-43E0-9533-4C0994A561DD}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.54198630136986"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{1AC9BCD2-C07F-43B3-8C2B-69ADF296D0D3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.40046803652968"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{95D4170F-A59E-4ACC-8FF1-EF141BFE9128}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.09490867579909"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113175_ogg" ID="{C0040FFD-AF4B-4488-AA44-EF823B6F6BDF}">
 															<Language>de_de</Language>
@@ -1435,11 +2429,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113176_ogg" ID="{4317A148-A099-4856-89CA-FCA596CBDC1B}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113176.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="477265880"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A459233D-40E7-41B8-A3D3-197B12528FD9}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0269042959649613"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2497E8BD-43DB-4B48-B78F-38963820D3DB}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.01563717267729"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{85D8F8C1-3AC9-498B-A926-E47F9843E1FC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.34521479824807"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{86197457-CA13-4B38-8093-FFAD8103945E}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.72860101574877"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113176_ogg" ID="{F89ABC7F-6DF8-4E21-85A9-7AD516733DF9}">
 															<Language>de_de</Language>
@@ -1468,11 +2493,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113178_ogg" ID="{753CFF0F-1ABA-45E7-8597-0B43054BBF45}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\content\113178.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="143033928"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{401688F5-5894-4BCD-841D-9B0D7F250D2D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0348722548380083"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E380DD1D-A19F-4C12-B4AB-B45C4FFAE3E9}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.635173213120865"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{29BFCF59-54B2-42CF-A1B8-9F3104042EE0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.792098359891902"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{FB019930-951A-40C7-8D46-49870FEEA2D5}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.32514568384431"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113178_ogg" ID="{5905EC68-D589-4A04-A0AE-CE3E50907610}">
 															<Language>de_de</Language>
@@ -1505,11 +2561,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113189_ogg" ID="{CCE60F28-D192-4400-870C-B166DE43591B}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\euphoric\113189.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="374442593"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{DEEC9AA1-FE0B-4DC4-B710-33834046F11B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0519293790575591"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{180C8002-76CD-4FE9-8134-DBDF85909F2B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="2.11871866554841"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{93FAEF39-B258-4149-82FB-2CB4348A1DDC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="3.08460511601901"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{ECF4332D-F4E6-4522-89DF-60E79958A8CD}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="5.96149271580778"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113189_ogg" ID="{626901E0-D336-4E86-8542-53D10C08D72F}">
 															<Language>de_de</Language>
@@ -1538,11 +2625,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113193_ogg" ID="{ED6A250B-E74B-4273-A0CF-B958DE520950}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\euphoric\113193.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="315208606"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{85BDF261-2BBF-4688-8254-C3927ECC5B79}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.00711641505917436"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E7EA9123-9C1A-4A92-84A2-98EC789B7012}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.90008282079955"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{C355AA5A-465E-4FFF-9DC2-C856707FFB3D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.46227961047433"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{21513D9F-8CBA-4368-B2A0-0A803DA278C0}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="4.02789092349268"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113193_ogg" ID="{D72B871E-A2FB-43F8-BEE0-7255FD7869CC}">
 															<Language>de_de</Language>
@@ -1571,11 +2689,54 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113197_ogg" ID="{858EB1DB-C7B4-48A9-8331-5E4D61903737}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\euphoric\113197.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="353467642"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{87BD4AFD-9313-4D46-93FC-18A9A83BE326}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0239383561643836"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{3E8A4032-6FD5-4D9A-9563-8B3AA3497651}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.925616438356164"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{9E74ED8C-50A0-459B-ACF1-529486E29EB6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.30065068493151"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{9DD59D24-FA01-4CAF-9C02-78D0CC1C8A65}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="4.50041095890411"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{7BCB0365-D532-4582-BBC9-55C3FEB3748A}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="2.80078767123288"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{6080EC21-940C-44FC-A0D1-4AE2234E3663}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="3.24763698630137"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113197_ogg" ID="{F158CAC9-8B5F-46E6-BBDE-6EA537BDE105}">
 															<Language>de_de</Language>
@@ -1604,11 +2765,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113198_ogg" ID="{6144C501-A694-458C-9C5D-6B9477F37440}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\euphoric\113198.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="530114870"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{D428A6DA-E151-4D36-A0AF-3CA9376851B1}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0116986611996397"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{85B1F188-B7C7-4FCB-A280-A8DB6B6D9443}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.34803517068928"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2802BB8D-FB3E-4F5E-9467-AE3346E35CEE}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.567385068182524"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{FAD0E56D-B1A4-4BEA-988B-A8FD468D222D}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.63781256794955"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113198_ogg" ID="{7DA4F3C9-E800-4565-B445-5CA2B29A4585}">
 															<Language>de_de</Language>
@@ -1641,11 +2833,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113179_ogg" ID="{A4AE06C8-904C-4CAF-A417-92389E1CB687}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113179.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="676913094"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{C98AC164-AFC7-4868-89AD-B5E415979A16}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.033897314633616"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E9EB1977-60D7-4AC9-A4F2-7F4970BF6B57}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.4842473519088"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{9097D4D8-4F20-4726-8027-7B847AFF2C7C}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.924912442145808"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{22B972DF-4F26-4AAA-A4C8-98ADB1BEA4E7}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.5810383856739"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113179_ogg" ID="{82FA4D1E-829E-4B9A-B9E5-7DC6E0DA0FF0}">
 															<Language>de_de</Language>
@@ -1674,11 +2897,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113180_ogg" ID="{FA0B18C7-290D-4A07-BE0D-246479B8B1EB}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113180.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="482286716"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{FD76B30D-EB96-4E0F-BF8E-A7924C32FE00}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.00413929270338272"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{ACF63387-6660-4792-AE0C-313CD16C817E}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.778187028235952"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{3C39937F-3B6A-49B4-A603-B3916D176122}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.53153830025161"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{3A9D3CEE-4408-43DB-82DA-781237F0E843}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.34283967011462"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113180_ogg" ID="{79E037FF-8BA1-46B6-A241-CDBB7C7B931E}">
 															<Language>de_de</Language>
@@ -1707,11 +2961,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113181_ogg" ID="{8D49469E-1E1E-4F61-A36A-9F6428F523AF}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113181.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="1018498159"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{4C24C0F6-D3EF-49F1-A696-1C118E90833A}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0112603671605629"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{5201BF8B-B22D-4A1A-932A-C3050851BAE6}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.56800612710838"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113181_ogg" ID="{756697FA-EF3E-443B-929B-FD0A7235AE24}">
 															<Language>de_de</Language>
@@ -1740,11 +3013,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113182_ogg" ID="{5C52824F-CC45-4CD6-B6D7-3E6DAB3D9142}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113182.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="39905687"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{BFCE1F08-2F00-4A59-94F4-1BCC152D83D3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0482466685304259"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{EB10BBCF-45DF-42E8-A1C5-C87F014671BF}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.13089452676048"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113182_ogg" ID="{018403AF-B8B1-4E38-A412-C85B05F72A51}">
 															<Language>de_de</Language>
@@ -1773,11 +3065,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113187_ogg" ID="{9FA747CE-DCAC-4EDA-AA3E-228B1F86DEAA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113187.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="792976734"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{B693906C-84B7-4C3E-B2A7-084505D68C25}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0268905507408443"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{2BAA1071-CED9-47BA-BFB8-30675CDCBA62}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.47841242661448"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113187_ogg" ID="{B82A4B3C-B543-47C2-A2B5-8209FAA01CDD}">
 															<Language>de_de</Language>
@@ -1806,11 +3117,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113188_ogg" ID="{72DE11F8-13AE-4562-AD12-7A843DCD9646}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\happy\113188.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="651859898"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{C81728E0-39E7-4EA7-81E2-08265B9480A3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.030956457925636"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{A9C89811-4B58-43F6-B8E4-88B5C1CF23CE}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.00829605814929"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{B2F56D65-F89E-49F0-A00A-D5083896C83B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="1.40188530891809"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{23723F40-D29B-4FF1-B2A5-B26CA0B811EA}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="2.44998252725748"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113188_ogg" ID="{66D7AF1B-A899-4249-9C4F-38CD9918B4AE}">
 															<Language>de_de</Language>
@@ -1843,11 +3185,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113164_ogg" ID="{F6384933-0123-4358-8323-91202F159BA2}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\unhappy\113164.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="481386169"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{A8546802-E218-48D6-9A3B-BD45A44220CF}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0233881589165346"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{92BEAACE-7065-470A-9A45-5B4F35EB53F1}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="1.33897209797161"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{DD997B63-8C45-4264-B17A-3E5E5032E701}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="2.04061686546765"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{4178E0BB-F003-4D0E-8DA6-D03CEA0A5A31}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.30357744696052"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113164_ogg" ID="{148EEE8C-760D-4F95-9FA6-76822685080F}">
 															<Language>de_de</Language>
@@ -1876,11 +3249,42 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113170_ogg" ID="{6C23FDE7-B19D-4DFF-90DF-D33ABE884492}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\unhappy\113170.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="520002898"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{94A8E9C8-9B65-420F-AC5A-437BDA5E92B2}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0396828114807567"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{0C795411-3797-423B-A96F-A8987FC9A7AC}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Stop"/>
+																			<Property Name="Time" Type="Real64" Value="0.442179899357003"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{16E28D7C-6BDF-4937-90BF-409930059CA3}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.867352879507967"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{B8583513-7781-48F2-8F75-0585C7FBAC8B}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.1576179992545"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113170_ogg" ID="{3FF6DCBD-9EBF-4CD0-8CBC-C749D97E39C8}">
 															<Language>de_de</Language>
@@ -1909,11 +3313,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113172_ogg" ID="{C223B6B6-15DF-43EA-9BB9-58EFCA732681}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\unhappy\113172.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="860343502"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{372BB84B-5591-47EB-9131-4E99386EF943}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0363907526480912"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E1264D8F-B4E8-4100-A4DF-7797DA011B00}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="1.81622938216382"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113172_ogg" ID="{1016EB88-5A3C-417B-A325-F22B326D883D}">
 															<Language>de_de</Language>
@@ -1942,11 +3365,30 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="113177_ogg" ID="{F4A61EC0-D36D-4675-9238-35A98BEE72AA}">
+															<PropertyList>
+																<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+															</PropertyList>
 															<Language>English(US)</Language>
 															<AudioFile>patrona\residence\unhappy\113177.ogg.wav</AudioFile>
 															<MediaIDList>
 																<MediaID ID="882742453"/>
 															</MediaIDList>
+															<PluginInnerObjectList>
+																<List Name="Markers">
+																	<PluginInnerObject Name="" ID="{EBBD0834-4FB6-430C-A07C-FA53993AA8C9}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="Start"/>
+																			<Property Name="Time" Type="Real64" Value="0.0327054794520548"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																	<PluginInnerObject Name="" ID="{E4E39F23-F15E-407E-8C31-A524E395799F}" PluginName="Marker" CompanyID="0" PluginID="993">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="End"/>
+																			<Property Name="Time" Type="Real64" Value="3.74804794520548"/>
+																		</PropertyList>
+																	</PluginInnerObject>
+																</List>
+															</PluginInnerObjectList>
 														</AudioFileSource>
 														<AudioFileSource Name="113177_ogg" ID="{C790D76A-F56D-446E-8E43-217634D98792}">
 															<Language>de_de</Language>
