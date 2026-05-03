@@ -33,6 +33,16 @@
 | 1500040699 | Soundbank Patrona | 
 | 15000407xx | Sounds | 
 | 15000408xx | Sounds | 
+| 1500040900 | TextPool Festivalhall Construction | 
+| 1500040901 | TextPool Festivalhall Event | 
+| 1500040902 | TextPool Generic Negative | 
+| 1500040903 | TextPool Generic Positive | 
+| 1500040904 | TextPool House Angry | 
+| 1500040905 | TextPool House Unhappy | 
+| 1500040906 | TextPool House Content | 
+| 1500040907 | TextPool House Happy | 
+| 1500040908 | TextPool House Euphoric | 
+| 1500040909 | Pamsy Patrona | 
 
 ## Needs  
 

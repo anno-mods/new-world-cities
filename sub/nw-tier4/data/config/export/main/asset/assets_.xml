@@ -22,6 +22,7 @@
   <Include File="./politicsevent.include.xml" />
   <Include File="./audio.include.xml" />
   <Include File="./audiotexts.include.xml" />
+  <Include File="./pamsy.include.xml" />
 
   <!-- # Residences -->
   <ModOp Type="addNextSibling" GUID="101255">

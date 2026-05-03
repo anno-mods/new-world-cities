@@ -15,6 +15,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040700</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040756</GUID>
@@ -37,6 +38,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040701</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040757</GUID>
@@ -59,6 +61,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040702</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040758</GUID>
@@ -81,6 +84,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040703</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040759</GUID>
@@ -103,6 +107,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040704</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040760</GUID>
@@ -125,6 +130,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040705</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040761</GUID>
@@ -147,6 +153,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040706</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040762</GUID>
@@ -169,6 +176,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040707</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040763</GUID>
@@ -191,6 +199,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040708</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040764</GUID>
@@ -213,6 +222,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040709</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040765</GUID>
@@ -235,6 +245,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040710</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040766</GUID>
@@ -257,6 +268,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040711</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040767</GUID>
@@ -279,6 +291,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040712</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040768</GUID>
@@ -301,6 +314,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040713</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040769</GUID>
@@ -323,6 +337,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040714</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040770</GUID>
@@ -345,6 +360,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040715</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040771</GUID>
@@ -367,6 +383,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040716</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040772</GUID>
@@ -389,6 +406,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040717</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040773</GUID>
@@ -411,6 +429,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040718</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040774</GUID>
@@ -433,6 +452,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040719</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040775</GUID>
@@ -521,6 +541,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040723</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040779</GUID>
@@ -543,6 +564,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040724</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040780</GUID>
@@ -565,6 +587,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040725</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040781</GUID>
@@ -587,6 +610,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040726</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040782</GUID>
@@ -609,6 +633,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040727</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040783</GUID>
@@ -631,6 +656,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040728</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040784</GUID>
@@ -653,6 +679,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040729</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040785</GUID>
@@ -675,6 +702,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040730</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040786</GUID>
@@ -697,6 +725,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040731</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040787</GUID>
@@ -719,6 +748,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040732</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040788</GUID>
@@ -741,6 +771,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040733</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040789</GUID>
@@ -763,6 +794,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040734</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040790</GUID>
@@ -939,6 +971,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040742</AudioAsset>
+          <Mood>Negative</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040798</GUID>
@@ -983,6 +1016,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040744</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040800</GUID>
@@ -1005,6 +1039,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040745</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040801</GUID>
@@ -1027,6 +1062,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040746</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040802</GUID>
@@ -1049,6 +1085,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040747</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040803</GUID>
@@ -1071,6 +1108,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040748</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040804</GUID>
@@ -1093,6 +1131,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040749</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040805</GUID>
@@ -1115,6 +1154,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040750</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040806</GUID>
@@ -1137,6 +1177,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040751</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040807</GUID>
@@ -1159,6 +1200,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040752</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040808</GUID>
@@ -1181,6 +1223,7 @@
         </Text>
         <AudioText>
           <AudioAsset>1500040753</AudioAsset>
+          <Mood>Positve</Mood>
         </AudioText>
         <Standard>
           <GUID>1500040809</GUID>
