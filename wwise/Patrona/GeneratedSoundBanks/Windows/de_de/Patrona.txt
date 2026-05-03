@@ -1,0 +1,120 @@
+Event	ID	Name			Wwise Object Path	Notes
+	114406233	Play_113000_ogg			\Default Work Unit\Play_113000_ogg	
+	183393619	Play_112962_ogg			\Default Work Unit\Play_112962_ogg	
+	191128194	Play_113168_ogg			\Default Work Unit\Play_113168_ogg	
+	196998334	Play_113159_ogg			\Default Work Unit\Play_113159_ogg	
+	201579108	Play_113005_ogg			\Default Work Unit\Play_113005_ogg	
+	264325957	Play_113167_ogg			\Default Work Unit\Play_113167_ogg	
+	346093514	Play_113155_ogg			\Default Work Unit\Play_113155_ogg	
+	363693384	Play_113180_ogg			\Default Work Unit\Play_113180_ogg	
+	428727923	Play_113176_ogg			\Default Work Unit\Play_113176_ogg	
+	470023393	Play_113174_ogg			\Default Work Unit\Play_113174_ogg	
+	506867140	Play_113179_ogg			\Default Work Unit\Play_113179_ogg	
+	731245159	Play_113187_ogg			\Default Work Unit\Play_113187_ogg	
+	771899246	Play_113018_ogg			\Default Work Unit\Play_113018_ogg	
+	843599568	Play_113188_ogg			\Default Work Unit\Play_113188_ogg	
+	895322505	Play_113017_ogg			\Default Work Unit\Play_113017_ogg	
+	1005922325	Play_113178_ogg			\Default Work Unit\Play_113178_ogg	
+	1146488059	Play_113015_ogg			\Default Work Unit\Play_113015_ogg	
+	1174946836	Play_113135_ogg			\Default Work Unit\Play_113135_ogg	
+	1365387624	Play_112994_ogg			\Default Work Unit\Play_112994_ogg	
+	1440060635	Play_113161_ogg			\Default Work Unit\Play_113161_ogg	
+	1509780578	Play_112974_ogg			\Default Work Unit\Play_112974_ogg	
+	1509992704	Play_112961_ogg			\Default Work Unit\Play_112961_ogg	
+	1571879273	Play_113163_ogg			\Default Work Unit\Play_113163_ogg	
+	1573648564	Play_113166_ogg			\Default Work Unit\Play_113166_ogg	
+	1749754267	Play_113200_ogg			\Default Work Unit\Play_113200_ogg	
+	1796622558	Play_113173_ogg			\Default Work Unit\Play_113173_ogg	
+	1873837054	Play_113115_ogg			\Default Work Unit\Play_113115_ogg	
+	1911173621	Play_112982_ogg			\Default Work Unit\Play_112982_ogg	
+	1953277835	Play_113154_ogg			\Default Work Unit\Play_113154_ogg	
+	1956810502	Play_113164_ogg			\Default Work Unit\Play_113164_ogg	
+	1974410372	Play_113197_ogg			\Default Work Unit\Play_113197_ogg	
+	2066335846	Play_112992_ogg			\Default Work Unit\Play_112992_ogg	
+	2076157402	Play_113160_ogg			\Default Work Unit\Play_113160_ogg	
+	2140017419	Play_112984_ogg			\Default Work Unit\Play_112984_ogg	
+	2179887648	Play_113175_ogg			\Default Work Unit\Play_113175_ogg	
+	2279151923	Play_113198_ogg			\Default Work Unit\Play_113198_ogg	
+	2385851034	Play_113201_ogg			\Default Work Unit\Play_113201_ogg	
+	2514663848	Play_113016_ogg			\Default Work Unit\Play_113016_ogg	
+	2518111576	Play_113193_ogg			\Default Work Unit\Play_113193_ogg	
+	2610139962	Play_112996_ogg			\Default Work Unit\Play_112996_ogg	
+	2866857571	Play_113169_ogg			\Default Work Unit\Play_113169_ogg	
+	3039319337	Play_113181_ogg			\Default Work Unit\Play_113181_ogg	
+	3191117192	Play_113162_ogg			\Default Work Unit\Play_113162_ogg	
+	3202107044	Play_113153_ogg			\Default Work Unit\Play_113153_ogg	
+	3205659083	Play_113118_ogg			\Default Work Unit\Play_113118_ogg	
+	3247614027	Play_113002_ogg			\Default Work Unit\Play_113002_ogg	
+	3419314130	Play_113177_ogg			\Default Work Unit\Play_113177_ogg	
+	3524448465	Play_113189_ogg			\Default Work Unit\Play_113189_ogg	
+	3530683807	Play_113172_ogg			\Default Work Unit\Play_113172_ogg	
+	3542840829	Play_113170_ogg			\Default Work Unit\Play_113170_ogg	
+	3709873927	Play_112993_ogg			\Default Work Unit\Play_112993_ogg	
+	3711188049	Play_112959_ogg			\Default Work Unit\Play_112959_ogg	
+	3926478234	Play_113182_ogg			\Default Work Unit\Play_113182_ogg	
+	4185509699	Play_112975_ogg			\Default Work Unit\Play_112975_ogg	
+	4234208832	Play_113009_ogg			\Default Work Unit\Play_113009_ogg	
+	4265720677	Play_113013_ogg			\Default Work Unit\Play_113013_ogg	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1322396954	Menu_Volume_Master			\Default Work Unit\Menu_Volume_Master	
+	3305957125	Menu_Volume_VO			\Default Work Unit\Menu_Volume_VO	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2627124	113179_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113179.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113179_ogg		318406
+	10102457	113164_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\unhappy\113164.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\unhappy\113164_ogg		292772
+	25322415	113189_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\euphoric\113189.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\euphoric\113189_ogg		503038
+	26400027	113163_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113163.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113163_ogg		232090
+	40592421	113000_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\113000.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\113000_ogg		245026
+	52271583	113180_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113180.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113180_ogg		218918
+	118248425	113172_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\unhappy\113172.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\unhappy\113172_ogg		238204
+	130165259	113160_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113160.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113160_ogg		221740
+	146042704	112996_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\112996.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\112996_ogg		161998
+	164724887	112992_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\112992.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\112992_ogg		107434
+	165064968	113175_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113175.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113175_ogg		320290
+	166467649	113178_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113178.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113178_ogg		128132
+	209962604	112994_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\112994.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\112994_ogg		99436
+	266584470	113161_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113161.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113161_ogg		184814
+	294269502	113193_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\euphoric\113193.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\euphoric\113193_ogg		328052
+	358649709	113017_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113017.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113017_ogg		198220
+	360060275	113153_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113153.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113153_ogg		189046
+	390107186	113002_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\113002.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\113002_ogg		204806
+	393327814	113177_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\unhappy\113177.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\unhappy\113177_ogg		237028
+	429313940	112982_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112982.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112982_ogg		151180
+	504723925	112961_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112961.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112961_ogg		107434
+	542190988	113181_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113181.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113181_ogg		184342
+	557030999	113200_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\construction\113200.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\construction\113200_ogg		283598
+	567311494	112959_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112959.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112959_ogg		215156
+	595230541	113162_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113162.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113162_ogg		302650
+	601246008	113013_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113013.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113013_ogg		195868
+	627748238	113009_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113009.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113009_ogg		152356
+	631039305	113018_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113018.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113018_ogg		282188
+	678172879	113015_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113015.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113015_ogg		250670
+	694238992	112984_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112984.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112984_ogg		126718
+	751658402	113118_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\construction\113118.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\construction\113118_ogg		320524
+	764135896	113159_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113159.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113159_ogg		180346
+	789791607	113016_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113016.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113016_ogg		201748
+	842083472	112962_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112962.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112962_ogg		82972
+	851828068	113168_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113168.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113168_ogg		282892
+	860576066	113170_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\unhappy\113170.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\unhappy\113170_ogg		326876
+	863177322	113197_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\euphoric\113197.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\euphoric\113197_ogg		420956
+	877214528	113154_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113154.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113154_ogg		223622
+	881658316	113115_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\construction\113115.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\construction\113115_ogg		400726
+	888240434	113198_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\euphoric\113198.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\euphoric\113198_ogg		189518
+	964461481	113155_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113155.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113155_ogg		130012
+	978695963	112993_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\112993.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\112993_ogg		110962
+	981655840	113166_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113166.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113166_ogg		392260
+	987682926	112975_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112975.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112975_ogg		98966
+	1005089215	113135_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\event\113135.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\event\113135_ogg		74974
+	1007423032	113188_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113188.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113188_ogg		223858
+	1017107601	113187_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113187.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113187_ogg		302884
+	1022663895	113176_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113176.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113176_ogg		142478
+	1043658753	113174_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113174.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113174_ogg		69566
+	1045273136	113201_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\festivalhall\construction\113201.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\festivalhall\construction\113201_ogg		304060
+	1045940249	113167_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\angry\113167.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\angry\113167_ogg		241262
+	1066669574	113169_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113169.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113169_ogg		299828
+	1070444880	113182_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\happy\113182.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\happy\113182_ogg		217036
+	1071458305	113173_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\residence\content\113173.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\residence\content\113173_ogg		327814
+	1071689538	112974_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\pos_feedback\112974.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\pos_feedback\112974_ogg		103436
+	1072591786	113005_ogg	D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\Voices\de_de\patrona\generic\neg_feedback\113005.ogg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixer\patrona\generic\neg_feedback\113005_ogg		304294
+

@@ -3,12 +3,14 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BF175524-2F86-4994-9485-1F4EEDBF3915}">
 			<PropertyList>
+				<Property Name="Event Action List\{41FD0D9C-D087-4EFF-9D66-BB70012E13C4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{659964AA-418B-485C-B696-2039A2F442E1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8A28AB6B-3744-4002-ADF5-A4AEADAC9AD7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{941F7553-DF9C-4021-B04B-1BE0454686F0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A0D10C80-2A39-4E78-BBDD-96295C979B59}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C8ADEDC0-A451-4BD4-8EBC-11FFCE0D9C93}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E4326ACF-8BB7-4B1C-8325-85C18036F5EA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EE1FC5C2-298A-4CEF-A8C6-7948D694B5DB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -19,13 +21,24 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
+				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="ZHpN6phUBEaxpCabSsMYgg=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="JwaG2onP7kGdI+prWrbcPw=="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SettingsUserOverride" Type="bool" Value="True"/>
+				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
+				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>

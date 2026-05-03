@@ -6,6 +6,7 @@
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{EA4D7A64-5498-4604-B1A4-269B4AC31882}"/>
 			</Platforms>
 			<LanguageList>
+				<Language Name="de_de" ID="{3EE2C2D8-B623-46FC-A3CD-73E680CEE3B7}"/>
 				<Language Name="English(US)" ID="{AF7AB14F-B903-4BC6-889E-765FD6919911}"/>
 				<Language Name="External" ID="{E34F98A1-1301-4F33-B3FA-E3AC22756390}"/>
 				<Language Name="Mixed" ID="{E6FA0109-143D-4E0C-9A50-AD0898C1C1CA}"/>

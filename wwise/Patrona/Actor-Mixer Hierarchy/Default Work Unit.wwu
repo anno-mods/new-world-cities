@@ -4,6 +4,60 @@
 		<WorkUnit Name="Default Work Unit" ID="{13659360-FFA7-4E01-BD55-F5DAF3B5A421}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="SFX Mixer" ID="{03704E2A-3699-43DF-B784-91263A059893}" ShortID="265613194">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{44F0104C-1549-4975-B416-674C61DFA903}" ShortID="952872378">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Menu_Volume_Master" ID="{A3715632-E0D9-4478-A8C8-ACA760B8B10B}" WorkUnitID="{F851C8C1-C678-46A6-A00C-F77D78CE372E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{896A98C7-483E-474E-AC48-3E3C7C0DA2BC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{BDEC4BD5-E478-4069-BC32-CBD0D48132F2}" ShortID="910959672">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Menu_Volume_VO" ID="{55DD40B9-24D2-4B68-8143-1A00ED2DDF8B}" WorkUnitID="{F851C8C1-C678-46A6-A00C-F77D78CE372E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BE57839D-7454-4026-8D27-C10162C120C2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76701915-117C-4D03-9E08-C60F37DAB084}"/>
