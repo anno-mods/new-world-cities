@@ -28,6 +28,12 @@
 | 1500040275 | Silver Ore Module Buff | 
 | 1500040277 | Tailored Suit Factory NW | 
 
+## Sounds
+
+| 1500040699 | Soundbank Patrona | 
+| 15000407xx | Sounds | 
+| 15000408xx | Sounds | 
+
 ## Needs  
 
 | GUID       | Name                     

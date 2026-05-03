@@ -1,4 +1,6 @@
 <ModOps>
+  <Include File = "./audiotext_en.include.xml" /> 
+  
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>605883300</GUID>

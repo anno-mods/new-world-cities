@@ -129,7 +129,7 @@
         </Cost>
         <Mesh />
         <Object>
-          <Variations>            
+          <Variations>
             <Item>
               <Filename>data/jje/residence_colony01_tier04/nw_patrono_01.cfg</Filename>
             </Item>
@@ -242,9 +242,35 @@
     </Item>
   </ModOp>
 
-      <ModOp Type="add" GUID="7233" Path="/Values/ResidenceUpgradeFeature/BuildingsExcludedFromDefaultVariationRule">
-        <Item>
-            <Building>1500011040</Building>
-        </Item>
-    </ModOp>
+  <ModOp Type="add" GUID="7233" Path="/Values/ResidenceUpgradeFeature/BuildingsExcludedFromDefaultVariationRule">
+    <Item>
+      <Building>1500011040</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='234859'>
+    <Asset>
+      <Template>SoundBank</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040699</GUID>
+          <Name>Patrona Soundbank</Name>
+          <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
+        </Standard>
+        <SoundBank>
+          <SoundBankLocalized>1</SoundBankLocalized>
+        </SoundBank>
+        <WwiseStandard>
+          <WwiseID>129664302</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp GUID = '5000000,5000001,160001,114327' Path = "/Values/RequiredSoundBanks/SoundBanks" Type = "add">
+    <Item>
+      <Bank>1500040699</Bank>
+    </Item>
+  </ModOp>
 </ModOps>
