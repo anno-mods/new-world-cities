@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Coding\new-world-cities\wwise\Patrona\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="129664302" GUID="{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}" Language="de_de" Hash="1058821332">
+		<SoundBank Id="129664302" GUID="{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}" Language="de_de" Hash="1513787664">
 			<ObjectPath>\SoundBanks\Default Work Unit\Patrona</ObjectPath>
 			<ShortName>Patrona</ShortName>
 			<Path>de_de\Patrona.bnk</Path>
@@ -17,7 +17,7 @@
 					<IncludedMemoryFiles>
 						<File Id="567311494" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112959.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112959.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112959.ogg_16F370D1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="504723925" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112961.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112961.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112961.ogg_94D4B9C2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="842083472" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112962.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112962.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112962.ogg_012F87A8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1071689538" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112974.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112974.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112974.ogg_B60BE8A3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="987682926" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112975.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112975.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112975.ogg_ECE28C35.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="429313940" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112982.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112982.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112982.ogg_B1787210.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +65,7 @@
 					<IncludedMemoryFiles>
 						<File Id="694238992" Language="de_de">
 							<ShortName>patrona\generic\pos_feedback\112984.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\pos_feedback\112984.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112984.ogg_7EBB8A9E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +73,7 @@
 					<IncludedMemoryFiles>
 						<File Id="164724887" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\112992.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\112992.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112992.ogg_3895DA39.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +81,7 @@
 					<IncludedMemoryFiles>
 						<File Id="978695963" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\112993.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\112993.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112993.ogg_9E72726F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -89,7 +89,7 @@
 					<IncludedMemoryFiles>
 						<File Id="209962604" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\112994.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\112994.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112994.ogg_2013B97D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,7 +97,7 @@
 					<IncludedMemoryFiles>
 						<File Id="146042704" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\112996.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\112996.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112996.ogg_C98C17C2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -105,7 +105,7 @@
 					<IncludedMemoryFiles>
 						<File Id="40592421" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\113000.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\113000.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113000.ogg_2037B9BE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -113,7 +113,7 @@
 					<IncludedMemoryFiles>
 						<File Id="390107186" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\113002.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\113002.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113002.ogg_B8865A67.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,7 +121,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1072591786" Language="de_de">
 							<ShortName>patrona\generic\neg_feedback\113005.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\generic\neg_feedback\113005.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113005.ogg_678ED2F3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +129,7 @@
 					<IncludedMemoryFiles>
 						<File Id="627748238" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113009.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113009.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113009.ogg_DBF9647E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -137,7 +137,7 @@
 					<IncludedMemoryFiles>
 						<File Id="601246008" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113013.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113013.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113013.ogg_922B8E49.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -145,7 +145,7 @@
 					<IncludedMemoryFiles>
 						<File Id="678172879" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113015.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113015.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113015.ogg_E9713215.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -153,7 +153,7 @@
 					<IncludedMemoryFiles>
 						<File Id="789791607" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113016.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113016.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113016.ogg_0899D1B9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -161,7 +161,7 @@
 					<IncludedMemoryFiles>
 						<File Id="358649709" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113017.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113017.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113017.ogg_4DDF04BF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -169,7 +169,7 @@
 					<IncludedMemoryFiles>
 						<File Id="631039305" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113018.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113018.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113018.ogg_01738B19.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -177,7 +177,7 @@
 					<IncludedMemoryFiles>
 						<File Id="881658316" Language="de_de">
 							<ShortName>patrona\festivalhall\construction\113115.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\construction\113115.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113115.ogg_5CFEA442.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -185,7 +185,7 @@
 					<IncludedMemoryFiles>
 						<File Id="751658402" Language="de_de">
 							<ShortName>patrona\festivalhall\construction\113118.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\construction\113118.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113118.ogg_43264558.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -193,7 +193,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1005089215" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113135.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113135.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113135.ogg_841A1FB4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -201,7 +201,7 @@
 					<IncludedMemoryFiles>
 						<File Id="360060275" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113153.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113153.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113153.ogg_BD57432C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -209,7 +209,7 @@
 					<IncludedMemoryFiles>
 						<File Id="877214528" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113154.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113154.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113154.ogg_34884BD4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -217,7 +217,7 @@
 					<IncludedMemoryFiles>
 						<File Id="964461481" Language="de_de">
 							<ShortName>patrona\festivalhall\event\113155.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\event\113155.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\event\113155.ogg_81BEF3F7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -225,7 +225,7 @@
 					<IncludedMemoryFiles>
 						<File Id="764135896" Language="de_de">
 							<ShortName>patrona\residence\angry\113159.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113159.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113159.ogg_63680F3D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -233,7 +233,7 @@
 					<IncludedMemoryFiles>
 						<File Id="130165259" Language="de_de">
 							<ShortName>patrona\residence\angry\113160.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113160.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113160.ogg_81396412.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -241,7 +241,7 @@
 					<IncludedMemoryFiles>
 						<File Id="266584470" Language="de_de">
 							<ShortName>patrona\residence\angry\113161.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113161.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113161.ogg_51092ECA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -249,7 +249,7 @@
 					<IncludedMemoryFiles>
 						<File Id="595230541" Language="de_de">
 							<ShortName>patrona\residence\angry\113162.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113162.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113162.ogg_1DF9EF97.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -257,7 +257,7 @@
 					<IncludedMemoryFiles>
 						<File Id="26400027" Language="de_de">
 							<ShortName>patrona\residence\angry\113163.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113163.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113163.ogg_C184B7B9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -265,7 +265,7 @@
 					<IncludedMemoryFiles>
 						<File Id="10102457" Language="de_de">
 							<ShortName>patrona\residence\unhappy\113164.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\unhappy\113164.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\unhappy\113164.ogg_AECD8D4E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -273,7 +273,7 @@
 					<IncludedMemoryFiles>
 						<File Id="981655840" Language="de_de">
 							<ShortName>patrona\residence\angry\113166.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113166.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113166.ogg_05B52B33.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -281,7 +281,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1045940249" Language="de_de">
 							<ShortName>patrona\residence\angry\113167.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113167.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113167.ogg_773B121D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -289,7 +289,7 @@
 					<IncludedMemoryFiles>
 						<File Id="851828068" Language="de_de">
 							<ShortName>patrona\residence\angry\113168.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\angry\113168.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\angry\113168.ogg_E0B1D453.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -297,7 +297,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1066669574" Language="de_de">
 							<ShortName>patrona\residence\content\113169.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113169.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113169.ogg_89F63C03.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -305,7 +305,7 @@
 					<IncludedMemoryFiles>
 						<File Id="860576066" Language="de_de">
 							<ShortName>patrona\residence\unhappy\113170.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\unhappy\113170.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\unhappy\113170.ogg_CD5BE42B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -313,7 +313,7 @@
 					<IncludedMemoryFiles>
 						<File Id="118248425" Language="de_de">
 							<ShortName>patrona\residence\unhappy\113172.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\unhappy\113172.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\unhappy\113172.ogg_44EEAF17.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -321,7 +321,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1071458305" Language="de_de">
 							<ShortName>patrona\residence\content\113173.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113173.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113173.ogg_3613F6DB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -329,7 +329,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1043658753" Language="de_de">
 							<ShortName>patrona\residence\content\113174.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113174.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113174.ogg_191B151B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -337,7 +337,7 @@
 					<IncludedMemoryFiles>
 						<File Id="165064968" Language="de_de">
 							<ShortName>patrona\residence\content\113175.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113175.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113175.ogg_419BBDB1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -345,7 +345,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1022663895" Language="de_de">
 							<ShortName>patrona\residence\content\113176.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113176.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113176.ogg_20CCFA0D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -353,7 +353,7 @@
 					<IncludedMemoryFiles>
 						<File Id="393327814" Language="de_de">
 							<ShortName>patrona\residence\unhappy\113177.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\unhappy\113177.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\unhappy\113177.ogg_19D59C44.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -361,7 +361,7 @@
 					<IncludedMemoryFiles>
 						<File Id="166467649" Language="de_de">
 							<ShortName>patrona\residence\content\113178.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\content\113178.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\content\113178.ogg_169D6B28.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -369,7 +369,7 @@
 					<IncludedMemoryFiles>
 						<File Id="2627124" Language="de_de">
 							<ShortName>patrona\residence\happy\113179.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113179.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113179.ogg_DF32FBBF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -377,7 +377,7 @@
 					<IncludedMemoryFiles>
 						<File Id="52271583" Language="de_de">
 							<ShortName>patrona\residence\happy\113180.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113180.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113180.ogg_AAB15793.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -385,7 +385,7 @@
 					<IncludedMemoryFiles>
 						<File Id="542190988" Language="de_de">
 							<ShortName>patrona\residence\happy\113181.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113181.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113181.ogg_926B6147.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -393,7 +393,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1070444880" Language="de_de">
 							<ShortName>patrona\residence\happy\113182.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113182.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113182.ogg_B9640FB8.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -401,7 +401,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1017107601" Language="de_de">
 							<ShortName>patrona\residence\happy\113187.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113187.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113187.ogg_88E9CC10.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -409,7 +409,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1007423032" Language="de_de">
 							<ShortName>patrona\residence\happy\113188.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\happy\113188.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\happy\113188.ogg_5D82BB9C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -417,7 +417,7 @@
 					<IncludedMemoryFiles>
 						<File Id="25322415" Language="de_de">
 							<ShortName>patrona\residence\euphoric\113189.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\euphoric\113189.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\euphoric\113189.ogg_4FB80F5A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -425,7 +425,7 @@
 					<IncludedMemoryFiles>
 						<File Id="294269502" Language="de_de">
 							<ShortName>patrona\residence\euphoric\113193.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\euphoric\113193.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\euphoric\113193.ogg_FD067708.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -433,7 +433,7 @@
 					<IncludedMemoryFiles>
 						<File Id="863177322" Language="de_de">
 							<ShortName>patrona\residence\euphoric\113197.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\euphoric\113197.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\euphoric\113197.ogg_15EDEECB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -441,7 +441,7 @@
 					<IncludedMemoryFiles>
 						<File Id="888240434" Language="de_de">
 							<ShortName>patrona\residence\euphoric\113198.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\residence\euphoric\113198.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\residence\euphoric\113198.ogg_6F4BF542.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -449,7 +449,7 @@
 					<IncludedMemoryFiles>
 						<File Id="557030999" Language="de_de">
 							<ShortName>patrona\festivalhall\construction\113200.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\construction\113200.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113200.ogg_3C23CA29.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -457,7 +457,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1045273136" Language="de_de">
 							<ShortName>patrona\festivalhall\construction\113201.ogg.wav</ShortName>
-							<Path>Voices\de_de\patrona\festivalhall\construction\113201.ogg_10C4C929.wem</Path>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113201.ogg_7481CE0E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

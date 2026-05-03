@@ -19,7 +19,7 @@
     "Id": "129664302",
     "GUID": "{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}",
     "Language": "English(US)",
-    "Hash": "4175833837",
+    "Hash": "2325559354",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Patrona",
     "ShortName": "Patrona",
     "Path": "English(US)\\Patrona.bnk",
@@ -37,7 +37,7 @@
         "Id": "970362699",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112959.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112959.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112959.ogg_B470C9CE.wem"
        }
       ]
      },
@@ -54,7 +54,7 @@
         "Id": "578217389",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112961.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112961.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112961.ogg_15E46690.wem"
        }
       ]
      },
@@ -71,7 +71,7 @@
         "Id": "153085544",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112962.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112962.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112962.ogg_40D2567A.wem"
        }
       ]
      },
@@ -88,7 +88,7 @@
         "Id": "516666215",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112974.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112974.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112974.ogg_3707D6E9.wem"
        }
       ]
      },
@@ -105,7 +105,7 @@
         "Id": "187273750",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112975.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112975.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112975.ogg_238CFB30.wem"
        }
       ]
      },
@@ -122,7 +122,7 @@
         "Id": "939934544",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112982.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112982.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112982.ogg_1357A521.wem"
        }
       ]
      },
@@ -139,7 +139,7 @@
         "Id": "405607159",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\pos_feedback\\112984.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112984.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\pos_feedback\\112984.ogg_2A10EAA7.wem"
        }
       ]
      },
@@ -156,7 +156,7 @@
         "Id": "345553547",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\112992.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112992.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112992.ogg_1EE4849B.wem"
        }
       ]
      },
@@ -173,7 +173,7 @@
         "Id": "1052657694",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\112993.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112993.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112993.ogg_6AAE858B.wem"
        }
       ]
      },
@@ -190,7 +190,7 @@
         "Id": "238061347",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\112994.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112994.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112994.ogg_79FFBCD8.wem"
        }
       ]
      },
@@ -207,7 +207,7 @@
         "Id": "858964215",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\112996.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112996.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\112996.ogg_AE65F018.wem"
        }
       ]
      },
@@ -224,7 +224,7 @@
         "Id": "550015219",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\113000.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113000.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113000.ogg_A9E21BE4.wem"
        }
       ]
      },
@@ -241,7 +241,7 @@
         "Id": "965467748",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\113002.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113002.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113002.ogg_F53F4AE2.wem"
        }
       ]
      },
@@ -258,7 +258,7 @@
         "Id": "567530901",
         "Language": "English(US)",
         "ShortName": "patrona\\generic\\neg_feedback\\113005.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113005.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\generic\\neg_feedback\\113005.ogg_DA4821C2.wem"
        }
       ]
      },
@@ -275,7 +275,7 @@
         "Id": "309895503",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113009.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113009.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113009.ogg_5AC8B9D6.wem"
        }
       ]
      },
@@ -292,7 +292,7 @@
         "Id": "131198775",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113013.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113013.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113013.ogg_3B28DFC7.wem"
        }
       ]
      },
@@ -309,7 +309,7 @@
         "Id": "804599971",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113015.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113015.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113015.ogg_C6E98155.wem"
        }
       ]
      },
@@ -326,7 +326,7 @@
         "Id": "979880807",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113016.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113016.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113016.ogg_90FF3EAB.wem"
        }
       ]
      },
@@ -343,7 +343,7 @@
         "Id": "544365648",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113017.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113017.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113017.ogg_A3832DA0.wem"
        }
       ]
      },
@@ -360,7 +360,7 @@
         "Id": "75965983",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113018.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113018.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113018.ogg_6E0E3FA6.wem"
        }
       ]
      },
@@ -377,7 +377,7 @@
         "Id": "569805102",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\construction\\113115.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113115.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113115.ogg_F20F20C9.wem"
        }
       ]
      },
@@ -394,7 +394,7 @@
         "Id": "750522577",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\construction\\113118.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113118.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113118.ogg_473353BE.wem"
        }
       ]
      },
@@ -411,7 +411,7 @@
         "Id": "168592313",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113135.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113135.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113135.ogg_0B437069.wem"
        }
       ]
      },
@@ -428,7 +428,7 @@
         "Id": "820477445",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113153.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113153.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113153.ogg_ABCD51E3.wem"
        }
       ]
      },
@@ -445,7 +445,7 @@
         "Id": "833175098",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113154.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113154.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113154.ogg_DF5C372F.wem"
        }
       ]
      },
@@ -462,7 +462,7 @@
         "Id": "1057682720",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\event\\113155.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113155.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\event\\113155.ogg_E7D66F84.wem"
        }
       ]
      },
@@ -479,7 +479,7 @@
         "Id": "640028901",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113159.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113159.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113159.ogg_408313CF.wem"
        }
       ]
      },
@@ -496,7 +496,7 @@
         "Id": "909638422",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113160.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113160.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113160.ogg_946FF85F.wem"
        }
       ]
      },
@@ -513,7 +513,7 @@
         "Id": "56205020",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113161.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113161.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113161.ogg_EE853F3F.wem"
        }
       ]
      },
@@ -530,7 +530,7 @@
         "Id": "933584494",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113162.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113162.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113162.ogg_9A9459E9.wem"
        }
       ]
      },
@@ -547,7 +547,7 @@
         "Id": "649465878",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113163.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113163.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113163.ogg_6909196E.wem"
        }
       ]
      },
@@ -564,7 +564,7 @@
         "Id": "481386169",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\unhappy\\113164.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113164.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113164.ogg_3E52487A.wem"
        }
       ]
      },
@@ -581,7 +581,7 @@
         "Id": "604078773",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113166.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113166.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113166.ogg_B19AE14F.wem"
        }
       ]
      },
@@ -598,7 +598,7 @@
         "Id": "971447968",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113167.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113167.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113167.ogg_1636F44B.wem"
        }
       ]
      },
@@ -615,7 +615,7 @@
         "Id": "680105429",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\angry\\113168.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113168.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\angry\\113168.ogg_97C69F33.wem"
        }
       ]
      },
@@ -632,7 +632,7 @@
         "Id": "513298322",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113169.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113169.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113169.ogg_BDF957D6.wem"
        }
       ]
      },
@@ -649,7 +649,7 @@
         "Id": "520002898",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\unhappy\\113170.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113170.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113170.ogg_5C69FE9C.wem"
        }
       ]
      },
@@ -666,7 +666,7 @@
         "Id": "860343502",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\unhappy\\113172.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113172.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113172.ogg_4384BDDA.wem"
        }
       ]
      },
@@ -683,7 +683,7 @@
         "Id": "418772884",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113173.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113173.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113173.ogg_611AEB46.wem"
        }
       ]
      },
@@ -700,7 +700,7 @@
         "Id": "811650367",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113174.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113174.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113174.ogg_7990AAA0.wem"
        }
       ]
      },
@@ -717,7 +717,7 @@
         "Id": "1046820233",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113175.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113175.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113175.ogg_5ABAF596.wem"
        }
       ]
      },
@@ -734,7 +734,7 @@
         "Id": "477265880",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113176.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113176.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113176.ogg_2FCA2D30.wem"
        }
       ]
      },
@@ -751,7 +751,7 @@
         "Id": "882742453",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\unhappy\\113177.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113177.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\unhappy\\113177.ogg_71003837.wem"
        }
       ]
      },
@@ -768,7 +768,7 @@
         "Id": "143033928",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\content\\113178.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113178.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\content\\113178.ogg_1118E09D.wem"
        }
       ]
      },
@@ -785,7 +785,7 @@
         "Id": "676913094",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113179.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113179.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113179.ogg_A6E6FAB0.wem"
        }
       ]
      },
@@ -802,7 +802,7 @@
         "Id": "482286716",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113180.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113180.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113180.ogg_69B29E57.wem"
        }
       ]
      },
@@ -819,7 +819,7 @@
         "Id": "1018498159",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113181.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113181.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113181.ogg_4090EA65.wem"
        }
       ]
      },
@@ -836,7 +836,7 @@
         "Id": "39905687",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113182.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113182.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113182.ogg_9FEB1AC7.wem"
        }
       ]
      },
@@ -853,7 +853,7 @@
         "Id": "792976734",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113187.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113187.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113187.ogg_1D797181.wem"
        }
       ]
      },
@@ -870,7 +870,7 @@
         "Id": "651859898",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\happy\\113188.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113188.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\happy\\113188.ogg_AA7C94C0.wem"
        }
       ]
      },
@@ -887,7 +887,7 @@
         "Id": "374442593",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\euphoric\\113189.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113189.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113189.ogg_B898F771.wem"
        }
       ]
      },
@@ -904,7 +904,7 @@
         "Id": "315208606",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\euphoric\\113193.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113193.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113193.ogg_5839B55A.wem"
        }
       ]
      },
@@ -921,7 +921,7 @@
         "Id": "353467642",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\euphoric\\113197.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113197.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113197.ogg_E5BB2B77.wem"
        }
       ]
      },
@@ -938,7 +938,7 @@
         "Id": "530114870",
         "Language": "English(US)",
         "ShortName": "patrona\\residence\\euphoric\\113198.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113198.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\residence\\euphoric\\113198.ogg_9513720C.wem"
        }
       ]
      },
@@ -955,7 +955,7 @@
         "Id": "335166727",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\construction\\113200.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113200.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113200.ogg_3F550FF5.wem"
        }
       ]
      },
@@ -972,7 +972,7 @@
         "Id": "714574365",
         "Language": "English(US)",
         "ShortName": "patrona\\festivalhall\\construction\\113201.ogg.wav",
-        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113201.ogg_10C4C929.wem"
+        "Path": "Voices\\English(US)\\patrona\\festivalhall\\construction\\113201.ogg_AF6A1E8A.wem"
        }
       ]
      }
@@ -996,7 +996,7 @@
     "Id": "129664302",
     "GUID": "{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}",
     "Language": "de_de",
-    "Hash": "1058821332",
+    "Hash": "1513787664",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Patrona",
     "ShortName": "Patrona",
     "Path": "de_de\\Patrona.bnk",
@@ -1014,7 +1014,7 @@
         "Id": "567311494",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112959.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112959.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112959.ogg_16F370D1.wem"
        }
       ]
      },
@@ -1031,7 +1031,7 @@
         "Id": "504723925",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112961.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112961.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112961.ogg_94D4B9C2.wem"
        }
       ]
      },
@@ -1048,7 +1048,7 @@
         "Id": "842083472",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112962.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112962.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112962.ogg_012F87A8.wem"
        }
       ]
      },
@@ -1065,7 +1065,7 @@
         "Id": "1071689538",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112974.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112974.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112974.ogg_B60BE8A3.wem"
        }
       ]
      },
@@ -1082,7 +1082,7 @@
         "Id": "987682926",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112975.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112975.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112975.ogg_ECE28C35.wem"
        }
       ]
      },
@@ -1099,7 +1099,7 @@
         "Id": "429313940",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112982.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112982.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112982.ogg_B1787210.wem"
        }
       ]
      },
@@ -1116,7 +1116,7 @@
         "Id": "694238992",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\pos_feedback\\112984.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112984.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\pos_feedback\\112984.ogg_7EBB8A9E.wem"
        }
       ]
      },
@@ -1133,7 +1133,7 @@
         "Id": "164724887",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\112992.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112992.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112992.ogg_3895DA39.wem"
        }
       ]
      },
@@ -1150,7 +1150,7 @@
         "Id": "978695963",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\112993.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112993.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112993.ogg_9E72726F.wem"
        }
       ]
      },
@@ -1167,7 +1167,7 @@
         "Id": "209962604",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\112994.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112994.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112994.ogg_2013B97D.wem"
        }
       ]
      },
@@ -1184,7 +1184,7 @@
         "Id": "146042704",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\112996.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112996.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\112996.ogg_C98C17C2.wem"
        }
       ]
      },
@@ -1201,7 +1201,7 @@
         "Id": "40592421",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\113000.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113000.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113000.ogg_2037B9BE.wem"
        }
       ]
      },
@@ -1218,7 +1218,7 @@
         "Id": "390107186",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\113002.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113002.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113002.ogg_B8865A67.wem"
        }
       ]
      },
@@ -1235,7 +1235,7 @@
         "Id": "1072591786",
         "Language": "de_de",
         "ShortName": "patrona\\generic\\neg_feedback\\113005.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113005.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\generic\\neg_feedback\\113005.ogg_678ED2F3.wem"
        }
       ]
      },
@@ -1252,7 +1252,7 @@
         "Id": "627748238",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113009.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113009.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113009.ogg_DBF9647E.wem"
        }
       ]
      },
@@ -1269,7 +1269,7 @@
         "Id": "601246008",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113013.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113013.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113013.ogg_922B8E49.wem"
        }
       ]
      },
@@ -1286,7 +1286,7 @@
         "Id": "678172879",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113015.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113015.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113015.ogg_E9713215.wem"
        }
       ]
      },
@@ -1303,7 +1303,7 @@
         "Id": "789791607",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113016.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113016.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113016.ogg_0899D1B9.wem"
        }
       ]
      },
@@ -1320,7 +1320,7 @@
         "Id": "358649709",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113017.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113017.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113017.ogg_4DDF04BF.wem"
        }
       ]
      },
@@ -1337,7 +1337,7 @@
         "Id": "631039305",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113018.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113018.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113018.ogg_01738B19.wem"
        }
       ]
      },
@@ -1354,7 +1354,7 @@
         "Id": "881658316",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\construction\\113115.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113115.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113115.ogg_5CFEA442.wem"
        }
       ]
      },
@@ -1371,7 +1371,7 @@
         "Id": "751658402",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\construction\\113118.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113118.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113118.ogg_43264558.wem"
        }
       ]
      },
@@ -1388,7 +1388,7 @@
         "Id": "1005089215",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113135.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113135.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113135.ogg_841A1FB4.wem"
        }
       ]
      },
@@ -1405,7 +1405,7 @@
         "Id": "360060275",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113153.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113153.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113153.ogg_BD57432C.wem"
        }
       ]
      },
@@ -1422,7 +1422,7 @@
         "Id": "877214528",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113154.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113154.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113154.ogg_34884BD4.wem"
        }
       ]
      },
@@ -1439,7 +1439,7 @@
         "Id": "964461481",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\event\\113155.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113155.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\event\\113155.ogg_81BEF3F7.wem"
        }
       ]
      },
@@ -1456,7 +1456,7 @@
         "Id": "764135896",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113159.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113159.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113159.ogg_63680F3D.wem"
        }
       ]
      },
@@ -1473,7 +1473,7 @@
         "Id": "130165259",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113160.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113160.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113160.ogg_81396412.wem"
        }
       ]
      },
@@ -1490,7 +1490,7 @@
         "Id": "266584470",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113161.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113161.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113161.ogg_51092ECA.wem"
        }
       ]
      },
@@ -1507,7 +1507,7 @@
         "Id": "595230541",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113162.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113162.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113162.ogg_1DF9EF97.wem"
        }
       ]
      },
@@ -1524,7 +1524,7 @@
         "Id": "26400027",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113163.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113163.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113163.ogg_C184B7B9.wem"
        }
       ]
      },
@@ -1541,7 +1541,7 @@
         "Id": "10102457",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\unhappy\\113164.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113164.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113164.ogg_AECD8D4E.wem"
        }
       ]
      },
@@ -1558,7 +1558,7 @@
         "Id": "981655840",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113166.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113166.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113166.ogg_05B52B33.wem"
        }
       ]
      },
@@ -1575,7 +1575,7 @@
         "Id": "1045940249",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113167.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113167.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113167.ogg_773B121D.wem"
        }
       ]
      },
@@ -1592,7 +1592,7 @@
         "Id": "851828068",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\angry\\113168.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113168.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\angry\\113168.ogg_E0B1D453.wem"
        }
       ]
      },
@@ -1609,7 +1609,7 @@
         "Id": "1066669574",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113169.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113169.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113169.ogg_89F63C03.wem"
        }
       ]
      },
@@ -1626,7 +1626,7 @@
         "Id": "860576066",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\unhappy\\113170.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113170.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113170.ogg_CD5BE42B.wem"
        }
       ]
      },
@@ -1643,7 +1643,7 @@
         "Id": "118248425",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\unhappy\\113172.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113172.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113172.ogg_44EEAF17.wem"
        }
       ]
      },
@@ -1660,7 +1660,7 @@
         "Id": "1071458305",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113173.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113173.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113173.ogg_3613F6DB.wem"
        }
       ]
      },
@@ -1677,7 +1677,7 @@
         "Id": "1043658753",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113174.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113174.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113174.ogg_191B151B.wem"
        }
       ]
      },
@@ -1694,7 +1694,7 @@
         "Id": "165064968",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113175.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113175.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113175.ogg_419BBDB1.wem"
        }
       ]
      },
@@ -1711,7 +1711,7 @@
         "Id": "1022663895",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113176.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113176.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113176.ogg_20CCFA0D.wem"
        }
       ]
      },
@@ -1728,7 +1728,7 @@
         "Id": "393327814",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\unhappy\\113177.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113177.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\unhappy\\113177.ogg_19D59C44.wem"
        }
       ]
      },
@@ -1745,7 +1745,7 @@
         "Id": "166467649",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\content\\113178.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\content\\113178.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\content\\113178.ogg_169D6B28.wem"
        }
       ]
      },
@@ -1762,7 +1762,7 @@
         "Id": "2627124",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113179.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113179.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113179.ogg_DF32FBBF.wem"
        }
       ]
      },
@@ -1779,7 +1779,7 @@
         "Id": "52271583",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113180.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113180.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113180.ogg_AAB15793.wem"
        }
       ]
      },
@@ -1796,7 +1796,7 @@
         "Id": "542190988",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113181.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113181.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113181.ogg_926B6147.wem"
        }
       ]
      },
@@ -1813,7 +1813,7 @@
         "Id": "1070444880",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113182.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113182.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113182.ogg_B9640FB8.wem"
        }
       ]
      },
@@ -1830,7 +1830,7 @@
         "Id": "1017107601",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113187.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113187.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113187.ogg_88E9CC10.wem"
        }
       ]
      },
@@ -1847,7 +1847,7 @@
         "Id": "1007423032",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\happy\\113188.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113188.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\happy\\113188.ogg_5D82BB9C.wem"
        }
       ]
      },
@@ -1864,7 +1864,7 @@
         "Id": "25322415",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\euphoric\\113189.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113189.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113189.ogg_4FB80F5A.wem"
        }
       ]
      },
@@ -1881,7 +1881,7 @@
         "Id": "294269502",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\euphoric\\113193.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113193.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113193.ogg_FD067708.wem"
        }
       ]
      },
@@ -1898,7 +1898,7 @@
         "Id": "863177322",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\euphoric\\113197.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113197.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113197.ogg_15EDEECB.wem"
        }
       ]
      },
@@ -1915,7 +1915,7 @@
         "Id": "888240434",
         "Language": "de_de",
         "ShortName": "patrona\\residence\\euphoric\\113198.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113198.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\residence\\euphoric\\113198.ogg_6F4BF542.wem"
        }
       ]
      },
@@ -1932,7 +1932,7 @@
         "Id": "557030999",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\construction\\113200.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113200.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113200.ogg_3C23CA29.wem"
        }
       ]
      },
@@ -1949,7 +1949,7 @@
         "Id": "1045273136",
         "Language": "de_de",
         "ShortName": "patrona\\festivalhall\\construction\\113201.ogg.wav",
-        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113201.ogg_10C4C929.wem"
+        "Path": "Voices\\de_de\\patrona\\festivalhall\\construction\\113201.ogg_7481CE0E.wem"
        }
       ]
      }
