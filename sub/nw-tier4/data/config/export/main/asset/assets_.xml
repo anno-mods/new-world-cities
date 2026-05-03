@@ -20,6 +20,8 @@
   <Include File="./masterpieces.include.xml" />
   <Include File="./ornaments.include.xml" />
   <Include File="./politicsevent.include.xml" />
+  <Include File="./audio.include.xml" />
+  <Include File="./audiotexts.include.xml" />
 
   <!-- # Residences -->
   <ModOp Type="addNextSibling" GUID="101255">
