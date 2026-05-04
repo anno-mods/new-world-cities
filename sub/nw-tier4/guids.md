@@ -44,6 +44,17 @@
 | 1500040908 | TextPool House Euphoric | 
 | 1500040909 | Pamsy Patrona | 
 
+| 1500040910 | TextPool Event Rewards Ready | 
+| 1500040911 | TextPool Event Exhibition Starts | 
+| 1500040912 | TextPool Event Exhibition Choice | 
+| 1500040913 | TextPool Event Exhibition Selection | 
+| 1500040914 | TextPool Event Exhibition Preparing | 
+| 1500040915 | TextPool Event Exhibition Shutdown | 
+| 1500040916 | TextPool Event Exhibition Ongoing | 
+| 1500040917 | TextPool Event Exhibition Reward Choice | 
+
+
+
 ## Needs  
 
 | GUID       | Name                     

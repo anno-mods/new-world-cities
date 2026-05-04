@@ -241,16 +241,16 @@
           </Condition>
         </PreConditionList>
         <AudioTextPool>
-          <AudioTextList>          
+          <AudioTextList>
             <Item>
               <AudioText>1500040787</AudioText>
             </Item>
             <Item>
               <AudioText>1500040792</AudioText>
-            </Item>        
+            </Item>
             <Item>
               <AudioText>1500040793</AudioText>
-            </Item>        
+            </Item>
             <Item>
               <AudioText>1500040798</AudioText>
             </Item>
@@ -358,7 +358,7 @@
           </Condition>
         </PreConditionList>
         <AudioTextPool>
-          <AudioTextList>            
+          <AudioTextList>
             <Item>
               <AudioText>1500040806</AudioText>
             </Item>
@@ -370,6 +370,304 @@
             </Item>
             <Item>
               <AudioText>1500040809</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040910</GUID>
+          <Name>TextPool Patrona Rewards Ready</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040778</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040800</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040801</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040780</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040911</GUID>
+          <Name>TextPool Patrona Rewards Ready</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040811</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040810</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040801</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040912</GUID>
+          <Name>TextPool Patrona Event Choice</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040776</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040787</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040810</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040913</GUID>
+          <Name>TextPool Patrona Event Select</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040809</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040797</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040777</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040914</GUID>
+          <Name>TextPool Patrona Event Preparation</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040773</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040769</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040762</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040775</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040782</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040915</GUID>
+          <Name>TextPool Patrona Event Shutdown</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040764</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040763</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040765</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040766</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040767</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040768</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040916</GUID>
+          <Name>TextPool Patrona Event Ongoing</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040770</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040771</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040772</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040773</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040774</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040781</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040799</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040917</GUID>
+          <Name>TextPool Patrona Event Reward Choice</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1500040761</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040760</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040759</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040758</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040757</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040756</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1500040781</AudioText>
             </Item>
           </AudioTextList>
         </AudioTextPool>
@@ -399,7 +697,7 @@
                         <Index>0</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -421,7 +719,7 @@
                         <Index>1</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -443,7 +741,7 @@
                         <Index>2</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -465,7 +763,7 @@
                         <Index>3</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -487,7 +785,7 @@
                         <Index>4</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -509,7 +807,7 @@
                         <Index>5</Index>
                       </Entry>
                     </InheritanceMapV2>
-                  </VectorElement>                  
+                  </VectorElement>
                   <Notification>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -557,29 +855,176 @@
             <ResumeProductionBuilding>
               <Reactions />
             </ResumeProductionBuilding>
-            <ClickWorldFair>
+            <ClickOwnKontor>
+              <Reactions />
+            </ClickOwnKontor>
+            <MonumentExhibitionStarts>
               <Reactions>
                 <Item>
+                  <MyRole>Initiator</MyRole>
+                  <Probability>0</Probability>
+                  <ProbabilityIsOneForFirstOccurence>1</ProbabilityIsOneForFirstOccurence>
                   <Notification>
                     <Template>CharacterNotification</Template>
                     <Values>
-                      <CharacterNotification>
-                        <NotificationTextFemale>0</NotificationTextFemale>
-                      </CharacterNotification>
+                      <CharacterNotification/>
                       <BaseNotification>
-                        <NotificationGroup>PlayerClick</NotificationGroup>
+                        <NotificationText>6784</NotificationText>
+                        <!--Exhibition Starts-->
+                        <NotificationPriority>200</NotificationPriority>
                       </BaseNotification>
                       <NotificationSubtitle>
-                        <Subtitle>1500040901</Subtitle>
+                        <Subtitle>1500040911</Subtitle>
+                        <!--Pool_residentTier5_ExhibitionStarts-->
                       </NotificationSubtitle>
                     </Values>
                   </Notification>
                 </Item>
               </Reactions>
-            </ClickWorldFair>
-            <ClickOwnKontor>
-              <Reactions />
-            </ClickOwnKontor>
+            </MonumentExhibitionStarts>
+            <MonumentRewardReady>
+              <Reactions>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification>
+                        <IsFilteredByEventSetting>1</IsFilteredByEventSetting>
+                      </CharacterNotification>
+                      <BaseNotification>
+                        <NotificationText>6789</NotificationText>
+                        <!--Rewards Ready-->
+                        <NotificationPriority>200</NotificationPriority>
+                        <DisplayTimeout>5000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040910</Subtitle>
+                        <!--Pool_residentTier5_RewardsReady-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+              </Reactions>
+            </MonumentRewardReady>
+            <MonumentMenuTrigger>
+              <Reactions>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17365</RequiredContextAsset>
+                  <!--Choose Event-->
+                  <CooldownTime>300000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040912</Subtitle>
+                        <!--Pool_residentTier5_ChooseEvent-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17366</RequiredContextAsset>
+                  <!--Player Selects Event-->
+                  <CooldownTime>300000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040913</Subtitle>
+                        <!--Pool_residentTier5_PlayerSelectsEvent-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17367</RequiredContextAsset>
+                  <!--Preparation Ongoing-->
+                  <CooldownTime>900000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040914</Subtitle>
+                        <!--Pool_residentTier5_PreparationGoingOn-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17368</RequiredContextAsset>
+                  <!--Shutdown Ongoing-->
+                  <CooldownTime>3600000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040915</Subtitle>
+                        <!--Pool_residentTier5_ShutdownOngoing-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17369</RequiredContextAsset>
+                  <!--Exhibition Ongoing-->
+                  <CooldownTime>1200000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040916</Subtitle>
+                        <!--Pool_residentTier5_ExhibitionOngoing-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+                <Item>
+                  <MyRole>Initiator</MyRole>
+                  <RequiredContextAsset>17370</RequiredContextAsset>
+                  <!--Choose Rewards-->
+                  <CooldownTime>1200000</CooldownTime>
+                  <Notification>
+                    <Template>CharacterNotification</Template>
+                    <Values>
+                      <CharacterNotification/>
+                      <BaseNotification>
+                        <DisplayTimeout>1000</DisplayTimeout>
+                      </BaseNotification>
+                      <NotificationSubtitle>
+                        <Subtitle>1500040917</Subtitle>
+                        <!--Pool_residentTier5_ChooseRewards-->
+                      </NotificationSubtitle>
+                    </Values>
+                  </Notification>
+                </Item>
+              </Reactions>
+            </MonumentMenuTrigger>
           </MessageTriggers>
         </ParticipantMessages>
       </Values>
