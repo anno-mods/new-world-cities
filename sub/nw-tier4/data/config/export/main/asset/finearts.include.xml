@@ -1,6 +1,33 @@
 <ModOps>
   <ModOp Type = "addNextSibling" GUID = "1010516">
-
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040279</GUID>
+          <Name>Canvas</Name>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_canvas.png</IconFilename>
+          <InfoDescription>1500040281</InfoDescription>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>25</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -3089,4 +3116,37 @@
   </ModOp>
 
   <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14;Mod17</ModOp>
+
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040279']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1500040279</Product>
+    </Item>
+  </ModOp>
+
+  <Group>
+    <ModOp Type="add" GUID="25000191" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040148</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040148</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25000191" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040147')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040147</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040147')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040147</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>

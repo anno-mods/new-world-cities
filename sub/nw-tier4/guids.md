@@ -26,7 +26,6 @@
 | 1500040256 | Capitolio Stage II |  
 | 1500040273 | Samba School Buff | 
 | 1500040275 | Silver Ore Module Buff | 
-| 1500040277 | Tailored Suit Factory NW | 
 
 ## Needs  
 
@@ -68,6 +67,10 @@
 | 1500040220 | ProductList Patrono Unlock | 
 | 1500040221 | ProductList Patrono Needs | 
 | 1500040222 | ProductList Patrono Intermediate Goods | 
+| 1500040277 | Tailored Suit Factory NW | 
+| 1500040278 | Canvas Maker OW | 
+| 1500040279 | Canvas | 
+| 1500040281 | Canvas Infodescription | 
 
 ## Items 
 

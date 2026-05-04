@@ -797,5 +797,17 @@
       <GUID>1500040276</GUID>
       <Text>Build next to a Bauxite, Mineral, Iron or Gold Ore Mine to mine for extra Silver Ore.</Text>
     </Text>
+    <Text>
+      <GUID>1500040279</GUID>
+      <Text>Canvases</Text>
+    </Text>
+    <Text>
+      <GUID>1500040278</GUID>
+      <Text>Canvas Workshop</Text>
+    </Text>
+    <Text>
+      <GUID>1500040281</GUID>
+      <Text>!Canvas Infodescription</Text>
+    </Text>
   </ModOp>
 </ModOps>

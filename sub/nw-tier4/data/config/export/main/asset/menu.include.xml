@@ -350,6 +350,10 @@
             <!-- Automobiles -->
             <!-- Investment Bank: Silver Coins -->
             <!-- Artwork -->
+            <Item>
+              <!-- Canvas -->
+              <Product>1500040279</Product>
+            </Item>
             <!-- Manuscript -->
             <Item>
               <!-- Lead -->
@@ -436,9 +440,13 @@
   <ModOp GUID = '25000190' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
     <Item>
       <Building>1500040174</Building>
-    </Item>
-    <Item>
-      <Building>1500040175</Building>
+        <Worker>1000</Worker>
     </Item>
   </ModOp>
+    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040174')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040174</Building>
+        <Worker>1000</Worker>
+      </Item>
+    </ModOp>
 </ModOps>
