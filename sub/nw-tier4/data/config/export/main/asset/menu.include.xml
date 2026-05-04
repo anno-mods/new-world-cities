@@ -40,15 +40,15 @@
             <Item>
               <Building>1500040025</Building>
               <Patrono>500</Patrono>
-            </Item>                             
+            </Item>
             <Item>
               <Building>1500040016</Building>
               <Patrono>500</Patrono>
-            </Item> 
+            </Item>
             <Item>
               <Building>1500040001</Building>
               <Patrono>1000</Patrono>
-            </Item>      
+            </Item>
             <Item>
               <Building>1500040012</Building>
               <Patrono>1000</Patrono>
@@ -128,37 +128,45 @@
       <Values>
         <Standard>
           <GUID>1500040175</GUID>
-          <Name>Ink OW Chain</Name>
-          <IconFilename>data/ui/Drakkam/icons/icon_ink.png</IconFilename>
+          <Name>Manuscript OW Chain</Name>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
         </Standard>
         <Text>
-          <TextOverride>1555000161</TextOverride>
+          <TextOverride>1500040149</TextOverride>
         </Text>
         <ProductionChain>
-          <Building>1555000166</Building>
+          <Building>1500040130</Building>
           <Tier1>
             <Item>
-              <Building>135134</Building>
-              <!--Multifactory_SA_Chemical_Ethanol-->
-              <Tier2>
-                <Item>
-                  <Building>1010266</Building>
-                  <!--agriculture_colony01_06 (Timber Yard)-->
-                </Item>
-                <Item>
-                  <Building>101270</Building>
-                  <!--agriculture_colony01_10 (Corn Farm)-->
-                </Item>
-              </Tier2>
+              <Building>117744</Building>
             </Item>
             <Item>
-              <Building>1010298</Building>
-            </Item>
-            <Item>
-              <Building>1742100409</Building>
+              <Building>1555000166</Building>
               <Tier2>
                 <Item>
-                  <Building>1742100407</Building>
+                  <Building>135134</Building>
+                  <!--Multifactory_SA_Chemical_Ethanol-->
+                  <Tier3>
+                    <Item>
+                      <Building>101260</Building>
+                      <!--agriculture_colony01_06 (Timber Yard)-->
+                    </Item>
+                    <Item>
+                      <Building>101270</Building>
+                      <!--agriculture_colony01_10 (Corn Farm)-->
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <Building>1010304</Building>
+                </Item>
+                <Item>
+                  <Building>1742100409</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1742100407</Building>
+                    </Item>
+                  </Tier3>
                 </Item>
               </Tier2>
             </Item>
@@ -388,7 +396,7 @@
       <Product>1500040222</Product>
     </Item>
   </ModOp>
-  
+
   <ModOp GUID = '502038' Path ="/Values/ProductList/List" Type = "add">
     <Item>
       <Product>1440200</Product>
@@ -440,13 +448,13 @@
   <ModOp GUID = '25000190' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
     <Item>
       <Building>1500040174</Building>
-        <Worker>1000</Worker>
+      <Worker>1000</Worker>
     </Item>
   </ModOp>
-    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040174')]" Path="/Values/ConstructionCategory/BuildingList">
-      <Item>
-        <Building>1500040174</Building>
-        <Worker>1000</Worker>
-      </Item>
-    </ModOp>
+  <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040174')]" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>1500040174</Building>
+      <Worker>1000</Worker>
+    </Item>
+  </ModOp>
 </ModOps>

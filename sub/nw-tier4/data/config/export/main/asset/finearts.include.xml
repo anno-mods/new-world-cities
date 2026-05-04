@@ -3126,13 +3126,13 @@
   <Group>
     <ModOp Type="add" GUID="25000191" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
       <Item>
-        <Building>1500040148</Building>
+        <Building>1500040175</Building>
         <Artisan>1000</Artisan>
       </Item>
     </ModOp>
     <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
       <Item>
-        <Building>1500040148</Building>
+        <Building>1500040175</Building>
         <Artisan>1000</Artisan>
       </Item>
     </ModOp>
