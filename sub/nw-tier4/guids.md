@@ -27,6 +27,33 @@
 | 1500040273 | Samba School Buff | 
 | 1500040275 | Silver Ore Module Buff | 
 
+## Sounds
+
+| 1500040699 | Soundbank Patrona | 
+| 15000407xx | Sounds | 
+| 15000408xx | Sounds | 
+| 1500040900 | TextPool Festivalhall Construction | 
+| 1500040901 | TextPool Festivalhall Event | 
+| 1500040902 | TextPool Generic Negative | 
+| 1500040903 | TextPool Generic Positive | 
+| 1500040904 | TextPool House Angry | 
+| 1500040905 | TextPool House Unhappy | 
+| 1500040906 | TextPool House Content | 
+| 1500040907 | TextPool House Happy | 
+| 1500040908 | TextPool House Euphoric | 
+| 1500040909 | Pamsy Patrona | 
+
+| 1500040910 | TextPool Event Rewards Ready | 
+| 1500040911 | TextPool Event Exhibition Starts | 
+| 1500040912 | TextPool Event Exhibition Choice | 
+| 1500040913 | TextPool Event Exhibition Selection | 
+| 1500040914 | TextPool Event Exhibition Preparing | 
+| 1500040915 | TextPool Event Exhibition Shutdown | 
+| 1500040916 | TextPool Event Exhibition Ongoing | 
+| 1500040917 | TextPool Event Exhibition Reward Choice | 
+
+
+
 ## Needs  
 
 | GUID       | Name                     
