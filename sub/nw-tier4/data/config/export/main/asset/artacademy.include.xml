@@ -1075,6 +1075,63 @@
             </Values>
         </Asset>
         <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040280</GUID>
+                    <Name>Concert Hall Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040037</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040043</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040281</GUID>
+                    <Name>Art Gallery Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040038</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040044</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040282</GUID>
+                    <Name>Library Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040039</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040045</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
             <Template>FactoryBuilding7</Template>
             <Values>
                 <Standard>

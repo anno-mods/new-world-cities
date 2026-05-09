@@ -233,6 +233,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -380,6 +384,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -527,6 +535,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -587,6 +599,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
 
@@ -648,6 +661,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
 
@@ -709,6 +723,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
     <Asset>
@@ -732,6 +747,7 @@
               <Building>1500040039</Building>
             </Item>
           </BuildingList>
+          <CategoryDescription>1500040046</CategoryDescription>
         </ConstructionCategory>
         <Text>
           <LocaText>
@@ -766,6 +782,7 @@
               <Building>1500040045</Building>
             </Item>
           </BuildingList>
+          <CategoryDescription>1500040046</CategoryDescription>
         </ConstructionCategory>
         <Text>
           <LocaText>
@@ -2315,7 +2332,7 @@
       <Values>
         <Standard>
           <GUID>1500040077</GUID>
-          <Name>Arts2</Name>
+          <Name>Arts2 - New Gallery</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040081</InfoDescription>
         </Standard>
@@ -2331,7 +2348,7 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040038</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2537,7 +2554,7 @@
       <Values>
         <Standard>
           <GUID>1500040105</GUID>
-          <Name>Music2</Name>
+          <Name>Music2 - New Concert Hall</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040109</InfoDescription>
         </Standard>
@@ -2553,7 +2570,7 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040037</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2759,7 +2776,7 @@
       <Values>
         <Standard>
           <GUID>1500040123</GUID>
-          <Name>Literature2</Name>
+          <Name>Literature2 - New Gallery</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040127</InfoDescription>
         </Standard>
@@ -2775,7 +2792,7 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040039</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3146,6 +3163,18 @@
       <Item>
         <Building>1500040147</Building>
         <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>    
+    <ModOp Type="add" GUID="500447" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040048')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040048</Building>
+        <Investor>1</Investor>
+      </Item>
+    </ModOp>    
+    <ModOp Type="add" GUID="500116" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040048')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040048</Building>
+        <Investor>1</Investor>
       </Item>
     </ModOp>
   </Group>

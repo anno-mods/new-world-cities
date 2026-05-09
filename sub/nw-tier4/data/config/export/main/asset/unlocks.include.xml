@@ -229,6 +229,9 @@
                         <Asset>1500040038</Asset>
                       </Item>
                       <Item>
+                        <Asset>1500040044</Asset>
+                      </Item>
+                      <Item>
                         <Asset>1500040050</Asset>
                       </Item>
                       <Item>
@@ -345,6 +348,9 @@
                       <Item>
                         <Asset>1500040037</Asset>
                       </Item>
+                      <Item>
+                        <Asset>1500040043</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -449,6 +455,9 @@
                       </Item>
                       <Item>
                         <Asset>1500040039</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040045</Asset>
                       </Item>
                       <Item>
                         <Asset>1500040166</Asset>

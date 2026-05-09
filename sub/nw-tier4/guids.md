@@ -164,7 +164,10 @@
 | 1500040141 | Recipe Art Description |
 | 1500040142 | Recipe Music Description |
 | 1500040143 | Recipe Literature Description |
-| 1500040168 | Fine Arts Permit |
+| 1500040168 | Conservatory Permit |
+| 1500040280 | Concert Hall Permit |
+| 1500040281 | Art Academy Permit | 
+| 1500040282 | Grand Library Permit | 
 
 ## Fine Arts Events 
 
