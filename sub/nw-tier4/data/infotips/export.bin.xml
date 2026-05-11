@@ -1,5 +1,5 @@
 <ModOps>
-    <ModOp Path="//InfoElement[InfoElement/Text/TextGUID = '20083']" Type = "addNextSibling">
+    <ModOp Path="//InfoElement[InfoElement/Text/TextGUID = '20083'][1]" Type = "addNextSibling">
         <InfoElement>
             <ElementType>8</ElementType>
             <ChildCount>1</ChildCount>
@@ -21,11 +21,33 @@
                         <ResultType>
                             <ResultType>1</ResultType>
                         </ResultType>
+                        <ExpectedValueInt>1500040402</ExpectedValueInt>
+                        <Condition>[RefGuid]</Condition>
+                    </VisibilityElement>
+                    <VisibilityElement>
+                        <ElementType>
+                            <ElementType>1</ElementType>
+                        </ElementType>
+                        <CompareOperator />
+                        <ResultType>
+                            <ResultType>1</ResultType>
+                        </ResultType>
                         <ExpectedValueInt>1500040400</ExpectedValueInt>
                         <Condition>[RefGuid]</Condition>
                     </VisibilityElement>
+                    <VisibilityElement>
+                        <ElementType>
+                            <ElementType>1</ElementType>
+                        </ElementType>
+                        <CompareOperator />
+                        <ResultType>
+                            <ResultType>1</ResultType>
+                        </ResultType>
+                        <ExpectedValueInt>1500040404</ExpectedValueInt>
+                        <Condition>[RefGuid]</Condition>
+                    </VisibilityElement>
                     <OperatorType>
-                        <OperatorType>0</OperatorType>
+                        <OperatorType>1</OperatorType>
                     </OperatorType>
                 </VisibilityElement>
                 <OperatorType />
@@ -43,7 +65,7 @@
                     <Style />
                 </Icon>
                 <Text>
-                    <TextGUID>1500040402</TextGUID>
+                    <TextGUID>1500040472</TextGUID>
                     <Style />
                 </Text>
                 <Value>

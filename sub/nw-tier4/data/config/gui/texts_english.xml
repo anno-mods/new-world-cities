@@ -620,10 +620,6 @@
       <Text>!Tramp Steamer InfoDescription</Text>
     </Text>    
     <Text>
-      <GUID>1500040402</GUID>
-      <Text>A very long text for the infotip to overextend</Text>
-    </Text>
-    <Text>
       <GUID>1500040177</GUID>
       <Text>Mundane Drinks</Text>
     </Text>
@@ -1095,5 +1091,9 @@
       <GUID>1500040471</GUID>
       <Text>!Gomes Text</Text>
     </Text>  
+    <Text>
+      <GUID>1500040472</GUID>
+      <Text>Fine Arts Radii can overlap, but pieces don't have duplicate effect.</Text>
+    </Text>
   </ModOp>
 </ModOps>
