@@ -414,19 +414,19 @@
 	<BuildBlocker>
 		<Position>
 			<xf>-6.000000</xf>
-			<zf>4.500000</zf>
+			<zf>4.000000</zf>
 		</Position>
 		<Position>
 			<xf>-6.000000</xf>
-			<zf>-4.500000</zf>
+			<zf>-4.0</zf>
 		</Position>
 		<Position>
 			<xf>6.000000</xf>
-			<zf>-4.500000</zf>
+			<zf>-4.0</zf>
 		</Position>
 		<Position>
 			<xf>6.000000</xf>
-			<zf>4.500000</zf>
+			<zf>4.0</zf>
 		</Position>
 	</BuildBlocker>
 	<FeedbackBlocker>
