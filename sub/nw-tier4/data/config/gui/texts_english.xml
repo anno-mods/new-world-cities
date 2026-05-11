@@ -1093,7 +1093,7 @@
     </Text>  
     <Text>
       <GUID>1500040472</GUID>
-      <Text>Fine Arts Radii can overlap, but pieces don't have duplicate effect.</Text>
+      <Text>Fine Arts pieces only apply their effect once.</Text>
     </Text>
   </ModOp>
 </ModOps>
