@@ -845,7 +845,7 @@
     </Text>  
     <Text>
       <GUID>1500040408</GUID>
-      <Text>Johann Strauss II.: "Frühlingsstimmen" op. 410</Text>
+      <Text>Johann Strauss II: Frühlingsstimmen op. 410</Text>
     </Text>
     <Text>
       <GUID>1500040409</GUID>
@@ -956,6 +956,14 @@
       <Text>!Saintsaens Text</Text>
     </Text>  
     <Text>
+      <GUID>1500040436</GUID>
+      <Text>Jules Massenet: Thaïs</Text>
+    </Text>  
+    <Text>
+      <GUID>1500040437</GUID>
+      <Text>!Massenet Text</Text>
+    </Text>  
+    <Text>
       <GUID>1500040438</GUID>
       <Text>Giuseppe Verdi: La Traviata</Text>
     </Text>  
@@ -968,17 +976,9 @@
       <Text>Georges Bizet: Carmen</Text>
     </Text>  
     <Text>
-      <GUID>1500040439</GUID>
+      <GUID>1500040441</GUID>
       <Text>!Bizet Text</Text>
     </Text>   
-    <Text>
-      <GUID>1500040440</GUID>
-      <Text>Giuseppe Verdi: La Traviata</Text>
-    </Text>  
-    <Text>
-      <GUID>1500040439</GUID>
-      <Text>!Verdi Text</Text>
-    </Text>  
     <Text>
       <GUID>1500040442</GUID>
       <Text>Richard Wagner: Tristan und Isolde</Text>
@@ -1081,7 +1081,7 @@
     </Text>  
     <Text>
       <GUID>1500040468</GUID>
-      <Text> Alberto Williams: Sinfonía No. 2 "la bruja de las montañas"</Text>
+      <Text> Alberto Williams: Sinfonía No. 2</Text>
     </Text>  
     <Text>
       <GUID>1500040469</GUID>
