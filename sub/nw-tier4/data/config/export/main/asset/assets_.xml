@@ -276,4 +276,10 @@
       <Bank>1500040699</Bank>
     </Item>
   </ModOp>
+
+  <ModOp GUID = '190762,25677,193957' Path = "/Values/ItemEffectTargetPool/EffectTargetGUIDs" Type = "add">
+    <Item>
+      <GUID>1500011040</GUID>
+    </Item>
+  </ModOp>
 </ModOps>
