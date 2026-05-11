@@ -3132,7 +3132,7 @@
     </Mod17>
   </ModOp>
 
-  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432']/ItemTypes">;Mod12;Mod13;Mod14;Mod17</ModOp>
+  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432' or CategoryAsset='18021']/ItemTypes">;Mod12;Mod13;Mod14;Mod17</ModOp>
 
   <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040279']" Path="/Values/ProductStorageList/ProductList">
     <Item>
