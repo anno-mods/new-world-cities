@@ -257,4 +257,11 @@
             </Asset>
         </ModOp>
     </Group>
+
+        <!-- # Storage Lists -->
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500301073']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1500301073</Product>
+        </Item>
+    </ModOp>
 </ModOps>
