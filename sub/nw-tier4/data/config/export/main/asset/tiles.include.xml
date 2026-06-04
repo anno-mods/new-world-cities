@@ -33,6 +33,10 @@
                                     <Item>
                                         <Building>1390</Building>
                                     </Item>
+                                    <Item>
+                                        <Building>101272</Building>
+                                        <ForceIcon>1010232</ForceIcon>
+                                    </Item>
                                 </Tier2>
                             </Item>
                             <Item>
