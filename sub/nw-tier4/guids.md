@@ -234,7 +234,13 @@
 | 1500040108 | RewardPool Music 5 |
 | 1500040231 | RewardPool Music 6 |
 | 1500040232 | RewardPool Music 7 |
-| 1500040109 | RewardPool Music InfoDescription |
+| 1500040109 | RewardPool Music 1 Info |
+| 1500040276 | RewardPool Music 2 Info | 
+| 1500040277 | RewardPool Music 3 Info | 
+| 1500040278 | RewardPool Music 4 Info | 
+| 1500040279 | RewardPool Music 5 Info | 
+| 1500040280 | RewardPool Music 6 Info | 
+| 1500040281 | RewardPool Music 7 Info | 
 
 | 1500040110 | Event Literature DescriptionFluff | 
 | 1500040111 | Event Literature SelectionText |

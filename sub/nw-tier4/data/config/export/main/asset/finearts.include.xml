@@ -1529,19 +1529,15 @@
           <ShortSizeName>1500040097</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040104</Reward>
+              <Reward>1500040232</Reward>
             </Item>
             <Item>
-              <Reward>1500040105</Reward>
+              <Reward>1500040231</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040106</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
               <Reward>1500040107</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
+              <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040108</Reward>
@@ -1655,26 +1651,26 @@
           <ShortSizeName>1500040237</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040104</Reward>
-            </Item>
+              <Reward>1500040232</Reward>
+            </Item>            
             <Item>
-              <Reward>1500040105</Reward>
+              <Reward>1500040231</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040106</Reward>
+              <Reward>1500040107</Reward>
               <NeededAttractiveness>200</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040107</Reward>
+              <Reward>1500040108</Reward>
               <NeededAttractiveness>300</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040108</Reward>
+              <Reward>1500040106</Reward>
               <NeededAttractiveness>400</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040231</Reward>
+              <Reward>1500040105</Reward>
               <NeededAttractiveness>500</NeededAttractiveness>
             </Item>
           </RewardThresholds>
@@ -1793,30 +1789,30 @@
           <ShortSizeName>1500040238</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040104</Reward>
-            </Item>
+              <Reward>1500040232</Reward>
+            </Item>            
             <Item>
-              <Reward>1500040105</Reward>
+              <Reward>1500040231</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
-            </Item>
+            </Item>         
             <Item>
-              <Reward>1500040106</Reward>
+              <Reward>1500040107</Reward>
               <NeededAttractiveness>200</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040107</Reward>
+              <Reward>1500040108</Reward>
               <NeededAttractiveness>300</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040108</Reward>
+              <Reward>1500040106</Reward>
               <NeededAttractiveness>400</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040231</Reward>
+              <Reward>1500040105</Reward>
               <NeededAttractiveness>500</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040232</Reward>
+              <Reward>1500040104</Reward>
               <NeededAttractiveness>600</NeededAttractiveness>
             </Item>
           </RewardThresholds>
@@ -2522,7 +2518,7 @@
       <Values>
         <Standard>
           <GUID>1500040104</GUID>
-          <Name>Music1</Name>
+          <Name>Music1 - Symphonies</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040109</InfoDescription>
         </Standard>
@@ -2538,11 +2534,23 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040165</Reward>
+              <Reward>1500040468</Reward>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040432</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040402</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040412</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040400</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2554,9 +2562,9 @@
       <Values>
         <Standard>
           <GUID>1500040105</GUID>
-          <Name>Music2 - New Concert Hall</Name>
+          <Name>Music2 - Opera</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040276</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -2570,7 +2578,31 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040037</Reward>
+              <Reward>1500040440</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040446</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040438</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040444</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040436</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040442</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040470</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2582,9 +2614,9 @@
       <Values>
         <Standard>
           <GUID>1500040106</GUID>
-          <Name>Music3</Name>
+          <Name>Music3 - Programmatic</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040277</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -2598,7 +2630,27 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040430</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040426</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040428</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040420</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040434</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040406</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2610,9 +2662,9 @@
       <Values>
         <Standard>
           <GUID>1500040107</GUID>
-          <Name>Music4</Name>
+          <Name>Music4 - The Piano</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040278</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -2626,7 +2678,35 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040460</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040404</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040414</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040454</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040424</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040410</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040466</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040416</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2638,9 +2718,9 @@
       <Values>
         <Standard>
           <GUID>1500040108</GUID>
-          <Name>Music5</Name>
+          <Name>Music5 - Valses and Dances</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040279</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -2654,7 +2734,31 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040408</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040462</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040450</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040456</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040422</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040418</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040458</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2666,9 +2770,45 @@
       <Values>
         <Standard>
           <GUID>1500040231</GUID>
-          <Name>Music6</Name>
+          <Name>Music6 - The Guitar</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040280</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Influence</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60329</LineID>
+        </Text>
+        <Reward>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040464</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040452</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040448</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040232</GUID>
+          <Name>Music7 - Basic</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040281</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -2685,32 +2825,8 @@
               <Reward>1500040128</Reward>
               <Amount>1</Amount>
             </Item>
-          </RewardAssets>
-        </Reward>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>MonumentEventReward</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040232</GUID>
-          <Name>Music7</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Influence</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>60329</LineID>
-        </Text>
-        <Reward>
-          <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040037</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
