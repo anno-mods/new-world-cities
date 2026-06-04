@@ -25,7 +25,14 @@
                 <PopulationUpgrade />
                 <ItemAction />
                 <ExpeditionAttribute />
-                <ResidenceUpgrade />
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1555000124</ProvidedNeed>
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
                 <VisitorHarborUpgrade />
                 <CultureUpgrade>
                     <AttractivenessUpgrade>
@@ -81,7 +88,7 @@
                 <VisualEffectWhenActive />
                 <FactoryUpgrade />
             </Values>
-        </Asset>        
+        </Asset>
         <Asset>
             <Template>ConcertHallItem</Template>
             <Values>
@@ -122,7 +129,7 @@
                 <VisualEffectWhenActive />
                 <FactoryUpgrade />
             </Values>
-        </Asset>  
+        </Asset>
         <Asset>
             <Template>ConcertHallItem</Template>
             <Values>
