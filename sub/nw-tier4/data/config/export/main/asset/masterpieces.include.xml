@@ -1443,13 +1443,1530 @@
             </Values>
         </Asset>
         <Asset>
-            <Template>ConcertHallItem</Template>
+            <Template>LibraryItem</Template>
             <Values>
                 <Standard>
-                    <GUID>1500040470</GUID>
-                    <Name>Gomes</Name>
-                    <IconFilename>data/ui/taub/music_pieces/icon_gomes.png</IconFilename>
-                    <InfoDescription>1500040471</InfoDescription>
+                    <GUID>1500040600</GUID>
+                    <Name>Wells</Name>
+                    <IconFilename>data/ui/taub/books/icon_wells.png</IconFilename>
+                    <InfoDescription>1500040601</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040602</GUID>
+                    <Name>Wilde</Name>
+                    <IconFilename>data/ui/taub/books/icon_wilde.png</IconFilename>
+                    <InfoDescription>1500040603</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040604</GUID>
+                    <Name>Dario</Name>
+                    <IconFilename>data/ui/taub/books/icon_dario.png</IconFilename>
+                    <InfoDescription>1500040605</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040606</GUID>
+                    <Name>Tolstoy</Name>
+                    <IconFilename>data/ui/taub/books/icon_tolstoy.png</IconFilename>
+                    <InfoDescription>1500040607</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040608</GUID>
+                    <Name>Nietzsche</Name>
+                    <IconFilename>data/ui/taub/books/icon_nietzsche.png</IconFilename>
+                    <InfoDescription>1500040609</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040610</GUID>
+                    <Name>Dostoevsky</Name>
+                    <IconFilename>data/ui/taub/books/icon_dostoevsky.png</IconFilename>
+                    <InfoDescription>1500040611</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040612</GUID>
+                    <Name>Verne</Name>
+                    <IconFilename>data/ui/taub/books/icon_verne.png</IconFilename>
+                    <InfoDescription>1500040613</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040614</GUID>
+                    <Name>Zola</Name>
+                    <IconFilename>data/ui/taub/books/icon_zola.png</IconFilename>
+                    <InfoDescription>1500040615</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040616</GUID>
+                    <Name>Assis</Name>
+                    <IconFilename>data/ui/taub/books/icon_assis.png</IconFilename>
+                    <InfoDescription>1500040617</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040618</GUID>
+                    <Name>Mann</Name>
+                    <IconFilename>data/ui/taub/books/icon_mann.png</IconFilename>
+                    <InfoDescription>1500040619</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040620</GUID>
+                    <Name>Marti</Name>
+                    <IconFilename>data/ui/taub/books/icon_marti.png</IconFilename>
+                    <InfoDescription>1500040621</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040622</GUID>
+                    <Name>Melville</Name>
+                    <IconFilename>data/ui/taub/books/icon_melville.png</IconFilename>
+                    <InfoDescription>1500040623</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040624</GUID>
+                    <Name>Hernandez</Name>
+                    <IconFilename>data/ui/taub/books/icon_hernandez.png</IconFilename>
+                    <InfoDescription>1500040625</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040626</GUID>
+                    <Name>Dumas</Name>
+                    <IconFilename>data/ui/taub/books/icon_dumas.png</IconFilename>
+                    <InfoDescription>1500040627</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040628</GUID>
+                    <Name>Wu</Name>
+                    <IconFilename>data/ui/taub/books/icon_wu.png</IconFilename>
+                    <InfoDescription>1500040629</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040630</GUID>
+                    <Name>Hugo</Name>
+                    <IconFilename>data/ui/taub/books/icon_hugo.png</IconFilename>
+                    <InfoDescription>1500040631</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040632</GUID>
+                    <Name>Doyle</Name>
+                    <IconFilename>data/ui/taub/books/icon_doyle.png</IconFilename>
+                    <InfoDescription>1500040633</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040634</GUID>
+                    <Name>Dickens</Name>
+                    <IconFilename>data/ui/taub/books/icon_dickens.png</IconFilename>
+                    <InfoDescription>1500040635</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040636</GUID>
+                    <Name>May</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040637</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>LibraryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040638</GUID>
+                    <Name>Kafka</Name>
+                    <IconFilename>data/ui/taub/books/icon_kafka.png</IconFilename>
+                    <InfoDescription>1500040639</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040500</GUID>
+                    <Name>Klimt</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_klimt.png</IconFilename>
+                    <InfoDescription>1500040501</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040502</GUID>
+                    <Name>Rodin</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040503</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040504</GUID>
+                    <Name>Matisse</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_matisse.png</IconFilename>
+                    <InfoDescription>1500040505</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040506</GUID>
+                    <Name>Gogh</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_gogh.png</IconFilename>
+                    <InfoDescription>1500040507</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040508</GUID>
+                    <Name>Rivera</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040509</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040510</GUID>
+                    <Name>Church</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_church.png</IconFilename>
+                    <InfoDescription>1500040511</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040512</GUID>
+                    <Name>Repin</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_repin.png</IconFilename>
+                    <InfoDescription>1500040513</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040514</GUID>
+                    <Name>Sargent</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040515</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040516</GUID>
+                    <Name>Pissarro</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_pissaro.png</IconFilename>
+                    <InfoDescription>1500040517</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040518</GUID>
+                    <Name>Mucha</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_mucha.png</IconFilename>
+                    <InfoDescription>1500040519</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040520</GUID>
+                    <Name>Sorolla</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_sorolla.png</IconFilename>
+                    <InfoDescription>1500040521</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040522</GUID>
+                    <Name>Renoir</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_renoir.png</IconFilename>
+                    <InfoDescription>1500040523</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040524</GUID>
+                    <Name>Kiyochika</Name>
+                    <IconFilename>data/ui/taub/paintings/icon_kiyochika.png</IconFilename>
+                    <InfoDescription>1500040525</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040526</GUID>
+                    <Name>Heade</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040527</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040528</GUID>
+                    <Name>Seurat</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040529</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040530</GUID>
+                    <Name>Whistler</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040531</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040532</GUID>
+                    <Name>Degas</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040533</InfoDescription>
+                </Standard>
+                <Text />
+                <Item>
+                    <TradePrice>150000</TradePrice>
+                    <Rarity>Legendary</Rarity>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>190762</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade />
+                <PopulationUpgrade />
+                <ItemAction />
+                <ExpeditionAttribute />
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ArtGalleryItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040534</GUID>
+                    <Name>Monet</Name>
+                    <IconFilename />
+                    <InfoDescription>1500040535</InfoDescription>
                 </Standard>
                 <Text />
                 <Item>

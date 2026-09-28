@@ -1115,5 +1115,309 @@
       <GUID>1500040472</GUID>
       <Text>Fine Arts pieces only apply their effect once.</Text>
     </Text>
+    <Text>
+      <GUID>1500040600</GUID>
+      <Text>H.G. Wells: The Time Machine</Text>
+    </Text>
+    <Text>
+      <GUID>1500040601</GUID>
+      <Text>!H.G. Wells itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040602</GUID>
+      <Text>Oscar Wilde: The Picture of Dorian Gray</Text>
+    </Text>
+    <Text>
+      <GUID>1500040603</GUID>
+      <Text>!Oscar Wilde itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040604</GUID>
+      <Text>Rubén Darío: Azul…</Text>
+    </Text>
+    <Text>
+      <GUID>1500040605</GUID>
+      <Text>!Rubén Darío itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040606</GUID>
+      <Text>Leo Tolstoy: War and Peace</Text>
+    </Text>
+    <Text>
+      <GUID>1500040607</GUID>
+      <Text>!Leo Tolstoy itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040608</GUID>
+      <Text>Friedrich Nietzsche: Thus Spoke Zarathustra</Text>
+    </Text>
+    <Text>
+      <GUID>1500040609</GUID>
+      <Text>!Friedrich Nietzsche itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040610</GUID>
+      <Text>Fyodor Dostoevsky: The Brothers Karamazov</Text>
+    </Text>
+    <Text>
+      <GUID>1500040611</GUID>
+      <Text>!Fyodor Dostoevsky itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040612</GUID>
+      <Text>Jules Verne: Twenty Thousand Leagues Under the Sea</Text>
+    </Text>
+    <Text>
+      <GUID>1500040613</GUID>
+      <Text>!Jules Verne itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040614</GUID>
+      <Text>Émile Zola: Germinal</Text>
+    </Text>
+    <Text>
+      <GUID>1500040615</GUID>
+      <Text>!Émile Zola itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040616</GUID>
+      <Text>Joaquim Maria Machado de Assis: Dom Casmurro</Text>
+    </Text>
+    <Text>
+      <GUID>1500040617</GUID>
+      <Text>!Joaquim Maria Machado de Assis itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040618</GUID>
+      <Text>Thomas Mann: Buddenbrooks</Text>
+    </Text>
+    <Text>
+      <GUID>1500040619</GUID>
+      <Text>!Thomas Mann itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040620</GUID>
+      <Text>José Martí: Versos Sencillos</Text>
+    </Text>
+    <Text>
+      <GUID>1500040621</GUID>
+      <Text>!José Martí itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040622</GUID>
+      <Text>Herman Melville: Moby-Dick</Text>
+    </Text>
+    <Text>
+      <GUID>1500040623</GUID>
+      <Text>!Herman Melville itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040624</GUID>
+      <Text>José Hernández: Martín Fierro</Text>
+    </Text>
+    <Text>
+      <GUID>1500040625</GUID>
+      <Text>!José Hernández itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040626</GUID>
+      <Text>Alexandre Dumas: The Count of Monte Cristo</Text>
+    </Text>
+    <Text>
+      <GUID>1500040627</GUID>
+      <Text>!Alexandre Dumas itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040628</GUID>
+      <Text>Wu Jianren: Sea of Regret</Text>
+    </Text>
+    <Text>
+      <GUID>1500040629</GUID>
+      <Text>!Wu Jianren itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040630</GUID>
+      <Text>Victor Hugo: Les Misérables</Text>
+    </Text>
+    <Text>
+      <GUID>1500040631</GUID>
+      <Text>!Victor Hugo itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040632</GUID>
+      <Text>Arthur Conan Doyle: The Adventures of Sherlock Holmes</Text>
+    </Text>
+    <Text>
+      <GUID>1500040633</GUID>
+      <Text>!Arthur Conan Doyle itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040634</GUID>
+      <Text>Charles Dickens: Great Expectations</Text>
+    </Text>
+    <Text>
+      <GUID>1500040635</GUID>
+      <Text>!Charles Dickens itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040636</GUID>
+      <Text>Karl May: Winnetou I. Teil</Text>
+    </Text>
+    <Text>
+      <GUID>1500040637</GUID>
+      <Text>!Karl May itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040638</GUID>
+      <Text>Franz Kafka: Die Verwandlung</Text>
+    </Text>
+    <Text>
+      <GUID>1500040639</GUID>
+      <Text>!Franz Kafka itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040500</GUID>
+      <Text>Gustave Klimt: The Kiss</Text>
+    </Text>
+    <Text>
+      <GUID>1500040501</GUID>
+      <Text>!Gustave Klimt itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040502</GUID>
+      <Text>Auguste Rodin: The Thinker</Text>
+    </Text>
+    <Text>
+      <GUID>1500040503</GUID>
+      <Text>!Auguste Rodin itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040504</GUID>
+      <Text>Henri Matisse: The Dance</Text>
+    </Text>
+    <Text>
+      <GUID>1500040505</GUID>
+      <Text>!Henri Matisse itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040506</GUID>
+      <Text>Vincent van Gogh: Starry Night</Text>
+    </Text>
+    <Text>
+      <GUID>1500040507</GUID>
+      <Text>!Vincent van Gogh itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040508</GUID>
+      <Text>Diego Rivera: Zapatista Landscape</Text>
+    </Text>
+    <Text>
+      <GUID>1500040509</GUID>
+      <Text>!Diego Rivera itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040510</GUID>
+      <Text>Frederic Edwin Church: Heart of the Andes</Text>
+    </Text>
+    <Text>
+      <GUID>1500040511</GUID>
+      <Text>!Frederic Edwin Church itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040512</GUID>
+      <Text>Ilya Repin: What Freedom!</Text>
+    </Text>
+    <Text>
+      <GUID>1500040513</GUID>
+      <Text>!Ilya Repin itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040514</GUID>
+      <Text>John Singer Sargent: Portrait of Madame X</Text>
+    </Text>
+    <Text>
+      <GUID>1500040515</GUID>
+      <Text>!John Singer Sargent itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040516</GUID>
+      <Text>Camille Pissarro: The Boulevard Montmartre at Night</Text>
+    </Text>
+    <Text>
+      <GUID>1500040517</GUID>
+      <Text>!Camille Pissarro itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040518</GUID>
+      <Text>Alphonse Mucha: The Slav Epic</Text>
+    </Text>
+    <Text>
+      <GUID>1500040519</GUID>
+      <Text>!Alphonse Mucha itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040520</GUID>
+      <Text>Joaquín Sorolla: Walking on the Beach</Text>
+    </Text>
+    <Text>
+      <GUID>1500040521</GUID>
+      <Text>!Joaquín Sorolla itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040522</GUID>
+      <Text>Pierre-Auguste Renoir: Dance at Le Moulin de la Galette</Text>
+    </Text>
+    <Text>
+      <GUID>1500040523</GUID>
+      <Text>!Pierre-Auguste Renoir itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040524</GUID>
+      <Text>Kobayashi Kiyochika: View of Tokyo's Shin-Ohashi bridge in Rain</Text>
+    </Text>
+    <Text>
+      <GUID>1500040525</GUID>
+      <Text>!Kobayashi Kiyochika itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040526</GUID>
+      <Text>Martin Johnson Heade: Hummingbird and Orchids</Text>
+    </Text>
+    <Text>
+      <GUID>1500040527</GUID>
+      <Text>!Martin Johnson Heade itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040528</GUID>
+      <Text>Georges Seurat: A Sunday Afternoon on the Island of La Grande Jatte</Text>
+    </Text>
+    <Text>
+      <GUID>1500040529</GUID>
+      <Text>!Georges Seurat itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040530</GUID>
+      <Text>James McNeill Whistler: Arrangement in Grey and Black</Text>
+    </Text>
+    <Text>
+      <GUID>1500040531</GUID>
+      <Text>!James McNeill Whistler itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040532</GUID>
+      <Text>Edgar Degas: The Little Dancer Aged Fourteen</Text>
+    </Text>
+    <Text>
+      <GUID>1500040533</GUID>
+      <Text>!Edgar Degas itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040534</GUID>
+      <Text>Claude Monet: Water Lilies</Text>
+    </Text>
+    <Text>
+      <GUID>1500040535</GUID>
+      <Text>!Claude Monet itemdesc</Text>
+    </Text>
   </ModOp>
 </ModOps>

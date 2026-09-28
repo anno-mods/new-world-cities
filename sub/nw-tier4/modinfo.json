@@ -35,13 +35,15 @@
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_galena.zip",
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_neutral_airport.zip",
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_sharedproduct_tradelicense.zip",
-    "shared-capitolio"
+    "shared-capitolio",
+    "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-05/shared_production_silver_bars.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
     "ow-fedora-Drakkam",
     "Taludas_shared_tradingcompany",
-    "shared-capitolio"
+    "shared-capitolio",
+    "shared_production_silver_bars"
   ],
   "bundle": [
     "../new_world_cathedral",
