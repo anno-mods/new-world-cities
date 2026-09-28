@@ -190,7 +190,7 @@
             <Building>1500040007</Building>
             <Tier1>
               <Item>
-                <Building>1500040169</Building>
+                <Building>1742200042</Building>
               </Item>
               <Item>
                 <Building>1010282</Building>
@@ -220,7 +220,7 @@
             <TextOverride>1957006151</TextOverride>
           </Text>
           <ProductionChain>
-            <Building>1500040169</Building>
+            <Building>1742200042</Building>
             <Tier1>
               <Item>
                 <Building>24820</Building>
