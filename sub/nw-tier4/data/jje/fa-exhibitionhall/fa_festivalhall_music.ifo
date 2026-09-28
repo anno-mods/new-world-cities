@@ -160,29 +160,11 @@
 			<zf>-7.500000</zf>
 		</Position>
 	</BuildBlocker>
-	<BuildBlocker>
-		<Position>
-			<xf>-12.999999</xf>
-			<zf>8.500000</zf>
-		</Position>
-		<Position>
-			<xf>-12.999999</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>12.999999</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>12.999999</xf>
-			<zf>8.500000</zf>
-		</Position>
-	</BuildBlocker>
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
 			<xf>-0.149963</xf>
-			<yf>4.046525</yf>
+			<yf>5.485972</yf>
 			<zf>-0.244091</zf>
 		</Position>
 		<Rotation>
@@ -193,29 +175,10 @@
 		</Rotation>
 		<Extents>
 			<xf>14.036810</xf>
-			<yf>7.641321</yf>
+			<yf>8.023387</yf>
 			<zf>9.438734</zf>
 		</Extents>
 	</BoundingBox>
-	<Dummy>
-		<Name>infolayer</Name>
-		<Position>
-			<xf>-0.000000</xf>
-			<yf>11.000000</yf>
-			<zf>-2.000000</zf>
-		</Position>
-		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
-		</Rotation>
-		<Extents>
-			<xf>0.100000</xf>
-			<yf>0.100000</yf>
-			<zf>0.100000</zf>
-		</Extents>
-	</Dummy>
 	<Dummy>
 		<Name>quest_spawn_0</Name>
 		<Position>
@@ -228,6 +191,25 @@
 			<yf>0.685260</yf>
 			<zf>0.000000</zf>
 			<wf>0.728325</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.100000</xf>
+			<yf>0.100000</yf>
+			<zf>0.100000</zf>
+		</Extents>
+	</Dummy>
+	<Dummy>
+		<Name>infolayer</Name>
+		<Position>
+			<xf>-0.000000</xf>
+			<yf>11.000000</yf>
+			<zf>-2.000000</zf>
+		</Position>
+		<Rotation>
+			<xf>0.000000</xf>
+			<yf>0.000000</yf>
+			<zf>0.000000</zf>
+			<wf>1.000000</wf>
 		</Rotation>
 		<Extents>
 			<xf>0.100000</xf>
@@ -1087,6 +1069,24 @@
 			<zf>6.100989</zf>
 		</Position>
 	</FeedbackBlocker>
+	<BuildBlocker>
+		<Position>
+			<xf>-12.999999</xf>
+			<zf>8.500000</zf>
+		</Position>
+		<Position>
+			<xf>-12.999999</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>12.999999</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>12.999999</xf>
+			<zf>8.500000</zf>
+		</Position>
+	</BuildBlocker>
 	<FeedbackBlocker>
 		<Position>
 			<xf>-10.179539</xf>
@@ -1275,12 +1275,6 @@
 			<zf>5.135608</zf>
 		</Position>
 	</PriorityFeedbackBlocker>
-	<Sequence>
-		<Id>0</Id>
-		<Duration>33600</Duration>
-		<Looped>1</Looped>
-		<Speed>1</Speed>
-	</Sequence>
 	<Sequence>
 		<Id>1000</Id>
 		<Duration>33600</Duration>
