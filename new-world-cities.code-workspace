@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"**/data/base/config/{engine,export,game,gui}/**/*.xml": "anno-xml"
+		}
+	}
+}

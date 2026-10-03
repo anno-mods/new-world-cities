@@ -1107,7 +1107,7 @@
           <RunningText>1500040066</RunningText>
           <RewardText>1500040067</RewardText>
           <PotentialEventReward>1500040068</PotentialEventReward>
-          <MaxPreparationAttractiveness>400</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1129,23 +1129,15 @@
           <ShortSizeName>1500040069</ShortSizeName>
           <RewardThresholds>
             <Item>
+              <Reward>1500040080</Reward>
+            </Item>
+            <Item>
               <Reward>1500040076</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040077</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040078</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040079</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040080</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>490</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1228,7 +1220,7 @@
           <RunningText>1500040066</RunningText>
           <RewardText>1500040067</RewardText>
           <PotentialEventReward>1500040068</PotentialEventReward>
-          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>750</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1255,27 +1247,19 @@
           <ShortSizeName>1500040235</ShortSizeName>
           <RewardThresholds>
             <Item>
+              <Reward>1500040080</Reward>
+            </Item>
+            <Item>
               <Reward>1500040076</Reward>
+              <NeededAttractiveness>375</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040077</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
+              <NeededAttractiveness>558</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040078</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040079</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040080</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040229</Reward>
-              <NeededAttractiveness>500</NeededAttractiveness>
+              <NeededAttractiveness>740</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1361,7 +1345,7 @@
           <RunningText>1500040066</RunningText>
           <RewardText>1500040067</RewardText>
           <PotentialEventReward>1500040068</PotentialEventReward>
-          <MaxPreparationAttractiveness>600</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>1000</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1393,31 +1377,23 @@
           <ShortSizeName>1500040236</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040076</Reward>
-            </Item>
-            <Item>
-              <Reward>1500040077</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040078</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040079</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
               <Reward>1500040080</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040229</Reward>
+              <Reward>1500040076</Reward>
               <NeededAttractiveness>500</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040230</Reward>
-              <NeededAttractiveness>600</NeededAttractiveness>
+              <Reward>1500040077</Reward>
+              <NeededAttractiveness>663</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040078</Reward>
+              <NeededAttractiveness>827</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040079</Reward>
+              <NeededAttractiveness>990</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1507,7 +1483,7 @@
           <RunningText>1500040094</RunningText>
           <RewardText>1500040095</RewardText>
           <PotentialEventReward>1500040096</PotentialEventReward>
-          <MaxPreparationAttractiveness>400</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1533,15 +1509,15 @@
             </Item>
             <Item>
               <Reward>1500040231</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040107</Reward>
               <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
+              <Reward>1500040107</Reward>
+              <NeededAttractiveness>370</NeededAttractiveness>
+            </Item>
+            <Item>
               <Reward>1500040108</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>490</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1624,7 +1600,7 @@
           <RunningText>1500040094</RunningText>
           <RewardText>1500040095</RewardText>
           <PotentialEventReward>1500040096</PotentialEventReward>
-          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>750</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1655,23 +1631,23 @@
             </Item>            
             <Item>
               <Reward>1500040231</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
+              <NeededAttractiveness>375</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040107</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
+              <NeededAttractiveness>466</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040108</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
+              <NeededAttractiveness>558</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040106</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>649</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040105</Reward>
-              <NeededAttractiveness>500</NeededAttractiveness>
+              <NeededAttractiveness>740</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1757,7 +1733,7 @@
           <RunningText>1500040094</RunningText>
           <RewardText>1500040095</RewardText>
           <PotentialEventReward>1500040096</PotentialEventReward>
-          <MaxPreparationAttractiveness>600</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>1000</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1793,27 +1769,27 @@
             </Item>            
             <Item>
               <Reward>1500040231</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
+              <NeededAttractiveness>500</NeededAttractiveness>
             </Item>         
             <Item>
               <Reward>1500040107</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
+              <NeededAttractiveness>598</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040108</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
+              <NeededAttractiveness>696</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040106</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>794</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040105</Reward>
-              <NeededAttractiveness>500</NeededAttractiveness>
+              <NeededAttractiveness>892</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040104</Reward>
-              <NeededAttractiveness>600</NeededAttractiveness>
+              <NeededAttractiveness>990</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -1924,23 +1900,15 @@
           <ShortSizeName>1500040115</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040122</Reward>
+              <Reward>1500040126</Reward>
             </Item>
             <Item>
-              <Reward>1500040123</Reward>
+              <Reward>1500040122</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040124</Reward>
+              <Reward>1500040123</Reward>
               <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040125</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040126</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -2050,27 +2018,19 @@
           <ShortSizeName>1500040239</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040122</Reward>
+              <Reward>1500040126</Reward>
             </Item>
             <Item>
-              <Reward>1500040123</Reward>
+              <Reward>1500040122</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040124</Reward>
+              <Reward>1500040123</Reward>
               <NeededAttractiveness>200</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040125</Reward>
+              <Reward>1500040124</Reward>
               <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040126</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040233</Reward>
-              <NeededAttractiveness>500</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -2188,31 +2148,23 @@
           <ShortSizeName>1500040240</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040122</Reward>
+              <Reward>1500040126</Reward>
             </Item>
             <Item>
-              <Reward>1500040123</Reward>
+              <Reward>1500040122</Reward>
               <NeededAttractiveness>100</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040124</Reward>
+              <Reward>1500040123</Reward>
               <NeededAttractiveness>200</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040125</Reward>
+              <Reward>1500040124</Reward>
               <NeededAttractiveness>300</NeededAttractiveness>
             </Item>
             <Item>
-              <Reward>1500040126</Reward>
+              <Reward>1500040125</Reward>
               <NeededAttractiveness>400</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040233</Reward>
-              <NeededAttractiveness>500</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040234</Reward>
-              <NeededAttractiveness>600</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
@@ -2296,27 +2248,39 @@
       <Values>
         <Standard>
           <GUID>1500040076</GUID>
-          <Name>Arts1</Name>
+          <Name>Arts1 - Romanticism and the Sublime</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040543</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Romanticism and the Sublime</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60337</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040502</Reward>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Reward>1500040165</Reward>
+              <Reward>1500040506</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040510</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040512</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040526</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2328,21 +2292,149 @@
       <Values>
         <Standard>
           <GUID>1500040077</GUID>
-          <Name>Arts2 - New Gallery</Name>
+          <Name>Arts2 - Impressionism and Modern Life</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040544</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Impressionism and Modern Life</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60338</LineID>
         </Text>
         <Reward>
           <RewardAssets>
+            <Item>
+              <Reward>1500040516</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040520</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040522</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040524</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040534</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040078</GUID>
+          <Name>Arts3 - Aestheticism, Symbolism, and Art Nouveau</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040545</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Aestheticism, Symbolism, and Art Nouveau</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60339</LineID>
+        </Text>
+        <Reward>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040500</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040518</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040514</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040530</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040079</GUID>
+          <Name>Arts4 - Realism, Social Art, and New Visual Languages</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040546</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Realism, Social Art, and New Visual Languages</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60340</LineID>
+        </Text>
+        <Reward>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040504</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040508</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040528</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040532</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040080</GUID>
+          <Name>Arts5 - Art Education and Performance</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040540</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Art Education and Performance</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60334</LineID>
+        </Text>
+        <Reward>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040128</Reward>
+              <Amount>1</Amount>
+            </Item>
             <Item>
               <Reward>1500040038</Reward>
               <Amount>1</Amount>
@@ -2355,108 +2447,24 @@
       <Template>MonumentEventReward</Template>
       <Values>
         <Standard>
-          <GUID>1500040078</GUID>
-          <Name>Arts3</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Influence</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>60329</LineID>
-        </Text>
-        <Reward>
-          <RewardAssets>
-            <Item>
-              <Reward>1500040128</Reward>
-              <Amount>1</Amount>
-            </Item>
-          </RewardAssets>
-        </Reward>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>MonumentEventReward</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040079</GUID>
-          <Name>Arts4</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Influence</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>60329</LineID>
-        </Text>
-        <Reward>
-          <RewardAssets>
-            <Item>
-              <Reward>1500040128</Reward>
-              <Amount>1</Amount>
-            </Item>
-          </RewardAssets>
-        </Reward>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>MonumentEventReward</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040080</GUID>
-          <Name>Arts5</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
-        </Standard>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Influence</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>60329</LineID>
-        </Text>
-        <Reward>
-          <RewardAssets>
-            <Item>
-              <Reward>1500040128</Reward>
-              <Amount>1</Amount>
-            </Item>
-          </RewardAssets>
-        </Reward>
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>MonumentEventReward</Template>
-      <Values>
-        <Standard>
           <GUID>1500040229</GUID>
-          <Name>Arts6</Name>
+          <Name>Arts6 - Art Conservatory</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040541</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Art Conservatory</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60335</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040134</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2468,23 +2476,23 @@
       <Values>
         <Standard>
           <GUID>1500040230</GUID>
-          <Name>Arts7</Name>
+          <Name>Arts7 - Art Conservatory</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040542</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Art Conservatory</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60336</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040134</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2822,7 +2830,7 @@
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040134</Reward>
               <Amount>1</Amount>
             </Item>
             <Item>
@@ -2860,27 +2868,39 @@
       <Values>
         <Standard>
           <GUID>1500040122</GUID>
-          <Name>Literature1</Name>
+          <Name>Literature1 - Realism and Social Criticism</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040640</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Realism and Social Criticism</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60330</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040165</Reward>
+              <Reward>1500040606</Reward>
               <Amount>1</Amount>
             </Item>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040610</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040614</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040618</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040616</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2892,23 +2912,39 @@
       <Values>
         <Standard>
           <GUID>1500040123</GUID>
-          <Name>Literature2 - New Gallery</Name>
+          <Name>Literature2 - Romanticism, Adventure, and the Extraordinary</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040641</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Romanticism, Adventure, and the Extraordinary</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60331</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040039</Reward>
+              <Reward>1500040626</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040630</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040612</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040622</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040636</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2920,23 +2956,39 @@
       <Values>
         <Standard>
           <GUID>1500040124</GUID>
-          <Name>Literature3</Name>
+          <Name>Literature3 - Decadence, Modernism, and Existential Anxiety</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040642</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Decadence, Modernism, and Existential Anxiety</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60332</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040602</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040608</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040638</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040600</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040628</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2948,23 +3000,39 @@
       <Values>
         <Standard>
           <GUID>1500040125</GUID>
-          <Name>Literature4</Name>
+          <Name>Literature4 - Poetry, National Identity, and Cultural Modernity</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040643</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Poetry, National Identity, and Cultural Modernity</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60333</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040604</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040620</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040624</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040632</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040634</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2976,23 +3044,27 @@
       <Values>
         <Standard>
           <GUID>1500040126</GUID>
-          <Name>Literature5</Name>
+          <Name>Literature5 - Art Education and Performance</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040644</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Art Education and Performance</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60334</LineID>
         </Text>
         <Reward>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
+              <Reward>1500040134</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040039</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>

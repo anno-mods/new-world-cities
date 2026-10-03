@@ -325,7 +325,7 @@
                 <Standard>
                     <GUID>1500040134</GUID>
                     <Name>Academy Blank</Name>
-                    <IconFilename>academy_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/construction/icon_academy.png</IconFilename>
                     <InfoDescription>1500040139</InfoDescription>
                 </Standard>
                 <Building>

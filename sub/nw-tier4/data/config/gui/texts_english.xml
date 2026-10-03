@@ -284,31 +284,31 @@
     </Text>
     <Text>
       <GUID>1500040076</GUID>
-      <Text>!Reward Art 1</Text>
+      <Text>Romanticism and the Sublime</Text>
     </Text>
     <Text>
       <GUID>1500040077</GUID>
-      <Text>!Reward Art 2</Text>
+      <Text>Impressionism and Modern Life</Text>
     </Text>
     <Text>
       <GUID>1500040078</GUID>
-      <Text>!Reward Art 3</Text>
+      <Text>Aestheticism, Symbolism, and Art Nouveau</Text>
     </Text>
     <Text>
       <GUID>1500040079</GUID>
-      <Text>!Reward Art 4</Text>
+      <Text>Realism, Social Art, and New Visual Languages</Text>
     </Text>
     <Text>
       <GUID>1500040080</GUID>
-      <Text>!Reward Art 5</Text>
+      <Text>Art Education and Performance</Text>
     </Text>
     <Text>
       <GUID>1500040229</GUID>
-      <Text>!Reward Art 6</Text>
+      <Text>Art Conservatory</Text>
     </Text>
     <Text>
       <GUID>1500040230</GUID>
-      <Text>!Reward Art 7</Text>
+      <Text>Art Conservatory</Text>
     </Text>
     <Text>
       <GUID>1500040081</GUID>
@@ -525,23 +525,23 @@
     </Text>
     <Text>
       <GUID>1500040122</GUID>
-      <Text>!Reward Literature 1</Text>
+      <Text>Realism and Social Criticism</Text>
     </Text>
     <Text>
       <GUID>1500040123</GUID>
-      <Text>!Reward Literature 2</Text>
+      <Text>Romanticism, Adventure, and the Extraordinary</Text>
     </Text>
     <Text>
       <GUID>1500040124</GUID>
-      <Text>!Reward Literature 3</Text>
+      <Text>Decadence, Modernism, and Existential Anxiety</Text>
     </Text>
     <Text>
       <GUID>1500040125</GUID>
-      <Text>!Reward Literature 4</Text>
+      <Text>Poetry, National Identity, and Cultural Modernity</Text>
     </Text>
     <Text>
       <GUID>1500040126</GUID>
-      <Text>!Reward Literature 5</Text>
+      <Text>Art Education and Performance</Text>
     </Text>
     <Text>
       <GUID>1500040233</GUID>
@@ -1418,6 +1418,54 @@
     <Text>
       <GUID>1500040535</GUID>
       <Text>!Claude Monet itemdesc</Text>
+    </Text>
+    <Text>
+      <GUID>1500040640</GUID>
+      <Text>Fiction, labor, family, and conscience meet in portraits of societies under pressure.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040641</GUID>
+      <Text>Far-ranging adventures test courage, loyalty, and justice across upheaval and wilderness.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040642</GUID>
+      <Text>Beauty, radical thought, uncanny change, and imagined futures unsettle the self.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040643</GUID>
+      <Text>Verse becomes a vessel for memory, homeland, and the making of cultural identity.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040540</GUID>
+      <Text>A meeting of artistic study and public performance brings creative practice into civic life.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040541</GUID>
+      <Text>A place to cultivate the eye, practice craft, and nurture new creative voices.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040542</GUID>
+      <Text>Artistic learning turns observation into expression and brings beauty into everyday life.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040543</GUID>
+      <Text>Across wild landscapes and storm-tossed skies, daring visions test the human spirit.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040544</GUID>
+      <Text>A fleeting city, a sunlit shore, and rain-washed streets capture modern life in motion.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040545</GUID>
+      <Text>Beauty, ornament, and carefully composed appearances become languages of identity.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040546</GUID>
+      <Text>Artists reshape public life, social struggle, and the very ways we learn to see.</Text>
+    </Text>
+    <Text>
+      <GUID>1500040644</GUID>
+      <Text>A meeting of artistic study and public performance brings creative practice into civic life.</Text>
     </Text>
   </ModOp>
 </ModOps>
