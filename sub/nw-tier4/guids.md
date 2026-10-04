@@ -140,6 +140,12 @@
 | 1500040046 | Text Fine Arts Building |
 | 1500040050 | Public Pavilion |
 | 1500040051 | Public Pavilion InfoDescription |
+| 1500040301 | Festival Hall: Foundations |
+| 1500040302 | Festival Hall: Superstructure |
+| 1500040303 | Festival Hall: Glazing |
+| 1500040304 | Festival Hall Foundation Phase Description |
+| 1500040305 | Festival Hall Superstructure Phase Description |
+| 1500040306 | Festival Hall Glazing Phase Description |
 | 1500040151 | Concert Hall Public Service |
 | 1500040152 | Art Gallery Public Service |
 | 1500040153 | Grand Library Public Service |

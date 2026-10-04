@@ -155,6 +155,30 @@
       <Text>!Festival Hall InfoDescription</Text>
     </Text>
     <Text>
+      <GUID>1500040301</GUID>
+      <Text>Festival Hall: Foundations</Text>
+    </Text>
+    <Text>
+      <GUID>1500040302</GUID>
+      <Text>Festival Hall: Superstructure</Text>
+    </Text>
+    <Text>
+      <GUID>1500040303</GUID>
+      <Text>Festival Hall: Glazing</Text>
+    </Text>
+    <Text>
+      <GUID>1500040304</GUID>
+      <Text>!Festival Hall foundation phase description</Text>
+    </Text>
+    <Text>
+      <GUID>1500040305</GUID>
+      <Text>!Festival Hall superstructure phase description</Text>
+    </Text>
+    <Text>
+      <GUID>1500040306</GUID>
+      <Text>!Festival Hall glazing phase description</Text>
+    </Text>
+    <Text>
       <GUID>1500040052</GUID>
       <Text>Music Premiere</Text>
     </Text>
