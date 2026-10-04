@@ -168,63 +168,63 @@
     </Text>
     <Text>
       <GUID>1500040055</GUID>
-      <Text>!EventReward Music</Text>
+      <Text>Music Pieces</Text>
     </Text>
     <Text>
       <GUID>1500040056</GUID>
-      <Text>!EventReward Music Fluff</Text>
+      <Text>Scores for Music pieces to perform at your Concert Halls</Text>
     </Text>
     <Text>
       <GUID>1500040057</GUID>
-      <Text>!EventReward Art</Text>
+      <Text>Artwork</Text>
     </Text>
     <Text>
       <GUID>1500040058</GUID>
-      <Text>!EventReward Art Fluff</Text>
+      <Text>Paitings and Sculptures to display in your Art Galleries</Text>
     </Text>
     <Text>
       <GUID>1500040059</GUID>
-      <Text>!EventReward Literature</Text>
+      <Text>Books</Text>
     </Text>
     <Text>
       <GUID>1500040060</GUID>
-      <Text>!EventReward Literature Fluff</Text>
+      <Text>Books to present in your Grand Library</Text>
     </Text>
     <Text>
       <GUID>1500040061</GUID>
-      <Text>!Event Art Small</Text>
+      <Text>Small Vernissage</Text>
     </Text>
     <Text>
       <GUID>1500040223</GUID>
-      <Text>!Event Art Medium</Text>
+      <Text>Medium Vernissage</Text>
     </Text>
     <Text>
       <GUID>1500040224</GUID>
-      <Text>!Event Art Big</Text>
+      <Text>Grand Vernissage</Text>
     </Text>
     <Text>
       <GUID>1500040062</GUID>
-      <Text>!Event Music Small</Text>
+      <Text>Small Premiere</Text>
     </Text>
     <Text>
       <GUID>1500040225</GUID>
-      <Text>!Event Music Medium</Text>
+      <Text>Medium Premiere</Text>
     </Text>
     <Text>
       <GUID>1500040226</GUID>
-      <Text>!Event Music Big</Text>
+      <Text>Grand Premiere</Text>
     </Text>
     <Text>
       <GUID>1500040063</GUID>
-      <Text>!Event Literature Small</Text>
+      <Text>Small Literature Congress</Text>
     </Text>
     <Text>
       <GUID>1500040227</GUID>
-      <Text>!Event Literature Medium</Text>
+      <Text>Medium Literature Congress</Text>
     </Text>
     <Text>
       <GUID>1500040228</GUID>
-      <Text>!Event Literature Big</Text>
+      <Text>Grand Literature Congress</Text>
     </Text>
     <Text>
       <GUID>1500040064</GUID>
@@ -240,23 +240,23 @@
     </Text>
     <Text>
       <GUID>1500040067</GUID>
-      <Text>!Event Art RewardText</Text>
+      <Text>Masterpiece Artwork</Text>
     </Text>
     <Text>
       <GUID>1500040068</GUID>
-      <Text>!Event Art PotentialEventReward</Text>
+      <Text>Masterpiece Artwork</Text>
     </Text>
     <Text>
       <GUID>1500040069</GUID>
-      <Text>!Event Art ShortSizeName</Text>
+      <Text>Small</Text>
     </Text>
     <Text>
       <GUID>1500040235</GUID>
-      <Text>!Event Art Medium ShortSizeName</Text>
+      <Text>Splendid</Text>
     </Text>
     <Text>
       <GUID>1500040236</GUID>
-      <Text>!Event Art Big ShortSizeName</Text>
+      <Text>Sumptuous</Text>
     </Text>
     <Text>
       <GUID>1500040070</GUID>
@@ -320,23 +320,23 @@
     </Text>
     <Text>
       <GUID>1500040083</GUID>
-      <Text>!Festival Hall AccessEventText</Text>
+      <Text>Enter the Festival Hall</Text>
     </Text>
     <Text>
       <GUID>1500040084</GUID>
-      <Text>!Festival Hall MissingElectricityDescription</Text>
+      <Text>Electricity is required to keep the preperations at the Festival Hall running.</Text>
     </Text>
     <Text>
       <GUID>1500040085</GUID>
-      <Text>!Festival Hall SelectEventTheme</Text>
+      <Text>Select Artistic Theme</Text>
     </Text>
     <Text>
       <GUID>1500040086</GUID>
-      <Text>!Festival Hall SelectEventSize</Text>
+      <Text>Select Event Size</Text>
     </Text>
     <Text>
       <GUID>1500040087</GUID>
-      <Text>!Festival Hall PreparationAttractivenessHeader</Text>
+      <Text>Fill the Attractiveness Bar by providing Resources</Text>
     </Text>
     <Text>
       <GUID>1500040088</GUID>
@@ -348,11 +348,11 @@
     </Text>
     <Text>
       <GUID>1500040090</GUID>
-      <Text>!Festival Hall EventConclusionText</Text>
+      <Text>The Festival Hall Event has come to an end</Text>
     </Text>
     <Text>
       <GUID>1500040091</GUID>
-      <Text>!Festival Hall InvestmentContribution</Text>
+      <Text>Investment from Patrones</Text>
     </Text>
     <Text>
       <GUID>1500040092</GUID>
@@ -372,19 +372,19 @@
     </Text>
     <Text>
       <GUID>1500040096</GUID>
-      <Text>!Event Music PotentialEventReward</Text>
+      <Text>Masterpiece Music Scores</Text>
     </Text>
     <Text>
       <GUID>1500040097</GUID>
-      <Text>!Event Music ShortSizeName</Text>
+      <Text>Small</Text>
     </Text>
     <Text>
       <GUID>1500040237</GUID>
-      <Text>!Event Music Medium ShortSizeName</Text>
+      <Text>Splendid</Text>
     </Text>
     <Text>
       <GUID>1500040238</GUID>
-      <Text>!Event Music Big ShortSizeName</Text>
+      <Text>Sumptuous</Text>
     </Text>
     <Text>
       <GUID>1500040098</GUID>
@@ -485,19 +485,19 @@
     </Text>
     <Text>
       <GUID>1500040114</GUID>
-      <Text>!Event Literature PotentialEventReward</Text>
+      <Text>Masterpiece Literature</Text>
     </Text>
     <Text>
       <GUID>1500040115</GUID>
-      <Text>!Event Literature ShortSizeName</Text>
+      <Text>Small</Text>
     </Text>
     <Text>
       <GUID>1500040239</GUID>
-      <Text>!Event Literature Medium ShortSizeName</Text>
+      <Text>Splendid</Text>
     </Text>
     <Text>
       <GUID>1500040240</GUID>
-      <Text>!Event Literature Big ShortSizeName</Text>
+      <Text>Sumptuous</Text>
     </Text>
     <Text>
       <GUID>1500040116</GUID>

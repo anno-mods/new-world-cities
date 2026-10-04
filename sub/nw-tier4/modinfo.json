@@ -29,14 +29,15 @@
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/decals-industry-jakob.zip",
     "https://github.com/anno-mods/shared-jakob/releases/download/v4.9.4/neighbors-jakob.zip",
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_sharedproduct_paintings.zip",
-    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V5/ow-ink-Drakkam.zip",
-    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V5/ink-Drakkam.zip",
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V6/ow-ink-Drakkam.zip",
+    "https://github.com/Drakkam/Shared-Anno-Mods/releases/download/V6/ink-Drakkam.zip",
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_lead.zip",
     "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-01/shared_goods_galena.zip",
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_neutral_airport.zip",
     "https://github.com/Taludas/SharedMods/releases/download/v1.2/Taludas_sharedproduct_tradelicense.zip",
     "shared-capitolio",
-    "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-05/shared_production_silver_bars.zip"
+    "https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/download/2026-05/shared_production_silver_bars.zip",
+    "https://github.com/Taludas/SharedMods/releases/download/v1.3/Taludas_shared_tradingcompany.zip"
   ],
   "LoadAfterIds": [
     "shared-pools-and-definitions",
@@ -48,7 +49,6 @@
   "bundle": [
     "../new_world_cathedral",
     "../shared_goods_pianos",
-    "../Taludas_shared_tradingcompany",
     "../nw_importdock_silkfabric",
     "../nw_importdock_rice",
     "../nw_importdock_cars",
