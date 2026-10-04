@@ -854,7 +854,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
         </Selection>
         <Constructable/>
         <Locked/>
@@ -907,7 +907,7 @@
         <Maintenance>
           <Maintenances>
             <Item>
-              <Product>1500011558</Product>
+              <Product>1010366</Product>
               <Amount>500</Amount>
               <ShutdownThreshold>0.4</ShutdownThreshold>
             </Item>
@@ -997,7 +997,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
         </Selection>
         <Constructable/>
         <Locked/>
@@ -1065,7 +1065,7 @@
         <Maintenance>
           <Maintenances>
             <Item>
-              <Product>1500011558</Product>
+              <Product>1010367</Product>
               <Amount>1000</Amount>
               <ShutdownThreshold>0.4</ShutdownThreshold>
             </Item>
@@ -1167,7 +1167,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
         </Selection>
         <Constructable/>
         <Locked/>
@@ -1235,7 +1235,7 @@
         <Maintenance>
           <Maintenances>
             <Item>
-              <Product>1500011558</Product>
+              <Product>5406</Product>
               <Amount>1500</Amount>
               <ShutdownThreshold>0.4</ShutdownThreshold>
             </Item>
@@ -1448,6 +1448,7 @@
             <EventConclusionText>1500040090</EventConclusionText>
             <InvestmentContribution>1500040091</InvestmentContribution>
           </EventUITexts>
+			    <ProgressbarHeight>150</ProgressbarHeight>
         </Monument>
         <Culture>
           <Attractiveness>500</Attractiveness>
