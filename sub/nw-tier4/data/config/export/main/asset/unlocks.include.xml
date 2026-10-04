@@ -240,6 +240,12 @@
                       <Item>
                         <Asset>1500040271</Asset>
                       </Item>
+                      <Item>
+                        <Asset>1500040200</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040201</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
