@@ -1,9 +1,8 @@
- <ModOps>
+<ModOps>
   <!-- # Menu -->
   <Group>
     <!-- Services [Artista or Patrono &lt;= 1]-->
-    <ModOp Type="addNextSibling" GUID="500138"
-      Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+    <ModOp Type="addNextSibling" GUID="500138" Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
       <Item>
         <Building>1500040016</Building>
         <Patrono>1</Patrono>
@@ -18,7 +17,6 @@
             <GUID>1500040016</GUID>
             <Name>Drama Theatre NW Chain</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_cabaret.png</IconFilename>
-            <InfoDescription>1500011055</InfoDescription>
           </Standard>
           <Text>
             <TextOverride>1500040014</TextOverride>
@@ -33,10 +31,10 @@
                     <Building>100655</Building>
                   </Item>
                   <Item>
-                    <Building>1500010707</Building> <!-- glass -->
+                    <Building>1010319</Building>
                     <Tier3>
                       <Item>
-                        <Building>1500010708</Building> <!-- sand -->
+                        <Building>1010560</Building>
                       </Item>
                     </Tier3>
                   </Item>
@@ -86,7 +84,7 @@
             <TextOverride>1500040014</TextOverride>
           </Text>
           <Building>
-            <BuildingCategoryName>1500011055</BuildingCategoryName>
+            <BuildingCategoryName>100003</BuildingCategoryName>
             <AssociatedRegions>Colony01</AssociatedRegions>
             <SecondPartyRelevant>0</SecondPartyRelevant>
             <AllowChangeVariation>1</AllowChangeVariation>
@@ -129,7 +127,7 @@
                 <ActionList />
               </Values>
             </OnSelection>
-            <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+            <ParticipantMessageArcheType>Mod6</ParticipantMessageArcheType>
           </Selection>
           <Attackable>
             <AttackableType>IslandBuilding</AttackableType>
@@ -141,12 +139,12 @@
             <Maintenances>
               <Item>
                 <Product>1010017</Product>
-                <Amount>1000</Amount>
-                <InactiveAmount>500</InactiveAmount>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
               </Item>
               <Item>
-                <Product>5406</Product>
-                <Amount>30</Amount>
+                <Product>1500011558</Product>
+                <Amount>100</Amount>
               </Item>
             </Maintenances>
           </Maintenance>
@@ -225,7 +223,7 @@
           <Infolayer />
           <UpgradeList />
         </Values>
-      </Asset>       
+      </Asset>
       <Asset>
         <Template>AssetPool</Template>
         <Values>
@@ -263,8 +261,7 @@
     </ModOp>
 
     <!-- add to the building pool -->
-    <ModOp Type="add" GUID="190136,191501,368"
-      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="190136,191501,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1500040015</GUID>
       </Item>

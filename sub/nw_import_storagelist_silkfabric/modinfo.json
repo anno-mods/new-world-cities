@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_import_storagelist_silk",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Silk FTC NW Import Storagelist",
+    "English": "Silk FTC NW Import Storagelist",
+    "French": "Silk FTC NW Import Storagelist",
+    "German": "Silk FTC NW Import Storagelist",
+    "Italian": "Silk FTC NW Import Storagelist",
+    "Japanese": "Silk FTC NW Import Storagelist",
+    "Korean": "Silk FTC NW Import Storagelist",
+    "Polish": "Silk FTC NW Import Storagelist",
+    "Russian": "Silk FTC NW Import Storagelist",
+    "Spanish": "Silk FTC NW Import Storagelist",
+    "Taiwanese": "Silk FTC NW Import Storagelist"
+  },
+  "Description": {
+    "English": "# Submod that regulates appearance of the product 'silk fabric' in the Import StorageList of the NW Foreign Trading Company.",
+    "German": "# Submod, die das Erscheinen des Produkts 'Seidenstoff' in der Import StorageList der Fernhandelscompagnie der neuen Welt regelt.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team, Taludas",
+  "Image": null
+}

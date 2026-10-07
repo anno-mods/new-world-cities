@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Coding\new-world-cities\wwise\Patrona\</ProjectRoot>
+		<SourceFilesRoot>D:\Coding\new-world-cities\wwise\Patrona\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Coding\new-world-cities\wwise\Patrona\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Coding\new-world-cities\wwise\Patrona\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="129664302" GUID="{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}" Language="English(US)" Hash="2325559354">
+			<ObjectPath>\SoundBanks\Default Work Unit\Patrona</ObjectPath>
+			<ShortName>Patrona</ShortName>
+			<Path>English(US)\Patrona.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3711188049" Name="Play_112959_ogg" ObjectPath="\Events\Default Work Unit\Play_112959_ogg" GUID="{9821FF51-B6AC-489B-AA10-92375F2068C5}" DurationType="OneShot" DurationMin="2.286667" DurationMax="2.286667">
+					<IncludedMemoryFiles>
+						<File Id="970362699" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112959.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112959.ogg_B470C9CE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1509992704" Name="Play_112961_ogg" ObjectPath="\Events\Default Work Unit\Play_112961_ogg" GUID="{BDD2C84E-A580-4297-B6A5-BE8D948DF9B5}" DurationType="OneShot" DurationMin="1.16932" DurationMax="1.16932">
+					<IncludedMemoryFiles>
+						<File Id="578217389" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112961.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112961.ogg_15E46690.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="183393619" Name="Play_112962_ogg" ObjectPath="\Events\Default Work Unit\Play_112962_ogg" GUID="{68123574-B21A-46E9-B174-F9E127047FEA}" DurationType="OneShot" DurationMin="0.793333" DurationMax="0.793333">
+					<IncludedMemoryFiles>
+						<File Id="153085544" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112962.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112962.ogg_40D2567A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1509780578" Name="Play_112974_ogg" ObjectPath="\Events\Default Work Unit\Play_112974_ogg" GUID="{99328E7B-22FC-45F5-93A1-4740FDA8F8A2}" DurationType="OneShot" DurationMin="1.428005" DurationMax="1.428005">
+					<IncludedMemoryFiles>
+						<File Id="516666215" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112974.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112974.ogg_3707D6E9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4185509699" Name="Play_112975_ogg" ObjectPath="\Events\Default Work Unit\Play_112975_ogg" GUID="{7A037DFB-A6B7-4B5A-BB8D-458913E8D4F1}" DurationType="OneShot" DurationMin="0.993333" DurationMax="0.993333">
+					<IncludedMemoryFiles>
+						<File Id="187273750" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112975.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112975.ogg_238CFB30.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1911173621" Name="Play_112982_ogg" ObjectPath="\Events\Default Work Unit\Play_112982_ogg" GUID="{5C060D14-BCA0-457E-9692-3703F846F851}" DurationType="OneShot" DurationMin="1.99068" DurationMax="1.99068">
+					<IncludedMemoryFiles>
+						<File Id="939934544" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112982.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112982.ogg_1357A521.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2140017419" Name="Play_112984_ogg" ObjectPath="\Events\Default Work Unit\Play_112984_ogg" GUID="{0DA2B77B-EFB1-4A4A-B069-CC92D3F07EC7}" DurationType="OneShot" DurationMin="1.478685" DurationMax="1.478685">
+					<IncludedMemoryFiles>
+						<File Id="405607159" Language="English(US)">
+							<ShortName>patrona\generic\pos_feedback\112984.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\pos_feedback\112984.ogg_2A10EAA7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2066335846" Name="Play_112992_ogg" ObjectPath="\Events\Default Work Unit\Play_112992_ogg" GUID="{8457EC70-EE3C-4900-88E2-CFB724FBCB35}" DurationType="OneShot" DurationMin="1.235986" DurationMax="1.235986">
+					<IncludedMemoryFiles>
+						<File Id="345553547" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\112992.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\112992.ogg_1EE4849B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3709873927" Name="Play_112993_ogg" ObjectPath="\Events\Default Work Unit\Play_112993_ogg" GUID="{B8C45068-DED0-46E7-8CE8-58483698BFB0}" DurationType="OneShot" DurationMin="1.355986" DurationMax="1.355986">
+					<IncludedMemoryFiles>
+						<File Id="1052657694" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\112993.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\112993.ogg_6AAE858B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1365387624" Name="Play_112994_ogg" ObjectPath="\Events\Default Work Unit\Play_112994_ogg" GUID="{73E02361-313D-47B3-BC72-5352FD024831}" DurationType="OneShot" DurationMin="1.142653" DurationMax="1.142653">
+					<IncludedMemoryFiles>
+						<File Id="238061347" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\112994.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\112994.ogg_79FFBCD8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2610139962" Name="Play_112996_ogg" ObjectPath="\Events\Default Work Unit\Play_112996_ogg" GUID="{33A61295-19EA-42CE-BECC-82E48514DA19}" DurationType="OneShot" DurationMin="1.788005" DurationMax="1.788005">
+					<IncludedMemoryFiles>
+						<File Id="858964215" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\112996.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\112996.ogg_AE65F018.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="114406233" Name="Play_113000_ogg" ObjectPath="\Events\Default Work Unit\Play_113000_ogg" GUID="{D9E27D29-E715-4585-B85F-D972D15FA131}" DurationType="OneShot" DurationMin="2.545352" DurationMax="2.545352">
+					<IncludedMemoryFiles>
+						<File Id="550015219" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\113000.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\113000.ogg_A9E21BE4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3247614027" Name="Play_113002_ogg" ObjectPath="\Events\Default Work Unit\Play_113002_ogg" GUID="{3F82ED05-3A6E-4A99-8DDD-B8DE79280CD7}" DurationType="OneShot" DurationMin="1.761338" DurationMax="1.761338">
+					<IncludedMemoryFiles>
+						<File Id="965467748" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\113002.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\113002.ogg_F53F4AE2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="201579108" Name="Play_113005_ogg" ObjectPath="\Events\Default Work Unit\Play_113005_ogg" GUID="{C28610A5-C874-44F1-8FAB-27F6AB31D8A1}" DurationType="OneShot" DurationMin="3.795986" DurationMax="3.795986">
+					<IncludedMemoryFiles>
+						<File Id="567530901" Language="English(US)">
+							<ShortName>patrona\generic\neg_feedback\113005.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\generic\neg_feedback\113005.ogg_DA4821C2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4234208832" Name="Play_113009_ogg" ObjectPath="\Events\Default Work Unit\Play_113009_ogg" GUID="{D1995329-82B3-4A64-ABE2-F92F7FAA44D2}" DurationType="OneShot" DurationMin="1.988005" DurationMax="1.988005">
+					<IncludedMemoryFiles>
+						<File Id="309895503" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113009.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113009.ogg_5AC8B9D6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4265720677" Name="Play_113013_ogg" ObjectPath="\Events\Default Work Unit\Play_113013_ogg" GUID="{EBFF9A90-5A5A-4BE4-9E59-894E94A1E974}" DurationType="OneShot" DurationMin="1.684014" DurationMax="1.684014">
+					<IncludedMemoryFiles>
+						<File Id="131198775" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113013.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113013.ogg_3B28DFC7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1146488059" Name="Play_113015_ogg" ObjectPath="\Events\Default Work Unit\Play_113015_ogg" GUID="{002665B6-D960-4ADB-AA57-152ECBCF526F}" DurationType="OneShot" DurationMin="2.548005" DurationMax="2.548005">
+					<IncludedMemoryFiles>
+						<File Id="804599971" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113015.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113015.ogg_C6E98155.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2514663848" Name="Play_113016_ogg" ObjectPath="\Events\Default Work Unit\Play_113016_ogg" GUID="{F3018EC0-40D4-45BE-B86F-B5DE2B2B6BED}" DurationType="OneShot" DurationMin="2.561338" DurationMax="2.561338">
+					<IncludedMemoryFiles>
+						<File Id="979880807" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113016.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113016.ogg_90FF3EAB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="895322505" Name="Play_113017_ogg" ObjectPath="\Events\Default Work Unit\Play_113017_ogg" GUID="{BE6E0F63-ECA7-41C3-BE1F-F2784B8C2970}" DurationType="OneShot" DurationMin="2.22" DurationMax="2.22">
+					<IncludedMemoryFiles>
+						<File Id="544365648" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113017.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113017.ogg_A3832DA0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="771899246" Name="Play_113018_ogg" ObjectPath="\Events\Default Work Unit\Play_113018_ogg" GUID="{CB0CD2C4-46C2-4178-ACDF-0BD231780E55}" DurationType="OneShot" DurationMin="3.433333" DurationMax="3.433333">
+					<IncludedMemoryFiles>
+						<File Id="75965983" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113018.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113018.ogg_6E0E3FA6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1873837054" Name="Play_113115_ogg" ObjectPath="\Events\Default Work Unit\Play_113115_ogg" GUID="{0A2175BE-98CF-4CEF-AC5C-064B2C923934}" DurationType="OneShot" DurationMin="3.755986" DurationMax="3.755986">
+					<IncludedMemoryFiles>
+						<File Id="569805102" Language="English(US)">
+							<ShortName>patrona\festivalhall\construction\113115.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\construction\113115.ogg_F20F20C9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3205659083" Name="Play_113118_ogg" ObjectPath="\Events\Default Work Unit\Play_113118_ogg" GUID="{861D0403-4C4F-42F1-AE96-4E1B35B563C6}" DurationType="OneShot" DurationMin="3.995986" DurationMax="3.995986">
+					<IncludedMemoryFiles>
+						<File Id="750522577" Language="English(US)">
+							<ShortName>patrona\festivalhall\construction\113118.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\construction\113118.ogg_473353BE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174946836" Name="Play_113135_ogg" ObjectPath="\Events\Default Work Unit\Play_113135_ogg" GUID="{DFE99533-5896-47BD-9CF5-C24549FD1F68}" DurationType="OneShot" DurationMin="1.04932" DurationMax="1.04932">
+					<IncludedMemoryFiles>
+						<File Id="168592313" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113135.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113135.ogg_0B437069.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202107044" Name="Play_113153_ogg" ObjectPath="\Events\Default Work Unit\Play_113153_ogg" GUID="{C48C0976-5A8C-4612-BEAF-F78E176ABB6C}" DurationType="OneShot" DurationMin="2.548005" DurationMax="2.548005">
+					<IncludedMemoryFiles>
+						<File Id="820477445" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113153.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113153.ogg_ABCD51E3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1953277835" Name="Play_113154_ogg" ObjectPath="\Events\Default Work Unit\Play_113154_ogg" GUID="{D4D7E0DF-F6C5-4D7D-8BE0-E70C0B4232A0}" DurationType="OneShot" DurationMin="2.572018" DurationMax="2.572018">
+					<IncludedMemoryFiles>
+						<File Id="833175098" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113154.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113154.ogg_DF5C372F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="346093514" Name="Play_113155_ogg" ObjectPath="\Events\Default Work Unit\Play_113155_ogg" GUID="{7E3817CB-89CD-4867-82BE-39155DF0B2D5}" DurationType="OneShot" DurationMin="1.638685" DurationMax="1.638685">
+					<IncludedMemoryFiles>
+						<File Id="1057682720" Language="English(US)">
+							<ShortName>patrona\festivalhall\event\113155.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\event\113155.ogg_E7D66F84.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="196998334" Name="Play_113159_ogg" ObjectPath="\Events\Default Work Unit\Play_113159_ogg" GUID="{C78F5A9C-2B13-424A-9271-4B6364CBF0F2}" DurationType="OneShot" DurationMin="2.068005" DurationMax="2.068005">
+					<IncludedMemoryFiles>
+						<File Id="640028901" Language="English(US)">
+							<ShortName>patrona\residence\angry\113159.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113159.ogg_408313CF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2076157402" Name="Play_113160_ogg" ObjectPath="\Events\Default Work Unit\Play_113160_ogg" GUID="{8F5793E4-3CF9-47AC-AB8D-D78016229591}" DurationType="OneShot" DurationMin="2.332018" DurationMax="2.332018">
+					<IncludedMemoryFiles>
+						<File Id="909638422" Language="English(US)">
+							<ShortName>patrona\residence\angry\113160.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113160.ogg_946FF85F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1440060635" Name="Play_113161_ogg" ObjectPath="\Events\Default Work Unit\Play_113161_ogg" GUID="{AD4A49D5-846E-49A0-9102-5A72EFB432AF}" DurationType="OneShot" DurationMin="3.182653" DurationMax="3.182653">
+					<IncludedMemoryFiles>
+						<File Id="56205020" Language="English(US)">
+							<ShortName>patrona\residence\angry\113161.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113161.ogg_EE853F3F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3191117192" Name="Play_113162_ogg" ObjectPath="\Events\Default Work Unit\Play_113162_ogg" GUID="{6661A999-8CA4-476A-BD90-A24BB3057FAE}" DurationType="OneShot" DurationMin="3.742653" DurationMax="3.742653">
+					<IncludedMemoryFiles>
+						<File Id="933584494" Language="English(US)">
+							<ShortName>patrona\residence\angry\113162.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113162.ogg_9A9459E9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1571879273" Name="Play_113163_ogg" ObjectPath="\Events\Default Work Unit\Play_113163_ogg" GUID="{979765F2-746D-4C54-A9DF-2A9D186F5B76}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.46">
+					<IncludedMemoryFiles>
+						<File Id="649465878" Language="English(US)">
+							<ShortName>patrona\residence\angry\113163.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113163.ogg_6909196E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1956810502" Name="Play_113164_ogg" ObjectPath="\Events\Default Work Unit\Play_113164_ogg" GUID="{956235EF-36FA-4C78-9F40-71FA6F1A6FC1}" DurationType="OneShot" DurationMin="3.414671" DurationMax="3.414671">
+					<IncludedMemoryFiles>
+						<File Id="481386169" Language="English(US)">
+							<ShortName>patrona\residence\unhappy\113164.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\unhappy\113164.ogg_3E52487A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1573648564" Name="Play_113166_ogg" ObjectPath="\Events\Default Work Unit\Play_113166_ogg" GUID="{F28DC18B-E8C9-4BFD-A42A-97DC9576670C}" DurationType="OneShot" DurationMin="4.924014" DurationMax="4.924014">
+					<IncludedMemoryFiles>
+						<File Id="604078773" Language="English(US)">
+							<ShortName>patrona\residence\angry\113166.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113166.ogg_B19AE14F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="264325957" Name="Play_113167_ogg" ObjectPath="\Events\Default Work Unit\Play_113167_ogg" GUID="{3BD9A1AD-B17D-4339-85BC-5545E6D9E15B}" DurationType="OneShot" DurationMin="2.382653" DurationMax="2.382653">
+					<IncludedMemoryFiles>
+						<File Id="971447968" Language="English(US)">
+							<ShortName>patrona\residence\angry\113167.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113167.ogg_1636F44B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="191128194" Name="Play_113168_ogg" ObjectPath="\Events\Default Work Unit\Play_113168_ogg" GUID="{6049C5B6-2A81-4AD9-8F71-3D3019AAF9F1}" DurationType="OneShot" DurationMin="3.028005" DurationMax="3.028005">
+					<IncludedMemoryFiles>
+						<File Id="680105429" Language="English(US)">
+							<ShortName>patrona\residence\angry\113168.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\angry\113168.ogg_97C69F33.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2866857571" Name="Play_113169_ogg" ObjectPath="\Events\Default Work Unit\Play_113169_ogg" GUID="{F2CE8AE3-7C2A-412B-A32F-37DB94F3D969}" DurationType="OneShot" DurationMin="2.558685" DurationMax="2.558685">
+					<IncludedMemoryFiles>
+						<File Id="513298322" Language="English(US)">
+							<ShortName>patrona\residence\content\113169.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113169.ogg_BDF957D6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3542840829" Name="Play_113170_ogg" ObjectPath="\Events\Default Work Unit\Play_113170_ogg" GUID="{5AD14790-3059-43B5-A400-6ED00AB52C9E}" DurationType="OneShot" DurationMin="3.31068" DurationMax="3.31068">
+					<IncludedMemoryFiles>
+						<File Id="520002898" Language="English(US)">
+							<ShortName>patrona\residence\unhappy\113170.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\unhappy\113170.ogg_5C69FE9C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3530683807" Name="Play_113172_ogg" ObjectPath="\Events\Default Work Unit\Play_113172_ogg" GUID="{72CC9307-F21D-417F-8F15-3BB9B73E4667}" DurationType="OneShot" DurationMin="1.932018" DurationMax="1.932018">
+					<IncludedMemoryFiles>
+						<File Id="860343502" Language="English(US)">
+							<ShortName>patrona\residence\unhappy\113172.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\unhappy\113172.ogg_4384BDDA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1796622558" Name="Play_113173_ogg" ObjectPath="\Events\Default Work Unit\Play_113173_ogg" GUID="{D643763D-E9B2-4AF0-AF5A-8E8B243FAFAE}" DurationType="OneShot" DurationMin="2.732018" DurationMax="2.732018">
+					<IncludedMemoryFiles>
+						<File Id="418772884" Language="English(US)">
+							<ShortName>patrona\residence\content\113173.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113173.ogg_611AEB46.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="470023393" Name="Play_113174_ogg" ObjectPath="\Events\Default Work Unit\Play_113174_ogg" GUID="{4F288CE9-E07C-4914-ADE9-4146ACC366FC}" DurationType="OneShot" DurationMin="0.844014" DurationMax="0.844014">
+					<IncludedMemoryFiles>
+						<File Id="811650367" Language="English(US)">
+							<ShortName>patrona\residence\content\113174.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113174.ogg_7990AAA0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2179887648" Name="Play_113175_ogg" ObjectPath="\Events\Default Work Unit\Play_113175_ogg" GUID="{C06C0E9D-5DD4-40F6-987F-9C7A9CD6E78C}" DurationType="OneShot" DurationMin="3.193333" DurationMax="3.193333">
+					<IncludedMemoryFiles>
+						<File Id="1046820233" Language="English(US)">
+							<ShortName>patrona\residence\content\113175.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113175.ogg_5ABAF596.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="428727923" Name="Play_113176_ogg" ObjectPath="\Events\Default Work Unit\Play_113176_ogg" GUID="{1DCB0C3C-3650-485E-B499-D7532FD3858D}" DurationType="OneShot" DurationMin="1.964014" DurationMax="1.964014">
+					<IncludedMemoryFiles>
+						<File Id="477265880" Language="English(US)">
+							<ShortName>patrona\residence\content\113176.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113176.ogg_2FCA2D30.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3419314130" Name="Play_113177_ogg" ObjectPath="\Events\Default Work Unit\Play_113177_ogg" GUID="{3FFA2D2B-22DA-4695-B818-01F63641187C}" DurationType="OneShot" DurationMin="3.82" DurationMax="3.82">
+					<IncludedMemoryFiles>
+						<File Id="882742453" Language="English(US)">
+							<ShortName>patrona\residence\unhappy\113177.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\unhappy\113177.ogg_71003837.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1005922325" Name="Play_113178_ogg" ObjectPath="\Events\Default Work Unit\Play_113178_ogg" GUID="{D3FED9DF-16F1-4250-A1B9-6A396D28C793}" DurationType="OneShot" DurationMin="1.454671" DurationMax="1.454671">
+					<IncludedMemoryFiles>
+						<File Id="143033928" Language="English(US)">
+							<ShortName>patrona\residence\content\113178.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\content\113178.ogg_1118E09D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="506867140" Name="Play_113179_ogg" ObjectPath="\Events\Default Work Unit\Play_113179_ogg" GUID="{9CB244CF-EBA4-45EB-8CDE-26680700B6C0}" DurationType="OneShot" DurationMin="2.828005" DurationMax="2.828005">
+					<IncludedMemoryFiles>
+						<File Id="676913094" Language="English(US)">
+							<ShortName>patrona\residence\happy\113179.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113179.ogg_A6E6FAB0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="363693384" Name="Play_113180_ogg" ObjectPath="\Events\Default Work Unit\Play_113180_ogg" GUID="{A5993731-7A4F-4680-9787-EC530028B50E}" DurationType="OneShot" DurationMin="2.417347" DurationMax="2.417347">
+					<IncludedMemoryFiles>
+						<File Id="482286716" Language="English(US)">
+							<ShortName>patrona\residence\happy\113180.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113180.ogg_69B29E57.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3039319337" Name="Play_113181_ogg" ObjectPath="\Events\Default Work Unit\Play_113181_ogg" GUID="{1AE21D02-1139-412B-943A-4CC434A9517B}" DurationType="OneShot" DurationMin="1.644014" DurationMax="1.644014">
+					<IncludedMemoryFiles>
+						<File Id="1018498159" Language="English(US)">
+							<ShortName>patrona\residence\happy\113181.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113181.ogg_4090EA65.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3926478234" Name="Play_113182_ogg" ObjectPath="\Events\Default Work Unit\Play_113182_ogg" GUID="{0247C6B4-D507-47B9-858B-DECAF60E489B}" DurationType="OneShot" DurationMin="2.348005" DurationMax="2.348005">
+					<IncludedMemoryFiles>
+						<File Id="39905687" Language="English(US)">
+							<ShortName>patrona\residence\happy\113182.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113182.ogg_9FEB1AC7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="731245159" Name="Play_113187_ogg" ObjectPath="\Events\Default Work Unit\Play_113187_ogg" GUID="{4CF47DEC-9BCD-4113-84A1-FCFEEA480B96}" DurationType="OneShot" DurationMin="2.617347" DurationMax="2.617347">
+					<IncludedMemoryFiles>
+						<File Id="792976734" Language="English(US)">
+							<ShortName>patrona\residence\happy\113187.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113187.ogg_1D797181.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="843599568" Name="Play_113188_ogg" ObjectPath="\Events\Default Work Unit\Play_113188_ogg" GUID="{8780C294-668B-4BFF-94B1-C5F26F5BC8F2}" DurationType="OneShot" DurationMin="2.582653" DurationMax="2.582653">
+					<IncludedMemoryFiles>
+						<File Id="651859898" Language="English(US)">
+							<ShortName>patrona\residence\happy\113188.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\happy\113188.ogg_AA7C94C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3524448465" Name="Play_113189_ogg" ObjectPath="\Events\Default Work Unit\Play_113189_ogg" GUID="{789BF656-43E9-4139-A3F3-63CC732B9AFE}" DurationType="OneShot" DurationMin="6.065351" DurationMax="6.065351">
+					<IncludedMemoryFiles>
+						<File Id="374442593" Language="English(US)">
+							<ShortName>patrona\residence\euphoric\113189.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\euphoric\113189.ogg_B898F771.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2518111576" Name="Play_113193_ogg" ObjectPath="\Events\Default Work Unit\Play_113193_ogg" GUID="{5082D09F-D691-43ED-A442-F9AD8DD69D46}" DurationType="OneShot" DurationMin="4.155986" DurationMax="4.155986">
+					<IncludedMemoryFiles>
+						<File Id="315208606" Language="English(US)">
+							<ShortName>patrona\residence\euphoric\113193.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\euphoric\113193.ogg_5839B55A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1974410372" Name="Play_113197_ogg" ObjectPath="\Events\Default Work Unit\Play_113197_ogg" GUID="{1231C0F4-9C0E-4C4A-AB28-099B05597B00}" DurationType="OneShot" DurationMin="4.66" DurationMax="4.66">
+					<IncludedMemoryFiles>
+						<File Id="353467642" Language="English(US)">
+							<ShortName>patrona\residence\euphoric\113197.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\euphoric\113197.ogg_E5BB2B77.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2279151923" Name="Play_113198_ogg" ObjectPath="\Events\Default Work Unit\Play_113198_ogg" GUID="{E6E1F789-9CDC-4A2F-8F8F-371289FE1BFE}" DurationType="OneShot" DurationMin="1.708005" DurationMax="1.708005">
+					<IncludedMemoryFiles>
+						<File Id="530114870" Language="English(US)">
+							<ShortName>patrona\residence\euphoric\113198.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\residence\euphoric\113198.ogg_9513720C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749754267" Name="Play_113200_ogg" ObjectPath="\Events\Default Work Unit\Play_113200_ogg" GUID="{5CFC6B80-12D3-47D2-8BA4-1E6CFE677A2C}" DurationType="OneShot" DurationMin="3.148005" DurationMax="3.148005">
+					<IncludedMemoryFiles>
+						<File Id="335166727" Language="English(US)">
+							<ShortName>patrona\festivalhall\construction\113200.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\construction\113200.ogg_3F550FF5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385851034" Name="Play_113201_ogg" ObjectPath="\Events\Default Work Unit\Play_113201_ogg" GUID="{D56B579B-3333-4754-B621-E53B8B722932}" DurationType="OneShot" DurationMin="3.537347" DurationMax="3.537347">
+					<IncludedMemoryFiles>
+						<File Id="714574365" Language="English(US)">
+							<ShortName>patrona\festivalhall\construction\113201.ogg.wav</ShortName>
+							<Path>Voices\English(US)\patrona\festivalhall\construction\113201.ogg_AF6A1E8A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{A3715632-E0D9-4478-A8C8-ACA760B8B10B}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{55DD40B9-24D2-4B68-8143-1A00ED2DDF8B}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="129664302" GUID="{DA860627-CF89-41EE-9D23-EA6B5AB6DC3F}" Language="de_de" Hash="1513787664">
+			<ObjectPath>\SoundBanks\Default Work Unit\Patrona</ObjectPath>
+			<ShortName>Patrona</ShortName>
+			<Path>de_de\Patrona.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3711188049" Name="Play_112959_ogg" ObjectPath="\Events\Default Work Unit\Play_112959_ogg" GUID="{9821FF51-B6AC-489B-AA10-92375F2068C5}" DurationType="OneShot" DurationMin="2.438685" DurationMax="2.438685">
+					<IncludedMemoryFiles>
+						<File Id="567311494" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112959.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112959.ogg_16F370D1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1509992704" Name="Play_112961_ogg" ObjectPath="\Events\Default Work Unit\Play_112961_ogg" GUID="{BDD2C84E-A580-4297-B6A5-BE8D948DF9B5}" DurationType="OneShot" DurationMin="1.217347" DurationMax="1.217347">
+					<IncludedMemoryFiles>
+						<File Id="504723925" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112961.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112961.ogg_94D4B9C2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="183393619" Name="Play_112962_ogg" ObjectPath="\Events\Default Work Unit\Play_112962_ogg" GUID="{68123574-B21A-46E9-B174-F9E127047FEA}" DurationType="OneShot" DurationMin="0.94" DurationMax="0.94">
+					<IncludedMemoryFiles>
+						<File Id="842083472" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112962.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112962.ogg_012F87A8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1509780578" Name="Play_112974_ogg" ObjectPath="\Events\Default Work Unit\Play_112974_ogg" GUID="{99328E7B-22FC-45F5-93A1-4740FDA8F8A2}" DurationType="OneShot" DurationMin="1.172018" DurationMax="1.172018">
+					<IncludedMemoryFiles>
+						<File Id="1071689538" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112974.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112974.ogg_B60BE8A3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4185509699" Name="Play_112975_ogg" ObjectPath="\Events\Default Work Unit\Play_112975_ogg" GUID="{7A037DFB-A6B7-4B5A-BB8D-458913E8D4F1}" DurationType="OneShot" DurationMin="1.121338" DurationMax="1.121338">
+					<IncludedMemoryFiles>
+						<File Id="987682926" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112975.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112975.ogg_ECE28C35.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1911173621" Name="Play_112982_ogg" ObjectPath="\Events\Default Work Unit\Play_112982_ogg" GUID="{5C060D14-BCA0-457E-9692-3703F846F851}" DurationType="OneShot" DurationMin="1.713333" DurationMax="1.713333">
+					<IncludedMemoryFiles>
+						<File Id="429313940" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112982.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112982.ogg_B1787210.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2140017419" Name="Play_112984_ogg" ObjectPath="\Events\Default Work Unit\Play_112984_ogg" GUID="{0DA2B77B-EFB1-4A4A-B069-CC92D3F07EC7}" DurationType="OneShot" DurationMin="1.435986" DurationMax="1.435986">
+					<IncludedMemoryFiles>
+						<File Id="694238992" Language="de_de">
+							<ShortName>patrona\generic\pos_feedback\112984.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\pos_feedback\112984.ogg_7EBB8A9E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2066335846" Name="Play_112992_ogg" ObjectPath="\Events\Default Work Unit\Play_112992_ogg" GUID="{8457EC70-EE3C-4900-88E2-CFB724FBCB35}" DurationType="OneShot" DurationMin="1.217347" DurationMax="1.217347">
+					<IncludedMemoryFiles>
+						<File Id="164724887" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\112992.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112992.ogg_3895DA39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3709873927" Name="Play_112993_ogg" ObjectPath="\Events\Default Work Unit\Play_112993_ogg" GUID="{B8C45068-DED0-46E7-8CE8-58483698BFB0}" DurationType="OneShot" DurationMin="1.257347" DurationMax="1.257347">
+					<IncludedMemoryFiles>
+						<File Id="978695963" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\112993.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112993.ogg_9E72726F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1365387624" Name="Play_112994_ogg" ObjectPath="\Events\Default Work Unit\Play_112994_ogg" GUID="{73E02361-313D-47B3-BC72-5352FD024831}" DurationType="OneShot" DurationMin="1.126667" DurationMax="1.126667">
+					<IncludedMemoryFiles>
+						<File Id="209962604" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\112994.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112994.ogg_2013B97D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2610139962" Name="Play_112996_ogg" ObjectPath="\Events\Default Work Unit\Play_112996_ogg" GUID="{33A61295-19EA-42CE-BECC-82E48514DA19}" DurationType="OneShot" DurationMin="1.835986" DurationMax="1.835986">
+					<IncludedMemoryFiles>
+						<File Id="146042704" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\112996.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\112996.ogg_C98C17C2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="114406233" Name="Play_113000_ogg" ObjectPath="\Events\Default Work Unit\Play_113000_ogg" GUID="{D9E27D29-E715-4585-B85F-D972D15FA131}" DurationType="OneShot" DurationMin="2.777347" DurationMax="2.777347">
+					<IncludedMemoryFiles>
+						<File Id="40592421" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\113000.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113000.ogg_2037B9BE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3247614027" Name="Play_113002_ogg" ObjectPath="\Events\Default Work Unit\Play_113002_ogg" GUID="{3F82ED05-3A6E-4A99-8DDD-B8DE79280CD7}" DurationType="OneShot" DurationMin="2.321338" DurationMax="2.321338">
+					<IncludedMemoryFiles>
+						<File Id="390107186" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\113002.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113002.ogg_B8865A67.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="201579108" Name="Play_113005_ogg" ObjectPath="\Events\Default Work Unit\Play_113005_ogg" GUID="{C28610A5-C874-44F1-8FAB-27F6AB31D8A1}" DurationType="OneShot" DurationMin="3.44932" DurationMax="3.44932">
+					<IncludedMemoryFiles>
+						<File Id="1072591786" Language="de_de">
+							<ShortName>patrona\generic\neg_feedback\113005.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\generic\neg_feedback\113005.ogg_678ED2F3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4234208832" Name="Play_113009_ogg" ObjectPath="\Events\Default Work Unit\Play_113009_ogg" GUID="{D1995329-82B3-4A64-ABE2-F92F7FAA44D2}" DurationType="OneShot" DurationMin="1.726667" DurationMax="1.726667">
+					<IncludedMemoryFiles>
+						<File Id="627748238" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113009.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113009.ogg_DBF9647E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4265720677" Name="Play_113013_ogg" ObjectPath="\Events\Default Work Unit\Play_113013_ogg" GUID="{EBFF9A90-5A5A-4BE4-9E59-894E94A1E974}" DurationType="OneShot" DurationMin="2.22" DurationMax="2.22">
+					<IncludedMemoryFiles>
+						<File Id="601246008" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113013.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113013.ogg_922B8E49.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1146488059" Name="Play_113015_ogg" ObjectPath="\Events\Default Work Unit\Play_113015_ogg" GUID="{002665B6-D960-4ADB-AA57-152ECBCF526F}" DurationType="OneShot" DurationMin="2.841338" DurationMax="2.841338">
+					<IncludedMemoryFiles>
+						<File Id="678172879" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113015.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113015.ogg_E9713215.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2514663848" Name="Play_113016_ogg" ObjectPath="\Events\Default Work Unit\Play_113016_ogg" GUID="{F3018EC0-40D4-45BE-B86F-B5DE2B2B6BED}" DurationType="OneShot" DurationMin="2.286667" DurationMax="2.286667">
+					<IncludedMemoryFiles>
+						<File Id="789791607" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113016.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113016.ogg_0899D1B9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="895322505" Name="Play_113017_ogg" ObjectPath="\Events\Default Work Unit\Play_113017_ogg" GUID="{BE6E0F63-ECA7-41C3-BE1F-F2784B8C2970}" DurationType="OneShot" DurationMin="2.246667" DurationMax="2.246667">
+					<IncludedMemoryFiles>
+						<File Id="358649709" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113017.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113017.ogg_4DDF04BF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="771899246" Name="Play_113018_ogg" ObjectPath="\Events\Default Work Unit\Play_113018_ogg" GUID="{CB0CD2C4-46C2-4178-ACDF-0BD231780E55}" DurationType="OneShot" DurationMin="3.198685" DurationMax="3.198685">
+					<IncludedMemoryFiles>
+						<File Id="631039305" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113018.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113018.ogg_01738B19.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1873837054" Name="Play_113115_ogg" ObjectPath="\Events\Default Work Unit\Play_113115_ogg" GUID="{0A2175BE-98CF-4CEF-AC5C-064B2C923934}" DurationType="OneShot" DurationMin="4.542653" DurationMax="4.542653">
+					<IncludedMemoryFiles>
+						<File Id="881658316" Language="de_de">
+							<ShortName>patrona\festivalhall\construction\113115.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113115.ogg_5CFEA442.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3205659083" Name="Play_113118_ogg" ObjectPath="\Events\Default Work Unit\Play_113118_ogg" GUID="{861D0403-4C4F-42F1-AE96-4E1B35B563C6}" DurationType="OneShot" DurationMin="3.633333" DurationMax="3.633333">
+					<IncludedMemoryFiles>
+						<File Id="751658402" Language="de_de">
+							<ShortName>patrona\festivalhall\construction\113118.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113118.ogg_43264558.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1174946836" Name="Play_113135_ogg" ObjectPath="\Events\Default Work Unit\Play_113135_ogg" GUID="{DFE99533-5896-47BD-9CF5-C24549FD1F68}" DurationType="OneShot" DurationMin="0.84932" DurationMax="0.84932">
+					<IncludedMemoryFiles>
+						<File Id="1005089215" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113135.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113135.ogg_841A1FB4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202107044" Name="Play_113153_ogg" ObjectPath="\Events\Default Work Unit\Play_113153_ogg" GUID="{C48C0976-5A8C-4612-BEAF-F78E176ABB6C}" DurationType="OneShot" DurationMin="2.142653" DurationMax="2.142653">
+					<IncludedMemoryFiles>
+						<File Id="360060275" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113153.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113153.ogg_BD57432C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1953277835" Name="Play_113154_ogg" ObjectPath="\Events\Default Work Unit\Play_113154_ogg" GUID="{D4D7E0DF-F6C5-4D7D-8BE0-E70C0B4232A0}" DurationType="OneShot" DurationMin="2.534671" DurationMax="2.534671">
+					<IncludedMemoryFiles>
+						<File Id="877214528" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113154.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113154.ogg_34884BD4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="346093514" Name="Play_113155_ogg" ObjectPath="\Events\Default Work Unit\Play_113155_ogg" GUID="{7E3817CB-89CD-4867-82BE-39155DF0B2D5}" DurationType="OneShot" DurationMin="1.473333" DurationMax="1.473333">
+					<IncludedMemoryFiles>
+						<File Id="964461481" Language="de_de">
+							<ShortName>patrona\festivalhall\event\113155.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\event\113155.ogg_81BEF3F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="196998334" Name="Play_113159_ogg" ObjectPath="\Events\Default Work Unit\Play_113159_ogg" GUID="{C78F5A9C-2B13-424A-9271-4B6364CBF0F2}" DurationType="OneShot" DurationMin="2.044014" DurationMax="2.044014">
+					<IncludedMemoryFiles>
+						<File Id="764135896" Language="de_de">
+							<ShortName>patrona\residence\angry\113159.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113159.ogg_63680F3D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2076157402" Name="Play_113160_ogg" ObjectPath="\Events\Default Work Unit\Play_113160_ogg" GUID="{8F5793E4-3CF9-47AC-AB8D-D78016229591}" DurationType="OneShot" DurationMin="2.513333" DurationMax="2.513333">
+					<IncludedMemoryFiles>
+						<File Id="130165259" Language="de_de">
+							<ShortName>patrona\residence\angry\113160.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113160.ogg_81396412.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1440060635" Name="Play_113161_ogg" ObjectPath="\Events\Default Work Unit\Play_113161_ogg" GUID="{AD4A49D5-846E-49A0-9102-5A72EFB432AF}" DurationType="OneShot" DurationMin="2.094671" DurationMax="2.094671">
+					<IncludedMemoryFiles>
+						<File Id="266584470" Language="de_de">
+							<ShortName>patrona\residence\angry\113161.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113161.ogg_51092ECA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3191117192" Name="Play_113162_ogg" ObjectPath="\Events\Default Work Unit\Play_113162_ogg" GUID="{6661A999-8CA4-476A-BD90-A24BB3057FAE}" DurationType="OneShot" DurationMin="3.43068" DurationMax="3.43068">
+					<IncludedMemoryFiles>
+						<File Id="595230541" Language="de_de">
+							<ShortName>patrona\residence\angry\113162.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113162.ogg_1DF9EF97.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1571879273" Name="Play_113163_ogg" ObjectPath="\Events\Default Work Unit\Play_113163_ogg" GUID="{979765F2-746D-4C54-A9DF-2A9D186F5B76}" DurationType="OneShot" DurationMin="2.63068" DurationMax="2.63068">
+					<IncludedMemoryFiles>
+						<File Id="26400027" Language="de_de">
+							<ShortName>patrona\residence\angry\113163.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113163.ogg_C184B7B9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1956810502" Name="Play_113164_ogg" ObjectPath="\Events\Default Work Unit\Play_113164_ogg" GUID="{956235EF-36FA-4C78-9F40-71FA6F1A6FC1}" DurationType="OneShot" DurationMin="3.318685" DurationMax="3.318685">
+					<IncludedMemoryFiles>
+						<File Id="10102457" Language="de_de">
+							<ShortName>patrona\residence\unhappy\113164.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\unhappy\113164.ogg_AECD8D4E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1573648564" Name="Play_113166_ogg" ObjectPath="\Events\Default Work Unit\Play_113166_ogg" GUID="{F28DC18B-E8C9-4BFD-A42A-97DC9576670C}" DurationType="OneShot" DurationMin="4.446667" DurationMax="4.446667">
+					<IncludedMemoryFiles>
+						<File Id="981655840" Language="de_de">
+							<ShortName>patrona\residence\angry\113166.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113166.ogg_05B52B33.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="264325957" Name="Play_113167_ogg" ObjectPath="\Events\Default Work Unit\Play_113167_ogg" GUID="{3BD9A1AD-B17D-4339-85BC-5545E6D9E15B}" DurationType="OneShot" DurationMin="2.734671" DurationMax="2.734671">
+					<IncludedMemoryFiles>
+						<File Id="1045940249" Language="de_de">
+							<ShortName>patrona\residence\angry\113167.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113167.ogg_773B121D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="191128194" Name="Play_113168_ogg" ObjectPath="\Events\Default Work Unit\Play_113168_ogg" GUID="{6049C5B6-2A81-4AD9-8F71-3D3019AAF9F1}" DurationType="OneShot" DurationMin="3.206667" DurationMax="3.206667">
+					<IncludedMemoryFiles>
+						<File Id="851828068" Language="de_de">
+							<ShortName>patrona\residence\angry\113168.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\angry\113168.ogg_E0B1D453.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2866857571" Name="Play_113169_ogg" ObjectPath="\Events\Default Work Unit\Play_113169_ogg" GUID="{F2CE8AE3-7C2A-412B-A32F-37DB94F3D969}" DurationType="OneShot" DurationMin="3.398685" DurationMax="3.398685">
+					<IncludedMemoryFiles>
+						<File Id="1066669574" Language="de_de">
+							<ShortName>patrona\residence\content\113169.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113169.ogg_89F63C03.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3542840829" Name="Play_113170_ogg" ObjectPath="\Events\Default Work Unit\Play_113170_ogg" GUID="{5AD14790-3059-43B5-A400-6ED00AB52C9E}" DurationType="OneShot" DurationMin="3.705352" DurationMax="3.705352">
+					<IncludedMemoryFiles>
+						<File Id="860576066" Language="de_de">
+							<ShortName>patrona\residence\unhappy\113170.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\unhappy\113170.ogg_CD5BE42B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3530683807" Name="Play_113172_ogg" ObjectPath="\Events\Default Work Unit\Play_113172_ogg" GUID="{72CC9307-F21D-417F-8F15-3BB9B73E4667}" DurationType="OneShot" DurationMin="2.7" DurationMax="2.7">
+					<IncludedMemoryFiles>
+						<File Id="118248425" Language="de_de">
+							<ShortName>patrona\residence\unhappy\113172.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\unhappy\113172.ogg_44EEAF17.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1796622558" Name="Play_113173_ogg" ObjectPath="\Events\Default Work Unit\Play_113173_ogg" GUID="{D643763D-E9B2-4AF0-AF5A-8E8B243FAFAE}" DurationType="OneShot" DurationMin="3.715986" DurationMax="3.715986">
+					<IncludedMemoryFiles>
+						<File Id="1071458305" Language="de_de">
+							<ShortName>patrona\residence\content\113173.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113173.ogg_3613F6DB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="470023393" Name="Play_113174_ogg" ObjectPath="\Events\Default Work Unit\Play_113174_ogg" GUID="{4F288CE9-E07C-4914-ADE9-4146ACC366FC}" DurationType="OneShot" DurationMin="0.788005" DurationMax="0.788005">
+					<IncludedMemoryFiles>
+						<File Id="1043658753" Language="de_de">
+							<ShortName>patrona\residence\content\113174.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113174.ogg_191B151B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2179887648" Name="Play_113175_ogg" ObjectPath="\Events\Default Work Unit\Play_113175_ogg" GUID="{C06C0E9D-5DD4-40F6-987F-9C7A9CD6E78C}" DurationType="OneShot" DurationMin="3.63068" DurationMax="3.63068">
+					<IncludedMemoryFiles>
+						<File Id="165064968" Language="de_de">
+							<ShortName>patrona\residence\content\113175.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113175.ogg_419BBDB1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="428727923" Name="Play_113176_ogg" ObjectPath="\Events\Default Work Unit\Play_113176_ogg" GUID="{1DCB0C3C-3650-485E-B499-D7532FD3858D}" DurationType="OneShot" DurationMin="1.614671" DurationMax="1.614671">
+					<IncludedMemoryFiles>
+						<File Id="1022663895" Language="de_de">
+							<ShortName>patrona\residence\content\113176.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113176.ogg_20CCFA0D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3419314130" Name="Play_113177_ogg" ObjectPath="\Events\Default Work Unit\Play_113177_ogg" GUID="{3FFA2D2B-22DA-4695-B818-01F63641187C}" DurationType="OneShot" DurationMin="2.686667" DurationMax="2.686667">
+					<IncludedMemoryFiles>
+						<File Id="393327814" Language="de_de">
+							<ShortName>patrona\residence\unhappy\113177.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\unhappy\113177.ogg_19D59C44.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1005922325" Name="Play_113178_ogg" ObjectPath="\Events\Default Work Unit\Play_113178_ogg" GUID="{D3FED9DF-16F1-4250-A1B9-6A396D28C793}" DurationType="OneShot" DurationMin="1.452018" DurationMax="1.452018">
+					<IncludedMemoryFiles>
+						<File Id="166467649" Language="de_de">
+							<ShortName>patrona\residence\content\113178.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\content\113178.ogg_169D6B28.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="506867140" Name="Play_113179_ogg" ObjectPath="\Events\Default Work Unit\Play_113179_ogg" GUID="{9CB244CF-EBA4-45EB-8CDE-26680700B6C0}" DurationType="OneShot" DurationMin="3.60932" DurationMax="3.60932">
+					<IncludedMemoryFiles>
+						<File Id="2627124" Language="de_de">
+							<ShortName>patrona\residence\happy\113179.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113179.ogg_DF32FBBF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="363693384" Name="Play_113180_ogg" ObjectPath="\Events\Default Work Unit\Play_113180_ogg" GUID="{A5993731-7A4F-4680-9787-EC530028B50E}" DurationType="OneShot" DurationMin="2.481338" DurationMax="2.481338">
+					<IncludedMemoryFiles>
+						<File Id="52271583" Language="de_de">
+							<ShortName>patrona\residence\happy\113180.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113180.ogg_AAB15793.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3039319337" Name="Play_113181_ogg" ObjectPath="\Events\Default Work Unit\Play_113181_ogg" GUID="{1AE21D02-1139-412B-943A-4CC434A9517B}" DurationType="OneShot" DurationMin="2.08932" DurationMax="2.08932">
+					<IncludedMemoryFiles>
+						<File Id="542190988" Language="de_de">
+							<ShortName>patrona\residence\happy\113181.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113181.ogg_926B6147.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3926478234" Name="Play_113182_ogg" ObjectPath="\Events\Default Work Unit\Play_113182_ogg" GUID="{0247C6B4-D507-47B9-858B-DECAF60E489B}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.46">
+					<IncludedMemoryFiles>
+						<File Id="1070444880" Language="de_de">
+							<ShortName>patrona\residence\happy\113182.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113182.ogg_B9640FB8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="731245159" Name="Play_113187_ogg" ObjectPath="\Events\Default Work Unit\Play_113187_ogg" GUID="{4CF47DEC-9BCD-4113-84A1-FCFEEA480B96}" DurationType="OneShot" DurationMin="3.433333" DurationMax="3.433333">
+					<IncludedMemoryFiles>
+						<File Id="1017107601" Language="de_de">
+							<ShortName>patrona\residence\happy\113187.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113187.ogg_88E9CC10.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="843599568" Name="Play_113188_ogg" ObjectPath="\Events\Default Work Unit\Play_113188_ogg" GUID="{8780C294-668B-4BFF-94B1-C5F26F5BC8F2}" DurationType="OneShot" DurationMin="2.537347" DurationMax="2.537347">
+					<IncludedMemoryFiles>
+						<File Id="1007423032" Language="de_de">
+							<ShortName>patrona\residence\happy\113188.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\happy\113188.ogg_5D82BB9C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3524448465" Name="Play_113189_ogg" ObjectPath="\Events\Default Work Unit\Play_113189_ogg" GUID="{789BF656-43E9-4139-A3F3-63CC732B9AFE}" DurationType="OneShot" DurationMin="5.702653" DurationMax="5.702653">
+					<IncludedMemoryFiles>
+						<File Id="25322415" Language="de_de">
+							<ShortName>patrona\residence\euphoric\113189.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\euphoric\113189.ogg_4FB80F5A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2518111576" Name="Play_113193_ogg" ObjectPath="\Events\Default Work Unit\Play_113193_ogg" GUID="{5082D09F-D691-43ED-A442-F9AD8DD69D46}" DurationType="OneShot" DurationMin="3.718685" DurationMax="3.718685">
+					<IncludedMemoryFiles>
+						<File Id="294269502" Language="de_de">
+							<ShortName>patrona\residence\euphoric\113193.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\euphoric\113193.ogg_FD067708.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1974410372" Name="Play_113197_ogg" ObjectPath="\Events\Default Work Unit\Play_113197_ogg" GUID="{1231C0F4-9C0E-4C4A-AB28-099B05597B00}" DurationType="OneShot" DurationMin="4.772018" DurationMax="4.772018">
+					<IncludedMemoryFiles>
+						<File Id="863177322" Language="de_de">
+							<ShortName>patrona\residence\euphoric\113197.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\euphoric\113197.ogg_15EDEECB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2279151923" Name="Play_113198_ogg" ObjectPath="\Events\Default Work Unit\Play_113198_ogg" GUID="{E6E1F789-9CDC-4A2F-8F8F-371289FE1BFE}" DurationType="OneShot" DurationMin="2.148005" DurationMax="2.148005">
+					<IncludedMemoryFiles>
+						<File Id="888240434" Language="de_de">
+							<ShortName>patrona\residence\euphoric\113198.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\residence\euphoric\113198.ogg_6F4BF542.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749754267" Name="Play_113200_ogg" ObjectPath="\Events\Default Work Unit\Play_113200_ogg" GUID="{5CFC6B80-12D3-47D2-8BA4-1E6CFE677A2C}" DurationType="OneShot" DurationMin="3.214671" DurationMax="3.214671">
+					<IncludedMemoryFiles>
+						<File Id="557030999" Language="de_de">
+							<ShortName>patrona\festivalhall\construction\113200.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113200.ogg_3C23CA29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385851034" Name="Play_113201_ogg" ObjectPath="\Events\Default Work Unit\Play_113201_ogg" GUID="{D56B579B-3333-4754-B621-E53B8B722932}" DurationType="OneShot" DurationMin="3.446667" DurationMax="3.446667">
+					<IncludedMemoryFiles>
+						<File Id="1045273136" Language="de_de">
+							<ShortName>patrona\festivalhall\construction\113201.ogg.wav</ShortName>
+							<Path>Voices\de_de\patrona\festivalhall\construction\113201.ogg_7481CE0E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{A3715632-E0D9-4478-A8C8-ACA760B8B10B}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{55DD40B9-24D2-4B68-8143-1A00ED2DDF8B}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3566333742">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

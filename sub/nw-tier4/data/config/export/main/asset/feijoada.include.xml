@@ -46,6 +46,9 @@
                         <Item>
                             <Asset>1500040025</Asset>
                         </Item>
+                        <Item>
+                            <Asset>1500040218</Asset>
+                        </Item>
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -73,10 +76,16 @@
                             </Tier2>
                         </Item>
                         <Item>
-                            <Building>1500010830</Building>
+                            <Building>1500040218</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500040200</Building>
+                                </Item>
+                            </Tier2>
                         </Item>
                         <Item>
-                            <Building>1441202</Building>
+                            <!-- Vegetable Farm -->
+                            <Building>1500010830</Building>
                         </Item>
                     </Tier1>
                 </ProductionChain>
@@ -253,6 +262,71 @@
                 <EcoSystemProvider />
             </Values>
         </Asset>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040273</GUID>
+                    <Name>Samba School Feijoada Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/public_building/icon_samba_school.png</IconFilename>
+                    <InfoDescription>1500040274</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1500040026</GUID>
+                            <!--agriculture_10 (Vineyard)-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Amazon Garden</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>33510</LineID>
+                </Text>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1500040028</Product>
+                            <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <BuildingUpgrade/>
+                <Buff />
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID = '5840' Path = "/Values/BuffFactory" Type = "merge">
+        <BuffFactory>
+            <ProductionBuffs>
+                <Item>
+                    <ProductivityBuff>1500040273</ProductivityBuff>
+                    <ProductivityThresholdUp>0.9</ProductivityThresholdUp>
+                    <ProductivityThresholdDown>0.7</ProductivityThresholdDown>
+                </Item>
+            </ProductionBuffs>
+            <ProductionBuffScope>Radius</ProductionBuffScope>
+            <ProductionBuffDistance>20</ProductionBuffDistance>
+            <BaseBuffScope>Radius</BaseBuffScope>
+            <BaseBuffDistance>20</BaseBuffDistance>
+        </BuffFactory>
     </ModOp>
 
     <ModOp GUID = '1500040025' Condition = "@1441202" Type = "add" Path = "/Values/ProductionChain/Tier1">
@@ -260,10 +334,10 @@
             <Building>1441202</Building>
         </Item>
     </ModOp>
-    <ModOp GUID = '1500040025' Condition = "!@1441202" Type = "add" Path = "/Values/ProductionChain/Tier1">
+
+    <ModOp GUID = '25000189' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
         <Item>
-            <Building>0</Building>
-            <ForceIcon>1440200</ForceIcon>
+            <Building>1500010830</Building>
         </Item>
     </ModOp>
 

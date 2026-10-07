@@ -52,6 +52,18 @@
                         <Item>
                             <Asset>1440209</Asset>
                         </Item>
+                        <Item>
+                            <Asset>1440224</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500011500</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500010124</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500011458</Asset>
+                        </Item>
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -71,24 +83,34 @@
                     <Building>1500040035</Building>
                     <Tier1>
                         <Item>
-                            <Building>1010316</Building>
+                            <Building>835</Building>
                             <Tier2>
                                 <Item>
-                                    <Building>1010269</Building>
-                                    <ForceIcon>1440209</ForceIcon>
+                                    <Building>1308</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1345</Building>
                                 </Item>
                             </Tier2>
                         </Item>
                         <Item>
-                            <Building>1500010126</Building>
+                            <Building>1500011500</Building>
                             <Tier2>                                
                                 <Item>
                                     <Building>1500010124</Building>
+                                </Item>                       
+                                <Item>
+                                    <Building>1500011458</Building>
                                 </Item>
                             </Tier2>
-                        </Item>
+                        </Item>    
                         <Item>
-                            <Building>1999005407</Building>
+                            <Building>1500040215</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500040200</Building>
+                                </Item>
+                            </Tier2>
                         </Item>
                     </Tier1>
                 </ProductionChain>

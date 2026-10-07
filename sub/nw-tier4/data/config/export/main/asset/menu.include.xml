@@ -22,60 +22,68 @@
               <Patrono>1</Patrono>
             </Item>
             <Item>
+              <Building>1500040219</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
+              <Building>2143505242</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040271</Building>
+              <Patrono>1</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040200</Building>
+              <Patrono>500</Patrono>
+            </Item>
+            <Item>
               <Building>1500040025</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040036</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>120289</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>603336111</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040047</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040001</Building>
-              <Patrono>1</Patrono>
+              <Patrono>500</Patrono>
             </Item>
             <Item>
               <Building>1500040016</Building>
-              <Patrono>1</Patrono>
+              <Patrono>500</Patrono>
             </Item>
             <Item>
-              <Building>1500040006</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040008</Building>
-              <Patrono>1</Patrono>
+              <Building>1500040001</Building>
+              <Patrono>1000</Patrono>
             </Item>
             <Item>
               <Building>1500040012</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>605883300</Building>
-              <Patrono>1</Patrono>
-            </Item>
-            <Item>
-              <Building>1500040050</Building>
-              <Patrono>1</Patrono>
+              <Patrono>1000</Patrono>
             </Item>
             <Item>
               <Building>1500040147</Building>
-              <Patrono>1</Patrono>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040301</Building>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040047</Building>
+              <Patrono>1000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040036</Building>
+              <Patrono>2000</Patrono>
+            </Item>
+            <Item>
+              <Building>1742200041</Building>
+              <Patrono>3000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040006</Building>
+              <Patrono>3000</Patrono>
+            </Item>
+            <Item>
+              <Building>1500040008</Building>
+              <Patrono>3000</Patrono>
             </Item>
             <Item>
               <Building>1500040148</Building>
-              <Patrono>1</Patrono>
+              <Patrono>4000</Patrono>
             </Item>
             <Item>
               <Building>1500040133</Building>
@@ -87,18 +95,366 @@
         <Locked />
       </Values>
     </Asset>
+
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040174</GUID>
+          <Name>Linen OW Chain</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_linen_fabric.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>114391</TextOverride>
+        </Text>
+        <ProductionChain>
+          <Building>1500011500</Building>
+          <Tier1>
+            <Item>
+              <Building>1500010124</Building>
+            </Item>
+            <Item>
+              <Building>1500011458</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040175</GUID>
+          <Name>Manuscript OW Chain</Name>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_literarydraft.png</IconFilename>
+        </Standard>
+        <Text>
+          <TextOverride>1500040149</TextOverride>
+        </Text>
+        <ProductionChain>
+          <Building>1500040130</Building>
+          <Tier1>
+            <Item>
+              <Building>117744</Building>
+            </Item>
+            <Item>
+              <Building>1555000166</Building>
+              <Tier2>
+                <Item>
+                  <Building>135134</Building>
+                  <!--Multifactory_SA_Chemical_Ethanol-->
+                  <Tier3>
+                    <Item>
+                      <Building>101260</Building>
+                      <!--agriculture_colony01_06 (Timber Yard)-->
+                    </Item>
+                    <Item>
+                      <Building>101270</Building>
+                      <!--agriculture_colony01_10 (Corn Farm)-->
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <Building>1010304</Building>
+                </Item>
+                <Item>
+                  <Building>1742100409</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1742100407</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040220</GUID>
+          <Name>PatronoUnlockGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Colored Tiles -->
+            <Item>
+              <Product>1500301073</Product>
+            </Item>
+            <!-- Perfumes-->
+            <Item>
+              <Product>5386</Product>
+            </Item>
+            <Item>
+              <Product>5388</Product>
+            </Item>
+            <!-- Feijoada -->
+            <Item>
+              <Product>1440200</Product>
+            </Item>
+            <Item>
+              <Product>1500010836</Product>
+            </Item>
+            <Item>
+              <Product>1500040028</Product>
+            </Item>
+            <!-- Silverware -->
+            <Item>
+              <Product>24852</Product>
+            </Item>
+            <Item>
+              <Product>24846</Product>
+            </Item>
+            <Item>
+              <Product>24821</Product>
+            </Item>
+            <Item>
+              <!-- Silver Bars -->
+              <Product>1957006151</Product>
+            </Item>
+            <Item>
+              <Product>1500040005</Product>
+            </Item>
+            <!-- Fedoras -->
+            <Item>
+              <Product>1555000124</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>1440209</Product>
+            </Item>
+            <Item>
+              <Product>1440224</Product>
+            </Item>
+            <Item>
+              <Product>114365</Product>
+            </Item>
+            <Item>
+              <Product>114391</Product>
+            </Item>
+            <Item>
+              <Product>1500040032</Product>
+            </Item>
+            <!-- Automobiles -->
+            <Item>
+              <Product>1440023</Product>
+            </Item>
+            <!-- Investment Bank: Silver Coins -->
+            <Item>
+              <Product>24851</Product>
+            </Item>
+            <!-- Artwork -->
+            <Item>
+              <Product>1999005069</Product>
+            </Item>
+            <!-- Manuscript -->
+            <Item>
+              <!-- Galena -->
+              <Product>1742100433</Product>
+            </Item>
+            <Item>
+              <!-- Lead -->
+              <Product>1742100435</Product>
+            </Item>
+            <Item>
+              <!-- Ink -->
+              <Product>1555000161</Product>
+            </Item>
+            <Item>
+              <!-- Manuscript -->
+              <Product>1500040149</Product>
+            </Item>
+            <!-- Sheet Music -->
+            <Item>
+              <Product>1742110023</Product>
+            </Item>
+            <Item>
+              <Product>1500040131</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040221</GUID>
+          <Name>PatronoConsumerGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Perfumes-->
+            <Item>
+              <Product>5388</Product>
+            </Item>
+            <!-- Feijoada -->
+            <Item>
+              <Product>1500040028</Product>
+            </Item>
+            <!-- Silverware -->
+            <Item>
+              <Product>1500040005</Product>
+            </Item>
+            <!-- Fedoras -->
+            <Item>
+              <Product>1555000124</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>1500040032</Product>
+            </Item>
+            <!-- Automobiles -->
+            <Item>
+              <Product>1440023</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040222</GUID>
+          <Name>PatronoIntermediateGoods</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_artisan.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <!-- Feijoada -->
+            <!-- Silverware -->
+            <Item>
+              <Product>24852</Product>
+            </Item>
+            <Item>
+              <Product>24846</Product>
+            </Item>
+            <Item>
+              <Product>24821</Product>
+            </Item>
+            <Item>
+              <!-- Silver Bars -->
+              <Product>1957006151</Product>
+            </Item>
+            <!-- Parasols-->
+            <Item>
+              <Product>114391</Product>
+            </Item>
+            <Item>
+              <Product>1440209</Product>
+            </Item>
+            <!-- Automobiles -->
+            <!-- Investment Bank: Silver Coins -->
+            <!-- Artwork -->
+            <Item>
+              <!-- Canvas -->
+              <Product>1500040279</Product>
+            </Item>
+            <!-- Manuscript -->
+            <Item>
+              <!-- Lead -->
+              <Product>1742100435</Product>
+            </Item>
+            <Item>
+              <!-- Ink -->
+              <Product>1555000161</Product>
+            </Item>
+            <!-- Sheet Music -->
+            <Item>
+              <Product>1742110023</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
   </ModOp>
-  <ModOp Type="addNextSibling" GUID="25000035"
-    Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
+
+  <ModOp GUID = '502081,502035,502031,502034,15504022' Path ="/Values/ProductList/List/Item[Product='7398']" Type = "addNextSibling">
+    <Item>
+      <Product>1500040221</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '502078,502080,502028,502068,502016,502065,502220,502027,502067,15504021,15504020' Path ="/Values/ProductList/List/Item[Product='7397']" Type = "addNextSibling">
+    <Item>
+      <Product>1500040220</Product>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '502044' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1500040222</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp GUID = '502038' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1440200</Product>
+    </Item>
+    <Item>
+      <Product>1500010836</Product>
+    </Item>
+  </ModOp>
+
+  <!-- Add tiles to construction materials -->
+  <ModOp GUID = '501957,502168,502221' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1500301073</Product>
+    </Item>
+  </ModOp>
+  <!-- Add Silver Ore and Galena to Mining -->
+  <ModOp GUID = '502050' Path ="/Values/ProductList/List" Type = "add">
+    <Item>
+      <Product>1742100433</Product>
+    </Item>
+    <Item>
+      <Product>6360</Product>
+    </Item>
+  </ModOp>
+
+  <ModOp GUID = '5811' Type = "addNextSibling">
+    <Asset>
+      <BaseAssetGUID>5811</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500040219</GUID>
+          <Name>Patrono Perfume Chain</Name>
+        </Standard>
+        <Text>
+          <TextOverride>5811</TextOverride>
+        </Text>
+        <ProductionChain />
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='5466']">
     <Item>
       <Category>1500011556</Category>
     </Item>
   </ModOp>
-  <ModOp Type="addNextSibling" GUID="1500011556"
-    Path="/Values/ConstructionCategory/BuildingList/Item[Patrono&lt;=0]">
+
+  <ModOp GUID = '25000190' Path = "/Values/ConstructionCategory/BuildingList" Type = "add">
     <Item>
-      <Building>1500011040</Building>
-      <Patrono>0</Patrono>
+      <Building>1500040174</Building>
+      <Worker>1000</Worker>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040174')]" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>1500040174</Building>
+      <Worker>1000</Worker>
     </Item>
   </ModOp>
 </ModOps>

@@ -6,7 +6,7 @@
         <Standard>
           <GUID>1500011557</GUID>
           <Name>Patronos</Name>
-          <IconFilename>data\ui\2kimages\main\3dicons\specialists\systemic\icon_travelagent_516.png</IconFilename>
+          <IconFilename>data\ui\jje\3dicons\population\icon_resident_patrono.png</IconFilename>
         </Standard>
         <PopulationLevel7>
           <PopulationInputs>
@@ -39,6 +39,20 @@
               <Artista>1800</Artista>
             </Item>
             <Item>
+              <Product>5395</Product>
+              <Amount>5.2E-05</Amount>
+              <SupplyWeight>3</SupplyWeight>
+              <MoneyValue>80</MoneyValue>
+              <Artista>4000</Artista>
+            </Item>
+            <Item>
+              <Product>5391</Product>
+              <Amount>2.898E-05</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>90</MoneyValue>
+              <Artista>6000</Artista>
+            </Item>
+            <Item>
               <Product>5382</Product>
               <Amount>8.99E-05</Amount>
               <HappinessValue>4</HappinessValue>
@@ -52,6 +66,12 @@
               <Artista>2700</Artista>
             </Item>
             <Item>
+              <Product>5830</Product>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <Artista>4000</Artista>
+            </Item>
+            <Item>
               <Product>5388</Product>
               <Amount>0.000833333</Amount>
               <SupplyWeight>3</SupplyWeight>
@@ -59,37 +79,7 @@
               <Artista>2700</Artista>
             </Item>
             <Item>
-              <Product>5395</Product>
-              <Amount>5.2E-05</Amount>
-              <SupplyWeight>3</SupplyWeight>
-              <MoneyValue>80</MoneyValue>
-              <Artista>4000</Artista>
-            </Item>
-            <Item>
-              <Product>5830</Product>
-              <HappinessValue>6</HappinessValue>
-              <MoneyValue>40</MoneyValue>
-              <Artista>4000</Artista>
-            </Item>
-            <Item>
-              <Product>5391</Product>
-              <Amount>2.898E-05</Amount>
-              <SupplyWeight>5</SupplyWeight>
-              <MoneyValue>90</MoneyValue>
-              <Artista>6000</Artista>
-            </Item>
-            <Item>
-              <Product>114414</Product>
-              <SupplyWeight>5</SupplyWeight>
-              <MoneyValue>30</MoneyValue>
-            </Item>
-            <Item>
-              <Product>1010354</Product>
-              <SupplyWeight>5</SupplyWeight>
-              <MoneyValue>30</MoneyValue>
-            </Item>
-            <Item>
-              <Product>1555000124</Product>
+              <Product>1500040028</Product>
               <SupplyWeight>5</SupplyWeight>
               <MoneyValue>30</MoneyValue>
             </Item>
@@ -99,7 +89,12 @@
               <MoneyValue>30</MoneyValue>
             </Item>
             <Item>
-              <Product>114431</Product>
+              <Product>1555000124</Product>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>30</MoneyValue>
+            </Item>
+            <Item>
+              <Product>1500040032</Product>
               <SupplyWeight>5</SupplyWeight>
               <MoneyValue>30</MoneyValue>
             </Item>
@@ -109,7 +104,7 @@
               <MoneyValue>30</MoneyValue>
             </Item>
             <Item>
-              <Product>1500040005</Product>
+              <Product>1500040013</Product>
               <HappinessValue>2</HappinessValue>
               <MoneyValue>30</MoneyValue>
             </Item>
@@ -119,7 +114,7 @@
               <MoneyValue>30</MoneyValue>
             </Item>
             <Item>
-              <Product>1500040013</Product>
+              <Product>1500040005</Product>
               <HappinessValue>2</HappinessValue>
               <MoneyValue>30</MoneyValue>
             </Item>
@@ -239,7 +234,6 @@
           <StorageLevel>Area</StorageLevel>
           <DeltaOnly>1</DeltaOnly>
           <IsWorkforce>1</IsWorkforce>
-          <CanUseWorkforceTransfer>0</CanUseWorkforceTransfer>
         </Product>
       </Values>
     </Asset>
@@ -299,15 +293,15 @@
     </Asset>
   </ModOp>
 
-    <!-- global population -->
-    <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='5403']">
-      <Item>
-        <PopulationLevel>1500011557</PopulationLevel>
-      </Item>
-    </ModOp>
-    <!-- <WorkforceOrder> -->
-    <!-- product filters -->
-    <!-- <ModOp Type="add" GUID="501962" Path="/Values/KeywordFilter/Keywords">
+  <!-- global population -->
+  <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='5403']">
+    <Item>
+      <PopulationLevel>1500011557</PopulationLevel>
+    </Item>
+  </ModOp>
+  <!-- <WorkforceOrder> -->
+  <!-- product filters -->
+  <!-- <ModOp Type="add" GUID="501962" Path="/Values/KeywordFilter/Keywords">
       <Item>
         <Keyword>1500011557</Keyword>
         <ProductList>1500010140</ProductList>
@@ -317,26 +311,31 @@
         <ProductList>1500010140</ProductList>
       </Item>
     </ModOp> -->
-    <!-- residence UI: append -->
-    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
-      <Item>
-        <PopulationLevel>1500011557</PopulationLevel>
-        <AssignedConfig>502287</AssignedConfig>
-      </Item>
-    </ModOp>
-
-  <!-- <ModOp Type="add" GUID="15000083"
-    Path="/Values/PopulationGroup7/PopulationLevels">
+  <!-- residence UI: append -->
+  <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
     <Item>
-      <Level>1500011557</Level>
+      <PopulationLevel>1500011557</PopulationLevel>
+      <AssignedConfig>502287</AssignedConfig>
     </Item>
-  </ModOp> -->
+  </ModOp>
 
   <!-- Add Patronos to Workforce Balancing for Docklands Values -->
   <ModOp GUID = '142977' Path = "/Values/GoodValueBalancing/WorkforceData/Colony01/Tiers" Type = "add">
     <Item>
       <WorkforceValue>5</WorkforceValue>
       <WorkforceGUID>1500011558</WorkforceGUID>
+    </Item>
+  </ModOp>
+
+  <!-- Add Patrono Workforce to Workforce Lists-->
+  <ModOp GUID = '25000087' Path = "/Values/WorkforceMenu/WorkforceList/Item[Asset='5406']" Type = "addNextSibling">
+    <Item>
+      <Asset>1500011558</Asset>
+    </Item>
+  </ModOp>
+  <ModOp GUID = '25000121' Path = "/Values/IslandBarScene/WorkforceOrder/Item[WorkforceEntry='5406']" Type = "addNextSibling">
+    <Item>
+      <WorkforceEntry>1500011558</WorkforceEntry>
     </Item>
   </ModOp>
 </ModOps>

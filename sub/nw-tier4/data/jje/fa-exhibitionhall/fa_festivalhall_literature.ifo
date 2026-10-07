@@ -182,7 +182,7 @@
 		<Name>BoundingBox</Name>
 		<Position>
 			<xf>-0.149963</xf>
-			<yf>4.046525</yf>
+			<yf>5.485972</yf>
 			<zf>-0.244091</zf>
 		</Position>
 		<Rotation>
@@ -193,7 +193,7 @@
 		</Rotation>
 		<Extents>
 			<xf>14.036810</xf>
-			<yf>7.641321</yf>
+			<yf>8.023387</yf>
 			<zf>9.438734</zf>
 		</Extents>
 	</BoundingBox>

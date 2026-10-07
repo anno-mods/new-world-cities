@@ -1,6 +1,33 @@
 <ModOps>
   <ModOp Type = "addNextSibling" GUID = "1010516">
-    
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040279</GUID>
+          <Name>Canvas</Name>
+          <IconFilename>data/ui/jje/3dicons/goods/icon_canvas.png</IconFilename>
+          <InfoDescription>1500040281</InfoDescription>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>25</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -166,7 +193,7 @@
           <SocketAllocation>RadiusBuilding;Mod12</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -206,6 +233,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -313,7 +344,7 @@
           <SocketAllocation>RadiusBuilding;Mod13</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -353,6 +384,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -460,7 +495,7 @@
           <SocketAllocation>RadiusBuilding;Mod14</SocketAllocation>
           <SocketScopeRadius>35</SocketScopeRadius>
           <UnsocketSound>247106</UnsocketSound>
-          <SocketScope>StreetDistance</SocketScope>
+          <SocketScope>Radius</SocketScope>
           <SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
         </ItemContainer>
         <UpgradeList />
@@ -500,6 +535,10 @@
             </Item>
           </PublicServiceOutputs>
         </PublicService>
+        <BuildPermit>
+          <VisibleWithoutPermits>1</VisibleWithoutPermits>
+          <PermitSource>125310</PermitSource>
+        </BuildPermit>
       </Values>
     </Asset>
     <Asset>
@@ -560,6 +599,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
 
@@ -621,6 +661,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
 
@@ -682,6 +723,7 @@
         <Distribution />
         <InfluenceSource />
         <BuildingUnique />
+        <BuildPermit />
       </Values>
     </Asset>
     <Asset>
@@ -690,7 +732,8 @@
         <Standard>
           <GUID>1500040047</GUID>
           <Name>Fine Arts Menu NW</Name>
-          <IconFilename>icon_finearts_menu</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
+          <InfoDescription>1500040046</InfoDescription>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -704,6 +747,7 @@
               <Building>1500040039</Building>
             </Item>
           </BuildingList>
+          <CategoryDescription>1500040046</CategoryDescription>
         </ConstructionCategory>
         <Text>
           <LocaText>
@@ -723,7 +767,8 @@
         <Standard>
           <GUID>1500040048</GUID>
           <Name>Fine Arts Menu OW</Name>
-          <IconFilename>icon_finearts_menu</IconFilename>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_opera.png</IconFilename>
+          <InfoDescription>1500040046</InfoDescription>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -737,6 +782,7 @@
               <Building>1500040045</Building>
             </Item>
           </BuildingList>
+          <CategoryDescription>1500040046</CategoryDescription>
         </ConstructionCategory>
         <Text>
           <LocaText>
@@ -755,25 +801,324 @@
       <Template>MonumentColony</Template>
       <Values>
         <Standard>
-          <GUID>1500040050</GUID>
-          <Name>Public Pavilion</Name>
+          <GUID>1500040301</GUID>
+          <Name>Festival Hall - Foundations</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_festival_hall.png</IconFilename>
           <InfoDescription>1500040051</InfoDescription>
         </Standard>
         <Building>
+          <PickingAsset>1500040301</PickingAsset>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
           <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
-        <Blocking />
+        <Blocking/>
         <Cost>
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>300000</Amount>
+              <Amount>100000</Amount>
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>150</Amount>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040050</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <GUIType>Monument</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010196</Product>
+              <Amount>5</Amount>
+              <StorageAmount>150</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010231</Product>
+              <Amount>10</Amount>
+              <StorageAmount>300</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+        </LogisticNode>
+        <Monument>
+          <UpgradeTarget>1500040302</UpgradeTarget>
+          <MicrophaseCount>30</MicrophaseCount>
+          <UnfinishedIcon>500422</UnfinishedIcon>
+          <FinishedIcon>500422</FinishedIcon>
+          <ShutdownText>1500040082</ShutdownText>
+          <MonumentFluff>1500040304</MonumentFluff>
+          <MonumentHeadline>1500040050</MonumentHeadline>
+          <BackgroundImage>
+            <Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_00.png</Blueprint>
+            <PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_01.png</PhasePlanned>
+            <PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_01_coloured.png</PhaseFinished>
+          </BackgroundImage>
+          <ProgressbarHeight>50</ProgressbarHeight>
+        </Monument>
+        <Culture/>
+        <AmbientMoodProvider>
+          <Murmur>MonumentConstruction</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010366</Product>
+              <Amount>500</Amount>
+              <ShutdownThreshold>0.4</ShutdownThreshold>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>10000</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Mod14</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <UpgradeList/>
+        <Industrializable/>
+        <QuestObject/>
+        <Electrifiable/>
+        <BusActivation/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentColony</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040302</GUID>
+          <Name>Festival Hall - Superstructure</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_festival_hall.png</IconFilename>
+          <InfoDescription>1500040051</InfoDescription>
+        </Standard>
+        <Building>
+          <PickingAsset>1500040301</PickingAsset>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>100000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>250</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010231</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040050</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <GUIType>Monument</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200863</Sound>
+            </Item>
+          </ActiveSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010205</Product>
+              <Amount>10</Amount>
+              <StorageAmount>300</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010202</Product>
+              <Amount>10</Amount>
+              <StorageAmount>300</StorageAmount>
+            </Item>
+            <Item>
+              <Product>838</Product>
+              <Amount>5</Amount>
+              <StorageAmount>150</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010218</Product>
+              <Amount>5</Amount>
+              <StorageAmount>150</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+        </LogisticNode>
+        <Monument>
+          <UpgradeTarget>1500040303</UpgradeTarget>
+          <MicrophaseCount>30</MicrophaseCount>
+          <UnfinishedIcon>500414</UnfinishedIcon>
+          <FinishedIcon>500418</FinishedIcon>
+          <ShutdownText>1500040082</ShutdownText>
+          <MonumentFluff>1500040305</MonumentFluff>
+          <MonumentHeadline>1500040050</MonumentHeadline>
+          <BackgroundImage>
+            <Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_00.png</Blueprint>
+            <PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_02.png</PhasePlanned>
+            <PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_02_coloured.png</PhaseFinished>
+          </BackgroundImage>
+          <ProgressbarHeight>65</ProgressbarHeight>
+        </Monument>
+        <Culture/>
+        <AmbientMoodProvider>
+          <Murmur>MonumentConstruction</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010367</Product>
+              <Amount>1000</Amount>
+              <ShutdownThreshold>0.4</ShutdownThreshold>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>10000</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Mod14</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <UpgradeList/>
+        <Industrializable/>
+        <QuestObject/>
+        <Electrifiable/>
+        <BusActivation/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentColony</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040303</GUID>
+          <Name>Festival Hall - Glazing</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_festival_hall.png</IconFilename>
+          <InfoDescription>1500040051</InfoDescription>
+        </Standard>
+        <Building>
+          <PickingAsset>1500040301</PickingAsset>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>100000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>250</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
@@ -785,14 +1130,221 @@
             </Item>
             <Item>
               <Ingredient>1010202</Ingredient>
-              <Amount>450</Amount>
+              <Amount>400</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010231</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <Amount>150</Amount>
             </Item>
           </Costs>
         </Cost>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc12/graphics/buildings/public/stadium/stadium_03.cfg</Filename>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1500040050</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+          </Skins>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <GUIType>Monument</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200865</Sound>
+            </Item>
+          </ActiveSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010207</Product>
+              <Amount>10</Amount>
+              <StorageAmount>300</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010249</Product>
+              <Amount>5</Amount>
+              <StorageAmount>150</StorageAmount>
+            </Item>
+            <Item>
+              <Product>6280</Product>
+              <Amount>5</Amount>
+              <StorageAmount>150</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1500301073</Product>
+              <Amount>10</Amount>
+              <StorageAmount>300</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <CycleTime>60</CycleTime>
+        </FactoryBase>
+        <LogisticNode>
+          <TransporterCountMax>2</TransporterCountMax>
+        </LogisticNode>
+        <Monument>
+          <UpgradeTarget>1500040050</UpgradeTarget>
+          <MicrophaseCount>30</MicrophaseCount>
+          <UnfinishedIcon>500415</UnfinishedIcon>
+          <FinishedIcon>500419</FinishedIcon>
+          <ShutdownText>1500040082</ShutdownText>
+          <MonumentFluff>1500040306</MonumentFluff>
+          <MonumentHeadline>1500040050</MonumentHeadline>
+          <BackgroundImage>
+            <Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_00.png</Blueprint>
+            <PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_03.png</PhasePlanned>
+            <PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/monument_worldfair_03_coloured.png</PhaseFinished>
+          </BackgroundImage>
+          <ProgressbarHeight>70</ProgressbarHeight>
+        </Monument>
+        <Culture/>
+        <AmbientMoodProvider>
+          <Murmur>MonumentConstruction</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>5406</Product>
+              <Amount>1500</Amount>
+              <ShutdownThreshold>0.4</ShutdownThreshold>
+            </Item>
+          </Maintenances>
+          <ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>10000</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Mod14</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
+        <UpgradeList/>
+        <Industrializable/>
+        <QuestObject/>
+        <Electrifiable/>
+        <BusActivation/>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentColony</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040050</GUID>
+          <Name>Public Pavilion</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_festival_hall.png</IconFilename>
+          <InfoDescription>1500040051</InfoDescription>
+        </Standard>
+        <Building>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <PickingAsset>1500040301</PickingAsset>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>100000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>250</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>400</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010231</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>838</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010249</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>6280</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1500301073</Ingredient>
+              <Amount>300</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_music.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_art.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/jje/fa-exhibitionhall/fa_festivalhall_literature.cfg</Filename>
             </Item>
           </Variations>
           <Skins>
@@ -896,6 +1448,7 @@
             <EventConclusionText>1500040090</EventConclusionText>
             <InvestmentContribution>1500040091</InvestmentContribution>
           </EventUITexts>
+			    <ProgressbarHeight>150</ProgressbarHeight>
         </Monument>
         <Culture>
           <Attractiveness>500</Attractiveness>
@@ -914,7 +1467,14 @@
           <SelfHealPerHealTick>6</SelfHealPerHealTick>
         </Attackable>
         <Pausable />
-        <BuildingUnique />
+        <BuildingUnique>
+          <Uniques>
+            <Item>
+              <UniqueType>Mod14</UniqueType>
+              <UniqueScope>Area</UniqueScope>
+            </Item>
+          </Uniques>
+        </BuildingUnique>
         <UpgradeList />
         <Industrializable>
           <MandatoryIndustrialization>1</MandatoryIndustrialization>
@@ -938,6 +1498,12 @@
           <Events>
             <Item>
               <Event>1500040062</Event>
+            </Item>
+            <Item>
+              <Event>1500040225</Event>
+            </Item>
+            <Item>
+              <Event>1500040226</Event>
             </Item>
           </Events>
           <PotentialCategoryReward>1500040055</PotentialCategoryReward>
@@ -963,6 +1529,12 @@
             <Item>
               <Event>1500040061</Event>
             </Item>
+            <Item>
+              <Event>1500040223</Event>
+            </Item>
+            <Item>
+              <Event>1500040224</Event>
+            </Item>
           </Events>
           <PotentialCategoryReward>1500040057</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040058</CategoryDescriptionFluff>
@@ -986,6 +1558,12 @@
             <Item>
               <Event>1500040063</Event>
             </Item>
+            <Item>
+              <Event>1500040227</Event>
+            </Item>
+            <Item>
+              <Event>1500040228</Event>
+            </Item>
           </Events>
           <PotentialCategoryReward>1500040059</PotentialCategoryReward>
           <CategoryDescriptionFluff>1500040060</CategoryDescriptionFluff>
@@ -1000,7 +1578,120 @@
       <Values>
         <Standard>
           <GUID>1500040061</GUID>
-          <Name>Event Art</Name>
+          <Name>Event Art Small</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040064</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
+          <SelectionText>1500040065</SelectionText>
+          <RunningText>1500040066</RunningText>
+          <RewardText>1500040067</RewardText>
+          <PotentialEventReward>1500040068</PotentialEventReward>
+          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040070</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040069</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040080</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040076</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040077</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>2</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040223</GUID>
+          <Name>Event Art Medium</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
         </Standard>
         <Text>
@@ -1020,58 +1711,68 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040064</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
           <SelectionText>1500040065</SelectionText>
           <RunningText>1500040066</RunningText>
           <RewardText>1500040067</RewardText>
           <PotentialEventReward>1500040068</PotentialEventReward>
-          <MaxPreparationAttractiveness>400</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>700</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
-              <MinAmount>25</MinAmount>
-              <MaxAmount>50</MaxAmount>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
               <GoodsOrPool>1500040070</GoodsOrPool>
             </Item>
             <Item>
-              <MinAmount>50</MinAmount>
-              <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040071</GoodsOrPool>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040178</GoodsOrPool>
             </Item>
             <Item>
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040072</GoodsOrPool>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040069</ShortSizeName>
+          <ShortSizeName>1500040235</ShortSizeName>
           <RewardThresholds>
             <Item>
+              <Reward>1500040080</Reward>
+            </Item>
+            <Item>
               <Reward>1500040076</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040077</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
+              <NeededAttractiveness>450</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040078</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040079</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040080</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>650</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1091,11 +1792,11 @@
             </TextThresholds>
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
-          <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
-              <VariationIndex>0</VariationIndex>
+              <VariationIndex>2</VariationIndex>
             </Item>
           </MonumentVariations>
           <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
@@ -1104,7 +1805,144 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040224</GUID>
+          <Name>Event Art Big</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_arts.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040064</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_art.png</BackgroundReward>
+          <SelectionText>1500040065</SelectionText>
+          <RunningText>1500040066</RunningText>
+          <RewardText>1500040067</RewardText>
+          <PotentialEventReward>1500040068</PotentialEventReward>
+          <MaxPreparationAttractiveness>900</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040070</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040179</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040181</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040183</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040184</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040236</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040080</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040076</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040077</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040078</Reward>
+              <NeededAttractiveness>650</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040079</Reward>
+              <NeededAttractiveness>850</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>2</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1116,7 +1954,124 @@
       <Values>
         <Standard>
           <GUID>1500040062</GUID>
-          <Name>Event Music</Name>
+          <Name>Event Music Small</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040092</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
+          <SelectionText>1500040093</SelectionText>
+          <RunningText>1500040094</RunningText>
+          <RewardText>1500040095</RewardText>
+          <PotentialEventReward>1500040096</PotentialEventReward>
+          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040098</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040097</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040232</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040231</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040107</Reward>
+              <NeededAttractiveness>350</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040108</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>1</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040225</GUID>
+          <Name>Event Music Medium</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
         </Standard>
         <Text>
@@ -1136,58 +2091,76 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040092</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
           <SelectionText>1500040093</SelectionText>
           <RunningText>1500040094</RunningText>
           <RewardText>1500040095</RewardText>
           <PotentialEventReward>1500040096</PotentialEventReward>
-          <MaxPreparationAttractiveness>400</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>700</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
-              <MinAmount>25</MinAmount>
-              <MaxAmount>50</MaxAmount>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
               <GoodsOrPool>1500040098</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040178</GoodsOrPool>
             </Item>
             <Item>
               <MinAmount>50</MinAmount>
               <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040099</GoodsOrPool>
+              <GoodsOrPool>1500040180</GoodsOrPool>
             </Item>
             <Item>
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040100</GoodsOrPool>
+              <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040097</ShortSizeName>
+          <ShortSizeName>1500040237</ShortSizeName>
           <RewardThresholds>
             <Item>
-              <Reward>1500040104</Reward>
+              <Reward>1500040232</Reward>
             </Item>
             <Item>
-              <Reward>1500040105</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040106</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
+              <Reward>1500040231</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040107</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
+              <NeededAttractiveness>350</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040108</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040106</Reward>
+              <NeededAttractiveness>550</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040105</Reward>
+              <NeededAttractiveness>650</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1207,11 +2180,11 @@
             </TextThresholds>
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
-          <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
-              <VariationIndex>0</VariationIndex>
+              <VariationIndex>1</VariationIndex>
             </Item>
           </MonumentVariations>
           <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
@@ -1220,7 +2193,152 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040226</GUID>
+          <Name>Event Music Huge</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_music.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040092</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_music.png</BackgroundReward>
+          <SelectionText>1500040093</SelectionText>
+          <RunningText>1500040094</RunningText>
+          <RewardText>1500040095</RewardText>
+          <PotentialEventReward>1500040096</PotentialEventReward>
+          <MaxPreparationAttractiveness>900</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040098</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040179</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040181</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040183</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040184</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040238</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040232</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040231</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040107</Reward>
+              <NeededAttractiveness>350</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040108</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040106</Reward>
+              <NeededAttractiveness>550</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040105</Reward>
+              <NeededAttractiveness>650</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040104</Reward>
+              <NeededAttractiveness>850</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>1</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1231,7 +2349,120 @@
       <Values>
         <Standard>
           <GUID>1500040063</GUID>
-          <Name>Event Literature</Name>
+          <Name>Event Literature Small</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>2500</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040110</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
+          <SelectionText>1500040111</SelectionText>
+          <RunningText>1500040112</RunningText>
+          <RewardText>1500040113</RewardText>
+          <PotentialEventReward>1500040114</PotentialEventReward>
+          <MaxPreparationAttractiveness>500</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040116</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040177</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040180</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040115</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040126</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040122</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040123</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040177</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>3</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040227</GUID>
+          <Name>Event Literature Medium</Name>
           <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
         </Standard>
         <Text>
@@ -1251,14 +2482,14 @@
           <NeededWorkforceAmount>5000</NeededWorkforceAmount>
           <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
           <DescriptionFluff>1500040110</DescriptionFluff>
-          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundPreparation>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
           <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
           <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
           <SelectionText>1500040111</SelectionText>
           <RunningText>1500040112</RunningText>
           <RewardText>1500040113</RewardText>
           <PotentialEventReward>1500040114</PotentialEventReward>
-          <MaxPreparationAttractiveness>400</MaxPreparationAttractiveness>
+          <MaxPreparationAttractiveness>700</MaxPreparationAttractiveness>
           <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
           <PreparationGoods>
             <Item>
@@ -1267,42 +2498,52 @@
               <GoodsOrPool>1500040116</GoodsOrPool>
             </Item>
             <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040178</GoodsOrPool>
+            </Item>
+            <Item>
               <MinAmount>50</MinAmount>
               <MaxAmount>100</MaxAmount>
-              <GoodsOrPool>1500040117</GoodsOrPool>
+              <GoodsOrPool>1500040180</GoodsOrPool>
             </Item>
             <Item>
               <MinAmount>25</MinAmount>
               <MaxAmount>50</MaxAmount>
-              <GoodsOrPool>1500040118</GoodsOrPool>
+              <GoodsOrPool>1500040182</GoodsOrPool>
             </Item>
           </PreparationGoods>
-          <ShortSizeName>1500040115</ShortSizeName>
+          <ShortSizeName>1500040239</ShortSizeName>
           <RewardThresholds>
             <Item>
+              <Reward>1500040126</Reward>
+            </Item>
+            <Item>
               <Reward>1500040122</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040123</Reward>
-              <NeededAttractiveness>100</NeededAttractiveness>
+              <NeededAttractiveness>450</NeededAttractiveness>
             </Item>
             <Item>
               <Reward>1500040124</Reward>
-              <NeededAttractiveness>200</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040125</Reward>
-              <NeededAttractiveness>300</NeededAttractiveness>
-            </Item>
-            <Item>
-              <Reward>1500040126</Reward>
-              <NeededAttractiveness>400</NeededAttractiveness>
+              <NeededAttractiveness>650</NeededAttractiveness>
             </Item>
           </RewardThresholds>
           <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
           <RequirementText>
             <Item>
               <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040178</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040180</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
             </Item>
           </RequirementText>
           <FeedbackTexts>
@@ -1322,11 +2563,11 @@
             </TextThresholds>
           </FeedbackTexts>
           <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
-          <CooldownAfterEvent>1200000</CooldownAfterEvent>
-          <IsBlockingEvent>1</IsBlockingEvent>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
           <MonumentVariations>
             <Item>
-              <VariationIndex>0</VariationIndex>
+              <VariationIndex>3</VariationIndex>
             </Item>
           </MonumentVariations>
           <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
@@ -1335,7 +2576,144 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>25000</Amount>
+              <Amount>30000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEvent</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040228</GUID>
+          <Name>Event Literature Big</Name>
+          <IconFilename>data/ui/jje/3dicons/construction/icon_academy_writers.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Local Championship</Text>
+              <Status>Localization</Status>
+            </English>
+          </LocaText>
+          <LineID>60326</LineID>
+        </Text>
+        <Locked />
+        <MonumentEvent>
+          <PreparationTime>1200000</PreparationTime>
+          <EventDuration>600000</EventDuration>
+          <NeededWorkforce>1500011558</NeededWorkforce>
+          <NeededWorkforceAmount>10000</NeededWorkforceAmount>
+          <MaxUsableWorkforceAmount>10000</MaxUsableWorkforceAmount>
+          <DescriptionFluff>1500040110</DescriptionFluff>
+          <BackgroundPreparation>data/ui/jje/assets/monument_event/monument_event_artpreparation.png</BackgroundPreparation>
+          <BackgroundRunning>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundRunning>
+          <BackgroundReward>data/ui/jje/assets/monument_event/monument_event_literature.png</BackgroundReward>
+          <SelectionText>1500040111</SelectionText>
+          <RunningText>1500040112</RunningText>
+          <RewardText>1500040113</RewardText>
+          <PotentialEventReward>1500040114</PotentialEventReward>
+          <MaxPreparationAttractiveness>900</MaxPreparationAttractiveness>
+          <MinPreparationAttractiveness>100</MinPreparationAttractiveness>
+          <PreparationGoods>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040116</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040179</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>100</MinAmount>
+              <MaxAmount>200</MaxAmount>
+              <GoodsOrPool>1500040181</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>50</MinAmount>
+              <MaxAmount>100</MaxAmount>
+              <GoodsOrPool>1500040183</GoodsOrPool>
+            </Item>
+            <Item>
+              <MinAmount>25</MinAmount>
+              <MaxAmount>50</MaxAmount>
+              <GoodsOrPool>1500040184</GoodsOrPool>
+            </Item>
+          </PreparationGoods>
+          <ShortSizeName>1500040240</ShortSizeName>
+          <RewardThresholds>
+            <Item>
+              <Reward>1500040126</Reward>
+            </Item>
+            <Item>
+              <Reward>1500040122</Reward>
+              <NeededAttractiveness>250</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040123</Reward>
+              <NeededAttractiveness>450</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040124</Reward>
+              <NeededAttractiveness>650</NeededAttractiveness>
+            </Item>
+            <Item>
+              <Reward>1500040125</Reward>
+              <NeededAttractiveness>850</NeededAttractiveness>
+            </Item>
+          </RewardThresholds>
+          <ReduceAttractivenessPerMinute>50</ReduceAttractivenessPerMinute>
+          <RequirementText>
+            <Item>
+              <Requirement>14724</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040179</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040182</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040183</Requirement>
+            </Item>
+            <Item>
+              <Requirement>1500040184</Requirement>
+            </Item>
+          </RequirementText>
+          <FeedbackTexts>
+            <TextThresholds>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>MonumentEvent</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <TextGroup>-1468754240</TextGroup>
+              </Item>
+            </TextThresholds>
+          </FeedbackTexts>
+          <MonumentEventTypeSwitch>201758</MonumentEventTypeSwitch>
+          <CooldownAfterEvent>0</CooldownAfterEvent>
+          <IsBlockingEvent>0</IsBlockingEvent>
+          <MonumentVariations>
+            <Item>
+              <VariationIndex>3</VariationIndex>
+            </Item>
+          </MonumentVariations>
+          <EventMurmurType>DLC12_Stadium_Football</EventMurmurType>
+        </MonumentEvent>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50000</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -1348,54 +2726,14 @@
       <Values>
         <Standard>
           <GUID>1500040070</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
+          <Name>RequestPool Art</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040073</InfoDescription>
         </Standard>
         <RewardPool>
           <ItemsPool>
             <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040071</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040074</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040072</GUID>
-          <Name>RequestPool Slot 1 Art</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040075</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
+              <ItemLink>1999005069</ItemLink>
             </Item>
           </ItemsPool>
         </RewardPool>
@@ -1408,24 +2746,41 @@
       <Values>
         <Standard>
           <GUID>1500040076</GUID>
-          <Name>Arts1</Name>
+          <Name>Arts1 - Romanticism and the Sublime</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040543</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Romanticism and the Sublime</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60337</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040502</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040506</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040510</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040512</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040526</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1436,24 +2791,41 @@
       <Values>
         <Standard>
           <GUID>1500040077</GUID>
-          <Name>Arts2</Name>
+          <Name>Arts2 - Impressionism and Modern Life</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040544</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Impressionism and Modern Life</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60338</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040516</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040520</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040522</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040524</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040534</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1464,24 +2836,37 @@
       <Values>
         <Standard>
           <GUID>1500040078</GUID>
-          <Name>Arts3</Name>
+          <Name>Arts3 - Aestheticism, Symbolism, and Art Nouveau</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040545</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Aestheticism, Symbolism, and Art Nouveau</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60339</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040500</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040518</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040514</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040530</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1492,24 +2877,37 @@
       <Values>
         <Standard>
           <GUID>1500040079</GUID>
-          <Name>Arts4</Name>
+          <Name>Arts4 - Realism, Social Art, and New Visual Languages</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040546</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Realism, Social Art, and New Visual Languages</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60340</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040504</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040508</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040528</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040532</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1520,24 +2918,87 @@
       <Values>
         <Standard>
           <GUID>1500040080</GUID>
-          <Name>Arts5</Name>
+          <Name>Arts5 - Art Education and Performance</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040081</InfoDescription>
+          <InfoDescription>1500040540</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Art Education and Performance</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60334</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040128</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040038</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040229</GUID>
+          <Name>Arts6 - Art Conservatory</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040541</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Art Conservatory</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60335</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040134</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040230</GUID>
+          <Name>Arts7 - Art Conservatory</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040542</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Art Conservatory</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60336</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040134</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1550,54 +3011,14 @@
       <Values>
         <Standard>
           <GUID>1500040098</GUID>
-          <Name>RequestPool Slot 1 Music</Name>
+          <Name>RequestPool Music</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040101</InfoDescription>
         </Standard>
         <RewardPool>
           <ItemsPool>
             <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040099</GUID>
-          <Name>RequestPool Slot 2 Music</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040102</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040100</GUID>
-          <Name>RequestPool Slot 3 Music</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040103</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
+              <ItemLink>1500040131</ItemLink>
             </Item>
           </ItemsPool>
         </RewardPool>
@@ -1610,7 +3031,7 @@
       <Values>
         <Standard>
           <GUID>1500040104</GUID>
-          <Name>Music1</Name>
+          <Name>Music1 - Symphonies</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040109</InfoDescription>
         </Standard>
@@ -1624,10 +3045,27 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040468</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040432</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040402</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040412</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040400</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1638,9 +3076,9 @@
       <Values>
         <Standard>
           <GUID>1500040105</GUID>
-          <Name>Music2</Name>
+          <Name>Music2 - Opera</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040283</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -1652,10 +3090,35 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040440</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040446</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040438</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040444</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040436</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040442</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040470</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1666,9 +3129,9 @@
       <Values>
         <Standard>
           <GUID>1500040106</GUID>
-          <Name>Music3</Name>
+          <Name>Music3 - Programmatic</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040284</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -1680,10 +3143,31 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040430</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040426</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040428</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040420</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040434</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040406</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1694,9 +3178,9 @@
       <Values>
         <Standard>
           <GUID>1500040107</GUID>
-          <Name>Music4</Name>
+          <Name>Music4 - The Piano</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040285</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -1708,10 +3192,39 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040460</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040404</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040414</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040454</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040424</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040410</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040466</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040416</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1722,9 +3235,9 @@
       <Values>
         <Standard>
           <GUID>1500040108</GUID>
-          <Name>Music5</Name>
+          <Name>Music5 - Valses and Dances</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040109</InfoDescription>
+          <InfoDescription>1500040286</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -1736,10 +3249,106 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040408</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040462</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040450</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040456</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040422</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040418</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040458</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040231</GUID>
+          <Name>Music6 - The Guitar</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040287</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Influence</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60329</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040464</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040452</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040448</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040232</GUID>
+          <Name>Music7 - Basic</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040288</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Influence</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60329</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040134</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040037</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1752,54 +3361,14 @@
       <Values>
         <Standard>
           <GUID>1500040116</GUID>
-          <Name>RequestPool Slot 1 Literature</Name>
+          <Name>RequestPool Literature</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
           <InfoDescription>1500040127</InfoDescription>
         </Standard>
         <RewardPool>
           <ItemsPool>
             <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040117</GUID>
-          <Name>RequestPool Slot 2 Literature</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
-            </Item>
-          </ItemsPool>
-        </RewardPool>
-        <Locked />
-        <Text />
-      </Values>
-    </Asset>
-    <Asset>
-      <Template>RewardPool</Template>
-      <Values>
-        <Standard>
-          <GUID>1500040118</GUID>
-          <Name>RequestPool Slot 3 Literature</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
-        </Standard>
-        <RewardPool>
-          <ItemsPool>
-            <Item>
-              <ItemLink>5803</ItemLink>
+              <ItemLink>1500040149</ItemLink>
             </Item>
           </ItemsPool>
         </RewardPool>
@@ -1812,24 +3381,41 @@
       <Values>
         <Standard>
           <GUID>1500040122</GUID>
-          <Name>Literature1</Name>
+          <Name>Literature1 - Realism and Social Criticism</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040640</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Realism and Social Criticism</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60330</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040606</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040610</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040614</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040618</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040616</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1840,24 +3426,41 @@
       <Values>
         <Standard>
           <GUID>1500040123</GUID>
-          <Name>Literature2</Name>
+          <Name>Literature2 - Romanticism, Adventure, and the Extraordinary</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040641</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Romanticism, Adventure, and the Extraordinary</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60331</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040626</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040630</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040612</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040622</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040636</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1868,24 +3471,41 @@
       <Values>
         <Standard>
           <GUID>1500040124</GUID>
-          <Name>Literature3</Name>
+          <Name>Literature3 - Decadence, Modernism, and Existential Anxiety</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040642</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Decadence, Modernism, and Existential Anxiety</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60332</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040602</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040608</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040638</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040600</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040628</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1896,24 +3516,41 @@
       <Values>
         <Standard>
           <GUID>1500040125</GUID>
-          <Name>Literature4</Name>
+          <Name>Literature4 - Poetry, National Identity, and Cultural Modernity</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
-          <InfoDescription>1500040127</InfoDescription>
+          <InfoDescription>1500040643</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Influence</Text>
+              <Text>Poetry, National Identity, and Cultural Modernity</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
-          <LineID>60329</LineID>
+          <LineID>60333</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040604</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040620</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040624</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040632</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040634</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
@@ -1924,7 +3561,41 @@
       <Values>
         <Standard>
           <GUID>1500040126</GUID>
-          <Name>Literature5</Name>
+          <Name>Literature5 - Art Education and Performance</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040644</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Art Education and Performance</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60334</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040134</Reward>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Reward>1500040039</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040233</GUID>
+          <Name>Literature6</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
           <InfoDescription>1500040127</InfoDescription>
         </Standard>
@@ -1938,13 +3609,218 @@
           <LineID>60329</LineID>
         </Text>
         <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1010190</Reward>
-              <Amount>5</Amount>
+              <Reward>1500040128</Reward>
+              <Amount>1</Amount>
             </Item>
           </RewardAssets>
         </Reward>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>MonumentEventReward</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040234</GUID>
+          <Name>Literature7</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_1.png</IconFilename>
+          <InfoDescription>1500040127</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Influence</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60329</LineID>
+        </Text>
+        <Reward>
+          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
+          <RewardAssets>
+            <Item>
+              <Reward>1500040128</Reward>
+              <Amount>1</Amount>
+            </Item>
+          </RewardAssets>
+        </Reward>
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040177</GUID>
+          <Name>RequestPool Drink Beer or Hibiscus</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010214</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>114390</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040178</GUID>
+          <Name>RequestPool Drink Rum or Lemonade</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010257</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>133185</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040179</GUID>
+          <Name>RequestPool Drink Champagne or Cognac</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>120016</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>135234</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040180</GUID>
+          <Name>RequestPool Food Goulash or Seafood Stew</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010215</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>114410</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040181</GUID>
+          <Name>RequestPool Food Ice Cream</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>5382</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040182</GUID>
+          <Name>RequestPool Decoration Cotton Fabric or Veneers</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010240</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1010242</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040183</GUID>
+          <Name>RequestPool Decoration Fur or Felt</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010209</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>120044</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040184</GUID>
+          <Name>RequestPool Entertainment Cigar or Gramophones</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1010259</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1010248</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
       </Values>
     </Asset>
   </ModOp>
@@ -1959,5 +3835,55 @@
     <Mod14>
       <Text>1500040039</Text>
     </Mod14>
+    <Mod17>
+      <Text>1500040271</Text>
+    </Mod17>
   </ModOp>
+
+  <ModOp Type="add" GUID="501516" Path = "/Values/ItemFilter/ItemCategories/Item[CategoryAsset='18432' or CategoryAsset='18021']/ItemTypes">;Mod12;Mod13;Mod14;Mod17</ModOp>
+
+  <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500040279']" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1500040279</Product>
+    </Item>
+  </ModOp>
+
+  <Group>
+    <ModOp Type="add" GUID="25000191" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040175</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040148')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040175</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="25000191" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040147')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040147</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040147')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040147</Building>
+        <Artisan>1000</Artisan>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500447" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040048')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040048</Building>
+        <Investor>1</Investor>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500116" Condition="/Values/ConstructionCategory/BuildingList[not(Item/Building='1500040048')]" Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1500040048</Building>
+        <Investor>1</Investor>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>

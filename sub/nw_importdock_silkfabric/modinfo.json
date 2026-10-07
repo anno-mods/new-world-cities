@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_Silk",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Silk FTC NW Importdock",
+    "English": "Silk FTC NW Importdock",
+    "French": "Silk FTC NW Importdock",
+    "German": "Silk FTC NW Importdock",
+    "Italian": "Silk FTC NW Importdock",
+    "Japanese": "Silk FTC NW Importdock",
+    "Korean": "Silk FTC NW Importdock",
+    "Polish": "Silk FTC NW Importdock",
+    "Russian": "Silk FTC NW Importdock",
+    "Spanish": "Silk FTC NW Importdock",
+    "Taiwanese": "Silk FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Silk in the new world Foreign Trading Company",
+    "German": "Importdock Seide für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team, Taludas",
+  "Image": null
+}

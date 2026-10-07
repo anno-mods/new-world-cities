@@ -22,6 +22,37 @@
 | 1500040031 | Profile | 
 | 1500040047 | Fine Arts Menu NW |
 | 1500040048 | Fine Arts Menu OW |
+| 1500040255 | Capitolio Foundation |
+| 1500040256 | Capitolio Stage II |  
+| 1500040273 | Samba School Buff | 
+| 1500040275 | Silver Ore Module Buff | 
+
+## Sounds
+
+| 1500040699 | Soundbank Patrona | 
+| 15000407xx | Sounds | 
+| 15000408xx | Sounds | 
+| 1500040900 | TextPool Festivalhall Construction | 
+| 1500040901 | TextPool Festivalhall Event | 
+| 1500040902 | TextPool Generic Negative | 
+| 1500040903 | TextPool Generic Positive | 
+| 1500040904 | TextPool House Angry | 
+| 1500040905 | TextPool House Unhappy | 
+| 1500040906 | TextPool House Content | 
+| 1500040907 | TextPool House Happy | 
+| 1500040908 | TextPool House Euphoric | 
+| 1500040909 | Pamsy Patrona | 
+
+| 1500040910 | TextPool Event Rewards Ready | 
+| 1500040911 | TextPool Event Exhibition Starts | 
+| 1500040912 | TextPool Event Exhibition Choice | 
+| 1500040913 | TextPool Event Exhibition Selection | 
+| 1500040914 | TextPool Event Exhibition Preparing | 
+| 1500040915 | TextPool Event Exhibition Shutdown | 
+| 1500040916 | TextPool Event Exhibition Ongoing | 
+| 1500040917 | TextPool Event Exhibition Reward Choice | 
+
+
 
 ## Needs  
 
@@ -56,6 +87,18 @@
 | 1500040170 | Production Silver Ore | 
 | 1500040171 | Production Silver Ore WorkArea | 
 | 1500040172 | Production Silvercoin | 
+| 1500040174 | Chain Linen OW |
+| 1500040175 | Chain Ink OW | 
+| 1500040176 | Chain Silver Part 1 NW | 
+| 1500040219 | Chain Perfume Copypasta | 
+| 1500040220 | ProductList Patrono Unlock | 
+| 1500040221 | ProductList Patrono Needs | 
+| 1500040222 | ProductList Patrono Intermediate Goods | 
+| 1500040277 | Tailored Suit Factory NW | 
+| 1500040278 | Canvas Maker OW | 
+| 1500040279 | Canvas | 
+| 1500040281 | Canvas Infodescription | 
+
 ## Items 
 
 | 15000404xx | Culture Items Music | 
@@ -80,6 +123,7 @@
 | 1500040146 | AssetPool Manuscripts |
 | 1500040166 | AssetPool Hindenburg Airship | 
 | 1500040173 | AssetPool Silvercoin | 
+| 1500040254 | AssetPool Capitolio |
 
 
 ## Fine Arts Buildings 
@@ -96,6 +140,12 @@
 | 1500040046 | Text Fine Arts Building |
 | 1500040050 | Public Pavilion |
 | 1500040051 | Public Pavilion InfoDescription |
+| 1500040301 | Festival Hall: Foundations |
+| 1500040302 | Festival Hall: Superstructure |
+| 1500040303 | Festival Hall: Glazing |
+| 1500040304 | Festival Hall Foundation Phase Description |
+| 1500040305 | Festival Hall Superstructure Phase Description |
+| 1500040306 | Festival Hall Glazing Phase Description |
 | 1500040151 | Concert Hall Public Service |
 | 1500040152 | Art Gallery Public Service |
 | 1500040153 | Grand Library Public Service |
@@ -120,10 +170,10 @@
 | 1500040141 | Recipe Art Description |
 | 1500040142 | Recipe Music Description |
 | 1500040143 | Recipe Literature Description |
-| 1500040168 | Fine Arts Permit |
-
-
-
+| 1500040168 | Conservatory Permit |
+| 1500040280 | Concert Hall Permit |
+| 1500040281 | Art Academy Permit | 
+| 1500040282 | Grand Library Permit | 
 
 ## Fine Arts Events 
 
@@ -138,8 +188,14 @@
 | 1500040060 | Literature DescriptionFluff | 
 
 | 1500040061 | Event Art |
+| 1500040223 | Event Art Medium |
+| 1500040224 | Event Art Huge | 
 | 1500040062 | Event Music |
+| 1500040225 | Event Music Medium |
+| 1500040226 | Event Music Huge | 
 | 1500040063 | Event Literature |
+| 1500040227 | Event Literature Medium |
+| 1500040228 | Event Literature Huge |
 
 | 1500040064 | Event Art DescriptionFluff | 
 | 1500040065 | Event Art SelectionText |
@@ -148,17 +204,21 @@
 | 1500040068 | Event Art PotentialEventReward |
 | 1500040069 | Event Art ShortSizeName |
 | 1500040070 | RequestPool Slot 1 Art |
-| 1500040071 | RequestPool Slot 2 Art |
-| 1500040072 | RequestPool Slot 3 Art |
 | 1500040073 | RequestPool Slot 1 Art InfoDescription |
-| 1500040074 | RequestPool Slot 2 Art InfoDescription |
-| 1500040075 | RequestPool Slot 3 Art InfoDescription |
 | 1500040076 | RewardPool Arts 1 |
 | 1500040077 | RewardPool Arts 2 |
 | 1500040078 | RewardPool Arts 3 |
 | 1500040079 | RewardPool Arts 4 |
 | 1500040080 | RewardPool Arts 5 |
-| 1500040081 | RewardPool Arts InfoDescription |
+| 1500040229 | RewardPool Arts 6 |
+| 1500040230 | RewardPool Arts 7 |
+| 1500040081 | RewardPool Arts 1 Info |
+| 1500040295 | RewardPool Arts 2 Info |
+| 1500040296 | RewardPool Arts 3 Info |
+| 1500040297 | RewardPool Arts 4 Info |
+| 1500040298 | RewardPool Arts 5 Info |
+| 1500040299 | RewardPool Arts 6 Info |
+| 1500040300 | RewardPool Arts 7 Info |
 
 | 1500040082 | Public Pavilion ShutdownText |
 | 1500040083 | Public Pavilion AccessEventText |
@@ -178,17 +238,21 @@
 | 1500040096 | Event Music PotentialEventReward |
 | 1500040097 | Event Music ShortSizeName |
 | 1500040098 | RequestPool Slot 1 Music |
-| 1500040099 | RequestPool Slot 2 Music |
-| 1500040100 | RequestPool Slot 3 Music |
 | 1500040101 | RequestPool Slot 1 Music InfoDescription |
-| 1500040102 | RequestPool Slot 2 Music InfoDescription |
-| 1500040103 | RequestPool Slot 3 Music InfoDescription |
 | 1500040104 | RewardPool Music 1 |
 | 1500040105 | RewardPool Music 2 |
 | 1500040106 | RewardPool Music 3 |
 | 1500040107 | RewardPool Music 4 |
 | 1500040108 | RewardPool Music 5 |
-| 1500040109 | RewardPool Music InfoDescription |
+| 1500040231 | RewardPool Music 6 |
+| 1500040232 | RewardPool Music 7 |
+| 1500040109 | RewardPool Music 1 Info |
+| 1500040283 | RewardPool Music 2 Info | 
+| 1500040284 | RewardPool Music 3 Info | 
+| 1500040285 | RewardPool Music 4 Info | 
+| 1500040286 | RewardPool Music 5 Info | 
+| 1500040287 | RewardPool Music 6 Info | 
+| 1500040288 | RewardPool Music 7 Info | 
 
 | 1500040110 | Event Literature DescriptionFluff | 
 | 1500040111 | Event Literature SelectionText |
@@ -197,18 +261,57 @@
 | 1500040114 | Event Literature PotentialEventReward |
 | 1500040115 | Event Literature ShortSizeName |
 | 1500040116 | RequestPool Slot 1 Literature |
-| 1500040117 | RequestPool Slot 2 Literature |
-| 1500040118 | RequestPool Slot 3 Literature |
 | 1500040119 | RequestPool Slot 1 Literature InfoDescription |
-| 1500040120 | RequestPool Slot 2 Literature InfoDescription |
-| 1500040121 | RequestPool Slot 3 Literature InfoDescription |
 | 1500040122 | RewardPool Literature 1 |
 | 1500040123 | RewardPool Literature 2 |
 | 1500040124 | RewardPool Literature 3 |
 | 1500040125 | RewardPool Literature 4 |
 | 1500040126 | RewardPool Literature 5 |
-| 1500040127 | RewardPool Literature InfoDescription |
+| 1500040233 | RewardPool Literature 6 |
+| 1500040234 | RewardPool Literature 7 |
+| 1500040127 | RewardPool Literature 1 Info |
+| 1500040289 | RewardPool Literature 2 Info |
+| 1500040290 | RewardPool Literature 3 Info |
+| 1500040291 | RewardPool Literature 4 Info |
+| 1500040292 | RewardPool Literature 5 Info |
+| 1500040293 | RewardPool Literature 6 Info |
+| 1500040294 | RewardPool Literature 7 Info |
 
+| 1500040177 | RequestPool Drink Beer or Hibiscus |
+| 1500040178 | RequestPool Drink Rum or Lemonade |
+| 1500040179 | RequestPool Drink Champagne or Cognac |
+| 1500040180 | RequestPool Food Goulash or Seafood Stew |
+| 1500040181 | RequestPool Food Ice Cream |
+| 1500040182 | RequestPool Decoration Cotton Fabric or Veneers |
+| 1500040183 | RequestPool Decoration Fur or Felt |
+| 1500040184 | RequestPool Entertainment Cigar or Gramophones |
+
+| 1500040235 | Event Art Mid ShortSizeName | 
+| 1500040236 | Event Art Big ShortSizeName | 
+| 1500040237 | Event Music Mid ShortSizeName | 
+| 1500040238 | Event Music Big ShortSizeName | 
+| 1500040239 | Event Literature Mid ShortSizeName | 
+| 1500040240 | Event Literature Big ShortSizeName |  
+
+## Politics 
+
+| 1500040257 | Event Category Elections | 
+| 1500040258 | Event Category Elections PotentialReward |
+| 1500040259 | Event Category Elections Fluff | 
+| 1500040260 | Event Election | 
+| 1500040261 | Event Election Fluff | 
+| 1500040262 | Event Election SelectionText |
+| 1500040263 | Event Election RunningText |
+| 1500040264 | Event Election RewardText |
+| 1500040265 | Event Election ShortSizeName |
+| 1500040266 | Event Election Reward I |
+| 1500040267 | Event Election Reward II |
+| 1500040268 | Event Election Reward III |
+| 1500040269 | Event Election Reward IV |
+| 1500040270 | Event Election Reward V |
+
+| 1500040271 | Political Office |
+| 1500040272 | Political Office InfoDesc |
 
 ## Unlocks
 
@@ -223,10 +326,54 @@
 
 ## Vehicles 
 
-
 | 1500040160 | Tramp Steamer | 
 | 1500040161 | Hindenburg | 
 | 1500040162 | Tramp Steamer InfDescription |
 | 1500040163 | Hindenburg InfoDescription |
 | 1500040164 | Hindenburg ArcticGas Clone |
 | 1500040165 | Hindenburg Permit | 
+
+## Ornaments 
+
+| 1500040241 | Avenue Cobblestone | 
+| 1500040242 | Avenue Lamp | 
+| 1500040243 | Avenue Palm | 
+| 1500040244 | Avenue Paubrasil | 
+| 1500040245 | Avenue jacaranda |
+| 1500040246 | Pavement Waves | 
+| 1500040247 | Pavement Stars | 
+| 1500040248 | Pavement Compass | 
+| 1500040249 | Allee | 
+| 1500040250 | Sidewalk Plain | 
+| 1500040251 | Sidewalk Paubrasil |
+| 1500040252 | Sidewalk Jacaranda | 
+| 1500040253 | NW Tier 4 Ornaments |
+
+## FTC 
+
+
+| 1500040200 | FTC NW |
+| 1500040201 | FTC Depot NW |
+| 1500040202 | FTC Menu NW |
+| 1500040203 | Asset Pool FTC NW | 
+
+| 1500040204 | FTC AF |
+| 1500040205 | FTC Depot AF |
+| 1500040206 | FTC Menu AF |
+| 1500040207 | Asset Pool FTC AF | 
+
+| 1500040208 | FTC AR |
+| 1500040209 | FTC Depot AR |
+| 1500040210 | FTC Menu AR |
+| 1500040211 | Asset Pool FTC AR | 
+
+| 1500040212 | Storage List NW |
+| 1500040213 | Storage List AF | 
+| 1500040214 | Storage List AR | 
+
+## FTC: Edad de Oro 
+
+| 1500040215 | Import Dock Silk Fabric NW |
+| 1500040216 | Import Dock Automobiles NW |
+| 1500040217 | Import Dock Pianos NW |
+| 1500040218 | Import Dock Rice NW |

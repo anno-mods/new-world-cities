@@ -108,6 +108,15 @@
                         <Item>
                             <Asset>1500040136</Asset>
                         </Item>
+                        <Item>
+                            <Asset>1500040174</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040279</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500040278</Asset>
+                        </Item>
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -136,6 +145,33 @@
                         <Item>
                             <Asset>1500040138</Asset>
                         </Item>
+                        <Item>
+                            <Asset>1500040175</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Ink Factory-->
+                            <Asset>1555000166</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Ink -->
+                            <Asset>1555000161</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Lead Factory -->
+                            <Asset>1742100409</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Galena Module -->
+                            <Asset>1742100407</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Lead-->
+                            <Asset>1742100435</Asset>
+                        </Item>
+                        <Item>
+                            <!-- Galena-->
+                            <Asset>1742100433</Asset>
+                        </Item>
                     </AssetList>
                 </AssetPool>
             </Values>
@@ -153,6 +189,19 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040129</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>117744</Building>
+                        </Item>
+                        <Item>
+                            <Building>1500040217</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1500040200</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
@@ -172,6 +221,44 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040128</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1500040278</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010320</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010266</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1500011500</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1500010124</Building>
+                                        </Item>
+                                        <Item>
+                                            <Building>1500011458</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>5462</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1390</Building>
+                                </Item>
+                                <Item>
+                                    <Building>101272</Building>
+                                    <ForceIcon>1010232</ForceIcon>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
@@ -191,6 +278,41 @@
                 </Text>
                 <ProductionChain>
                     <Building>1500040130</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>117744</Building>
+                        </Item>
+                        <Item>
+                            <Building>1555000166</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>135134</Building>
+                                    <!--Multifactory_SA_Chemical_Ethanol-->
+                                    <Tier3>
+                                        <Item>
+                                            <Building>101260</Building>
+                                            <!--agriculture_colony01_06 (Timber Yard)-->
+                                        </Item>
+                                        <Item>
+                                            <Building>101270</Building>
+                                            <!--agriculture_colony01_10 (Corn Farm)-->
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1345</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1742100409</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1742100407</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
                 </ProductionChain>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
@@ -203,7 +325,7 @@
                 <Standard>
                     <GUID>1500040134</GUID>
                     <Name>Academy Blank</Name>
-                    <IconFilename>academy_icon</IconFilename>
+                    <IconFilename>data/ui/jje/3dicons/construction/icon_academy.png</IconFilename>
                     <InfoDescription>1500040139</InfoDescription>
                 </Standard>
                 <Building>
@@ -443,7 +565,12 @@
                 <FactoryBase>
                     <FactoryInputs>
                         <Item>
-                            <Product>117702</Product>
+                            <Product>1500040279</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>5400</Product>
                             <Amount>1</Amount>
                             <StorageAmount>5</StorageAmount>
                         </Item>
@@ -602,6 +729,11 @@
                             <Product>117702</Product>
                             <Amount>1</Amount>
                             <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1742110023</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>6</StorageAmount>
                         </Item>
                     </FactoryInputs>
                     <FactoryOutputs>
@@ -940,6 +1072,217 @@
                         </Item>
                     </Group>
                 </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040280</GUID>
+                    <Name>Concert Hall Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040037</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040043</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040281</GUID>
+                    <Name>Art Gallery Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040038</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040044</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>BuildPermitGroup</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040282</GUID>
+                    <Name>Library Permit</Name>
+                </Standard>
+                <BuildPermitGroup>
+                    <Group>
+                        <Item>
+                            <BuildPermit>1500040039</BuildPermit>
+                        </Item>
+                        <Item>
+                            <BuildPermit>1500040045</BuildPermit>
+                        </Item>
+                    </Group>
+                </BuildPermitGroup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1500040278</GUID>
+                    <Name>Canvas Maker</Name>
+                    <IconFilename>data/ui/jje/3dicons/goods/icon_canvas.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>12000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/jje/canvasmaker/canvasworkshop.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1500040278</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200809</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200670</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010242</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114391</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1500040279</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>200</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010116</Product>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
             </Values>
         </Asset>
     </ModOp>

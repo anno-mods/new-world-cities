@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_cars",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Cars FTC NW Importdock",
+    "English": "Cars FTC NW Importdock",
+    "French": "Cars FTC NW Importdock",
+    "German": "Cars FTC NW Importdock",
+    "Italian": "Cars FTC NW Importdock",
+    "Japanese": "Cars FTC NW Importdock",
+    "Korean": "Cars FTC NW Importdock",
+    "Polish": "Cars FTC NW Importdock",
+    "Russian": "Cars FTC NW Importdock",
+    "Spanish": "Cars FTC NW Importdock",
+    "Taiwanese": "Cars FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Cars in the new world Foreign Trading Company",
+    "German": "Importdock Automobile für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

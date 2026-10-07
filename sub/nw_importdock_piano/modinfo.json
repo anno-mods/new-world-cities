@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_piano",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Piano FTC NW Importdock",
+    "English": "Piano FTC NW Importdock",
+    "French": "Piano FTC NW Importdock",
+    "German": "Piano FTC NW Importdock",
+    "Italian": "Piano FTC NW Importdock",
+    "Japanese": "Piano FTC NW Importdock",
+    "Korean": "Piano FTC NW Importdock",
+    "Polish": "Piano FTC NW Importdock",
+    "Russian": "Piano FTC NW Importdock",
+    "Spanish": "Piano FTC NW Importdock",
+    "Taiwanese": "Piano FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Piano in the new world Foreign Trading Company",
+    "German": "Importdock Klaviere für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

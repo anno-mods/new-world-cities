@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505145</GUID>
+      <Text>Capitolio</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505242</GUID>
+      <Text>Capitolio: Foundations</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505243</GUID>
+      <Text>Capitolio: Structure</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2143505244</GUID>
+      <Text>Capitolio: Dome</Text>
+    </Text>    
+  </ModOp>
+</ModOps>
