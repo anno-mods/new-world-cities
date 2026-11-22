@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_import_storagelist_tabulators",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Tabulators FTC NW Import Storagelist",
+    "English": "Tabulators FTC NW Import Storagelist",
+    "French": "Tabulators FTC NW Import Storagelist",
+    "German": "Tabulators FTC NW Import Storagelist",
+    "Italian": "Tabulators FTC NW Import Storagelist",
+    "Japanese": "Tabulators FTC NW Import Storagelist",
+    "Korean": "Tabulators FTC NW Import Storagelist",
+    "Polish": "Tabulators FTC NW Import Storagelist",
+    "Russian": "Tabulators FTC NW Import Storagelist",
+    "Spanish": "Tabulators FTC NW Import Storagelist",
+    "Taiwanese": "Tabulators FTC NW Import Storagelist"
+  },
+  "Description": {
+    "English": "# Submod that regulates appearance of the product 'Tabulators' in the Import StorageList of the NW Foreign Trading Company.",
+    "German": "# Submod, die das Erscheinen des Produkts 'Tabulatoren' in der Import StorageList der Fernhandelscompagnie der neuen Welt regelt.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

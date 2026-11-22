@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040311</GUID>
+      <Text>Sekcja importu: Żyrandole</Text>
+    </Text>    
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>Infrastruktura handlowa</Text>
+    </Text>
+  </ModOp>
+</ModOps>

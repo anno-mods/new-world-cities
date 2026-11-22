@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040309</GUID>
+      <Text>Port d'importation : Tabulateurs</Text>
+    </Text>    
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>Infrastructures commerciales</Text>
+    </Text>
+  </ModOp>
+</ModOps>

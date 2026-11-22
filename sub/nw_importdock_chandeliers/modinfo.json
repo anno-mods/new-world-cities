@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_chandeliers",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Chandeliers FTC NW Importdock",
+    "English": "Chandeliers FTC NW Importdock",
+    "French": "Chandeliers FTC NW Importdock",
+    "German": "Chandeliers FTC NW Importdock",
+    "Italian": "Chandeliers FTC NW Importdock",
+    "Japanese": "Chandeliers FTC NW Importdock",
+    "Korean": "Chandeliers FTC NW Importdock",
+    "Polish": "Chandeliers FTC NW Importdock",
+    "Russian": "Chandeliers FTC NW Importdock",
+    "Spanish": "Chandeliers FTC NW Importdock",
+    "Taiwanese": "Chandeliers FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Chandeliers in the new world Foreign Trading Company",
+    "German": "Importdock Kronleuchter für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

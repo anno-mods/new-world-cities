@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040309</GUID>
+      <Text>导入码头：制表符</Text>
+    </Text>    
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>贸易基础设施</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040309</GUID>
+      <Text>가져오기 도크: 탭</Text>
+    </Text>    
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>무역 인프라</Text>
+    </Text>
+  </ModOp>
+</ModOps>

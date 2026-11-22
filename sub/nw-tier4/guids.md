@@ -377,3 +377,18 @@
 | 1500040216 | Import Dock Automobiles NW |
 | 1500040217 | Import Dock Pianos NW |
 | 1500040218 | Import Dock Rice NW |
+
+## Import Docks: Whiskey
+
+| 1500040307 | Import Dock Whiskey NW |
+| 1500040308 | Storage List Whiskey NW |
+
+## Import Docks: Tabulators
+
+| 1500040309 | Import Dock Tabulators NW |
+| 1500040310 | Storage List Tabulators NW |
+
+## Import Docks: Chandeliers
+
+| 1500040311 | Import Dock Chandeliers NW |
+| 1500040312 | Storage List Chandeliers NW |

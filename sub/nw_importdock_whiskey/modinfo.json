@@ -1,0 +1,58 @@
+{
+  "Version": "1.0",
+  "ModID": "NW_Tier4_importdock_whiskey",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Whiskey FTC NW Importdock",
+    "English": "Whiskey FTC NW Importdock",
+    "French": "Whiskey FTC NW Importdock",
+    "German": "Whiskey FTC NW Importdock",
+    "Italian": "Whiskey FTC NW Importdock",
+    "Japanese": "Whiskey FTC NW Importdock",
+    "Korean": "Whiskey FTC NW Importdock",
+    "Polish": "Whiskey FTC NW Importdock",
+    "Russian": "Whiskey FTC NW Importdock",
+    "Spanish": "Whiskey FTC NW Importdock",
+    "Taiwanese": "Whiskey FTC NW Importdock"
+  },
+  "Description": {
+    "English": "Import Dock for Whiskey in the new world Foreign Trading Company",
+    "German": "Importdock Whiskey für die Fernhandelscompagnie der Neuen Welt",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Edad de Oro Team",
+  "Image": null
+}

@@ -366,6 +366,9 @@
                       <Item>
                         <Asset>1500040043</Asset>
                       </Item>
+                      <Item>
+                        <Asset>1500040307</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -429,6 +432,9 @@
                       <Item>
                         <Asset>1500040018</Asset>
                       </Item>
+                      <Item>
+                        <Asset>1500040309</Asset>
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -479,6 +485,12 @@
                       </Item>
                       <Item>
                         <Asset>1500040166</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1404000241</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500040311</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>

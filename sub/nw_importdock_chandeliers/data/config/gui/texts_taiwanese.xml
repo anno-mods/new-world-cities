@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500040311</GUID>
+      <Text>進口專區：吊燈</Text>
+    </Text>    
+    <Text>
+      <GUID>1999005414</GUID>
+      <Text>貿易基礎設施</Text>
+    </Text>
+  </ModOp>
+</ModOps>

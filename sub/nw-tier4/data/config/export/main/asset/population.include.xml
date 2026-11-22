@@ -123,10 +123,6 @@
               <Product>1440021</Product>
               <Amount>0.0005</Amount>
               <SupplyWeight>5</SupplyWeight>
-              <AdditionalGlobalUnlockRequirement>
-                <Population>15100100</Population>
-                <MinPopulationAmount>1000</MinPopulationAmount>
-              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -134,10 +130,6 @@
               <Product>1440022</Product>
               <Amount>0.0003</Amount>
               <SupplyWeight>4</SupplyWeight>
-              <AdditionalGlobalUnlockRequirement>
-                <Population>15100100</Population>
-                <MinPopulationAmount>2000</MinPopulationAmount>
-              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -145,10 +137,6 @@
               <Product>1404000241</Product>
               <Amount>0.0002</Amount>
               <SupplyWeight>6</SupplyWeight>
-              <AdditionalGlobalUnlockRequirement>
-                <Population>1404000011</Population>
-                <MinPopulationAmount>1500</MinPopulationAmount>
-              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
