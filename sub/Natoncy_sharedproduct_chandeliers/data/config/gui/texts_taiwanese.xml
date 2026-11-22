@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000241</GUID>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>枝形吊燈</Text>
+    </Text>
+    <Text>
+      <GUID>1404000242</GUID>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>燈光將任何大廳變成宮殿。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

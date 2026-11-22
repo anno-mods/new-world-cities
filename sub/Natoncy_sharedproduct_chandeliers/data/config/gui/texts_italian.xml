@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000241</GUID>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>Lampadari</Text>
+    </Text>
+    <Text>
+      <GUID>1404000242</GUID>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>Luci che trasformano ogni sala in un palazzo.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

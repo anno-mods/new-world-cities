@@ -1,0 +1,125 @@
+<ModOps>
+  <Group>
+    <!-- # Product: chandeliers -->
+    <ModOp Type="addNextSibling" GUID="1010217">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000241</GUID>
+            <Name>chandeliers</Name>
+            <IconFilename>data\modgraphics\ui\icon_chandeliers.png</IconFilename>
+            <InfoDescription>1404000242</InfoDescription>
+          </Standard>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>100</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Meta</AssociatedRegion>
+            <ProductionRegions />
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Medicine</Attribute>
+                <Amount>25</Amount>
+              </Item>
+            </ExpeditionAttributes>
+            <FluffText>1404000243</FluffText>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- # Expeditions -->
+    <ModOp Type="add" GUID="800111" Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1404000241']" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.4</MoraleFactor>
+        <Product>1404000241</Product>
+      </Item>
+    </ModOp>
+
+    <!-- # Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000241']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+      <Item>
+        <Product>1404000241</Product>
+      </Item>
+    </ModOp>
+
+    <!-- # Docklands: NONE -->
+
+    <!-- # Fake MainFactory -->
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1404000241']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000604</GUID>
+            <Name>IsMainfactory_Fake: chandeliers</Name>
+            <IconFilename>data\modgraphics\ui\icon_chandeliers.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1404000241</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>30</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000242</GUID>
+            <Name>chandeliers fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>chandeliers fluff text</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+</ModOps>

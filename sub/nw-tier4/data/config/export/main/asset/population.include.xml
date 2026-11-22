@@ -123,6 +123,10 @@
               <Product>1440021</Product>
               <Amount>0.0005</Amount>
               <SupplyWeight>5</SupplyWeight>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>15100100</Population>
+                <MinPopulationAmount>1000</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -130,6 +134,10 @@
               <Product>1440022</Product>
               <Amount>0.0003</Amount>
               <SupplyWeight>4</SupplyWeight>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>15100100</Population>
+                <MinPopulationAmount>2000</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -137,6 +145,10 @@
               <Product>1404000241</Product>
               <Amount>0.0002</Amount>
               <SupplyWeight>6</SupplyWeight>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>1500</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -144,6 +156,10 @@
               <Product>135229</Product>
               <Amount>0.0004</Amount>
               <SupplyWeight>4</SupplyWeight>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>15000004</Population>
+                <MinPopulationAmount>1000</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -341,14 +357,6 @@
     </Item>
   </ModOp>
 
-  <!-- Add Chandeliers as bonus need for Patronos -->
-  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2361']/Needs">
-    <Item>
-      <BonusNeed>1404000241</BonusNeed>
-      <!--Chandeliers-->
-    </Item>
-  </ModOp>
-
   <!-- Add Sake as bonus need for Patronos -->
   <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs" Condition="#new_horizons_session">
     <Item>
@@ -363,6 +371,10 @@
       <Product>1440216</Product>
       <Amount>0.0002</Amount>
       <SupplyWeight>4</SupplyWeight>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>15100001</Population>
+        <MinPopulationAmount>1500</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
       <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
       <IsBonusNeed>1</IsBonusNeed>
     </Item>
@@ -382,6 +394,10 @@
       <Product>1999005057</Product>
       <Amount>0.00018</Amount>
       <SupplyWeight>5</SupplyWeight>
+      <AdditionalGlobalUnlockRequirement>
+        <Population>1404000011</Population>
+        <MinPopulationAmount>1500</MinPopulationAmount>
+      </AdditionalGlobalUnlockRequirement>
       <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
       <IsBonusNeed>1</IsBonusNeed>
     </Item>

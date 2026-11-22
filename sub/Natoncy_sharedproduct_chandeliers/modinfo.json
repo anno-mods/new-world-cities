@@ -1,0 +1,44 @@
+{
+  "Version": "1.2",
+  "ModID": "natoncy_sharedproduct_chandeliers",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_chandeliers (Natoncy)",
+    "English": "sharedproduct_chandeliers (Natoncy)",
+    "French": "sharedproduct_chandeliers (Natoncy)",
+    "German": " sharedproduct_chandeliers (Natoncy)",
+    "Italian": "sharedproduct_chandeliers (Natoncy)",
+    "Japanese": "sharedproduct_chandeliers (Natoncy)",
+    "Korean": "sharedproduct_chandeliers (Natoncy)",
+    "Polish": "sharedproduct_chandeliers (Natoncy)",
+    "Russian": "sharedproduct_chandeliers (Natoncy)",
+    "Spanish": "sharedproduct_chandeliers (Natoncy)",
+    "Taiwanese": "sharedproduct_chandeliers (Natoncy)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - New product: Chandeliers",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Neues Produkt: Kronleuchter",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "Natoncy"
+}

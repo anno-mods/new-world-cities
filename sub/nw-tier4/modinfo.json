@@ -44,7 +44,8 @@
     "ow-fedora-Drakkam",
     "Taludas_shared_tradingcompany",
     "shared-capitolio",
-    "shared_production_silver_bars"
+    "shared_production_silver_bars",
+    "shared-import-category"
   ],
   "bundle": [
     "../new_world_cathedral",
@@ -57,7 +58,9 @@
     "../nw_import_storagelist_rice",
     "../nw_import_storagelist_cars",
     "../nw_import_storagelist_piano",
-    "../shared-capitolio"
+    "../shared-capitolio",
+    "../[Shared] Import Bonusneed",
+    "../Natoncy_sharedproduct_chandeliers"
   ],
   "Category": {
     "English": "Component"
