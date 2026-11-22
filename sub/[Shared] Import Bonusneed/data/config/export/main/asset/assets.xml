@@ -1,0 +1,33 @@
+<ModOps>
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds">
+    <Item>
+      <Category>1414006643</Category>
+      <!--Import Goods Category-->
+      <Needs>
+      </Needs>
+    </Item>
+  </ModOp>
+
+  <ModOp GUID = '2289' Type="addNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1414006643</GUID>
+          <Name>Import Category</Name>
+          <IconFilename>data/graphics/ui/icons/import_traders/icon_trade_import_good.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Import Goods</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>57963</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

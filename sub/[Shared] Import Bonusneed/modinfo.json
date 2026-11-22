@@ -1,0 +1,29 @@
+{
+  "Version": "1.0.0",
+  "ModID": "shared-import-category",
+  "DeprecateIds": [],
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "German": "Shared",
+    "French": "Shared"
+  },
+  "ModName": {
+    "English": "[Shared] Import Category",
+    "German": "[Shared] Import Category",
+    "French": "[Shared] Import Category"
+  },
+  "Description": {
+    "English": "Adds the 'Import Goods' category to bonus needs for use in custom mods.",
+    "German": "Fügt die Kategorie 'Importgüter' zu den Bonusbedürfnissen hinzu zur Verwendung in benutzerdefinierten Mods.",
+    "French": "Ajoute la catégorie 'Biens d'importation' aux besoins bonus pour une utilisation dans les mods personnalisés."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [],
+  "CreatorName": "New Horizons Team",
+  "Image": null
+}
+
+

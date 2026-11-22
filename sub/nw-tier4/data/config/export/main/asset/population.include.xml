@@ -120,16 +120,30 @@
             </Item>
             <!-- Lifestyle Needs -->
             <Item>
-              <Product>1010197</Product>
-              <Amount>0.001</Amount>
+              <Product>1440021</Product>
+              <Amount>0.0005</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+              <IsBonusNeed>1</IsBonusNeed>
+            </Item>
+            <Item>
+              <Product>1440022</Product>
+              <Amount>0.0003</Amount>
               <SupplyWeight>4</SupplyWeight>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
             <Item>
-              <Product>1010201</Product>
-              <Amount>0.0005</Amount>
-              <SupplyWeight>3</SupplyWeight>
+              <Product>1404000241</Product>
+              <Amount>0.0002</Amount>
+              <SupplyWeight>6</SupplyWeight>
+              <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+              <IsBonusNeed>1</IsBonusNeed>
+            </Item>
+            <Item>
+              <Product>135229</Product>
+              <Amount>0.0004</Amount>
+              <SupplyWeight>4</SupplyWeight>
               <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
               <IsBonusNeed>1</IsBonusNeed>
             </Item>
@@ -316,6 +330,84 @@
     <Item>
       <PopulationLevel>1500011557</PopulationLevel>
       <AssignedConfig>502287</AssignedConfig>
+    </Item>
+  </ModOp>
+
+  <!-- Add Biscuits to ObjectmenuResidenceScene Food/Drink Category -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs">
+    <Item>
+      <BonusNeed>135229</BonusNeed>
+      <!--Biscuits-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Chandeliers as bonus need for Patronos -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2361']/Needs">
+    <Item>
+      <BonusNeed>1404000241</BonusNeed>
+      <!--Chandeliers-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Sake as bonus need for Patronos -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs" Condition="#new_horizons_session">
+    <Item>
+      <BonusNeed>1440216</BonusNeed>
+      <!--Sake-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Sake consumption to Patronos bonus needs -->
+  <ModOp GUID="1500011557" Type="add" Path="/Values/PopulationLevel7/PopulationInputs" Condition="#new_horizons_session">
+    <Item>
+      <Product>1440216</Product>
+      <Amount>0.0002</Amount>
+      <SupplyWeight>4</SupplyWeight>
+      <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+      <IsBonusNeed>1</IsBonusNeed>
+    </Item>
+  </ModOp>
+
+  <!-- Add Marzipan as bonus need for Patronos -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs" Condition="#natoncy_return_to_the_orient">
+    <Item>
+      <BonusNeed>1999005057</BonusNeed>
+      <!--Marzipan-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Marzipan consumption to Patronos bonus needs -->
+  <ModOp GUID="1500011557" Type="add" Path="/Values/PopulationLevel7/PopulationInputs" Condition="#natoncy_return_to_the_orient">
+    <Item>
+      <Product>1999005057</Product>
+      <Amount>0.00018</Amount>
+      <SupplyWeight>5</SupplyWeight>
+      <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+      <IsBonusNeed>1</IsBonusNeed>
+    </Item>
+  </ModOp>
+
+  <!-- Add Tabulators to Import Goods category -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='1414006643']/Needs" Condition="!/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item/Needs/Item[BonusNeed='1440021']">
+    <Item>
+      <BonusNeed>1440021</BonusNeed>
+      <!--Tabulators-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Whiskey to Import Goods category -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='1414006643']/Needs" Condition="!/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item/Needs/Item[BonusNeed='1440022']">
+    <Item>
+      <BonusNeed>1440022</BonusNeed>
+      <!--Whiskey-->
+    </Item>
+  </ModOp>
+
+  <!-- Add Chandeliers to Import Goods category -->
+  <ModOp GUID="25000118" Type="add" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='1414006643']/Needs" Condition="!@1404000241">
+    <Item>
+      <BonusNeed>1404000241</BonusNeed>
+      <!--Chandeliers-->
     </Item>
   </ModOp>
 
