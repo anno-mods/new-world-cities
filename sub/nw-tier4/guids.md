@@ -205,13 +205,20 @@
 | 1500040069 | Event Art ShortSizeName |
 | 1500040070 | RequestPool Slot 1 Art |
 | 1500040073 | RequestPool Slot 1 Art InfoDescription |
-| 1500040076 | RewardPool Arts 1 |
-| 1500040077 | RewardPool Arts 2 |
-| 1500040078 | RewardPool Arts 3 |
-| 1500040079 | RewardPool Arts 4 |
-| 1500040080 | RewardPool Arts 5 |
-| 1500040229 | RewardPool Arts 6 |
-| 1500040230 | RewardPool Arts 7 |
+| 1500040076 | MonumentEventReward Arts 1 |
+| 1500040077 | MonumentEventReward Arts 2 |
+| 1500040078 | MonumentEventReward Arts 3 |
+| 1500040079 | MonumentEventReward Arts 4 |
+| 1500040080 | MonumentEventReward Arts 5 |
+| 1500040229 | MonumentEventReward Arts 6 |
+| 1500040230 | MonumentEventReward Arts 7 |
+| 1500040313 | MonumentEventRewardPool Arts 1 |
+| 1500040314 | MonumentEventRewardPool Arts 2 |
+| 1500040315 | MonumentEventRewardPool Arts 3 |
+| 1500040316 | MonumentEventRewardPool Arts 4 |
+| 1500040317 | MonumentEventRewardPool Arts 5 |
+| 1500040318 | MonumentEventRewardPool Arts 6 |
+| 1500040319 | MonumentEventRewardPool Arts 7 |
 | 1500040081 | RewardPool Arts 1 Info |
 | 1500040295 | RewardPool Arts 2 Info |
 | 1500040296 | RewardPool Arts 3 Info |
@@ -239,13 +246,20 @@
 | 1500040097 | Event Music ShortSizeName |
 | 1500040098 | RequestPool Slot 1 Music |
 | 1500040101 | RequestPool Slot 1 Music InfoDescription |
-| 1500040104 | RewardPool Music 1 |
-| 1500040105 | RewardPool Music 2 |
-| 1500040106 | RewardPool Music 3 |
-| 1500040107 | RewardPool Music 4 |
-| 1500040108 | RewardPool Music 5 |
-| 1500040231 | RewardPool Music 6 |
-| 1500040232 | RewardPool Music 7 |
+| 1500040104 | MonumentEventReward Music 1 |
+| 1500040105 | MonumentEventReward Music 2 |
+| 1500040106 | MonumentEventReward Music 3 |
+| 1500040107 | MonumentEventReward Music 4 |
+| 1500040108 | MonumentEventReward Music 5 |
+| 1500040231 | MonumentEventReward Music 6 |
+| 1500040232 | MonumentEventReward Music 7 |
+| 1500040320 | MonumentEventRewardPool Music 1 |
+| 1500040321 | MonumentEventRewardPool Music 2 |
+| 1500040322 | MonumentEventRewardPool Music 3 |
+| 1500040323 | MonumentEventRewardPool Music 4 |
+| 1500040324 | MonumentEventRewardPool Music 5 |
+| 1500040325 | MonumentEventRewardPool Music 6 |
+| 1500040326 | MonumentEventRewardPool Music 7 |
 | 1500040109 | RewardPool Music 1 Info |
 | 1500040283 | RewardPool Music 2 Info | 
 | 1500040284 | RewardPool Music 3 Info | 
@@ -262,13 +276,20 @@
 | 1500040115 | Event Literature ShortSizeName |
 | 1500040116 | RequestPool Slot 1 Literature |
 | 1500040119 | RequestPool Slot 1 Literature InfoDescription |
-| 1500040122 | RewardPool Literature 1 |
-| 1500040123 | RewardPool Literature 2 |
-| 1500040124 | RewardPool Literature 3 |
-| 1500040125 | RewardPool Literature 4 |
-| 1500040126 | RewardPool Literature 5 |
-| 1500040233 | RewardPool Literature 6 |
-| 1500040234 | RewardPool Literature 7 |
+| 1500040122 | MonumentEventReward Literature 1 |
+| 1500040123 | MonumentEventReward Literature 2 |
+| 1500040124 | MonumentEventReward Literature 3 |
+| 1500040125 | MonumentEventReward Literature 4 |
+| 1500040126 | MonumentEventReward Literature 5 |
+| 1500040233 | MonumentEventReward Literature 6 |
+| 1500040234 | MonumentEventReward Literature 7 |
+| 1500040327 | MonumentEventRewardPool Literature 1 |
+| 1500040328 | MonumentEventRewardPool Literature 2 |
+| 1500040329 | MonumentEventRewardPool Literature 3 |
+| 1500040330 | MonumentEventRewardPool Literature 4 |
+| 1500040331 | MonumentEventRewardPool Literature 5 |
+| 1500040332 | MonumentEventRewardPool Literature 6 |
+| 1500040333 | MonumentEventRewardPool Literature 7 |
 | 1500040127 | RewardPool Literature 1 Info |
 | 1500040289 | RewardPool Literature 2 Info |
 | 1500040290 | RewardPool Literature 3 Info |

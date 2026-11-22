@@ -2741,6 +2741,581 @@
         <Text />
       </Values>
     </Asset>
+    
+    <!-- # Monument Event Reward Pools -->
+    <!-- Arts -->
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040313</GUID>
+          <Name>MonumentEventRewardPool Arts1</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040502</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040506</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040510</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040512</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040526</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040314</GUID>
+          <Name>MonumentEventRewardPool Arts2</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040516</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040520</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040522</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040524</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040534</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040315</GUID>
+          <Name>MonumentEventRewardPool Arts3</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040500</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040518</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040514</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040530</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040316</GUID>
+          <Name>MonumentEventRewardPool Arts4</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040504</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040508</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040528</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040532</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040317</GUID>
+          <Name>MonumentEventRewardPool Arts5</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040128</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040038</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040318</GUID>
+          <Name>MonumentEventRewardPool Arts6</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040134</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040319</GUID>
+          <Name>MonumentEventRewardPool Arts7</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040134</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    
+    <!-- Music -->
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040320</GUID>
+          <Name>MonumentEventRewardPool Music1</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040468</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040432</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040402</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040412</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040400</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040321</GUID>
+          <Name>MonumentEventRewardPool Music2</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040440</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040446</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040438</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040444</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040436</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040442</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040470</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040322</GUID>
+          <Name>MonumentEventRewardPool Music3</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040430</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040426</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040428</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040420</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040434</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040406</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040323</GUID>
+          <Name>MonumentEventRewardPool Music4</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040460</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040404</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040414</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040454</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040424</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040410</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040466</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040416</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040324</GUID>
+          <Name>MonumentEventRewardPool Music5</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040408</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040462</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040450</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040456</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040422</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040418</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040458</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040325</GUID>
+          <Name>MonumentEventRewardPool Music6</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040464</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040452</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040448</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040326</GUID>
+          <Name>MonumentEventRewardPool Music7</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040134</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040037</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    
+    <!-- Literature -->
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040327</GUID>
+          <Name>MonumentEventRewardPool Literature1</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040606</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040610</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040614</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040618</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040616</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040328</GUID>
+          <Name>MonumentEventRewardPool Literature2</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040626</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040630</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040612</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040622</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040636</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040329</GUID>
+          <Name>MonumentEventRewardPool Literature3</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040602</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040608</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040638</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040600</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040628</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040330</GUID>
+          <Name>MonumentEventRewardPool Literature4</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040604</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040620</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040624</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040632</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040634</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040331</GUID>
+          <Name>MonumentEventRewardPool Literature5</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040134</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink>1500040039</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040332</GUID>
+          <Name>MonumentEventRewardPool Literature6</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040128</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>RewardPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1500040333</GUID>
+          <Name>MonumentEventRewardPool Literature7</Name>
+        </Standard>
+        <RewardPool>
+          <ItemsPool>
+            <Item>
+              <ItemLink>1500040128</ItemLink>
+            </Item>
+          </ItemsPool>
+        </RewardPool>
+        <Locked />
+        <Text />
+      </Values>
+    </Asset>
+    
     <Asset>
       <Template>MonumentEventReward</Template>
       <Values>
@@ -2763,23 +3338,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040502</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040506</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040510</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040512</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040526</Reward>
+              <Reward>1500040313</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2808,23 +3367,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040516</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040520</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040522</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040524</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040534</Reward>
+              <Reward>1500040314</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2853,19 +3396,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040500</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040518</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040514</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040530</Reward>
+              <Reward>1500040315</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2894,19 +3425,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040504</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040508</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040528</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040532</Reward>
+              <Reward>1500040316</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2935,11 +3454,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040128</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040038</Reward>
+              <Reward>1500040317</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2968,7 +3483,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040134</Reward>
+              <Reward>1500040318</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -2997,7 +3512,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040134</Reward>
+              <Reward>1500040319</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3048,23 +3563,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040468</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040432</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040402</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040412</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040400</Reward>
+              <Reward>1500040320</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3093,31 +3592,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040440</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040446</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040438</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040444</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040436</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040442</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040470</Reward>
+              <Reward>1500040321</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3146,27 +3621,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040430</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040426</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040428</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040420</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040434</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040406</Reward>
+              <Reward>1500040322</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3195,35 +3650,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040460</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040404</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040414</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040454</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040424</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040410</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040466</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040416</Reward>
+              <Reward>1500040323</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3252,35 +3679,10 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040408</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040462</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040450</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040456</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040422</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040418</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040458</Reward>
+              <Reward>1500040324</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
-          <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
         </Reward>
       </Values>
     </Asset>
@@ -3306,15 +3708,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040464</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040452</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040448</Reward>
+              <Reward>1500040325</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3343,11 +3737,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040134</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040037</Reward>
+              <Reward>1500040326</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3398,23 +3788,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040606</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040610</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040614</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040618</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040616</Reward>
+              <Reward>1500040327</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3443,23 +3817,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040626</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040630</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040612</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040622</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040636</Reward>
+              <Reward>1500040328</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3488,23 +3846,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040602</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040608</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040638</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040600</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040628</Reward>
+              <Reward>1500040329</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
@@ -3533,23 +3875,7 @@
           <GenerateIgnoreUnlocks>1</GenerateIgnoreUnlocks>
           <RewardAssets>
             <Item>
-              <Reward>1500040604</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040620</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040624</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040632</Reward>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Reward>1500040634</Reward>
+              <Reward>1500040330</Reward>
               <Amount>1</Amount>
             </Item>
           </RewardAssets>
