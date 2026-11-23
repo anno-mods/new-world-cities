@@ -434,4 +434,39 @@
       <WorkforceEntry>1500011558</WorkforceEntry>
     </Item>
   </ModOp>
+
+  <!-- Add Patronos consumer needs to NW Marketplace Storage List -->
+  <ModOp Type="add" GUID="120058" Path="/Values/ProductStorageList/ProductList">
+    <Item>
+      <Product>1500040028</Product>
+    </Item>
+    <Item>
+      <Product>1500040014</Product>
+    </Item>
+    <Item>
+      <Product>1555000124</Product>
+    </Item>
+    <Item>
+      <Product>1500040032</Product>
+    </Item>
+    <Item>
+      <Product>1440023</Product>
+    </Item>
+    <Item>
+      <Product>1440022</Product>
+    </Item>
+    <Item>
+      <Product>1440021</Product>
+    </Item>
+    <Item>
+      <Product>1404000241</Product>
+    </Item>
+    <Item>
+      <Product>1500040005</Product>
+    </Item>
+    <Item>
+      <Product>135229</Product>
+      <!--Biscuits-->
+    </Item>
+  </ModOp>
 </ModOps>
